@@ -1,6 +1,6 @@
 ﻿using System;
+using System.IO;
 using org.COPASI;
-using System.Diagnostics;
 
 namespace CopasiApi
 {
@@ -8,102 +8,28 @@ namespace CopasiApi
   {
     static void Main(string[] args)
     {
-      string MODEL_STRING = "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n" +
-      "<!-- Created by COPASI version 4.4.29 (Debug) on 2009-03-05 14:41 with libSBML version 3.3.0. -->\n" +
-      "<sbml xmlns=\"http://www.sbml.org/sbml/level2/version3\" level=\"2\" version=\"3\">\n" +
-      "  <model metaid=\"COPASI1\" id=\"Model_1\" name=\"New Model\">\n" +
-      "    <listOfUnitDefinitions>\n" +
-      "      <unitDefinition id=\"volume\">\n" +
-      "        <listOfUnits>\n" +
-      "          <unit kind=\"litre\" scale=\"-6\"/>\n" +
-      "        </listOfUnits>\n" +
-      "      </unitDefinition>\n" +
-      "      <unitDefinition id=\"substance\">\n" +
-      "        <listOfUnits>\n" +
-      "          <unit kind=\"mole\" scale=\"-9\"/>\n" +
-      "        </listOfUnits>\n" +
-      "      </unitDefinition>\n" +
-      "    </listOfUnitDefinitions>\n" +
-      "    <listOfCompartments>\n" +
-      "      <compartment id=\"compartment_1\" name=\"compartment\" size=\"1\"/>\n" +
-      "    </listOfCompartments>\n" +
-      "    <listOfSpecies>\n" +
-      "      <species metaid=\"COPASI2\" id=\"species_1\" name=\"A\" compartment=\"compartment_1\" initialConcentration=\"1e-10\">\n" +
-      "      </species>\n" +
-      "      <species metaid=\"COPASI3\" id=\"species_2\" name=\"B\" compartment=\"compartment_1\" initialConcentration=\"0\">\n" +
-      "      </species>\n" +
-      "      <species metaid=\"COPASI4\" id=\"species_3\" name=\"C\" compartment=\"compartment_1\" initialConcentration=\"0\">\n" +
-      "      </species>\n" +
-      "    </listOfSpecies>\n" +
-      "    <listOfReactions>\n" +
-      "      <reaction id=\"reaction_1\" name=\"reaction\" reversible=\"false\">\n" +
-      "        <listOfReactants>\n" +
-      "          <speciesReference species=\"species_1\"/>\n" +
-      "        </listOfReactants>\n" +
-      "        <listOfProducts>\n" +
-      "          <speciesReference species=\"species_2\"/>\n" +
-      "        </listOfProducts>\n" +
-      "        <kineticLaw>\n" +
-      "          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n" +
-      "            <apply>\n" +
-      "              <times/>\n" +
-      "              <ci> compartment_1 </ci>\n" +
-      "              <ci> k1 </ci>\n" +
-      "              <ci> species_1 </ci>\n" +
-      "            </apply>\n" +
-      "          </math>\n" +
-      "          <listOfParameters>\n" +
-      "            <parameter id=\"k1\" value=\"0.1\"/>\n" +
-      "          </listOfParameters>\n" +
-      "        </kineticLaw>\n" +
-      "      </reaction>\n" +
-      "      <reaction id=\"reaction_2\" name=\"reaction_1\" reversible=\"false\">\n" +
-      "        <listOfReactants>\n" +
-      "          <speciesReference species=\"species_2\"/>\n" +
-      "        </listOfReactants>\n" +
-      "        <listOfProducts>\n" +
-      "          <speciesReference species=\"species_3\"/>\n" +
-      "        </listOfProducts>\n" +
-      "        <kineticLaw>\n" +
-      "          <math xmlns=\"http://www.w3.org/1998/Math/MathML\">\n" +
-      "            <apply>\n" +
-      "              <times/>\n" +
-      "              <ci> compartment_1 </ci>\n" +
-      "              <ci> k1 </ci>\n" +
-      "              <ci> species_2 </ci>\n" +
-      "            </apply>\n" +
-      "          </math>\n" +
-      "          <listOfParameters>\n" +
-      "            <parameter id=\"k1\" value=\"0.1\"/>\n" +
-      "          </listOfParameters>\n" +
-      "        </kineticLaw>\n" +
-      "      </reaction>\n" +
-      "    </listOfReactions>\n" +
-      "  </model>\n" +
-      "</sbml>\n";
-
-      Debug.Assert(CRootContainer.getRoot() != null);
-      // create a new datamodel
       CDataModel dataModel = CRootContainer.addDatamodel();
-      Debug.Assert(CRootContainer.getDatamodelList().size() == 1);
-      // the only argument to the main routine should be the name of an SBML file
       try
       {
-        // load the model
-        dataModel.importSBMLFromString(MODEL_STRING);
+        string sbmlText = File.ReadAllText("models/7-0.cps");
+        dataModel.importSBMLFromString(sbmlText);
       }
       catch
       {
-        System.Console.Error.WriteLine("Error while importing the model from the given String.");
+        System.Console.Error.WriteLine("Error while importing the model from the given File.");
         System.Environment.Exit(1);
       }
+      
       CModel model = dataModel.getModel();
-      Debug.Assert(model != null);
-      // create a report with the correct filename and all the species against
-      // time.
+      
       CReportDefinitionVector reports = dataModel.getReportDefinitionList();
-      // create a new report definition object
+      COutputDefinitionVector plots = dataModel.getPlotDefinitionList();
+
       CReportDefinition report = reports.createReportDefinition("Report", "Output for timecourse");
+
+      CPlotSpecification plot = plots.createPlotSpec("Plot");
+      plot.addTaskType(CTaskEnum.Task_scan);
+
       // set the task type for the report definition to timecourse
       report.setTaskType(CTaskEnum.Task_timeCourse);
       // we don't want a table
@@ -126,7 +52,7 @@ namespace CopasiApi
       for (i = 0; i < iMax; ++i)
       {
         CMetab metab = model.getMetabolite(i);
-        Debug.Assert(metab != null);
+        // DebugAssert(metab != null);
         // we don't want output for FIXED metabolites right now
         if (metab.getStatus() != CModelEntity.Status_FIXED)
         {
@@ -178,7 +104,7 @@ namespace CopasiApi
 
       // get the problem
       CScanProblem scanProblem = (CScanProblem)scanTask.getProblem();
-      Debug.Assert(scanProblem != null);
+      // DebugAssert(scanProblem != null);
 
       // set the model for the problem
       scanProblem.setModel(dataModel.getModel());
