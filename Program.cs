@@ -43,7 +43,35 @@ namespace CopasiApi
       scanTask.getReport().setAppend(false);
 
       scanProblem.setSubtask(CTaskEnum.Task_steadyState);
-      scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, 4);
+      CCopasiParameterGroup scanItems = scanProblem.getGroup("ScanItems");
+      scanItems.addGroup("ScanItem");
+
+      CCopasiParameterGroup scanItem = scanItems.getGroup("ScanItem");
+      
+      scanItem.addParameter("Object", CCopasiParameter.Type_CN);
+      scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"));
+      
+      scanItem.addParameter("Minimum", CCopasiParameter.Type_DOUBLE);
+      scanItem.getParameter("Minimum").setDblValue(1.0);
+
+      scanItem.addParameter("Maximum", CCopasiParameter.Type_DOUBLE);
+      scanItem.getParameter("Maximum").setDblValue(5.0);
+
+      scanItem.addParameter("log", CCopasiParameter.Type_BOOL);
+      scanItem.getParameter("log").setBoolValue(false);
+
+      scanItem.addParameter("Values", CCopasiParameter.Type_STRING);
+      scanItem.getParameter("Values").setStringValue("");
+
+      scanItem.addParameter("Use Values", CCopasiParameter.Type_BOOL);
+      scanItem.getParameter("Use Values").setBoolValue(false);
+
+      // CCopasiParameterGroup scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, 4);
+
+      // CScanItem item;
+      // CScanMethod method;
+      // CScanProblem problem;
+      // CScanTask task;
 
       scanProblem.setContinueFromCurrentState(false);
       scanProblem.setOutputInSubtask(false);
@@ -51,7 +79,6 @@ namespace CopasiApi
 
       try
       {
-        // now we run the actual trajectory
         // scanTask.process(true);
         model.compileIfNecessary();
         dataModel.saveModel("model.cps", true);
