@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2020-11-30T22:26:10Z -->
+<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2020-10-27T13:38:42Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="29" versionDevel="228" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -4347,11 +4347,11 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4999" name="Cgh_tfAP2B1" value="2"/>
-          <Constant key="Parameter_4998" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4997" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4996" name="ka_tfJUN" value="1e-06"/>
+          <Constant key="Parameter_4998" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4997" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4996" name="ka_tfJUN" value="1.03161e-06"/>
           <Constant key="Parameter_4995" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4994" name="ks_tfAP2B1" value="0.139764"/>
+          <Constant key="Parameter_4994" name="ks_tfAP2B1" value="0.13974"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4407,7 +4407,7 @@
           <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4993" name="kd_tfAP2B1" value="0.498466"/>
+          <Constant key="Parameter_4993" name="kd_tfAP2B1" value="0.498527"/>
         </ListOfConstants>
         <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4452,17 +4452,17 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4992" name="Cgh_tfATF1" value="3"/>
-          <Constant key="Parameter_4991" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4990" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4989" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4988" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4991" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4990" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4989" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4988" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4987" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4986" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4985" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4984" name="ka_tfJUND" value="1e-06"/>
+          <Constant key="Parameter_4986" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4985" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4984" name="ka_tfJUND" value="1.00287e-06"/>
           <Constant key="Parameter_4983" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4982" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4981" name="ks_tfATF1" value="0.0816453"/>
+          <Constant key="Parameter_4982" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4981" name="ks_tfATF1" value="0.0816445"/>
         </ListOfConstants>
         <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4554,7 +4554,7 @@
           <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4980" name="kd_tfATF1" value="0.770314"/>
+          <Constant key="Parameter_4980" name="kd_tfATF1" value="0.770325"/>
         </ListOfConstants>
         <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4602,20 +4602,20 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4979" name="Cgh_tfE2F1" value="2"/>
-          <Constant key="Parameter_4978" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4977" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4976" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4975" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4974" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4978" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4977" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4976" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4975" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4974" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4973" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4972" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4971" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4970" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4969" name="ka_tfJUND" value="1e-06"/>
+          <Constant key="Parameter_4972" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4971" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4970" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4969" name="ka_tfJUND" value="1.00287e-06"/>
           <Constant key="Parameter_4968" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4967" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4966" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4965" name="ks_tfE2F1" value="0.000189953"/>
+          <Constant key="Parameter_4967" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4966" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4965" name="ks_tfE2F1" value="0.000190111"/>
         </ListOfConstants>
         <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4725,7 +4725,7 @@
           <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4964" name="kd_tfE2F1" value="0.00220487"/>
+          <Constant key="Parameter_4964" name="kd_tfE2F1" value="0.00220226"/>
         </ListOfConstants>
         <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4771,18 +4771,18 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4963" name="Cgh_tfE2F2" value="2"/>
-          <Constant key="Parameter_4962" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4961" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4960" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4959" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4958" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4957" name="ka_tfJUN" value="1e-06"/>
+          <Constant key="Parameter_4962" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4961" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4960" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4959" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4958" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4957" name="ka_tfJUN" value="1.03161e-06"/>
           <Constant key="Parameter_4956" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4955" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4954" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4953" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4955" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4954" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4953" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4952" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_4951" name="ks_tfE2F2" value="0.000853331"/>
+          <Constant key="Parameter_4951" name="ks_tfE2F2" value="0.00085325"/>
         </ListOfConstants>
         <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4880,7 +4880,7 @@
           <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4950" name="kd_tfE2F2" value="0.00936205"/>
+          <Constant key="Parameter_4950" name="kd_tfE2F2" value="0.00936354"/>
         </ListOfConstants>
         <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -4927,19 +4927,19 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4949" name="Cgh_tfE2F3" value="2"/>
-          <Constant key="Parameter_4948" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4947" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4946" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4945" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4944" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4943" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4942" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4941" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4940" name="kr_MIR145" value="0.0001"/>
+          <Constant key="Parameter_4948" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4947" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4946" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4945" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4944" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4943" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4942" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4941" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4940" name="kr_MIR145" value="0.000100063"/>
           <Constant key="Parameter_4939" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4938" name="kr_MIR200B" value="1e-06"/>
-          <Constant key="Parameter_4937" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_4936" name="ks_tfE2F3" value="0.0651797"/>
+          <Constant key="Parameter_4938" name="kr_MIR200B" value="3.12192e-06"/>
+          <Constant key="Parameter_4937" name="kr_MIR200C" value="0.999999"/>
+          <Constant key="Parameter_4936" name="ks_tfE2F3" value="0.065138"/>
         </ListOfConstants>
         <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5043,7 +5043,7 @@
           <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4935" name="kd_tfE2F3" value="0.0868443"/>
+          <Constant key="Parameter_4935" name="kd_tfE2F3" value="0.0868903"/>
         </ListOfConstants>
         <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5080,9 +5080,9 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4934" name="Cgh_tfETV4" value="2"/>
-          <Constant key="Parameter_4933" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4932" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4931" name="ks_tfETV4" value="0.0545153"/>
+          <Constant key="Parameter_4933" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4932" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4931" name="ks_tfETV4" value="0.0544893"/>
         </ListOfConstants>
         <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5126,7 +5126,7 @@
           <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4930" name="kd_tfETV4" value="0.316479"/>
+          <Constant key="Parameter_4930" name="kd_tfETV4" value="0.316644"/>
         </ListOfConstants>
         <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5177,23 +5177,23 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4929" name="Cgh_tfFOS" value="2"/>
-          <Constant key="Parameter_4928" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4927" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4926" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4925" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4924" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4923" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4922" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4921" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4920" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4919" name="ka_tfNFKB1" value="1e-06"/>
+          <Constant key="Parameter_4928" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4927" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4926" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4925" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4924" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4923" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4922" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4921" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4920" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4919" name="ka_tfNFKB1" value="1.00276e-06"/>
           <Constant key="Parameter_4918" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4917" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4916" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4915" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4914" name="kr_MIR155" value="0.0001"/>
-          <Constant key="Parameter_4913" name="kr_MIR222" value="0.000164559"/>
-          <Constant key="Parameter_4912" name="ks_tfFOS" value="0.0971883"/>
+          <Constant key="Parameter_4917" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4916" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4915" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4914" name="kr_MIR155" value="0.00010057"/>
+          <Constant key="Parameter_4913" name="kr_MIR222" value="0.000164845"/>
+          <Constant key="Parameter_4912" name="ks_tfFOS" value="0.0971364"/>
         </ListOfConstants>
         <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5321,7 +5321,7 @@
           <Substrate metabolite="Metabolite_6" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4911" name="kd_tfFOS" value="0.995359"/>
+          <Constant key="Parameter_4911" name="kd_tfFOS" value="0.99547"/>
         </ListOfConstants>
         <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5367,18 +5367,18 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4910" name="Cgh_tfFOSL1" value="2"/>
-          <Constant key="Parameter_4909" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4908" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4907" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4906" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4905" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4904" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4903" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4902" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4901" name="ka_tfJUND" value="1e-06"/>
+          <Constant key="Parameter_4909" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4908" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4907" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4906" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4905" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4904" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4903" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4902" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4901" name="ka_tfJUND" value="1.00287e-06"/>
           <Constant key="Parameter_4900" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4899" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4898" name="ks_tfFOSL1" value="0.0711326"/>
+          <Constant key="Parameter_4899" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4898" name="ks_tfFOSL1" value="0.0711115"/>
         </ListOfConstants>
         <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5476,7 +5476,7 @@
           <Substrate metabolite="Metabolite_7" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4897" name="kd_tfFOSL1" value="0.367033"/>
+          <Constant key="Parameter_4897" name="kd_tfFOSL1" value="0.367115"/>
         </ListOfConstants>
         <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5524,20 +5524,20 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4896" name="Cgh_tfFOSL2" value="2"/>
-          <Constant key="Parameter_4895" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4894" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4893" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4892" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4891" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4890" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4889" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4888" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4887" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4886" name="ka_tfJUND" value="1e-06"/>
+          <Constant key="Parameter_4895" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4894" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4893" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4892" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4891" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4890" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4889" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4888" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4887" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4886" name="ka_tfJUND" value="1.00287e-06"/>
           <Constant key="Parameter_4885" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4884" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4883" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4882" name="ks_tfFOSL2" value="0.0304653"/>
+          <Constant key="Parameter_4884" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4883" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4882" name="ks_tfFOSL2" value="0.030459"/>
         </ListOfConstants>
         <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5647,7 +5647,7 @@
           <Substrate metabolite="Metabolite_8" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4881" name="kd_tfFOSL2" value="0.236084"/>
+          <Constant key="Parameter_4881" name="kd_tfFOSL2" value="0.236133"/>
         </ListOfConstants>
         <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5687,12 +5687,12 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4880" name="Cgh_tfFOXP2" value="3"/>
-          <Constant key="Parameter_4879" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4878" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4877" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4876" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4875" name="kr_MIR222" value="0.000164559"/>
-          <Constant key="Parameter_4874" name="ks_tfFOXP2" value="0.090319"/>
+          <Constant key="Parameter_4879" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4878" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4877" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4876" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4875" name="kr_MIR222" value="0.000164845"/>
+          <Constant key="Parameter_4874" name="ks_tfFOXP2" value="0.09008"/>
         </ListOfConstants>
         <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5754,7 +5754,7 @@
           <Substrate metabolite="Metabolite_9" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4873" name="kd_tfFOXP2" value="0.997974"/>
+          <Constant key="Parameter_4873" name="kd_tfFOXP2" value="0.998191"/>
         </ListOfConstants>
         <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5795,13 +5795,13 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4872" name="Cgh_tfGATA2" value="2"/>
-          <Constant key="Parameter_4871" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4870" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4869" name="ka_tfFOS" value="1e-06"/>
+          <Constant key="Parameter_4871" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4870" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4869" name="ka_tfFOS" value="1.00732e-06"/>
           <Constant key="Parameter_4868" name="ka_tfFOSL2" value="1e-06"/>
           <Constant key="Parameter_4867" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4866" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4865" name="ks_tfGATA2" value="0.0604475"/>
+          <Constant key="Parameter_4866" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4865" name="ks_tfGATA2" value="0.0603798"/>
         </ListOfConstants>
         <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5869,7 +5869,7 @@
           <Substrate metabolite="Metabolite_10" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4864" name="kd_tfGATA2" value="0.596736"/>
+          <Constant key="Parameter_4864" name="kd_tfGATA2" value="0.597262"/>
         </ListOfConstants>
         <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -5920,23 +5920,23 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4863" name="Cgh_tfJUN" value="2"/>
-          <Constant key="Parameter_4862" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4861" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4860" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4859" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4858" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4857" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4856" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4855" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4854" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4853" name="ka_tfSMAD4" value="1e-06"/>
+          <Constant key="Parameter_4862" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4861" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4860" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4859" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4858" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4857" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4856" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4855" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4854" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4853" name="ka_tfSMAD4" value="1.12859e-06"/>
           <Constant key="Parameter_4852" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4851" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4850" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4851" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4850" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4849" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4848" name="kr_MIR200B" value="1e-06"/>
-          <Constant key="Parameter_4847" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_4846" name="ks_tfJUN" value="0.499132"/>
+          <Constant key="Parameter_4848" name="kr_MIR200B" value="3.12192e-06"/>
+          <Constant key="Parameter_4847" name="kr_MIR200C" value="0.999999"/>
+          <Constant key="Parameter_4846" name="ks_tfJUN" value="0.49925"/>
         </ListOfConstants>
         <KineticLaw function="Function_62" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6064,7 +6064,7 @@
           <Substrate metabolite="Metabolite_11" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4845" name="kd_tfJUN" value="0.571631"/>
+          <Constant key="Parameter_4845" name="kd_tfJUN" value="0.571424"/>
         </ListOfConstants>
         <KineticLaw function="Function_63" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6109,17 +6109,17 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4844" name="Cgh_tfJUNB" value="2"/>
-          <Constant key="Parameter_4843" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4842" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4841" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4840" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4839" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4838" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4837" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4836" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4835" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4834" name="kr_MIR155" value="0.0001"/>
-          <Constant key="Parameter_4833" name="ks_tfJUNB" value="0.206334"/>
+          <Constant key="Parameter_4843" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4842" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4841" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4840" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4839" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4838" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4837" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4836" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4835" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4834" name="kr_MIR155" value="0.00010057"/>
+          <Constant key="Parameter_4833" name="ks_tfJUNB" value="0.206368"/>
         </ListOfConstants>
         <KineticLaw function="Function_64" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6211,7 +6211,7 @@
           <Substrate metabolite="Metabolite_12" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4832" name="kd_tfJUNB" value="0.792098"/>
+          <Constant key="Parameter_4832" name="kd_tfJUNB" value="0.791891"/>
         </ListOfConstants>
         <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6258,19 +6258,19 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4831" name="Cgh_tfJUND" value="2"/>
-          <Constant key="Parameter_4830" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4829" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4828" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4827" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4826" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4825" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4824" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4823" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4822" name="ka_tfJUNB" value="1e-06"/>
+          <Constant key="Parameter_4830" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4829" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4828" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4827" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4826" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4825" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4824" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4823" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4822" name="ka_tfJUNB" value="1.00113e-06"/>
           <Constant key="Parameter_4821" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4820" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4819" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4818" name="ks_tfJUND" value="0.101245"/>
+          <Constant key="Parameter_4820" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4819" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4818" name="ks_tfJUND" value="0.101277"/>
         </ListOfConstants>
         <KineticLaw function="Function_66" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6374,7 +6374,7 @@
           <Substrate metabolite="Metabolite_13" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4817" name="kd_tfJUND" value="0.932278"/>
+          <Constant key="Parameter_4817" name="kd_tfJUND" value="0.932197"/>
         </ListOfConstants>
         <KineticLaw function="Function_67" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6425,23 +6425,23 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4816" name="Cgh_tfNFKB1" value="2"/>
-          <Constant key="Parameter_4815" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4814" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4813" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4812" name="ka_tfETV4" value="1e-06"/>
+          <Constant key="Parameter_4815" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4814" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4813" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4812" name="ka_tfETV4" value="1.02769e-06"/>
           <Constant key="Parameter_4811" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4810" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4809" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4808" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4807" name="ka_tfJUND" value="1e-06"/>
+          <Constant key="Parameter_4810" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4809" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4808" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4807" name="ka_tfJUND" value="1.00287e-06"/>
           <Constant key="Parameter_4806" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4805" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4804" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4803" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4802" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4801" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4805" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4804" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4803" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4802" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4801" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4800" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4799" name="ks_tfNFKB1" value="0.134484"/>
+          <Constant key="Parameter_4799" name="ks_tfNFKB1" value="0.134482"/>
         </ListOfConstants>
         <KineticLaw function="Function_68" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6569,7 +6569,7 @@
           <Substrate metabolite="Metabolite_14" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4798" name="kd_tfNFKB1" value="0.770197"/>
+          <Constant key="Parameter_4798" name="kd_tfNFKB1" value="0.770188"/>
         </ListOfConstants>
         <KineticLaw function="Function_69" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6618,21 +6618,21 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4797" name="Cgh_tfSMAD4" value="2"/>
-          <Constant key="Parameter_4796" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4795" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4794" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4793" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4792" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4791" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4790" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4789" name="ka_tfNFKB1" value="1e-06"/>
+          <Constant key="Parameter_4796" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4795" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4794" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4793" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4792" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4791" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4790" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4789" name="ka_tfNFKB1" value="1.00276e-06"/>
           <Constant key="Parameter_4788" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4787" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4786" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4785" name="kr_MIR145" value="0.0001"/>
-          <Constant key="Parameter_4784" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4787" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4786" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4785" name="kr_MIR145" value="0.000100063"/>
+          <Constant key="Parameter_4784" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4783" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_4782" name="ks_tfSMAD4" value="0.0204068"/>
+          <Constant key="Parameter_4782" name="ks_tfSMAD4" value="0.0204035"/>
         </ListOfConstants>
         <KineticLaw function="Function_70" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6748,7 +6748,7 @@
           <Substrate metabolite="Metabolite_15" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4781" name="kd_tfSMAD4" value="0.157946"/>
+          <Constant key="Parameter_4781" name="kd_tfSMAD4" value="0.157993"/>
         </ListOfConstants>
         <KineticLaw function="Function_71" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -6808,32 +6808,32 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4780" name="Cgh_tfSP1" value="3"/>
-          <Constant key="Parameter_4779" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4778" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4777" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4776" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4775" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4774" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4773" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4772" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4779" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4778" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4777" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4776" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4775" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4774" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4773" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4772" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4771" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4770" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4769" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4768" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4767" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4766" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4765" name="ka_tfSMAD4" value="1e-06"/>
-          <Constant key="Parameter_4764" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4763" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4762" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4761" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4760" name="kr_MIR145" value="0.0001"/>
-          <Constant key="Parameter_4759" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4770" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4769" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4768" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4767" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4766" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4765" name="ka_tfSMAD4" value="1.12859e-06"/>
+          <Constant key="Parameter_4764" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4763" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4762" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4761" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4760" name="kr_MIR145" value="0.000100063"/>
+          <Constant key="Parameter_4759" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4758" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4757" name="kr_MIR200B" value="1e-06"/>
-          <Constant key="Parameter_4756" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_4757" name="kr_MIR200B" value="3.12192e-06"/>
+          <Constant key="Parameter_4756" name="kr_MIR200C" value="0.999999"/>
           <Constant key="Parameter_4755" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_4754" name="ks_tfSP1" value="0.151962"/>
+          <Constant key="Parameter_4754" name="ks_tfSP1" value="0.152004"/>
         </ListOfConstants>
         <KineticLaw function="Function_72" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7015,7 +7015,7 @@
           <Substrate metabolite="Metabolite_16" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4753" name="kd_tfSP1" value="0.168506"/>
+          <Constant key="Parameter_4753" name="kd_tfSP1" value="0.16846"/>
         </ListOfConstants>
         <KineticLaw function="Function_73" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7071,28 +7071,28 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4752" name="Cgh_tfSP3" value="1"/>
-          <Constant key="Parameter_4751" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4750" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4749" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4748" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4747" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4746" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4745" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4744" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4751" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4750" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4749" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4748" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4747" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4746" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4745" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4744" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4743" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4742" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4741" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4740" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4739" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4738" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4737" name="ka_tfSMAD4" value="1e-06"/>
+          <Constant key="Parameter_4742" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4741" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4740" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4739" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4738" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4737" name="ka_tfSMAD4" value="1.12859e-06"/>
           <Constant key="Parameter_4736" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4735" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4734" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4733" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4732" name="kr_MIR145" value="0.0001"/>
-          <Constant key="Parameter_4731" name="kr_MIR155" value="0.0001"/>
-          <Constant key="Parameter_4730" name="ks_tfSP3" value="0.000853712"/>
+          <Constant key="Parameter_4735" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4734" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4733" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4732" name="kr_MIR145" value="0.000100063"/>
+          <Constant key="Parameter_4731" name="kr_MIR155" value="0.00010057"/>
+          <Constant key="Parameter_4730" name="ks_tfSP3" value="0.000854154"/>
         </ListOfConstants>
         <KineticLaw function="Function_74" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7250,7 +7250,7 @@
           <Substrate metabolite="Metabolite_17" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4729" name="kd_tfSP3" value="0.00900212"/>
+          <Constant key="Parameter_4729" name="kd_tfSP3" value="0.00899885"/>
         </ListOfConstants>
         <KineticLaw function="Function_75" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7293,14 +7293,14 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4728" name="Cgh_tfTCF7L2" value="2"/>
-          <Constant key="Parameter_4727" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4726" name="ka_tfGATA2" value="1e-06"/>
+          <Constant key="Parameter_4727" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4726" name="ka_tfGATA2" value="1.00167e-06"/>
           <Constant key="Parameter_4725" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4724" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4723" name="kr_MIR200B" value="1e-06"/>
-          <Constant key="Parameter_4722" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_4724" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4723" name="kr_MIR200B" value="3.12192e-06"/>
+          <Constant key="Parameter_4722" name="kr_MIR200C" value="0.999999"/>
           <Constant key="Parameter_4721" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_4720" name="kr_MIR222" value="0.000164559"/>
+          <Constant key="Parameter_4720" name="kr_MIR222" value="0.000164845"/>
           <Constant key="Parameter_4719" name="ks_tfTCF7L2" value="0.999965"/>
         </ListOfConstants>
         <KineticLaw function="Function_76" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
@@ -7381,7 +7381,7 @@
           <Substrate metabolite="Metabolite_18" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4718" name="kd_tfTCF7L2" value="0.402821"/>
+          <Constant key="Parameter_4718" name="kd_tfTCF7L2" value="0.402853"/>
         </ListOfConstants>
         <KineticLaw function="Function_77" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7438,29 +7438,29 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4717" name="Cgh_tfTFAP2A" value="2"/>
-          <Constant key="Parameter_4716" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4715" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4714" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4713" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4712" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4711" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4710" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4709" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4716" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4715" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4714" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4713" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4712" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4711" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4710" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4709" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4708" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4707" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4706" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4705" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4704" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4703" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4702" name="ka_tfSMAD4" value="1e-06"/>
+          <Constant key="Parameter_4707" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4706" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4705" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4704" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4703" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4702" name="ka_tfSMAD4" value="1.12859e-06"/>
           <Constant key="Parameter_4701" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4700" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4699" name="ka_tfTFAP2C" value="0.0001"/>
-          <Constant key="Parameter_4698" name="ka_tfTP53" value="1e-06"/>
+          <Constant key="Parameter_4700" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4699" name="ka_tfTFAP2C" value="0.000100006"/>
+          <Constant key="Parameter_4698" name="ka_tfTP53" value="1.00269e-06"/>
           <Constant key="Parameter_4697" name="kr_MIR16_2" value="1"/>
           <Constant key="Parameter_4696" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_4695" name="kr_MIR222" value="0.000164559"/>
-          <Constant key="Parameter_4694" name="ks_tfTFAP2A" value="0.179042"/>
+          <Constant key="Parameter_4695" name="kr_MIR222" value="0.000164845"/>
+          <Constant key="Parameter_4694" name="ks_tfTFAP2A" value="0.1791"/>
         </ListOfConstants>
         <KineticLaw function="Function_78" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7624,7 +7624,7 @@
           <Substrate metabolite="Metabolite_19" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4693" name="kd_tfTFAP2A" value="0.710765"/>
+          <Constant key="Parameter_4693" name="kd_tfTFAP2A" value="0.710587"/>
         </ListOfConstants>
         <KineticLaw function="Function_79" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7678,26 +7678,26 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4692" name="Cgh_tfTFAP2C" value="2"/>
-          <Constant key="Parameter_4691" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4690" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4689" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4688" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4687" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4686" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4685" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4684" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4691" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4690" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4689" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4688" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4687" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4686" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4685" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4684" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4683" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4682" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4681" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4680" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4679" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4678" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4677" name="ka_tfSMAD4" value="1e-06"/>
+          <Constant key="Parameter_4682" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4681" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4680" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4679" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4678" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4677" name="ka_tfSMAD4" value="1.12859e-06"/>
           <Constant key="Parameter_4676" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4675" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4674" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4673" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4672" name="ks_tfTFAP2C" value="0.344331"/>
+          <Constant key="Parameter_4675" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4674" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4673" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4672" name="ks_tfTFAP2C" value="0.344346"/>
         </ListOfConstants>
         <KineticLaw function="Function_80" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7843,7 +7843,7 @@
           <Substrate metabolite="Metabolite_20" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4671" name="kd_tfTFAP2C" value="0.821171"/>
+          <Constant key="Parameter_4671" name="kd_tfTFAP2C" value="0.821192"/>
         </ListOfConstants>
         <KineticLaw function="Function_81" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -7891,20 +7891,20 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4670" name="Cgh_tfTP53" value="2"/>
-          <Constant key="Parameter_4669" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4668" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4667" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4666" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4665" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4664" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4663" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4662" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4661" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4660" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4659" name="ka_tfSP3" value="1e-06"/>
+          <Constant key="Parameter_4669" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4668" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4667" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4666" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4665" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4664" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4663" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4662" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4661" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4660" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4659" name="ka_tfSP3" value="1.18132e-06"/>
           <Constant key="Parameter_4658" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4657" name="kr_MIR222" value="0.000164559"/>
-          <Constant key="Parameter_4656" name="ks_tfTP53" value="0.0906061"/>
+          <Constant key="Parameter_4657" name="kr_MIR222" value="0.000164845"/>
+          <Constant key="Parameter_4656" name="ks_tfTP53" value="0.0906471"/>
         </ListOfConstants>
         <KineticLaw function="Function_82" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8014,7 +8014,7 @@
           <Substrate metabolite="Metabolite_21" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4655" name="kd_tfTP53" value="0.360693"/>
+          <Constant key="Parameter_4655" name="kd_tfTP53" value="0.360502"/>
         </ListOfConstants>
         <KineticLaw function="Function_83" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8064,22 +8064,22 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4654" name="Cgh_ETS1" value="2"/>
-          <Constant key="Parameter_4653" name="KsArn_ETS1" value="1"/>
-          <Constant key="Parameter_4652" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4651" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4650" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4649" name="ka_tfFOS" value="1e-06"/>
+          <Constant key="Parameter_4653" name="KsArn_ETS1" value="0.999991"/>
+          <Constant key="Parameter_4652" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4651" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4650" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4649" name="ka_tfFOS" value="1.00732e-06"/>
           <Constant key="Parameter_4648" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4647" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4646" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4645" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4644" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4643" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4642" name="ka_tfSMAD4" value="1e-06"/>
+          <Constant key="Parameter_4647" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4646" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4645" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4644" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4643" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4642" name="ka_tfSMAD4" value="1.12859e-06"/>
           <Constant key="Parameter_4641" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4640" name="ka_tfSP3" value="1e-06"/>
-          <Constant key="Parameter_4639" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4638" name="ka_tfTP53" value="1e-06"/>
+          <Constant key="Parameter_4640" name="ka_tfSP3" value="1.18132e-06"/>
+          <Constant key="Parameter_4639" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4638" name="ka_tfTP53" value="1.00269e-06"/>
         </ListOfConstants>
         <KineticLaw function="Function_84" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8208,12 +8208,12 @@
           <Modifier metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4637" name="KdArn_ETS1" value="0.846949"/>
-          <Constant key="Parameter_4636" name="kr_MIR145" value="0.0001"/>
-          <Constant key="Parameter_4635" name="kr_MIR155" value="0.0001"/>
-          <Constant key="Parameter_4634" name="kr_MIR200B" value="1e-06"/>
-          <Constant key="Parameter_4633" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_4632" name="kr_MIR222" value="0.000164559"/>
+          <Constant key="Parameter_4637" name="KdArn_ETS1" value="0.847069"/>
+          <Constant key="Parameter_4636" name="kr_MIR145" value="0.000100063"/>
+          <Constant key="Parameter_4635" name="kr_MIR155" value="0.00010057"/>
+          <Constant key="Parameter_4634" name="kr_MIR200B" value="3.12192e-06"/>
+          <Constant key="Parameter_4633" name="kr_MIR200C" value="0.999999"/>
+          <Constant key="Parameter_4632" name="kr_MIR222" value="0.000164845"/>
         </ListOfConstants>
         <KineticLaw function="Function_85" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8299,28 +8299,28 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4631" name="Cgh_PLAUR" value="2"/>
-          <Constant key="Parameter_4630" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4629" name="KsArn_PLAUR" value="0.0628234"/>
-          <Constant key="Parameter_4628" name="ka_tfAP2B1" value="1e-06"/>
-          <Constant key="Parameter_4627" name="ka_tfATF1" value="1e-06"/>
-          <Constant key="Parameter_4626" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4625" name="ka_tfE2F2" value="0.0001"/>
-          <Constant key="Parameter_4624" name="ka_tfE2F3" value="0.0662164"/>
-          <Constant key="Parameter_4623" name="ka_tfETV4" value="1e-06"/>
-          <Constant key="Parameter_4622" name="ka_tfFOS" value="1e-06"/>
-          <Constant key="Parameter_4621" name="ka_tfFOSL1" value="1e-06"/>
+          <Constant key="Parameter_4630" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4629" name="KsArn_PLAUR" value="0.0628206"/>
+          <Constant key="Parameter_4628" name="ka_tfAP2B1" value="1.22178e-06"/>
+          <Constant key="Parameter_4627" name="ka_tfATF1" value="1.0238e-06"/>
+          <Constant key="Parameter_4626" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4625" name="ka_tfE2F2" value="0.000100093"/>
+          <Constant key="Parameter_4624" name="ka_tfE2F3" value="0.0660722"/>
+          <Constant key="Parameter_4623" name="ka_tfETV4" value="1.02769e-06"/>
+          <Constant key="Parameter_4622" name="ka_tfFOS" value="1.00732e-06"/>
+          <Constant key="Parameter_4621" name="ka_tfFOSL1" value="1.00292e-06"/>
           <Constant key="Parameter_4620" name="ka_tfFOSL2" value="1e-06"/>
-          <Constant key="Parameter_4619" name="ka_tfFOXP2" value="0.0001"/>
-          <Constant key="Parameter_4618" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4617" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4616" name="ka_tfJUNB" value="1e-06"/>
-          <Constant key="Parameter_4615" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4614" name="ka_tfNFKB1" value="1e-06"/>
+          <Constant key="Parameter_4619" name="ka_tfFOXP2" value="0.000100025"/>
+          <Constant key="Parameter_4618" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4617" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4616" name="ka_tfJUNB" value="1.00113e-06"/>
+          <Constant key="Parameter_4615" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4614" name="ka_tfNFKB1" value="1.00276e-06"/>
           <Constant key="Parameter_4613" name="ka_tfSP1" value="0.999999"/>
-          <Constant key="Parameter_4612" name="ka_tfSP3" value="1e-06"/>
+          <Constant key="Parameter_4612" name="ka_tfSP3" value="1.18132e-06"/>
           <Constant key="Parameter_4611" name="ka_tfTCF7L2" value="1"/>
-          <Constant key="Parameter_4610" name="ka_tfTFAP2A" value="0.0001"/>
-          <Constant key="Parameter_4609" name="ka_tfTFAP2C" value="0.0001"/>
+          <Constant key="Parameter_4610" name="ka_tfTFAP2A" value="0.000100001"/>
+          <Constant key="Parameter_4609" name="ka_tfTFAP2C" value="0.000100006"/>
         </ListOfConstants>
         <KineticLaw function="Function_86" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8483,8 +8483,8 @@
           <Modifier metabolite="Metabolite_26" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_4608" name="KdArn_PLAUR" value="0.324771"/>
-          <Constant key="Parameter_4607" name="kr_MIR155" value="0.0001"/>
+          <Constant key="Parameter_4608" name="KdArn_PLAUR" value="0.324778"/>
+          <Constant key="Parameter_4607" name="kr_MIR155" value="0.00010057"/>
           <Constant key="Parameter_4606" name="kr_MIR16_2" value="1"/>
           <Constant key="Parameter_4605" name="kr_MIR204" value="1"/>
         </ListOfConstants>
@@ -8543,11 +8543,11 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4604" name="Cgh_MIR145" value="2"/>
-          <Constant key="Parameter_4603" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4602" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4601" name="ka_tfSMAD4" value="1e-06"/>
-          <Constant key="Parameter_4600" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4599" name="ks_MIR145" value="0.00429642"/>
+          <Constant key="Parameter_4603" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4602" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4601" name="ka_tfSMAD4" value="1.12859e-06"/>
+          <Constant key="Parameter_4600" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4599" name="ks_MIR145" value="0.00429719"/>
         </ListOfConstants>
         <KineticLaw function="Function_88" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8603,7 +8603,7 @@
           <Substrate metabolite="Metabolite_24" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4598" name="kd_MIR145" value="0.278162"/>
+          <Constant key="Parameter_4598" name="kd_MIR145" value="0.278106"/>
         </ListOfConstants>
         <KineticLaw function="Function_89" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8644,13 +8644,13 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4597" name="Cgh_MIR155" value="2"/>
-          <Constant key="Parameter_4596" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4595" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4594" name="ka_tfJUN" value="1e-06"/>
-          <Constant key="Parameter_4593" name="ka_tfJUND" value="1e-06"/>
-          <Constant key="Parameter_4592" name="ka_tfNFKB1" value="1e-06"/>
-          <Constant key="Parameter_4591" name="ka_tfSMAD4" value="1e-06"/>
-          <Constant key="Parameter_4590" name="ks_MIR155" value="0.0132774"/>
+          <Constant key="Parameter_4596" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4595" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4594" name="ka_tfJUN" value="1.03161e-06"/>
+          <Constant key="Parameter_4593" name="ka_tfJUND" value="1.00287e-06"/>
+          <Constant key="Parameter_4592" name="ka_tfNFKB1" value="1.00276e-06"/>
+          <Constant key="Parameter_4591" name="ka_tfSMAD4" value="1.12859e-06"/>
+          <Constant key="Parameter_4590" name="ks_MIR155" value="0.0132772"/>
         </ListOfConstants>
         <KineticLaw function="Function_90" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8718,7 +8718,7 @@
           <Substrate metabolite="Metabolite_25" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4589" name="kd_MIR155" value="0.376219"/>
+          <Constant key="Parameter_4589" name="kd_MIR155" value="0.376232"/>
         </ListOfConstants>
         <KineticLaw function="Function_91" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8754,8 +8754,8 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4588" name="Cgh_MIR16_2" value="2"/>
-          <Constant key="Parameter_4587" name="ka_tfE2F1" value="1e-06"/>
-          <Constant key="Parameter_4586" name="ks_MIR16_2" value="0.0252018"/>
+          <Constant key="Parameter_4587" name="ka_tfE2F1" value="1.01265e-06"/>
+          <Constant key="Parameter_4586" name="ks_MIR16_2" value="0.0252048"/>
         </ListOfConstants>
         <KineticLaw function="Function_92" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8793,7 +8793,7 @@
           <Substrate metabolite="Metabolite_26" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4585" name="kd_MIR16_2" value="0.188245"/>
+          <Constant key="Parameter_4585" name="kd_MIR16_2" value="0.188229"/>
         </ListOfConstants>
         <KineticLaw function="Function_93" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8829,8 +8829,8 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4584" name="Cgh_MIR200B" value="2"/>
-          <Constant key="Parameter_4583" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4582" name="ks_MIR200B" value="0.0995591"/>
+          <Constant key="Parameter_4583" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4582" name="ks_MIR200B" value="0.0995973"/>
         </ListOfConstants>
         <KineticLaw function="Function_94" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8868,7 +8868,7 @@
           <Substrate metabolite="Metabolite_27" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4581" name="kd_MIR200B" value="0.908119"/>
+          <Constant key="Parameter_4581" name="kd_MIR200B" value="0.90785"/>
         </ListOfConstants>
         <KineticLaw function="Function_95" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8904,8 +8904,8 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4580" name="Cgh_MIR200C" value="3"/>
-          <Constant key="Parameter_4579" name="ka_tfTP53" value="1e-06"/>
-          <Constant key="Parameter_4578" name="ks_MIR200C" value="0.0275976"/>
+          <Constant key="Parameter_4579" name="ka_tfTP53" value="1.00269e-06"/>
+          <Constant key="Parameter_4578" name="ks_MIR200C" value="0.0275978"/>
         </ListOfConstants>
         <KineticLaw function="Function_96" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -8980,9 +8980,9 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4576" name="Cgh_MIR204" value="2"/>
-          <Constant key="Parameter_4575" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4574" name="ka_tfGATA2" value="1e-06"/>
-          <Constant key="Parameter_4573" name="ks_MIR204" value="0.0246699"/>
+          <Constant key="Parameter_4575" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4574" name="ka_tfGATA2" value="1.00167e-06"/>
+          <Constant key="Parameter_4573" name="ks_MIR204" value="0.0246629"/>
         </ListOfConstants>
         <KineticLaw function="Function_98" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -9026,7 +9026,7 @@
           <Substrate metabolite="Metabolite_29" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4572" name="kd_MIR204" value="0.980577"/>
+          <Constant key="Parameter_4572" name="kd_MIR204" value="0.980751"/>
         </ListOfConstants>
         <KineticLaw function="Function_99" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -9064,9 +9064,9 @@
         </ListOfModifiers>
         <ListOfConstants>
           <Constant key="Parameter_4571" name="Cgh_MIR222" value="0"/>
-          <Constant key="Parameter_4570" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_4569" name="ka_tfFOSL1" value="1e-06"/>
-          <Constant key="Parameter_4568" name="ka_tfGATA2" value="1e-06"/>
+          <Constant key="Parameter_4570" name="KaArn_ETS1" value="0.999997"/>
+          <Constant key="Parameter_4569" name="ka_tfFOSL1" value="1.00292e-06"/>
+          <Constant key="Parameter_4568" name="ka_tfGATA2" value="1.00167e-06"/>
           <Constant key="Parameter_4567" name="ks_MIR222" value="0.345587"/>
         </ListOfConstants>
         <KineticLaw function="Function_100" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
@@ -9117,7 +9117,7 @@
           <Substrate metabolite="Metabolite_30" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4566" name="kd_MIR222" value="0.000860346"/>
+          <Constant key="Parameter_4566" name="kd_MIR222" value="0.000860214"/>
         </ListOfConstants>
         <KineticLaw function="Function_101" unitType="Default" scalingCompartment="CN=Root,Model=NoName,Vector=Compartments[default]">
           <ListOfCallParameters>
@@ -9143,7 +9143,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:25:01Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:54:00Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -11862,22 +11862,11 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Method>
     </Task>
     <Task key="Task_17" name="Scan" type="scan" scheduled="false" updateModel="false">
-      <Report reference="Report_10" target="scan.txt" append="1" confirmOverwrite="1"/>
       <Problem>
-        <Parameter name="Subtask" type="unsignedInteger" value="0"/>
+        <Parameter name="Subtask" type="unsignedInteger" value="1"/>
         <ParameterGroup name="ScanItems">
-          <ParameterGroup name="ScanItem">
-            <Parameter name="Number of steps" type="unsignedInteger" value="4"/>
-            <Parameter name="Type" type="unsignedInteger" value="1"/>
-            <Parameter name="Object" type="cn" value="CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"/>
-            <Parameter name="Minimum" type="float" value="1"/>
-            <Parameter name="Maximum" type="float" value="5"/>
-            <Parameter name="log" type="bool" value="0"/>
-            <Parameter name="Values" type="string" value=""/>
-            <Parameter name="Use Values" type="bool" value="0"/>
-          </ParameterGroup>
         </ParameterGroup>
-        <Parameter name="Output in subtask" type="bool" value="0"/>
+        <Parameter name="Output in subtask" type="bool" value="1"/>
         <Parameter name="Adjust initial conditions" type="bool" value="0"/>
         <Parameter name="Continue on Error" type="bool" value="0"/>
       </Problem>
@@ -25028,46 +25017,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Time-Course],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_10" name="Scan Parameters, Time, Concentrations, Volumes, and Global Quantity Values" taskType="scan" separator="&#x09;" precision="6">
-      <Comment>
-        A table of scan parameters, time, variable species concentrations, variable compartment volumes, and variable global quantity values.
-      </Comment>
-      <Table printTitle="1">
-        <Object cn="CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"/>
-        <Object cn="CN=Root,Model=NoName,Reference=Time"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfAP2B1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfATF1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfE2F1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfE2F2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfE2F3],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfETV4],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfFOS],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfFOSL1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfFOSL2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfFOXP2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfGATA2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfJUN],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfJUNB],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfJUND],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfNFKB1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfSMAD4],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfSP1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfSP3],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfTCF7L2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfTFAP2A],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfTFAP2C],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[tfTP53],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[arnETS1],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[arnPLAUR],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR145],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR155],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR16_2],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR200B],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR200C],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR204],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[MIR222],Reference=Concentration"/>
-      </Table>
-    </Report>
   </ListOfReports>
   <GUI>
   </GUI>
@@ -25322,7 +25271,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -25340,7 +25289,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -25358,7 +25307,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_12">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -25376,7 +25325,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -25394,7 +25343,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -25412,7 +25361,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_40">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-11-30T22:24:56Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-10-27T02:53:57Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
