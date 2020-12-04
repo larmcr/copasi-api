@@ -26,19 +26,17 @@ namespace CopasiApi
         CDataObject modelValueReference = model.getModelValue("Cgh_ETS1[merge]").getInitialValueReference();
         CDataObject modelMetaboliteReference = model.getMetabolite("arnPLAUR").getConcentrationReference();
         table.Add(new CRegisteredCommonName(modelValueReference.getCN().getString()));
-        table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
         table.Add(new CRegisteredCommonName(modelMetaboliteReference.getCN().getString()));
-        table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Compartments[default],Vector=Metabolites[arnPLAUR[merge]],Reference=Concentration"));
 
-        CTrajectoryTask trajectoryTask = (CTrajectoryTask)dataModel.getTask("Time-Course");
-        trajectoryTask.setMethodType(CTaskEnum.Method_stochastic);
-        trajectoryTask.getProblem().setModel(dataModel.getModel());
-        trajectoryTask.setScheduled(false);
-        CTrajectoryProblem problem = (CTrajectoryProblem)trajectoryTask.getProblem();
-        problem.setStepNumber(4);
-        dataModel.getModel().setInitialTime(0.0);
-        problem.setDuration(4);
-        problem.setTimeSeriesRequested(true);
+        // CTrajectoryTask trajectoryTask = (CTrajectoryTask)dataModel.getTask("Time-Course");
+        // trajectoryTask.setMethodType(CTaskEnum.Method_stochastic);
+        // trajectoryTask.getProblem().setModel(dataModel.getModel());
+        // trajectoryTask.setScheduled(false);
+        // CTrajectoryProblem problem = (CTrajectoryProblem)trajectoryTask.getProblem();
+        // problem.setStepNumber(4);
+        // dataModel.getModel().setInitialTime(0.0);
+        // problem.setDuration(4);
+        // problem.setTimeSeriesRequested(true);
 
         CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
         scanTask.setScheduled(false);
@@ -54,7 +52,7 @@ namespace CopasiApi
         scanProblem.setOutputInSubtask(false);
         scanProblem.setContinueOnError(false);
 
-        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
+        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName(modelValueReference.getCN().getString()));
         scanItem.getParameter("Minimum").setDblValue(1.0);
         scanItem.getParameter("Maximum").setDblValue(5.0);
         scanItem.getParameter("log").setBoolValue(false);
@@ -74,16 +72,16 @@ namespace CopasiApi
         // Console.WriteLine(CCopasiMessage.getAllMessageText());
 
         // or manually
-        // bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
-        // if (!result)
-        // { 
-        //   Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
-        // }
-        // result = scanTask.processRaw(true); // use initial values
-        // if (!result)
-        // {
-        //   Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
-        // }
+        bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
+        if (!result)
+        { 
+          Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
+        }
+        result = scanTask.processRaw(true); // use initial values
+        if (!result)
+        {
+          Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
+        }
       }
       catch (Exception exception)
       {
