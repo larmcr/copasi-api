@@ -50,6 +50,7 @@ namespace CopasiApi
 
         CCopasiParameterGroup scanItems = scanProblem.getGroup("ScanItems");
         CCopasiParameterGroup scanItem = scanItems.getGroup("ScanItem");
+        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"));
         scanItem.getParameter("Minimum").setDblValue(1.0);
         scanItem.getParameter("Maximum").setDblValue(5.0);
         scanItem.getParameter("log").setBoolValue(false);
