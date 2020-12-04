@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.IO;
 using org.COPASI;
 
@@ -6,12 +7,12 @@ namespace CopasiApi
 {
   class Program
   {
-    private static void ParameterScan () 
+    private static void ParameterScan (string modelFile, string modelFolder) 
     {
       try
       {
         CDataModel dataModel = CRootContainer.addDatamodel();
-        dataModel.addModel("models/7-0/mod-00TODO-v01.cps");
+        dataModel.addModel(modelFile);
         CModel model = dataModel.getModel();
       
         CReportDefinitionVector reports = dataModel.getReportDefinitionList();
@@ -31,7 +32,7 @@ namespace CopasiApi
         CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
         scanTask.setScheduled(false);
         scanTask.getReport().setReportDefinition(report);
-        scanTask.getReport().setTarget("scan.csv");
+        scanTask.getReport().setTarget(modelFolder + "/scan.csv");
         scanTask.getReport().setAppend(false);
 
         CScanProblem scanProblem = (CScanProblem)scanTask.getProblem();
@@ -49,11 +50,11 @@ namespace CopasiApi
         scanItem.getParameter("Values").setStringValue("");
         scanItem.getParameter("Use Values").setBoolValue(false);
 
-        bool saved = dataModel.saveModel("model.cps", true);
-        Console.WriteLine("Saved -> " + saved);
+        bool saved = dataModel.saveModel(modelFolder + "/model.cps", true);
+        Console.WriteLine("\tSaved -> " + saved);
 
         bool processed = scanTask.process(true);
-        Console.WriteLine("Processed -> " + saved);
+        Console.WriteLine("\tProcessed -> " + saved);
       }
       catch (Exception exception)
       {
@@ -62,26 +63,35 @@ namespace CopasiApi
       }
     }
 
-    private static void RunTask ()
+    private static void RunModels (DirectoryInfo root)
     {
       try
       {
-        CDataModel dataModel = CRootContainer.addDatamodel();
-        dataModel.addModel("model.cps");
-        
-        CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
+        FileInfo[] files = root.GetFiles("*.cps");
+        foreach (FileInfo file in files)
+        {
+          Console.WriteLine(file.FullName);
+          ParameterScan(file.FullName, file.DirectoryName);
+        }
+
+        DirectoryInfo[] folders = root.GetDirectories();
+        foreach (DirectoryInfo folder in folders)
+        {
+          RunModels(folder);
+        }
       }
       catch (Exception exception)
       {
-        Console.Error.WriteLine("ERROR (RunTask) -> " + exception);
+        Console.Error.WriteLine("ERROR (RunModels) -> " + exception);
         Environment.Exit(1);
       }
     }
+
     public static void Main (string[] args)
     {
       try
       {
-        ParameterScan();
+        RunModels(new DirectoryInfo("models"));
       }
       catch (Exception exception)
       {
