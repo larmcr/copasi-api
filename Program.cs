@@ -12,6 +12,7 @@ namespace CopasiApi
       {
         CDataModel dataModel = CRootContainer.addDatamodel();
         dataModel.addModel("models/7-0/mod-00TODO-v01.cps");
+        CModel model = dataModel.getModel();
       
         CReportDefinitionVector reports = dataModel.getReportDefinitionList();
         CReportDefinition report = reports.createReportDefinition("Scan Parameters, Time, Concentrations, Volumes, and Global Quantity Values", "A table of scan parameters, time, variable species concentrations, variable compartment volumes, and variable global quantity values.");
@@ -21,7 +22,12 @@ namespace CopasiApi
         report.setSeparator(new CCopasiReportSeparator(","));
 
         ReportItemVector table = report.getTableAddr();
+
+        CDataObject modelValueReference = model.getModelValue("Cgh_ETS1[merge]").getInitialValueReference();
+        CDataObject modelMetaboliteReference = model.getMetabolite("arnPLAUR").getConcentrationReference();
+        table.Add(new CRegisteredCommonName(modelValueReference.getCN().getString()));
         table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
+        table.Add(new CRegisteredCommonName(modelMetaboliteReference.getCN().getString()));
         table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Compartments[default],Vector=Metabolites[arnPLAUR[merge]],Reference=Concentration"));
 
         CTrajectoryTask trajectoryTask = (CTrajectoryTask)dataModel.getTask("Time-Course");
@@ -43,13 +49,11 @@ namespace CopasiApi
         CScanProblem scanProblem = (CScanProblem)scanTask.getProblem();
         scanProblem.setModel(dataModel.getModel());
         scanProblem.setSubtask(CTaskEnum.Task_steadyState);
-        scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, 4);
+        CCopasiParameterGroup scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, 4);
         scanProblem.setContinueFromCurrentState(false);
         scanProblem.setOutputInSubtask(false);
         scanProblem.setContinueOnError(false);
 
-        CCopasiParameterGroup scanItems = scanProblem.getGroup("ScanItems");
-        CCopasiParameterGroup scanItem = scanItems.getGroup("ScanItem");
         scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
         scanItem.getParameter("Minimum").setDblValue(1.0);
         scanItem.getParameter("Maximum").setDblValue(5.0);
@@ -70,16 +74,16 @@ namespace CopasiApi
         // Console.WriteLine(CCopasiMessage.getAllMessageText());
 
         // or manually
-        bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
-        if (!result)
-        { 
-          Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
-        }
-        result = scanTask.processRaw(true); // use initial values
-        if (!result)
-        {
-          Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
-        }
+        // bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
+        // if (!result)
+        // { 
+        //   Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
+        // }
+        // result = scanTask.processRaw(true); // use initial values
+        // if (!result)
+        // {
+        //   Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
+        // }
       }
       catch (Exception exception)
       {
