@@ -7,7 +7,10 @@ namespace CopasiApi
 {
   class Program
   {
+    private static string MODELS = "models";
+    private static string RESULTS = "/results";
     private static string SOURCE = "mod-00TODO-v01.cps";
+
     private static uint STEPS = 4;
     private static double MIN = 1.0;
     private static double MAX = 5.0;
@@ -15,11 +18,17 @@ namespace CopasiApi
     private static string[] CNVS = new string[] { "Cgh_ETS1", "Cgh_tfAP2B1", "Cgh_tfATF1", "Cgh_tfE2F1", "Cgh_tfE2F2", "Cgh_tfE2F3", "Cgh_tfETV4", "Cgh_tfFOS", "Cgh_tfFOSL1", "Cgh_tfFOSL2", "Cgh_tfFOXP2", "Cgh_tfGATA2", "Cgh_tfJUN", "Cgh_tfJUNB", "Cgh_tfJUND", "Cgh_tfNFKB1", "Cgh_tfSMAD4", "Cgh_tfSP1", "Cgh_tfSP3", "Cgh_tfTCF7L2", "Cgh_tfTFAP2A", "Cgh_tfTFAP2C", "Cgh_tfTP53", "Cgh_MIR145", "Cgh_MIR155", "Cgh_MIR16_2", "Cgh_MIR200B", "Cgh_MIR200C", "Cgh_MIR204", "Cgh_MIR222" };
 
     private static string[] SPECIES = new string[] {"arnPLAUR"};
+
+    private static void printError (Exception exception, string source)
+    {
+      Console.Error.WriteLine("ERROR (" + source + ") -> " + exception);
+      Environment.Exit(1);
+    }
     private static void ParameterScan (string file, string folder) 
     {
       try
       {
-        folder = folder + "/results";
+        folder = folder + RESULTS;
         if (!Directory.Exists(folder))
         {
           Directory.CreateDirectory(folder);
@@ -75,7 +84,7 @@ namespace CopasiApi
           Console.WriteLine("\tModel Saved -> " + saved + " -> " + modelFile);
 
           bool processed = scanTask.process(true);
-          Console.WriteLine("\t\tScan Processed -> " + processed + " -> " + targetFile);
+          Console.WriteLine("\tScan Processed -> " + processed + " -> " + targetFile);
 
           bool removed = CRootContainer.removeDatamodel(dataModel);
           Console.WriteLine("\tModel Removed -> " + removed + "\n");
@@ -83,8 +92,7 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        Console.Error.WriteLine("Error (UpdateModel) -> " + exception);
-        Environment.Exit(1);
+        printError(exception, "UpdateModel");
       }
     }
 
@@ -107,8 +115,7 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        Console.Error.WriteLine("ERROR (RunModels) -> " + exception);
-        Environment.Exit(1);
+        printError(exception, "RunModels");
       }
     }
 
@@ -116,12 +123,11 @@ namespace CopasiApi
     {
       try
       {
-        RunModels(new DirectoryInfo("models"));
+        RunModels(new DirectoryInfo(MODELS));
       }
       catch (Exception exception)
       {
-        Console.Error.WriteLine("ERROR (Main) -> " + exception);
-        Environment.Exit(1);
+        printError(exception, "Main");
       }
     }
   }
