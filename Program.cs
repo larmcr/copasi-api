@@ -6,7 +6,7 @@ namespace CopasiApi
 {
   class Program
   {
-    private static void UpdateModel () 
+    private static void ParameterScan () 
     {
       try
       {
@@ -21,8 +21,8 @@ namespace CopasiApi
         report.setSeparator(new CCopasiReportSeparator(","));
 
         ReportItemVector table = report.getTableAddr();
-        table.Add(new CRegisteredCommonName("CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"));
-        table.Add(new CRegisteredCommonName("CN=Root,Model=NoName,Vector=Compartments[default],Vector=Metabolites[arnPLAUR],Reference=Concentration"));
+        table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
+        table.Add(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Compartments[default],Vector=Metabolites[arnPLAUR[merge]],Reference=Concentration"));
 
         CTrajectoryTask trajectoryTask = (CTrajectoryTask)dataModel.getTask("Time-Course");
         trajectoryTask.setMethodType(CTaskEnum.Method_stochastic);
@@ -50,7 +50,7 @@ namespace CopasiApi
 
         CCopasiParameterGroup scanItems = scanProblem.getGroup("ScanItems");
         CCopasiParameterGroup scanItem = scanItems.getGroup("ScanItem");
-        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=NoName,Vector=Values[Cgh_ETS1],Reference=InitialValue"));
+        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName("CN=Root,Model=New Model,Vector=Values[Cgh_ETS1[merge]],Reference=InitialValue"));
         scanItem.getParameter("Minimum").setDblValue(1.0);
         scanItem.getParameter("Maximum").setDblValue(5.0);
         scanItem.getParameter("log").setBoolValue(false);
@@ -59,18 +59,33 @@ namespace CopasiApi
 
         dataModel.saveModel("model.cps", true);
         
-        // CRootContainer.removeDatamodel(dataModel);
+        // bool processed = scanTask.process(true);
+        // Console.WriteLine(processed);
+
+          // run scan
+        // bool result = scanTask.process(true);
+        // Console.WriteLine(result);
+        // Console.WriteLine(scanTask.getProcessError());
+        // Console.WriteLine(scanTask.getProcessWarning());
+        // Console.WriteLine(CCopasiMessage.getAllMessageText());
+
+        // or manually
+        bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
+        if (!result)
+        { 
+          Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
+        }
+        result = scanTask.processRaw(true); // use initial values
+        if (!result)
+        {
+          Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
+        }
       }
       catch (Exception exception)
       {
         System.Console.Error.WriteLine("Error (UpdateModel) -> " + exception);
         System.Environment.Exit(1);
       }
-    }
-
-    private static void FixModel ()
-    {
-
     }
 
     private static void RunTask ()
@@ -81,10 +96,6 @@ namespace CopasiApi
         dataModel.addModel("model.cps");
         
         CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
-        bool processed = scanTask.process(true);
-        Console.WriteLine(processed);
-        // string key = scanTask.getKey();
-        // Console.WriteLine("key -> ", key);
       }
       catch (Exception exception)
       {
@@ -96,9 +107,7 @@ namespace CopasiApi
     {
       try
       {
-        UpdateModel();
-        // FixModel();
-        // RunTask();
+        ParameterScan();
       }
       catch (Exception exception)
       {
