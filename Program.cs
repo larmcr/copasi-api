@@ -23,25 +23,15 @@ namespace CopasiApi
 
         ReportItemVector table = report.getTableAddr();
 
-        CDataObject modelValueReference = model.getModelValue("Cgh_ETS1[merge]").getInitialValueReference();
-        CDataObject modelMetaboliteReference = model.getMetabolite("arnPLAUR").getConcentrationReference();
-        table.Add(new CRegisteredCommonName(modelValueReference.getCN().getString()));
-        table.Add(new CRegisteredCommonName(modelMetaboliteReference.getCN().getString()));
-
-        // CTrajectoryTask trajectoryTask = (CTrajectoryTask)dataModel.getTask("Time-Course");
-        // trajectoryTask.setMethodType(CTaskEnum.Method_stochastic);
-        // trajectoryTask.getProblem().setModel(dataModel.getModel());
-        // trajectoryTask.setScheduled(false);
-        // CTrajectoryProblem problem = (CTrajectoryProblem)trajectoryTask.getProblem();
-        // problem.setStepNumber(4);
-        // dataModel.getModel().setInitialTime(0.0);
-        // problem.setDuration(4);
-        // problem.setTimeSeriesRequested(true);
+        CDataObject cnvsRef = model.getModelValue("Cgh_ETS1[merge]").getInitialValueReference();
+        table.Add(new CRegisteredCommonName(cnvsRef.getCN().getString()));
+        table.Add(new CRegisteredCommonName(model.getMetabolite("arnETS1").getConcentrationReference().getCN().getString()));
+        table.Add(new CRegisteredCommonName(model.getMetabolite("arnPLAUR").getConcentrationReference().getCN().getString()));
 
         CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
         scanTask.setScheduled(false);
         scanTask.getReport().setReportDefinition(report);
-        scanTask.getReport().setTarget("scan.txt");
+        scanTask.getReport().setTarget("scan.csv");
         scanTask.getReport().setAppend(false);
 
         CScanProblem scanProblem = (CScanProblem)scanTask.getProblem();
@@ -52,41 +42,23 @@ namespace CopasiApi
         scanProblem.setOutputInSubtask(false);
         scanProblem.setContinueOnError(false);
 
-        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName(modelValueReference.getCN().getString()));
+        scanItem.getParameter("Object").setCNValue(new CRegisteredCommonName(cnvsRef.getCN().getString()));
         scanItem.getParameter("Minimum").setDblValue(1.0);
         scanItem.getParameter("Maximum").setDblValue(5.0);
         scanItem.getParameter("log").setBoolValue(false);
         scanItem.getParameter("Values").setStringValue("");
         scanItem.getParameter("Use Values").setBoolValue(false);
 
-        dataModel.saveModel("model.cps", true);
-        
-        // bool processed = scanTask.process(true);
-        // Console.WriteLine(processed);
+        bool saved = dataModel.saveModel("model.cps", true);
+        Console.WriteLine("Saved -> " + saved);
 
-          // run scan
-        // bool result = scanTask.process(true);
-        // Console.WriteLine(result);
-        // Console.WriteLine(scanTask.getProcessError());
-        // Console.WriteLine(scanTask.getProcessWarning());
-        // Console.WriteLine(CCopasiMessage.getAllMessageText());
-
-        // or manually
-        bool result = scanTask.initializeRaw((int)CCopasiTask.OUTPUT_UI); // all output
-        if (!result)
-        { 
-          Console.Error.WriteLine("scanTask.initializeRaw ->" + CCopasiMessage.getAllMessageText());
-        }
-        result = scanTask.processRaw(true); // use initial values
-        if (!result)
-        {
-          Console.Error.WriteLine("scanTask.processRaw ->" + CCopasiMessage.getAllMessageText());
-        }
+        bool processed = scanTask.process(true);
+        Console.WriteLine("Processed -> " + saved);
       }
       catch (Exception exception)
       {
-        System.Console.Error.WriteLine("Error (UpdateModel) -> " + exception);
-        System.Environment.Exit(1);
+        Console.Error.WriteLine("Error (UpdateModel) -> " + exception);
+        Environment.Exit(1);
       }
     }
 
@@ -101,8 +73,8 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        System.Console.Error.WriteLine("ERROR (RunTask) -> " + exception);
-        System.Environment.Exit(1);
+        Console.Error.WriteLine("ERROR (RunTask) -> " + exception);
+        Environment.Exit(1);
       }
     }
     public static void Main (string[] args)
@@ -113,8 +85,8 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        System.Console.Error.WriteLine("ERROR (Main) -> " + exception);
-        System.Environment.Exit(1);
+        Console.Error.WriteLine("ERROR (Main) -> " + exception);
+        Environment.Exit(1);
       }
     }
   }

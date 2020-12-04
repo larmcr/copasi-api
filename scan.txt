@@ -1,6 +1,0 @@
-Values[Cgh_ETS1[merge]].InitialValue,[arnPLAUR]
-1,0.962196
-2,1.20673
-3,1.49358
-4,1.83375
-5,2.24181
