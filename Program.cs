@@ -7,6 +7,7 @@ namespace CopasiApi
 {
   class Program
   {
+    private static string SOURCE = "mod-00TODO-v01.cps";
     private static uint STEPS = 4;
     private static double MIN = 1.0;
     private static double MAX = 5.0;
@@ -18,6 +19,12 @@ namespace CopasiApi
     {
       try
       {
+        folder = folder + "/results";
+        if (!Directory.Exists(folder))
+        {
+          Directory.CreateDirectory(folder);
+        }
+
         foreach (string cnv in CNVS)
         {
           string modelFile = folder + "/model-" + cnv + ".cps";
@@ -65,15 +72,13 @@ namespace CopasiApi
           scanItem.getParameter("Use Values").setBoolValue(false);
 
           bool saved = dataModel.saveModel(modelFile, true);
-          Console.WriteLine("\t" + modelFile);
-          Console.WriteLine("\t\tSaved -> " + saved);
+          Console.WriteLine("\tModel Saved -> " + saved + " -> " + modelFile);
 
           bool processed = scanTask.process(true);
-          Console.WriteLine("\t" + targetFile);
-          Console.WriteLine("\t\tProcessed -> " + processed);
+          Console.WriteLine("\t\tScan Processed -> " + processed + " -> " + targetFile);
 
           bool removed = CRootContainer.removeDatamodel(dataModel);
-          Console.WriteLine("\tRemoved -> " + removed);
+          Console.WriteLine("\tModel Removed -> " + removed + "\n");
         }
       }
       catch (Exception exception)
@@ -87,7 +92,7 @@ namespace CopasiApi
     {
       try
       {
-        FileInfo[] files = root.GetFiles("mod-00TODO-v01.cps");
+        FileInfo[] files = root.GetFiles(SOURCE);
         foreach (FileInfo file in files)
         {
           Console.WriteLine(file.FullName);
