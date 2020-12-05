@@ -199,12 +199,7 @@ namespace CopasiApi
       {
         json.Add(pair, new Dictionary<string, List<dynamic>>());
 
-        List<dynamic> x = new List<dynamic>();
-        x.Add(1);
-        x.Add(2);
-        x.Add(3);
-        x.Add(4);
-        x.Add(5);
+        List<dynamic> x = new List<dynamic> {1, 2, 3, 4, 5};
         json[pair].Add("x", x);
 
         List<dynamic> y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
