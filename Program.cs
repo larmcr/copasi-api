@@ -25,9 +25,10 @@ namespace CopasiApi
 
     private static void printError(Exception exception, string source)
     {
-      Console.Error.WriteLine("ERROR (" + source + ") -> " + exception);
+      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
       Environment.Exit(1);
     }
+
     private static void ParameterScan(string file, string folder)
     {
       try
@@ -85,13 +86,10 @@ namespace CopasiApi
           scanItem.getParameter("Use Values").setBoolValue(false);
 
           var saved = dataModel.saveModel(modelFile, true);
-          Console.WriteLine("\tModel Saved -> " + saved + " -> " + modelFile);
+          Console.WriteLine("  |-> Model Saved: " + saved + " ~ " + modelFile);
 
           var processed = scanTask.process(true);
-          Console.WriteLine("\tScan Processed -> " + processed + " -> " + targetFile);
-
-          var removed = CRootContainer.removeDatamodel(dataModel);
-          Console.WriteLine("\tModel Removed -> " + removed + "\n");
+          Console.WriteLine("    |-> Scan Processed: " + processed + " ~ " + targetFile + "\n");
         });
       }
       catch (Exception exception)
@@ -212,7 +210,7 @@ namespace CopasiApi
       var jsonFile = MODELS + "/scans.json";
       var jsonString = JsonSerializer.Serialize(json);
       File.WriteAllText(jsonFile, jsonString);
-      Console.WriteLine("JSON Created/Updated -> " + jsonFile + "\n");
+      Console.WriteLine("JSON Created/Updated: " + jsonFile + "\n");
     }
 
     public static void Main(string[] args)
