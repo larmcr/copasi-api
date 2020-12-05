@@ -213,7 +213,7 @@ namespace CopasiApi
         List<dynamic> z = new List<dynamic>();
         foreach (var cgh in y)
         {
-          z.Add(new List<dynamic>(hash[pair][cgh]));
+          z.Add(new List<dynamic>(hash[pair][cgh]).Select(val => Double.Parse(val)));
         }
         json[pair].Add("z", z);
       }
