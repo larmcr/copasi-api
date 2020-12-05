@@ -121,14 +121,35 @@ namespace CopasiApi
       }
     }
 
-    private static string GetHeader (string cgh)
+    private static string GetHeader(string cgh)
     {
-      string header = "";
       Regex regex = new Regex("\\[(.+)\\[");
       Match match = regex.Match(cgh);
       GroupCollection groups = match.Groups;
-      header = groups[1].Value;
-      return header;
+      return groups[1].Value;
+    }
+
+    private static void ParseFile(string file, string pair, Dictionary<string, Dictionary<string, List<string>>> hash)
+    {
+      using (TextFieldParser parser = new TextFieldParser(file))
+      {
+        parser.SetDelimiters(",");
+        string cgh = "";
+        while (!parser.EndOfData)
+        {
+          string[] row = parser.ReadFields();
+          string val = row[1];
+          if (row[0].Contains("Cgh_"))
+          {
+            cgh = GetHeader(row[0]);
+            hash[pair].Add(cgh, new List<string>());
+          }
+          else
+          {
+            hash[pair][cgh].Add(val);
+          }
+        }
+      }
     }
 
     private static void ProcessScans(DirectoryInfo root, Dictionary<string, Dictionary<string, List<string>>> hash)
@@ -136,6 +157,7 @@ namespace CopasiApi
       try
       {
         string pair = "";
+
         FileInfo[] files = root.GetFiles("*.csv");
         if (files.Length > 0)
         {
@@ -148,29 +170,10 @@ namespace CopasiApi
             hash.Add(pair, new Dictionary<string, List<string>>());
           }
         }
+
         foreach (FileInfo file in files)
         {
-          using (TextFieldParser parser = new TextFieldParser(file.FullName))
-          {
-            parser.SetDelimiters(",");
-            string cgh = "";
-            while (!parser.EndOfData)
-            {
-              string[] row = parser.ReadFields();
-              string val = row[1];
-              if (row[0].Contains("Cgh_"))
-              {
-                cgh = GetHeader(row[0]);
-                // Console.WriteLine("\tHEADER: " + cgh);
-                hash[pair].Add(cgh, new List<string>());
-              }
-              else
-              {
-                // Console.WriteLine("\t\tPLAUR: " + val);
-                hash[pair][cgh].Add(val);
-              }
-            }
-          }
+          ParseFile(file.FullName, pair, hash);
         }
 
         DirectoryInfo[] folders = root.GetDirectories();
@@ -185,6 +188,22 @@ namespace CopasiApi
       }
     }
 
+    private static void ProcessHash(Dictionary<string, Dictionary<string, List<string>>> hash)
+    {
+      foreach (string pair in hash.Keys)
+      {
+        Console.WriteLine(pair);
+        foreach (var cgh in hash[pair].Keys)
+        {
+          Console.WriteLine("\t" + cgh);
+          foreach (var val in hash[pair][cgh])
+          {
+            Console.WriteLine("\t\t" + val);
+          }
+        }
+      }
+    }
+
     public static void Main(string[] args)
     {
       try
@@ -193,18 +212,7 @@ namespace CopasiApi
         // ProcessModels(root);
         var hash = new Dictionary<string, Dictionary<string, List<string>>>();
         ProcessScans(root, hash);
-        foreach (string pair in hash.Keys)
-        {
-          Console.WriteLine(pair);
-          foreach (var cgh in hash[pair].Keys)
-          {
-            Console.WriteLine("\t" + cgh);
-            foreach (var val in hash[pair][cgh])
-            {
-              Console.WriteLine("\t\t" + val);
-            }
-          }
-        }
+        ProcessHash(hash);
       }
       catch (Exception exception)
       {
