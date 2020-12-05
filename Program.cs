@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text.RegularExpressions;
 using org.COPASI;
+using System.Linq;
 
 namespace CopasiApi
 {
@@ -190,10 +191,10 @@ namespace CopasiApi
 
     private static void ProcessHash(Dictionary<string, Dictionary<string, List<string>>> hash)
     {
-      foreach (string pair in hash.Keys)
+      foreach (string pair in hash.Keys.OrderBy(key => key).ToList())
       {
         Console.WriteLine(pair);
-        foreach (var cgh in hash[pair].Keys)
+        foreach (var cgh in hash[pair].Keys.OrderBy(key => key).ToList())
         {
           Console.WriteLine("\t" + cgh);
           foreach (var val in hash[pair][cgh])
