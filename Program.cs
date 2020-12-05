@@ -9,7 +9,7 @@ namespace CopasiApi
   class Program
   {
     private static string MODELS = "models";
-    private static string RESULTS = "/results";
+    private static string RESULTS = "results";
     private static string SOURCE = "mod-00TODO-v01.cps";
 
     private static uint STEPS = 4;
@@ -29,7 +29,7 @@ namespace CopasiApi
     {
       try
       {
-        folder = folder + RESULTS;
+        folder = folder + "/" + RESULTS;
         if (!Directory.Exists(folder))
         {
           Directory.CreateDirectory(folder);
@@ -120,30 +120,34 @@ namespace CopasiApi
       }
     }
 
-    private static void ProcessScans (DirectoryInfo root)
+    private static void ProcessScans (DirectoryInfo root, Dictionary<string, List<string>> hash)
     {
       try
       {
+        string pair = "";
         FileInfo[] files = root.GetFiles("*.csv");
         if (files.Length > 0)
         {
-          Regex regex = new Regex(MODELS + "/(.+)" + RESULTS);
-          MatchCollection matches = regex.Matches(root.FullName);
-          foreach (Match match in matches)
+          Regex regex = new Regex(MODELS + "/(.+)/" + RESULTS);
+          Match match = regex.Match(root.FullName);
+          GroupCollection groups = match.Groups;
+          pair = groups[1].Value;
+          Console.WriteLine(pair);
+          if (!hash.ContainsKey(pair))
           {
-            GroupCollection groups = match.Groups;
-            Console.WriteLine(groups[1].Value);
+            hash.Add(pair, new List<string>());
           }
         }
         foreach (FileInfo file in files)
         {
+          hash[pair].Add(file.FullName);
           // Console.WriteLine(file.FullName);
         }
 
         DirectoryInfo[] folders = root.GetDirectories();
         foreach (DirectoryInfo folder in folders)
         {
-          ProcessScans(folder);
+          ProcessScans(folder, hash);
         }
       }
       catch (Exception exception)
@@ -158,7 +162,16 @@ namespace CopasiApi
       {
         DirectoryInfo root = new DirectoryInfo(MODELS);
         // ProcessModels(root);
-        ProcessScans(root);
+        Dictionary<string, List<string>> hash = new Dictionary<string, List<string>>();
+        ProcessScans(root, hash);
+        foreach (string key in hash.Keys)
+        {
+          Console.WriteLine(key);
+          foreach (string file in hash[key])
+          {
+            Console.WriteLine("\t" + file);
+          }
+        }
       }
       catch (Exception exception)
       {
