@@ -40,39 +40,39 @@ namespace CopasiApi
 
         CNVS.ToList().ForEach(cnv =>
         {
-          string modelFile = folder + "/model-" + cnv + ".cps";
-          string targetFile = folder + "/scan-" + cnv + ".csv";
+          var modelFile = folder + "/model-" + cnv + ".cps";
+          var targetFile = folder + "/scan-" + cnv + ".csv";
 
-          CDataModel dataModel = CRootContainer.addDatamodel();
+          var dataModel = CRootContainer.addDatamodel();
           dataModel.addModel(file);
 
-          CReportDefinitionVector reports = dataModel.getReportDefinitionList();
-          CReportDefinition report = reports.createReportDefinition("Scan Parameters, Time, Concentrations, Volumes, and Global Quantity Values", "A table of scan parameters, time, variable species concentrations, variable compartment volumes, and variable global quantity values.");
+          var reports = dataModel.getReportDefinitionList();
+          var report = reports.createReportDefinition("Scan Parameters, Time, Concentrations, Volumes, and Global Quantity Values", "A table of scan parameters, time, variable species concentrations, variable compartment volumes, and variable global quantity values.");
           report.setTaskType(CTaskEnum.Task_scan);
           report.setIsTable(true);
           report.setPrecision(6);
           report.setSeparator(new CCopasiReportSeparator(","));
 
-          CModel model = dataModel.getModel();
-          CDataObject cghRef = model.getModelValue(cnv + "[merge]").getInitialValueReference();
-          CRegisteredCommonName cghCn = new CRegisteredCommonName(cghRef.getCN().getString());
-          ReportItemVector table = report.getTableAddr();
+          var model = dataModel.getModel();
+          var cghRef = model.getModelValue(cnv + "[merge]").getInitialValueReference();
+          var cghCn = new CRegisteredCommonName(cghRef.getCN().getString());
+          var table = report.getTableAddr();
           table.Add(cghCn);
           SPECIES.ToList().ForEach(specie =>
           {
             table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
           });
 
-          CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
+          var scanTask = (CScanTask)dataModel.getTask("Scan");
           scanTask.setScheduled(false);
           scanTask.getReport().setReportDefinition(report);
           scanTask.getReport().setTarget(targetFile);
           scanTask.getReport().setAppend(false);
 
-          CScanProblem scanProblem = (CScanProblem)scanTask.getProblem();
+          var scanProblem = (CScanProblem)scanTask.getProblem();
           scanProblem.setModel(dataModel.getModel());
           scanProblem.setSubtask(CTaskEnum.Task_steadyState);
-          CCopasiParameterGroup scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, STEPS);
+          var scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, STEPS);
           scanProblem.setContinueFromCurrentState(false);
           scanProblem.setOutputInSubtask(false);
           scanProblem.setContinueOnError(false);
@@ -84,13 +84,13 @@ namespace CopasiApi
           scanItem.getParameter("Values").setStringValue("");
           scanItem.getParameter("Use Values").setBoolValue(false);
 
-          bool saved = dataModel.saveModel(modelFile, true);
+          var saved = dataModel.saveModel(modelFile, true);
           Console.WriteLine("\tModel Saved -> " + saved + " -> " + modelFile);
 
-          bool processed = scanTask.process(true);
+          var processed = scanTask.process(true);
           Console.WriteLine("\tScan Processed -> " + processed + " -> " + targetFile);
 
-          bool removed = CRootContainer.removeDatamodel(dataModel);
+          var removed = CRootContainer.removeDatamodel(dataModel);
           Console.WriteLine("\tModel Removed -> " + removed + "\n");
         });
       }
@@ -104,15 +104,13 @@ namespace CopasiApi
     {
       try
       {
-        FileInfo[] files = root.GetFiles(SOURCE);
-        files.ToList().ForEach(file =>
+        root.GetFiles(SOURCE).ToList().ForEach(file =>
         {
           Console.WriteLine(file.FullName);
           ParameterScan(file.FullName, file.DirectoryName);
         });
 
-        DirectoryInfo[] folders = root.GetDirectories();
-        folders.ToList().ForEach(folder =>
+        root.GetDirectories().ToList().ForEach(folder =>
         {
           ProcessModels(folder);
         });
@@ -125,22 +123,22 @@ namespace CopasiApi
 
     private static string GetHeader(string cgh)
     {
-      Regex regex = new Regex("\\[(.+)\\[");
-      Match match = regex.Match(cgh);
-      GroupCollection groups = match.Groups;
+      var regex = new Regex("\\[(.+)\\[");
+      var match = regex.Match(cgh);
+      var groups = match.Groups;
       return groups[1].Value;
     }
 
     private static void ParseFile(string file, string pair, Dictionary<string, Dictionary<string, List<string>>> hash)
     {
-      using (TextFieldParser parser = new TextFieldParser(file))
+      using (var parser = new TextFieldParser(file))
       {
         parser.SetDelimiters(",");
-        string cgh = "";
+        var cgh = "";
         while (!parser.EndOfData)
         {
-          string[] row = parser.ReadFields();
-          string val = row[1];
+          var row = parser.ReadFields();
+          var val = row[1];
           if (row[0].Contains("Cgh_"))
           {
             cgh = GetHeader(row[0]);
@@ -158,14 +156,14 @@ namespace CopasiApi
     {
       try
       {
-        string pair = "";
+        var pair = "";
 
-        FileInfo[] files = root.GetFiles("*.csv");
+        var files = root.GetFiles("*.csv");
         if (files.Length > 0)
         {
-          Regex regex = new Regex(MODELS + "/(.+)/" + RESULTS);
-          Match match = regex.Match(root.FullName);
-          GroupCollection groups = match.Groups;
+          var regex = new Regex(MODELS + "/(.+)/" + RESULTS);
+          var match = regex.Match(root.FullName);
+          var groups = match.Groups;
           pair = groups[1].Value;
           if (!hash.ContainsKey(pair))
           {
@@ -197,13 +195,13 @@ namespace CopasiApi
       {
         json.Add(pair, new Dictionary<string, List<dynamic>>());
 
-        List<dynamic> x = new List<dynamic> { 1, 2, 3, 4, 5 };
+        var x = new List<dynamic> { 1, 2, 3, 4, 5 };
         json[pair].Add("x", x);
 
-        List<dynamic> y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
+        var y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
         json[pair].Add("y", y);
 
-        List<dynamic> z = new List<dynamic>();
+        var z = new List<dynamic>();
         y.ForEach(cgh =>
         {
           z.Add(new List<dynamic>(hash[pair][cgh]).Select(val => Double.Parse(val)));
@@ -211,17 +209,20 @@ namespace CopasiApi
         json[pair].Add("z", z);
       });
 
-      string jsonString = JsonSerializer.Serialize(json);
-      File.WriteAllText(MODELS + "/scans.json", jsonString);
+      var jsonFile = MODELS + "/scans.json";
+      var jsonString = JsonSerializer.Serialize(json);
+      File.WriteAllText(jsonFile, jsonString);
+      Console.WriteLine("JSON Created/Updated -> " + jsonFile + "\n");
     }
 
     public static void Main(string[] args)
     {
       try
       {
-        DirectoryInfo root = new DirectoryInfo(MODELS);
-        ProcessModels(root);
+        var root = new DirectoryInfo(MODELS);
         var hash = new Dictionary<string, Dictionary<string, List<string>>>();
+        
+        ProcessModels(root);
         ProcessScans(root, hash);
         ProcessHash(hash);
       }
