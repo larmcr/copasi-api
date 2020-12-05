@@ -4,7 +4,6 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
-using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using org.COPASI;
 
@@ -39,7 +38,7 @@ namespace CopasiApi
           Directory.CreateDirectory(folder);
         }
 
-        foreach (string cnv in CNVS)
+        CNVS.ToList().ForEach(cnv =>
         {
           string modelFile = folder + "/model-" + cnv + ".cps";
           string targetFile = folder + "/scan-" + cnv + ".csv";
@@ -59,10 +58,10 @@ namespace CopasiApi
           CRegisteredCommonName cghCn = new CRegisteredCommonName(cghRef.getCN().getString());
           ReportItemVector table = report.getTableAddr();
           table.Add(cghCn);
-          foreach (string specie in SPECIES)
+          SPECIES.ToList().ForEach(specie =>
           {
             table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
-          }
+          });
 
           CScanTask scanTask = (CScanTask)dataModel.getTask("Scan");
           scanTask.setScheduled(false);
@@ -93,7 +92,7 @@ namespace CopasiApi
 
           bool removed = CRootContainer.removeDatamodel(dataModel);
           Console.WriteLine("\tModel Removed -> " + removed + "\n");
-        }
+        });
       }
       catch (Exception exception)
       {
@@ -106,17 +105,17 @@ namespace CopasiApi
       try
       {
         FileInfo[] files = root.GetFiles(SOURCE);
-        foreach (FileInfo file in files)
+        files.ToList().ForEach(file =>
         {
           Console.WriteLine(file.FullName);
           ParameterScan(file.FullName, file.DirectoryName);
-        }
+        });
 
         DirectoryInfo[] folders = root.GetDirectories();
-        foreach (DirectoryInfo folder in folders)
+        folders.ToList().ForEach(folder =>
         {
           ProcessModels(folder);
-        }
+        });
       }
       catch (Exception exception)
       {
@@ -174,16 +173,15 @@ namespace CopasiApi
           }
         }
 
-        foreach (FileInfo file in files)
+        files.ToList().ForEach(file =>
         {
           ParseFile(file.FullName, pair, hash);
-        }
+        });
 
-        DirectoryInfo[] folders = root.GetDirectories();
-        foreach (DirectoryInfo folder in folders)
+        root.GetDirectories().ToList().ForEach(folder =>
         {
           ProcessScans(folder, hash);
-        }
+        });
       }
       catch (Exception exception)
       {
@@ -195,23 +193,23 @@ namespace CopasiApi
     {
       var json = new Dictionary<string, Dictionary<string, List<dynamic>>>();
 
-      foreach (string pair in hash.Keys.OrderBy(key => key).ToList())
+      hash.Keys.OrderBy(key => key).ToList().ForEach(pair =>
       {
         json.Add(pair, new Dictionary<string, List<dynamic>>());
 
-        List<dynamic> x = new List<dynamic> {1, 2, 3, 4, 5};
+        List<dynamic> x = new List<dynamic> { 1, 2, 3, 4, 5 };
         json[pair].Add("x", x);
 
         List<dynamic> y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
         json[pair].Add("y", y);
 
         List<dynamic> z = new List<dynamic>();
-        foreach (var cgh in y)
+        y.ForEach(cgh =>
         {
           z.Add(new List<dynamic>(hash[pair][cgh]).Select(val => Double.Parse(val)));
-        }
+        });
         json[pair].Add("z", z);
-      }
+      });
 
       string jsonString = JsonSerializer.Serialize(json);
       File.WriteAllText(MODELS + "/scans.json", jsonString);
@@ -222,7 +220,7 @@ namespace CopasiApi
       try
       {
         DirectoryInfo root = new DirectoryInfo(MODELS);
-        // ProcessModels(root);
+        ProcessModels(root);
         var hash = new Dictionary<string, Dictionary<string, List<string>>>();
         ProcessScans(root, hash);
         ProcessHash(hash);
