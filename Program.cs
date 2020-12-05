@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Text.RegularExpressions;
 using org.COPASI;
 
 namespace CopasiApi
@@ -96,7 +97,7 @@ namespace CopasiApi
       }
     }
 
-    private static void RunModels (DirectoryInfo root)
+    private static void ProcessModels (DirectoryInfo root)
     {
       try
       {
@@ -110,12 +111,44 @@ namespace CopasiApi
         DirectoryInfo[] folders = root.GetDirectories();
         foreach (DirectoryInfo folder in folders)
         {
-          RunModels(folder);
+          ProcessModels(folder);
         }
       }
       catch (Exception exception)
       {
-        printError(exception, "RunModels");
+        printError(exception, "ProcessModels");
+      }
+    }
+
+    private static void ProcessScans (DirectoryInfo root)
+    {
+      try
+      {
+        FileInfo[] files = root.GetFiles("*.csv");
+        if (files.Length > 0)
+        {
+          Regex regex = new Regex(MODELS + "/(.+)" + RESULTS);
+          MatchCollection matches = regex.Matches(root.FullName);
+          foreach (Match match in matches)
+          {
+            GroupCollection groups = match.Groups;
+            Console.WriteLine(groups[1].Value);
+          }
+        }
+        foreach (FileInfo file in files)
+        {
+          // Console.WriteLine(file.FullName);
+        }
+
+        DirectoryInfo[] folders = root.GetDirectories();
+        foreach (DirectoryInfo folder in folders)
+        {
+          ProcessScans(folder);
+        }
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ProcessScans");
       }
     }
 
@@ -123,7 +156,9 @@ namespace CopasiApi
     {
       try
       {
-        RunModels(new DirectoryInfo(MODELS));
+        DirectoryInfo root = new DirectoryInfo(MODELS);
+        // ProcessModels(root);
+        ProcessScans(root);
       }
       catch (Exception exception)
       {
