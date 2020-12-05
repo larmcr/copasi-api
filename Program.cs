@@ -121,6 +121,16 @@ namespace CopasiApi
       }
     }
 
+    private static string GetHeader (string cgh)
+    {
+      string header = "";
+      Regex regex = new Regex("\\[(.+)\\[");
+      Match match = regex.Match(cgh);
+      GroupCollection groups = match.Groups;
+      header = groups[1].Value;
+      return header;
+    }
+
     private static void ProcessScans(DirectoryInfo root, Dictionary<string, Dictionary<string, List<string>>> hash)
     {
       try
@@ -150,13 +160,13 @@ namespace CopasiApi
               string val = row[1];
               if (row[0].Contains("Cgh_"))
               {
-                cgh = row[0];
-                Console.WriteLine("\tHEADER: " + cgh);
+                cgh = GetHeader(row[0]);
+                // Console.WriteLine("\tHEADER: " + cgh);
                 hash[pair].Add(cgh, new List<string>());
               }
               else
               {
-                Console.WriteLine("\t\tPLAUR: " + val);
+                // Console.WriteLine("\t\tPLAUR: " + val);
                 hash[pair][cgh].Add(val);
               }
             }
@@ -181,15 +191,15 @@ namespace CopasiApi
       {
         DirectoryInfo root = new DirectoryInfo(MODELS);
         // ProcessModels(root);
-        Dictionary<string, Dictionary<string, List<string>>> hash = new Dictionary<string, Dictionary<string, List<string>>>();
+        var hash = new Dictionary<string, Dictionary<string, List<string>>>();
         ProcessScans(root, hash);
-        foreach (string file in hash.Keys)
+        foreach (string pair in hash.Keys)
         {
-          Console.WriteLine(file);
-          foreach (var cgh in hash[file].Keys)
+          Console.WriteLine(pair);
+          foreach (var cgh in hash[pair].Keys)
           {
             Console.WriteLine("\t" + cgh);
-            foreach (var val in hash[file][cgh])
+            foreach (var val in hash[pair][cgh])
             {
               Console.WriteLine("\t\t" + val);
             }
