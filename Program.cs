@@ -194,7 +194,7 @@ namespace CopasiApi
     private static void ProcessHash(Dictionary<string, Dictionary<string, List<string>>> hash)
     {
       var json = new Dictionary<string, Dictionary<string, List<dynamic>>>();
-      
+
       foreach (string pair in hash.Keys.OrderBy(key => key).ToList())
       {
         json.Add(pair, new Dictionary<string, List<dynamic>>());
@@ -218,8 +218,8 @@ namespace CopasiApi
         json[pair].Add("z", z);
       }
 
-      string text = JsonSerializer.Serialize(json);
-      Console.WriteLine(text);
+      string jsonString = JsonSerializer.Serialize(json);
+      File.WriteAllText(MODELS + "/scans.json", jsonString);
     }
 
     public static void Main(string[] args)
