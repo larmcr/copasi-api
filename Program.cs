@@ -86,10 +86,10 @@ namespace CopasiApi
           scanItem.getParameter("Use Values").setBoolValue(false);
 
           var saved = dataModel.saveModel(modelFile, true);
-          Console.WriteLine("  |-> Model Saved: " + saved + " ~ " + modelFile);
+          Console.WriteLine("\t|-> Model Saved (" + saved + "): " + modelFile);
 
           var processed = scanTask.process(true);
-          Console.WriteLine("    |-> Scan Processed: " + processed + " ~ " + targetFile + "\n");
+          Console.WriteLine("\t|\t|-> Scan Processed (" + processed + "): " + targetFile);
         });
       }
       catch (Exception exception)
