@@ -2,9 +2,11 @@
 using System;
 using System.Collections.Generic;
 using System.IO;
+using System.Linq;
+using System.Text.Json;
+using System.Text.Json.Serialization;
 using System.Text.RegularExpressions;
 using org.COPASI;
-using System.Linq;
 
 namespace CopasiApi
 {
@@ -191,18 +193,33 @@ namespace CopasiApi
 
     private static void ProcessHash(Dictionary<string, Dictionary<string, List<string>>> hash)
     {
+      var json = new Dictionary<string, Dictionary<string, List<dynamic>>>();
+      
       foreach (string pair in hash.Keys.OrderBy(key => key).ToList())
       {
-        Console.WriteLine(pair);
-        foreach (var cgh in hash[pair].Keys.OrderBy(key => key).ToList())
+        json.Add(pair, new Dictionary<string, List<dynamic>>());
+
+        List<dynamic> x = new List<dynamic>();
+        x.Add(1);
+        x.Add(2);
+        x.Add(3);
+        x.Add(4);
+        x.Add(5);
+        json[pair].Add("x", x);
+
+        List<dynamic> y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
+        json[pair].Add("y", y);
+
+        List<dynamic> z = new List<dynamic>();
+        foreach (var cgh in y)
         {
-          Console.WriteLine("\t" + cgh);
-          foreach (var val in hash[pair][cgh])
-          {
-            Console.WriteLine("\t\t" + val);
-          }
+          z.Add(new List<dynamic>(hash[pair][cgh]));
         }
+        json[pair].Add("z", z);
       }
+
+      string text = JsonSerializer.Serialize(json);
+      Console.WriteLine(text);
     }
 
     public static void Main(string[] args)
