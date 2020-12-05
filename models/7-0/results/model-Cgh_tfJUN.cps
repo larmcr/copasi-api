@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.30 (Build 232) (http://www.copasi.org) at 2020-12-05T21:46:56Z -->
+<!-- generated with COPASI 4.30 (Build 232) (http://www.copasi.org) at 2020-12-05T22:31:58Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="30" versionDevel="232" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -1996,7 +1996,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Model_13">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:54Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:56Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2018,7 +2018,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Compartment>
     </ListOfCompartments>
     <ListOfMetabolites>
-      <Metabolite key="Metabolite_403" name="tfNFKB1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_403" name="tfAP2B1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_403">
@@ -2031,7 +2031,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_404" name="tfJUN" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_404" name="tfATF1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_404">
@@ -2044,7 +2044,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_405" name="tfTFAP2C" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_405" name="tfFOS" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_405">
@@ -2057,7 +2057,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_406" name="tfSP3" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_406" name="tfFOSL1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_406">
@@ -2070,7 +2070,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_407" name="tfTCF7L2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_407" name="tfETV4" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_407">
@@ -2083,7 +2083,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_408" name="tfSP1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_408" name="tfJUND" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_408">
@@ -2096,7 +2096,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_409" name="tfTFAP2A" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_409" name="tfNFKB1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_409">
@@ -2109,7 +2109,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_410" name="tfGATA2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_410" name="MIR200B" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_410">
@@ -2122,7 +2122,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_411" name="tfJUNB" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_411" name="MIR222" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_411">
@@ -2135,7 +2135,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_412" name="tfJUND" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_412" name="MIR200C" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_412">
@@ -2148,7 +2148,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_413" name="tfSMAD4" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_413" name="MIR204" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_413">
@@ -2161,7 +2161,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_414" name="tfFOSL2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_414" name="tfE2F2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_414">
@@ -2174,7 +2174,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_415" name="tfFOXP2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_415" name="tfE2F1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_415">
@@ -2187,7 +2187,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_416" name="tfATF1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_416" name="tfSMAD4" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_416">
@@ -2200,7 +2200,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_417" name="tfFOSL1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_417" name="tfSP3" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_417">
@@ -2213,7 +2213,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_418" name="tfE2F2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_418" name="tfSP1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_418">
@@ -2226,7 +2226,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_419" name="tfE2F1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_419" name="MIR145" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_419">
@@ -2239,7 +2239,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_420" name="tfE2F3" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_420" name="tfTCF7L2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_420">
@@ -2252,7 +2252,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_421" name="tfFOS" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_421" name="arnETS1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_421">
@@ -2265,7 +2265,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_422" name="tfETV4" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_422" name="tfTFAP2C" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_422">
@@ -2278,7 +2278,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_423" name="tfAP2B1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_423" name="tfTP53" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_423">
@@ -2291,7 +2291,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_424" name="MIR204" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_424" name="MIR155" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_424">
@@ -2304,7 +2304,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_425" name="MIR200C" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_425" name="arnPLAUR" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_425">
@@ -2317,7 +2317,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_426" name="tfTP53" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_426" name="tfTFAP2A" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_426">
@@ -2343,7 +2343,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_428" name="MIR200B" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_428" name="tfE2F3" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_428">
@@ -2356,7 +2356,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_429" name="MIR155" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_429" name="tfFOSL2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_429">
@@ -2369,7 +2369,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_430" name="MIR222" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_430" name="tfGATA2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_430">
@@ -2382,7 +2382,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_431" name="arnPLAUR" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_431" name="tfJUNB" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_431">
@@ -2395,7 +2395,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_432" name="arnETS1" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_432" name="tfJUN" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_432">
@@ -2408,7 +2408,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </Metabolite>
-      <Metabolite key="Metabolite_433" name="MIR145" simulationType="reactions" compartment="Compartment_13" addNoise="false">
+      <Metabolite key="Metabolite_433" name="tfFOXP2" simulationType="reactions" compartment="Compartment_13" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Metabolite_433">
@@ -2423,7 +2423,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Metabolite>
     </ListOfMetabolites>
     <ListOfModelValues>
-      <ModelValue key="ModelValue_1898" name="Cgh_tfATF1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1898" name="kd_tfFOS[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1898">
@@ -2436,7 +2436,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1899" name="KaArn_ETS1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1899" name="Cgh_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1899">
@@ -2449,7 +2449,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1900" name="ka_tfE2F3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1900" name="KaArn_ETS1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1900">
@@ -2462,7 +2462,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1901" name="ka_tfFOS[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1901" name="ka_tfE2F2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1901">
@@ -2475,7 +2475,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1902" name="ka_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1902" name="ka_tfE2F3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1902">
@@ -2488,7 +2488,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1903" name="ka_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1903" name="ka_tfETV4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1903">
@@ -2501,7 +2501,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1904" name="ka_tfGATA2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1904" name="ka_tfFOS[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1904">
@@ -2514,7 +2514,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1905" name="ka_tfJUNB[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1905" name="ka_tfGATA2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1905">
@@ -2527,7 +2527,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1906" name="ka_tfJUND[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1906" name="ka_tfJUN[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1906">
@@ -2540,7 +2540,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1907" name="ka_tfSP1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1907" name="ka_tfJUNB[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1907">
@@ -2553,7 +2553,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1908" name="ka_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1908" name="ka_tfJUND[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1908">
@@ -2566,7 +2566,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1909" name="ks_tfATF1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1909" name="ka_tfSP1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1909">
@@ -2579,7 +2579,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1910" name="kd_tfE2F1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1910" name="ka_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1910">
@@ -2592,7 +2592,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1911" name="Cgh_tfE2F2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1911" name="ks_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1911">
@@ -2605,7 +2605,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1912" name="ka_tfE2F1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1912" name="Cgh_tfATF1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1912">
@@ -2618,7 +2618,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1913" name="ka_tfETV4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1913" name="ka_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1913">
@@ -2631,7 +2631,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1914" name="ka_tfJUN[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1914" name="ka_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1914">
@@ -2644,7 +2644,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1915" name="ka_tfTP53[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1915" name="ka_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1915">
@@ -2657,7 +2657,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1916" name="kr_MIR155[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1916" name="ks_tfATF1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1916">
@@ -2670,7 +2670,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1917" name="kr_MIR204[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1917" name="kd_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1917">
@@ -2683,7 +2683,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1918" name="ks_tfE2F2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1918" name="Cgh_tfE2F3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1918">
@@ -2696,7 +2696,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1919" name="kd_tfE2F2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1919" name="ka_tfE2F1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1919">
@@ -2709,7 +2709,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1920" name="kd_tfATF1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1920" name="ka_tfTP53[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1920">
@@ -2722,7 +2722,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1921" name="Cgh_tfE2F1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1921" name="kr_MIR145[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1921">
@@ -2735,7 +2735,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1922" name="ka_tfE2F2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1922" name="kr_MIR16_2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1922">
@@ -2748,7 +2748,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1923" name="ks_tfE2F1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1923" name="kr_MIR200B[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1923">
@@ -2761,7 +2761,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1924" name="kd_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1924" name="kr_MIR200C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1924">
@@ -2774,7 +2774,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1925" name="kd_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1925" name="ks_tfE2F3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1925">
@@ -2787,7 +2787,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1926" name="Cgh_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1926" name="kd_tfE2F3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1926">
@@ -2800,7 +2800,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1927" name="ka_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1927" name="Cgh_tfETV4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1927">
@@ -2813,7 +2813,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1928" name="ks_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1928" name="ks_tfETV4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1928">
@@ -2826,7 +2826,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1929" name="kd_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1929" name="kd_tfETV4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1929">
@@ -2839,7 +2839,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1930" name="Cgh_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1930" name="Cgh_tfFOS[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1930">
@@ -2852,7 +2852,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1931" name="kr_MIR222[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1931" name="ka_tfATF1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1931">
@@ -2865,7 +2865,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1932" name="ks_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1932" name="ka_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1932">
@@ -2878,7 +2878,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1933" name="kd_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1933" name="kr_MIR155[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1933">
@@ -2891,7 +2891,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1934" name="Cgh_tfGATA2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1934" name="kr_MIR222[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1934">
@@ -2904,7 +2904,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1935" name="ks_tfGATA2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1935" name="ks_tfFOS[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1935">
@@ -2917,7 +2917,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1936" name="kd_tfGATA2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1936" name="kd_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1936">
@@ -2930,7 +2930,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1937" name="Cgh_tfJUN[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1937" name="Cgh_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1937">
@@ -2943,7 +2943,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1938" name="ka_tfATF1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1938" name="ks_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1938">
@@ -2956,7 +2956,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1939" name="ka_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1939" name="kd_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1939">
@@ -2969,7 +2969,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1940" name="kr_MIR16_2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1940" name="kd_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1940">
@@ -2982,7 +2982,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1941" name="kr_MIR200B[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1941" name="kd_tfATF1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1941">
@@ -2995,7 +2995,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1942" name="kr_MIR200C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1942" name="Cgh_tfE2F1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1942">
@@ -3008,7 +3008,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1943" name="ks_tfJUN[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1943" name="ks_tfE2F1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1943">
@@ -3021,7 +3021,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1944" name="kd_tfJUN[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1944" name="kd_tfE2F1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1944">
@@ -3034,7 +3034,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1945" name="Cgh_tfJUNB[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1945" name="Cgh_tfE2F2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1945">
@@ -3047,7 +3047,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1946" name="ka_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1946" name="kr_MIR204[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1946">
@@ -3060,7 +3060,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1947" name="ks_tfJUNB[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1947" name="ks_tfE2F2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1947">
@@ -3073,7 +3073,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1948" name="Cgh_tfE2F3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1948" name="kd_tfE2F2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1948">
@@ -3086,7 +3086,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1949" name="kr_MIR145[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1949" name="Cgh_tfSP1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1949">
@@ -3099,7 +3099,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1950" name="ks_tfE2F3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1950" name="ka_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1950">
@@ -3112,7 +3112,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1951" name="kd_tfE2F3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1951" name="ka_tfSP3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1951">
@@ -3125,7 +3125,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1952" name="Cgh_tfETV4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1952" name="ks_tfSP1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1952">
@@ -3138,7 +3138,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1953" name="ks_tfETV4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1953" name="kd_tfSP1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1953">
@@ -3151,7 +3151,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1954" name="kd_tfETV4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1954" name="Cgh_tfSP3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1954">
@@ -3164,7 +3164,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1955" name="Cgh_tfFOS[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1955" name="ks_tfSP3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1955">
@@ -3177,7 +3177,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1956" name="ks_tfFOS[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1956" name="kd_tfSP3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1956">
@@ -3190,7 +3190,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1957" name="kd_tfFOS[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1957" name="Cgh_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1957">
@@ -3203,7 +3203,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1958" name="Cgh_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1958" name="ks_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1958">
@@ -3216,7 +3216,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1959" name="ks_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1959" name="Cgh_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1959">
@@ -3229,7 +3229,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1960" name="kd_tfJUNB[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1960" name="ks_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1960">
@@ -3242,7 +3242,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1961" name="Cgh_tfJUND[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1961" name="kd_MIR155[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1961">
@@ -3255,7 +3255,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1962" name="ks_tfJUND[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1962" name="kd_tfGATA2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1962">
@@ -3268,7 +3268,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1963" name="kd_tfJUND[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1963" name="kd_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1963">
@@ -3281,7 +3281,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1964" name="Cgh_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1964" name="Cgh_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1964">
@@ -3294,7 +3294,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1965" name="ka_tfSP3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1965" name="ks_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1965">
@@ -3307,7 +3307,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1966" name="ks_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1966" name="Cgh_tfGATA2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1966">
@@ -3320,7 +3320,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1967" name="kd_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1967" name="ks_tfGATA2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1967">
@@ -3333,7 +3333,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1968" name="Cgh_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1968" name="kd_tfJUNB[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1968">
@@ -3346,7 +3346,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1969" name="ks_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1969" name="Cgh_tfJUND[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1969">
@@ -3359,7 +3359,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1970" name="kd_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1970" name="ks_tfJUND[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1970">
@@ -3372,7 +3372,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1971" name="Cgh_tfSP1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1971" name="Cgh_tfJUN[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1971">
@@ -3385,7 +3385,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1972" name="ks_tfSP1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1972" name="ks_tfJUN[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1972">
@@ -3398,7 +3398,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1973" name="kd_tfSP1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1973" name="KdArn_ETS1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1973">
@@ -3411,7 +3411,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1974" name="Cgh_tfSP3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1974" name="Cgh_PLAUR[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1974">
@@ -3424,7 +3424,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1975" name="ks_tfSP3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1975" name="KsArn_PLAUR[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1975">
@@ -3437,7 +3437,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1976" name="kd_tfSP3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1976" name="ka_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1976">
@@ -3450,7 +3450,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1977" name="Cgh_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1977" name="ka_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1977">
@@ -3463,7 +3463,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1978" name="ks_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1978" name="ka_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1978">
@@ -3476,7 +3476,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1979" name="kd_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1979" name="KdArn_PLAUR[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1979">
@@ -3489,7 +3489,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1980" name="Cgh_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1980" name="Cgh_MIR145[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1980">
@@ -3502,7 +3502,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1981" name="ks_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1981" name="ks_MIR145[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1981">
@@ -3515,7 +3515,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1982" name="kd_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1982" name="kd_MIR145[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1982">
@@ -3528,7 +3528,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1983" name="Cgh_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1983" name="Cgh_MIR200C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1983">
@@ -3541,7 +3541,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1984" name="ks_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1984" name="ks_MIR200C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1984">
@@ -3554,7 +3554,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1985" name="kd_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1985" name="kd_MIR200C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1985">
@@ -3567,7 +3567,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1986" name="Cgh_tfTP53[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1986" name="Cgh_MIR204[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1986">
@@ -3580,7 +3580,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1987" name="ks_tfTP53[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1987" name="ks_MIR204[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1987">
@@ -3593,7 +3593,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1988" name="kd_tfTP53[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1988" name="kd_MIR204[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1988">
@@ -3606,7 +3606,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1989" name="Cgh_ETS1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1989" name="Cgh_MIR222[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1989">
@@ -3619,7 +3619,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1990" name="KsArn_ETS1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1990" name="ks_MIR222[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1990">
@@ -3632,7 +3632,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1991" name="KdArn_ETS1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1991" name="kd_tfJUND[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1991">
@@ -3645,7 +3645,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1992" name="Cgh_MIR145[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1992" name="Cgh_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1992">
@@ -3658,7 +3658,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1993" name="ks_MIR145[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1993" name="ks_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1993">
@@ -3671,7 +3671,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1994" name="Cgh_PLAUR[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1994" name="kd_MIR222[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1994">
@@ -3684,7 +3684,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1995" name="KsArn_PLAUR[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1995" name="kd_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1995">
@@ -3697,7 +3697,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1996" name="ka_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1996" name="Cgh_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1996">
@@ -3710,7 +3710,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1997" name="ka_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1997" name="ks_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1997">
@@ -3723,7 +3723,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1998" name="ka_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1998" name="kd_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1998">
@@ -3736,7 +3736,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_1999" name="KdArn_PLAUR[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_1999" name="Cgh_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_1999">
@@ -3749,7 +3749,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2000" name="Cgh_MIR155[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2000" name="ks_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2000">
@@ -3762,7 +3762,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2001" name="ks_MIR155[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2001" name="kd_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2001">
@@ -3775,7 +3775,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2002" name="Cgh_MIR16_2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2002" name="Cgh_tfTP53[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2002">
@@ -3788,7 +3788,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2003" name="ks_MIR16_2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2003" name="ks_tfTP53[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2003">
@@ -3801,7 +3801,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2004" name="Cgh_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2004" name="kd_tfTP53[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2004">
@@ -3814,7 +3814,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2005" name="ks_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2005" name="Cgh_ETS1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2005">
@@ -3827,7 +3827,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2006" name="kd_MIR145[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2006" name="KsArn_ETS1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2006">
@@ -3840,7 +3840,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2007" name="kd_MIR155[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2007" name="kd_tfJUN[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2007">
@@ -3853,7 +3853,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2008" name="kd_MIR16_2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2008" name="Cgh_tfJUNB[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2008">
@@ -3866,7 +3866,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2009" name="Cgh_MIR200B[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2009" name="ks_tfJUNB[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2009">
@@ -3879,7 +3879,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2010" name="ks_MIR200B[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2010" name="kd_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2010">
@@ -3892,7 +3892,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2011" name="kd_MIR200B[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2011" name="Cgh_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2011">
@@ -3905,7 +3905,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2012" name="Cgh_MIR200C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2012" name="ks_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2012">
@@ -3918,7 +3918,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2013" name="ks_MIR200C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2013" name="Cgh_MIR155[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2013">
@@ -3931,7 +3931,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2014" name="kd_MIR200C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2014" name="ks_MIR155[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2014">
@@ -3944,7 +3944,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2015" name="Cgh_MIR204[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2015" name="Cgh_MIR16_2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2015">
@@ -3957,7 +3957,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2016" name="ks_MIR204[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2016" name="ks_MIR16_2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2016">
@@ -3970,7 +3970,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2017" name="kd_MIR204[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2017" name="kd_MIR16_2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2017">
@@ -3983,7 +3983,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2018" name="Cgh_MIR222[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2018" name="Cgh_MIR200B[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2018">
@@ -3996,7 +3996,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2019" name="ks_MIR222[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2019" name="ks_MIR200B[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2019">
@@ -4009,7 +4009,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2020" name="kd_MIR222[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2020" name="kd_MIR200B[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2020">
@@ -4022,7 +4022,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2021" name="kr_tfSP1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2021" name="kr_tfATF1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2021">
@@ -4035,7 +4035,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2022" name="kr_tfSP3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2022" name="kr_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2022">
@@ -4048,7 +4048,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2023" name="kr_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2023" name="kr_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2023">
@@ -4061,7 +4061,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2024" name="kr_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2024" name="kr_tfFOS[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2024">
@@ -4074,7 +4074,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2025" name="kr_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2025" name="kr_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2025">
@@ -4087,7 +4087,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2026" name="kr_tfJUND[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2026" name="kr_tfE2F1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2026">
@@ -4100,7 +4100,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2027" name="kr_tfJUNB[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2027" name="kr_tfE2F2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2027">
@@ -4113,7 +4113,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2028" name="kr_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2028" name="kr_tfE2F3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2028">
@@ -4126,7 +4126,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2029" name="kr_tfJUN[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2029" name="KrArn_ETS1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2029">
@@ -4139,7 +4139,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2030" name="kr_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2030" name="kr_tfETV4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2030">
@@ -4152,7 +4152,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2031" name="kr_tfTP53[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2031" name="kr_tfTCF7L2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2031">
@@ -4165,7 +4165,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2032" name="kr_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2032" name="kr_tfTFAP2A[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2032">
@@ -4178,7 +4178,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2033" name="kr_tfAP2B1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2033" name="kr_tfTP53[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2033">
@@ -4191,7 +4191,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2034" name="kr_tfATF1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2034" name="kr_tfFOSL2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2034">
@@ -4204,7 +4204,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2035" name="kr_tfE2F1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2035" name="kr_tfGATA2[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2035">
@@ -4217,7 +4217,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2036" name="kr_tfFOSL1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2036" name="kr_tfSP1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2036">
@@ -4230,7 +4230,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2037" name="kr_tfFOXP2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2037" name="kr_tfTFAP2C[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2037">
@@ -4243,7 +4243,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2038" name="kr_tfE2F3[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2038" name="kr_tfSP3[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2038">
@@ -4256,7 +4256,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2039" name="kr_tfE2F2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2039" name="kr_tfJUNB[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2039">
@@ -4269,7 +4269,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2040" name="kr_tfFOS[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2040" name="kr_tfJUND[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2040">
@@ -4282,7 +4282,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2041" name="KrArn_ETS1[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2041" name="kr_tfNFKB1[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2041">
@@ -4295,7 +4295,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2042" name="kr_tfETV4[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2042" name="kr_tfJUN[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2042">
@@ -4308,7 +4308,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
       </ModelValue>
-      <ModelValue key="ModelValue_2043" name="kr_tfGATA2[merge]" simulationType="fixed" addNoise="false">
+      <ModelValue key="ModelValue_2043" name="kr_tfSMAD4[merge]" simulationType="fixed" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#ModelValue_2043">
@@ -4323,7 +4323,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </ModelValue>
     </ListOfModelValues>
     <ListOfReactions>
-      <Reaction key="Reaction_806" name="Sintesis tfATF1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_806" name="degradacion tfFOS[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_806">
@@ -4335,110 +4335,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_416" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_405" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_16920" name="Cgh_tfATF1" value="1"/>
-          <Constant key="Parameter_13354" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13353" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_18648" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_18649" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_13352" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_13351" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19339" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_19338" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_13350" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_13349" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_19934" name="ks_tfATF1" value="1"/>
+          <Constant key="Parameter_16920" name="kd_tfFOS" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_276">
-              <SourceParameter reference="ModelValue_1898"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_277">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_278">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_275">
+            <CallParameter functionParameter="FunctionParameter_469">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_274">
-              <SourceParameter reference="ModelValue_1900"/>
+            <CallParameter functionParameter="FunctionParameter_468">
+              <SourceParameter reference="ModelValue_1898"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_273">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_272">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_271">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_282">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_283">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_284">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_285">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_286">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_287">
-              <SourceParameter reference="ModelValue_1909"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_288">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_289">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_290">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_291">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_292">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_293">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_294">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_295">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_296">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_467">
+              <SourceParameter reference="Metabolite_405"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_807" name="degradacion tfE2F1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_807" name="Sintesis tfFOSL1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_807">
@@ -4450,27 +4367,118 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_419" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_406" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19400" name="kd_tfE2F1" value="1"/>
+          <Constant key="Parameter_13354" name="Cgh_tfFOSL1" value="1"/>
+          <Constant key="Parameter_13353" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18648" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_18649" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_13352" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_13351" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_19339" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19338" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_13350" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_13349" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_19934" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_19400" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_13243" name="ks_tfFOSL1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_357">
+            <CallParameter functionParameter="FunctionParameter_464">
+              <SourceParameter reference="ModelValue_1899"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_465">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_466">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_463">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_356">
+            <CallParameter functionParameter="FunctionParameter_462">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_461">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_460">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_459">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_458">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_457">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_456">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_455">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_454">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_453">
               <SourceParameter reference="ModelValue_1910"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_355">
-              <SourceParameter reference="Metabolite_419"/>
+            <CallParameter functionParameter="FunctionParameter_452">
+              <SourceParameter reference="ModelValue_1911"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_451">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_450">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_449">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_448">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_447">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_446">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_445">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_444">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_443">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_442">
+              <SourceParameter reference="Metabolite_422"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_808" name="Sintesis tfE2F2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_808" name="Sintesis tfATF1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_808">
@@ -4483,117 +4491,109 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_418" stoichiometry="1"/>
+          <Product metabolite="Metabolite_404" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_13243" name="Cgh_tfE2F2" value="1"/>
-          <Constant key="Parameter_13242" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13348" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_13242" name="Cgh_tfATF1" value="1"/>
+          <Constant key="Parameter_13348" name="KaArn_ETS1" value="1"/>
           <Constant key="Parameter_13347" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_13503" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_13325" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13249" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_13248" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_13346" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_20601" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_20598" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_20597" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_18658" name="ks_tfE2F2" value="1"/>
+          <Constant key="Parameter_13503" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_13325" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_13249" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_13248" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13346" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_20601" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_20598" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_20597" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18658" name="ks_tfATF1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_352">
-              <SourceParameter reference="ModelValue_1911"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_353">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_354">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_351">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_350">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_349">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_348">
+            <CallParameter functionParameter="FunctionParameter_276">
               <SourceParameter reference="ModelValue_1912"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_347">
+            <CallParameter functionParameter="FunctionParameter_277">
               <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_346">
-              <SourceParameter reference="ModelValue_1913"/>
+            <CallParameter functionParameter="FunctionParameter_278">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_345">
+            <CallParameter functionParameter="FunctionParameter_275">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_274">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_273">
               <SourceParameter reference="ModelValue_1904"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_344">
+            <CallParameter functionParameter="FunctionParameter_272">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_271">
               <SourceParameter reference="ModelValue_1914"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_343">
+            <CallParameter functionParameter="FunctionParameter_282">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_283">
               <SourceParameter reference="ModelValue_1907"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_342">
+            <CallParameter functionParameter="FunctionParameter_284">
               <SourceParameter reference="ModelValue_1908"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_341">
+            <CallParameter functionParameter="FunctionParameter_285">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_286">
               <SourceParameter reference="ModelValue_1915"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_340">
+            <CallParameter functionParameter="FunctionParameter_287">
               <SourceParameter reference="ModelValue_1916"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_339">
-              <SourceParameter reference="ModelValue_1917"/>
+            <CallParameter functionParameter="FunctionParameter_288">
+              <SourceParameter reference="Metabolite_428"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_338">
-              <SourceParameter reference="ModelValue_1918"/>
+            <CallParameter functionParameter="FunctionParameter_289">
+              <SourceParameter reference="Metabolite_405"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_337">
-              <SourceParameter reference="Metabolite_419"/>
+            <CallParameter functionParameter="FunctionParameter_290">
+              <SourceParameter reference="Metabolite_406"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_336">
-              <SourceParameter reference="Metabolite_420"/>
+            <CallParameter functionParameter="FunctionParameter_291">
+              <SourceParameter reference="Metabolite_429"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_335">
-              <SourceParameter reference="Metabolite_422"/>
+            <CallParameter functionParameter="FunctionParameter_292">
+              <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_334">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_293">
+              <SourceParameter reference="Metabolite_431"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_333">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_332">
+            <CallParameter functionParameter="FunctionParameter_294">
               <SourceParameter reference="Metabolite_408"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_331">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_295">
+              <SourceParameter reference="Metabolite_418"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_330">
+            <CallParameter functionParameter="FunctionParameter_296">
               <SourceParameter reference="Metabolite_426"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_809" name="degradacion tfE2F2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_809" name="degradacion tfAP2B1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_809">
@@ -4606,26 +4606,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_418" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_403" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18723" name="kd_tfE2F2" value="1"/>
+          <Constant key="Parameter_18723" name="kd_tfAP2B1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_381">
+            <CallParameter functionParameter="FunctionParameter_281">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_380">
-              <SourceParameter reference="ModelValue_1919"/>
+            <CallParameter functionParameter="FunctionParameter_280">
+              <SourceParameter reference="ModelValue_1917"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_379">
-              <SourceParameter reference="Metabolite_418"/>
+            <CallParameter functionParameter="FunctionParameter_279">
+              <SourceParameter reference="Metabolite_403"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_810" name="degradacion tfATF1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_810" name="Sintesis tfE2F3[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_810">
@@ -4637,27 +4637,126 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_416" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_428" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_20596" name="kd_tfATF1" value="1"/>
+          <Constant key="Parameter_20596" name="Cgh_tfE2F3" value="1"/>
+          <Constant key="Parameter_13091" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_16782" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_20614" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_20613" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_13396" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13345" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_13499" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_13310" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_13266" name="kr_MIR145" value="1"/>
+          <Constant key="Parameter_13265" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_13344" name="kr_MIR200B" value="1"/>
+          <Constant key="Parameter_13335" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_13637" name="ks_tfE2F3" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_319">
+            <CallParameter functionParameter="FunctionParameter_376">
+              <SourceParameter reference="ModelValue_1918"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_377">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_378">
+              <SourceParameter reference="Metabolite_419"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_375">
+              <SourceParameter reference="Metabolite_427"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_374">
+              <SourceParameter reference="Metabolite_410"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_373">
+              <SourceParameter reference="Metabolite_412"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_372">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_371">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_318">
+            <CallParameter functionParameter="FunctionParameter_370">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_369">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_368">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_367">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_366">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_365">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_364">
               <SourceParameter reference="ModelValue_1920"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_317">
-              <SourceParameter reference="Metabolite_416"/>
+            <CallParameter functionParameter="FunctionParameter_363">
+              <SourceParameter reference="ModelValue_1921"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_362">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_361">
+              <SourceParameter reference="ModelValue_1923"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_360">
+              <SourceParameter reference="ModelValue_1924"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_359">
+              <SourceParameter reference="ModelValue_1925"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_358">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_329">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_382">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_383">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_384">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_385">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_386">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_811" name="Sintesis tfE2F1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_811" name="degradacion tfE2F3[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_811">
@@ -4669,134 +4768,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_419" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_428" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_13091" name="Cgh_tfE2F1" value="1"/>
-          <Constant key="Parameter_16782" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_20614" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_20613" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_13396" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_13345" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_13499" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_13310" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13266" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_13265" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_13344" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_13335" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_13637" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_13422" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_13105" name="ks_tfE2F1" value="1"/>
+          <Constant key="Parameter_13422" name="kd_tfE2F3" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_314">
-              <SourceParameter reference="ModelValue_1921"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_315">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_316">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_313">
+            <CallParameter functionParameter="FunctionParameter_413">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_312">
-              <SourceParameter reference="ModelValue_1922"/>
+            <CallParameter functionParameter="FunctionParameter_412">
+              <SourceParameter reference="ModelValue_1926"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_311">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_310">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_309">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_308">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_307">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_306">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_305">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_304">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_303">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_302">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_301">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_300">
-              <SourceParameter reference="ModelValue_1923"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_299">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_298">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_297">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_320">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_321">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_322">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_323">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_324">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_325">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_326">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_327">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_328">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_411">
+              <SourceParameter reference="Metabolite_428"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_812" name="degradacion tfAP2B1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_812" name="Sintesis tfETV4[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_812">
@@ -4808,27 +4800,46 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_423" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_407" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_13092" name="kd_tfAP2B1" value="1"/>
+          <Constant key="Parameter_13105" name="Cgh_tfETV4" value="1"/>
+          <Constant key="Parameter_13092" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18140" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_10939" name="ks_tfETV4" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_281">
+            <CallParameter functionParameter="FunctionParameter_408">
+              <SourceParameter reference="ModelValue_1927"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_409">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_410">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_407">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_280">
-              <SourceParameter reference="ModelValue_1924"/>
+            <CallParameter functionParameter="FunctionParameter_406">
+              <SourceParameter reference="ModelValue_1905"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_279">
-              <SourceParameter reference="Metabolite_423"/>
+            <CallParameter functionParameter="FunctionParameter_405">
+              <SourceParameter reference="ModelValue_1928"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_404">
+              <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_813" name="degradacion tfFOSL1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_813" name="degradacion tfETV4[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_813">
@@ -4841,26 +4852,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_417" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_407" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18140" name="kd_tfFOSL1" value="1"/>
+          <Constant key="Parameter_10922" name="kd_tfETV4" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_487">
+            <CallParameter functionParameter="FunctionParameter_397">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_486">
-              <SourceParameter reference="ModelValue_1925"/>
+            <CallParameter functionParameter="FunctionParameter_398">
+              <SourceParameter reference="ModelValue_1929"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_485">
-              <SourceParameter reference="Metabolite_417"/>
+            <CallParameter functionParameter="FunctionParameter_399">
+              <SourceParameter reference="Metabolite_407"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_814" name="Sintesis tfFOSL2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_814" name="Sintesis tfFOS[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_814">
@@ -4873,133 +4884,157 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_414" stoichiometry="1"/>
+          <Product metabolite="Metabolite_405" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_10939" name="Cgh_tfFOSL2" value="1"/>
-          <Constant key="Parameter_10922" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13112" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_12942" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_19386" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19385" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_19384" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_19383" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19382" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19381" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_19380" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_19379" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_19378" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_19377" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_19376" name="ks_tfFOSL2" value="1"/>
+          <Constant key="Parameter_13112" name="Cgh_tfFOS" value="1"/>
+          <Constant key="Parameter_12942" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19386" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_19385" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_19384" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19383" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_19382" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_19381" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19380" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_19379" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_19378" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_19377" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_19376" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_19375" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_19374" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_19373" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_19372" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_19371" name="ks_tfFOS" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_482">
-              <SourceParameter reference="ModelValue_1926"/>
+            <CallParameter functionParameter="FunctionParameter_402">
+              <SourceParameter reference="ModelValue_1930"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_483">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_484">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_481">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_480">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_479">
+            <CallParameter functionParameter="FunctionParameter_401">
               <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_478">
-              <SourceParameter reference="ModelValue_1913"/>
+            <CallParameter functionParameter="FunctionParameter_400">
+              <SourceParameter reference="Metabolite_424"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_477">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_476">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_475">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_474">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_473">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_472">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_471">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_470">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_435">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_436">
-              <SourceParameter reference="ModelValue_1928"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_437">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_438">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_439">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_440">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_441">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_488">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_489">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_490">
+            <CallParameter functionParameter="FunctionParameter_403">
               <SourceParameter reference="Metabolite_411"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_491">
-              <SourceParameter reference="Metabolite_412"/>
+            <CallParameter functionParameter="FunctionParameter_396">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_492">
-              <SourceParameter reference="Metabolite_408"/>
+            <CallParameter functionParameter="FunctionParameter_395">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_493">
+            <CallParameter functionParameter="FunctionParameter_394">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_393">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_392">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_391">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_390">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_389">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_388">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_387">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_414">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_415">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_416">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_417">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_418">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_419">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_420">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_421">
+              <SourceParameter reference="ModelValue_1935"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_422">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_423">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_424">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_425">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_426">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_427">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_428">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_429">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_430">
               <SourceParameter reference="Metabolite_409"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_494">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_431">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_432">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_433">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_434">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_815" name="degradacion tfFOSL2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_815" name="degradacion tfFOSL1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_815">
@@ -5012,26 +5047,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_414" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_406" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_19375" name="kd_tfFOSL2" value="1"/>
+          <Constant key="Parameter_19370" name="kd_tfFOSL1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_54" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_523">
+            <CallParameter functionParameter="FunctionParameter_487">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_522">
-              <SourceParameter reference="ModelValue_1929"/>
+            <CallParameter functionParameter="FunctionParameter_486">
+              <SourceParameter reference="ModelValue_1936"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_521">
-              <SourceParameter reference="Metabolite_414"/>
+            <CallParameter functionParameter="FunctionParameter_485">
+              <SourceParameter reference="Metabolite_406"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_816" name="Sintesis tfFOXP2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_816" name="Sintesis tfFOSL2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_816">
@@ -5044,69 +5079,133 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_415" stoichiometry="1"/>
+          <Product metabolite="Metabolite_429" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19374" name="Cgh_tfFOXP2" value="1"/>
-          <Constant key="Parameter_19373" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19372" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19371" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19370" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_20600" name="kr_MIR222" value="1"/>
-          <Constant key="Parameter_20599" name="ks_tfFOXP2" value="1"/>
+          <Constant key="Parameter_20600" name="Cgh_tfFOSL2" value="1"/>
+          <Constant key="Parameter_20599" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_13634" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_19407" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_10630" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_18194" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_10915" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_13400" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_18659" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_18660" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_18661" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_13414" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_13236" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18662" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_18719" name="ks_tfFOSL2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_55" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_518">
-              <SourceParameter reference="ModelValue_1930"/>
+            <CallParameter functionParameter="FunctionParameter_482">
+              <SourceParameter reference="ModelValue_1937"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_519">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_483">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_520">
-              <SourceParameter reference="Metabolite_430"/>
+            <CallParameter functionParameter="FunctionParameter_484">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_517">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_516">
+            <CallParameter functionParameter="FunctionParameter_481">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_515">
+            <CallParameter functionParameter="FunctionParameter_480">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_479">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_478">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_477">
               <SourceParameter reference="ModelValue_1904"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_514">
-              <SourceParameter reference="ModelValue_1914"/>
+            <CallParameter functionParameter="FunctionParameter_476">
+              <SourceParameter reference="ModelValue_1913"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_513">
+            <CallParameter functionParameter="FunctionParameter_475">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_474">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_473">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_472">
               <SourceParameter reference="ModelValue_1908"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_512">
-              <SourceParameter reference="ModelValue_1931"/>
+            <CallParameter functionParameter="FunctionParameter_471">
+              <SourceParameter reference="ModelValue_1909"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_511">
-              <SourceParameter reference="ModelValue_1932"/>
+            <CallParameter functionParameter="FunctionParameter_470">
+              <SourceParameter reference="ModelValue_1915"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_510">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_435">
+              <SourceParameter reference="ModelValue_1910"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_509">
-              <SourceParameter reference="Metabolite_404"/>
+            <CallParameter functionParameter="FunctionParameter_436">
+              <SourceParameter reference="ModelValue_1938"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_508">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_437">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_438">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_439">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_440">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_441">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_488">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_489">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_490">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_491">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_492">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_493">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_494">
+              <SourceParameter reference="Metabolite_422"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_817" name="degradacion tfFOXP2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_817" name="degradacion tfFOSL2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_817">
@@ -5119,26 +5218,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_415" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_429" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_13634" name="kd_tfFOXP2" value="1"/>
+          <Constant key="Parameter_10155" name="kd_tfFOSL2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_56" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_495">
+            <CallParameter functionParameter="FunctionParameter_523">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_496">
-              <SourceParameter reference="ModelValue_1933"/>
+            <CallParameter functionParameter="FunctionParameter_522">
+              <SourceParameter reference="ModelValue_1939"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_497">
-              <SourceParameter reference="Metabolite_415"/>
+            <CallParameter functionParameter="FunctionParameter_521">
+              <SourceParameter reference="Metabolite_429"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_818" name="Sintesis tfGATA2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_818" name="degradacion tfSMAD4[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_818">
@@ -5150,78 +5249,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_410" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_416" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_19407" name="Cgh_tfGATA2" value="1"/>
-          <Constant key="Parameter_10630" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_18194" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_10915" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_13400" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_18659" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_18660" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_18661" name="ks_tfGATA2" value="1"/>
+          <Constant key="Parameter_3512" name="kd_tfSMAD4" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_70" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_500">
-              <SourceParameter reference="ModelValue_1934"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_499">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_498">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_501">
+            <CallParameter functionParameter="FunctionParameter_725">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_502">
-              <SourceParameter reference="ModelValue_1912"/>
+            <CallParameter functionParameter="FunctionParameter_724">
+              <SourceParameter reference="ModelValue_1940"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_503">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_504">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_505">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_506">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_507">
-              <SourceParameter reference="ModelValue_1935"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_524">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_525">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_526">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_527">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_528">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_723">
+              <SourceParameter reference="Metabolite_416"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_819" name="degradacion tfGATA2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_819" name="degradacion tfATF1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_819">
@@ -5234,26 +5282,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_410" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_404" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_13414" name="kd_tfGATA2" value="1"/>
+          <Constant key="Parameter_10627" name="kd_tfATF1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_543">
+            <CallParameter functionParameter="FunctionParameter_319">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_542">
-              <SourceParameter reference="ModelValue_1936"/>
+            <CallParameter functionParameter="FunctionParameter_318">
+              <SourceParameter reference="ModelValue_1941"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_541">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_317">
+              <SourceParameter reference="Metabolite_404"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_820" name="Sintesis tfJUN[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_820" name="Sintesis tfE2F1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_820">
@@ -5266,157 +5314,133 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_404" stoichiometry="1"/>
+          <Product metabolite="Metabolite_415" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_425" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_13236" name="Cgh_tfJUN" value="1"/>
-          <Constant key="Parameter_18662" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_18719" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_10091" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_10162" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_10627" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19408" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_13468" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_18195" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13145" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_12937" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_18663" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_7708" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_7707" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_19354" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_13232" name="kr_MIR200B" value="1"/>
-          <Constant key="Parameter_18664" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_18665" name="ks_tfJUN" value="1"/>
+          <Constant key="Parameter_19408" name="Cgh_tfE2F1" value="1"/>
+          <Constant key="Parameter_13468" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18195" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_13145" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_12937" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_18663" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_7708" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_7707" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19354" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_13232" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_18664" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_18665" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_19399" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_19398" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_19337" name="ks_tfE2F1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_538">
-              <SourceParameter reference="ModelValue_1937"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_539">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_540">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_537">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_536">
-              <SourceParameter reference="Metabolite_428"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_535">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_534">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_533">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_532">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_531">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_530">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_529">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_544">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_545">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_546">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_547">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_548">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_549">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_550">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_551">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_552">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_553">
-              <SourceParameter reference="ModelValue_1941"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_554">
+            <CallParameter functionParameter="FunctionParameter_314">
               <SourceParameter reference="ModelValue_1942"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_555">
-              <SourceParameter reference="ModelValue_1943"/>
+            <CallParameter functionParameter="FunctionParameter_315">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_556">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_557">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_558">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_559">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_560">
+            <CallParameter functionParameter="FunctionParameter_316">
               <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_561">
-              <SourceParameter reference="Metabolite_417"/>
+            <CallParameter functionParameter="FunctionParameter_313">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_562">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_312">
+              <SourceParameter reference="ModelValue_1901"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_563">
-              <SourceParameter reference="Metabolite_411"/>
+            <CallParameter functionParameter="FunctionParameter_311">
+              <SourceParameter reference="ModelValue_1902"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_564">
-              <SourceParameter reference="Metabolite_413"/>
+            <CallParameter functionParameter="FunctionParameter_310">
+              <SourceParameter reference="ModelValue_1903"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_565">
+            <CallParameter functionParameter="FunctionParameter_309">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_308">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_307">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_306">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_305">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_304">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_303">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_302">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_301">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_300">
+              <SourceParameter reference="ModelValue_1943"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_299">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_298">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_297">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_320">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_321">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_322">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_323">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_324">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_325">
               <SourceParameter reference="Metabolite_408"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_566">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_326">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_327">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_328">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_821" name="degradacion tfJUN[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_821" name="degradacion tfE2F1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_821">
@@ -5429,26 +5453,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_404" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_415" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_19399" name="kd_tfJUN" value="1"/>
+          <Constant key="Parameter_13228" name="kd_tfE2F1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_62" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_601">
+            <CallParameter functionParameter="FunctionParameter_357">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_600">
+            <CallParameter functionParameter="FunctionParameter_356">
               <SourceParameter reference="ModelValue_1944"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_599">
-              <SourceParameter reference="Metabolite_404"/>
+            <CallParameter functionParameter="FunctionParameter_355">
+              <SourceParameter reference="Metabolite_415"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_822" name="Sintesis tfJUNB[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_822" name="Sintesis tfE2F2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_822">
@@ -5461,109 +5485,117 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_411" stoichiometry="1"/>
+          <Product metabolite="Metabolite_414" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19398" name="Cgh_tfJUNB" value="1"/>
-          <Constant key="Parameter_19337" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13228" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_18666" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_18667" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_19414" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_19413" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_18668" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_18669" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_13487" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_13430" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_18670" name="ks_tfJUNB" value="1"/>
+          <Constant key="Parameter_18666" name="Cgh_tfE2F2" value="1"/>
+          <Constant key="Parameter_18667" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19414" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_19413" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_18668" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_18669" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13487" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_13430" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_18670" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18671" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_13493" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_13256" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_18672" name="ks_tfE2F2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_63" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_596">
+            <CallParameter functionParameter="FunctionParameter_352">
               <SourceParameter reference="ModelValue_1945"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_597">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_353">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_598">
-              <SourceParameter reference="Metabolite_429"/>
+            <CallParameter functionParameter="FunctionParameter_354">
+              <SourceParameter reference="Metabolite_424"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_595">
-              <SourceParameter reference="Metabolite_432"/>
+            <CallParameter functionParameter="FunctionParameter_351">
+              <SourceParameter reference="Metabolite_413"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_594">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_593">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_592">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_591">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_590">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_589">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_588">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_587">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_586">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_585">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_584">
-              <SourceParameter reference="ModelValue_1947"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_583">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_582">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_581">
+            <CallParameter functionParameter="FunctionParameter_350">
               <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_580">
-              <SourceParameter reference="Metabolite_417"/>
+            <CallParameter functionParameter="FunctionParameter_349">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_579">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_348">
+              <SourceParameter reference="ModelValue_1919"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_578">
-              <SourceParameter reference="Metabolite_404"/>
+            <CallParameter functionParameter="FunctionParameter_347">
+              <SourceParameter reference="ModelValue_1902"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_577">
-              <SourceParameter reference="Metabolite_403"/>
+            <CallParameter functionParameter="FunctionParameter_346">
+              <SourceParameter reference="ModelValue_1903"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_576">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_345">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_344">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_343">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_342">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_341">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_340">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_339">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_338">
+              <SourceParameter reference="ModelValue_1947"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_337">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_336">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_335">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_334">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_333">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_332">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_331">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_330">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_823" name="Sintesis tfE2F3[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_823" name="degradacion tfE2F2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_823">
@@ -5575,126 +5607,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_420" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_425" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_414" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18671" name="Cgh_tfE2F3" value="1"/>
-          <Constant key="Parameter_13493" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13256" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_18672" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_18673" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_18674" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_18675" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_18676" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_18677" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_18678" name="kr_MIR145" value="1"/>
-          <Constant key="Parameter_18679" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_18680" name="kr_MIR200B" value="1"/>
-          <Constant key="Parameter_18681" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_16919" name="ks_tfE2F3" value="1"/>
+          <Constant key="Parameter_18673" name="kd_tfE2F2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_376">
-              <SourceParameter reference="ModelValue_1948"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_377">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_378">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_375">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_374">
-              <SourceParameter reference="Metabolite_428"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_373">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_372">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_371">
+            <CallParameter functionParameter="FunctionParameter_381">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_370">
-              <SourceParameter reference="ModelValue_1912"/>
+            <CallParameter functionParameter="FunctionParameter_380">
+              <SourceParameter reference="ModelValue_1948"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_369">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_368">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_367">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_366">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_365">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_364">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_363">
-              <SourceParameter reference="ModelValue_1949"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_362">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_361">
-              <SourceParameter reference="ModelValue_1941"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_360">
-              <SourceParameter reference="ModelValue_1942"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_359">
-              <SourceParameter reference="ModelValue_1950"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_358">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_329">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_382">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_383">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_384">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_385">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_386">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_379">
+              <SourceParameter reference="Metabolite_414"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_824" name="degradacion tfE2F3[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_824" name="Sintesis tfSP1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_824">
@@ -5706,27 +5639,230 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_420" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_418" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_16918" name="kd_tfE2F3" value="1"/>
+          <Constant key="Parameter_18674" name="Cgh_tfSP1" value="1"/>
+          <Constant key="Parameter_18675" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18676" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_18677" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_18678" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_18679" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_18680" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_18681" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_16919" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_16918" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_13239" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13238" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_13235" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_13234" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_13231" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_13230" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_13227" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_13226" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18682" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_18683" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_18684" name="kr_MIR145" value="1"/>
+          <Constant key="Parameter_18685" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_18686" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_18687" name="kr_MIR200B" value="1"/>
+          <Constant key="Parameter_18688" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_18689" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_18690" name="ks_tfSP1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_71" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_413">
+            <CallParameter functionParameter="FunctionParameter_720">
+              <SourceParameter reference="ModelValue_1949"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_721">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_722">
+              <SourceParameter reference="Metabolite_419"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_719">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_718">
+              <SourceParameter reference="Metabolite_427"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_717">
+              <SourceParameter reference="Metabolite_410"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_716">
+              <SourceParameter reference="Metabolite_412"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_715">
+              <SourceParameter reference="Metabolite_413"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_714">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_713">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_412">
+            <CallParameter functionParameter="FunctionParameter_712">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_711">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_710">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_709">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_708">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_707">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_706">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_705">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_704">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_703">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_702">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_701">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_700">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_699">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_698">
               <SourceParameter reference="ModelValue_1951"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_411">
-              <SourceParameter reference="Metabolite_420"/>
+            <CallParameter functionParameter="FunctionParameter_697">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_696">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_661">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_726">
+              <SourceParameter reference="ModelValue_1921"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_727">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_728">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_729">
+              <SourceParameter reference="ModelValue_1923"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_730">
+              <SourceParameter reference="ModelValue_1924"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_731">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_732">
+              <SourceParameter reference="ModelValue_1952"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_733">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_734">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_735">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_736">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_737">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_738">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_739">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_740">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_741">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_742">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_743">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_744">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_745">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_746">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_747">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_748">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_749">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_750">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_825" name="Sintesis tfETV4[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_825" name="degradacion tfSP1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_825">
@@ -5738,276 +5874,30 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_422" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_418" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_13239" name="Cgh_tfETV4" value="1"/>
-          <Constant key="Parameter_13238" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13235" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13234" name="ks_tfETV4" value="1"/>
+          <Constant key="Parameter_18691" name="kd_tfSP1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_72" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_408">
-              <SourceParameter reference="ModelValue_1952"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_409">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_410">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_407">
+            <CallParameter functionParameter="FunctionParameter_803">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_406">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_405">
+            <CallParameter functionParameter="FunctionParameter_802">
               <SourceParameter reference="ModelValue_1953"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_404">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_801">
+              <SourceParameter reference="Metabolite_418"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_826" name="degradacion tfETV4[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_826" name="Sintesis tfSP3[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_826">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_422" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_13231" name="kd_tfETV4" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_397">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_398">
-              <SourceParameter reference="ModelValue_1954"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_399">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_827" name="Sintesis tfFOS[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_827">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_421" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_13230" name="Cgh_tfFOS" value="1"/>
-          <Constant key="Parameter_13227" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13226" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_18682" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_18683" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_18684" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_18685" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_18686" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_18687" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_18688" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_18689" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_18690" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_18691" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_18692" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_18693" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_13342" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_13341" name="kr_MIR222" value="1"/>
-          <Constant key="Parameter_13338" name="ks_tfFOS" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_402">
-              <SourceParameter reference="ModelValue_1955"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_401">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_400">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_403">
-              <SourceParameter reference="Metabolite_430"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_396">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_395">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_394">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_393">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_392">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_391">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_390">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_389">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_388">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_387">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_414">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_415">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_416">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_417">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_418">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_419">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_420">
-              <SourceParameter reference="ModelValue_1931"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_421">
-              <SourceParameter reference="ModelValue_1956"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_422">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_423">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_424">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_425">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_426">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_427">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_428">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_429">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_430">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_431">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_432">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_433">
-              <SourceParameter reference="Metabolite_405"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_434">
-              <SourceParameter reference="Metabolite_426"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_828" name="degradacion tfFOS[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_828">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_421" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_13337" name="kd_tfFOS" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_52" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_469">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_468">
-              <SourceParameter reference="ModelValue_1957"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_467">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_829" name="Sintesis tfFOSL1[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_829">
               <dcterms:created>
                 <rdf:Description>
                   <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
@@ -6020,114 +5910,400 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_417" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19412" name="Cgh_tfFOSL1" value="1"/>
-          <Constant key="Parameter_19411" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19397" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_19396" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_7710" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_7703" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_18694" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_18695" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_18696" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_18697" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_18692" name="Cgh_tfSP3" value="1"/>
+          <Constant key="Parameter_18693" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_13342" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_13341" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_13338" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_13337" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19412" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_19411" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_19397" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_19396" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_7710" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_7703" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_18694" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_18695" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_18696" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_18697" name="ka_tfSMAD4" value="1"/>
           <Constant key="Parameter_18698" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_18699" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_18700" name="ks_tfFOSL1" value="1"/>
+          <Constant key="Parameter_18699" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18700" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_18701" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_18193" name="kr_MIR145" value="1"/>
+          <Constant key="Parameter_17437" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_18702" name="ks_tfSP3" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_53" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_73" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_464">
-              <SourceParameter reference="ModelValue_1958"/>
+            <CallParameter functionParameter="FunctionParameter_798">
+              <SourceParameter reference="ModelValue_1954"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_465">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_466">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_463">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_462">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_461">
+            <CallParameter functionParameter="FunctionParameter_799">
               <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_460">
-              <SourceParameter reference="ModelValue_1913"/>
+            <CallParameter functionParameter="FunctionParameter_800">
+              <SourceParameter reference="Metabolite_419"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_459">
-              <SourceParameter reference="ModelValue_1901"/>
+            <CallParameter functionParameter="FunctionParameter_797">
+              <SourceParameter reference="Metabolite_424"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_458">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_457">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_456">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_455">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_454">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_453">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_452">
-              <SourceParameter reference="ModelValue_1959"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_451">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_450">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_449">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_448">
+            <CallParameter functionParameter="FunctionParameter_796">
               <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_447">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_795">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_446">
+            <CallParameter functionParameter="FunctionParameter_794">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_793">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_792">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_791">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_790">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_789">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_788">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_787">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_786">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_785">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_784">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_783">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_782">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_781">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_780">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_779">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_778">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_777">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_776">
+              <SourceParameter reference="ModelValue_1921"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_775">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_774">
+              <SourceParameter reference="ModelValue_1955"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_773">
               <SourceParameter reference="Metabolite_404"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_445">
-              <SourceParameter reference="Metabolite_411"/>
+            <CallParameter functionParameter="FunctionParameter_772">
+              <SourceParameter reference="Metabolite_415"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_444">
-              <SourceParameter reference="Metabolite_412"/>
+            <CallParameter functionParameter="FunctionParameter_771">
+              <SourceParameter reference="Metabolite_414"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_443">
+            <CallParameter functionParameter="FunctionParameter_770">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_769">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_768">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_767">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_766">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_765">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_764">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_763">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_762">
               <SourceParameter reference="Metabolite_408"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_442">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_761">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_760">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_759">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_758">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_757">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_756">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_830" name="degradacion tfJUNB[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_827" name="degradacion tfSP3[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_827">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_417" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfConstants>
+          <Constant key="Parameter_18703" name="kd_tfSP3" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_74" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_843">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_842">
+              <SourceParameter reference="ModelValue_1956"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_841">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_828" name="Sintesis tfTCF7L2[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_828">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_420" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_18139" name="Cgh_tfTCF7L2" value="1"/>
+          <Constant key="Parameter_18134" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18704" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_18705" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_13090" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_13085" name="kr_MIR200B" value="1"/>
+          <Constant key="Parameter_18706" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_18707" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_13103" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_13102" name="ks_tfTCF7L2" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_75" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_838">
+              <SourceParameter reference="ModelValue_1957"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_839">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_840">
+              <SourceParameter reference="Metabolite_410"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_837">
+              <SourceParameter reference="Metabolite_412"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_836">
+              <SourceParameter reference="Metabolite_413"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_835">
+              <SourceParameter reference="Metabolite_411"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_834">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_833">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_832">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_831">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_830">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_829">
+              <SourceParameter reference="ModelValue_1923"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_828">
+              <SourceParameter reference="ModelValue_1924"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_827">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_826">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_825">
+              <SourceParameter reference="ModelValue_1958"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_824">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_823">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_822">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_829" name="Sintesis tfFOXP2[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_829">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_433" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_18708" name="Cgh_tfFOXP2" value="1"/>
+          <Constant key="Parameter_18709" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_13340" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13331" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_16917" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_16916" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_18710" name="ks_tfFOXP2" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_57" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_518">
+              <SourceParameter reference="ModelValue_1959"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_519">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_520">
+              <SourceParameter reference="Metabolite_411"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_517">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_516">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_515">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_514">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_513">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_512">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_511">
+              <SourceParameter reference="ModelValue_1960"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_510">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_509">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_508">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_830" name="degradacion MIR155[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_830">
@@ -6140,26 +6316,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_411" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_424" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18701" name="kd_tfJUNB" value="1"/>
+          <Constant key="Parameter_18711" name="kd_MIR155" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_64" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_90" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_615">
+            <CallParameter functionParameter="FunctionParameter_1093">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1092">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_614">
-              <SourceParameter reference="ModelValue_1960"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_613">
-              <SourceParameter reference="Metabolite_411"/>
+            <CallParameter functionParameter="FunctionParameter_1091">
+              <SourceParameter reference="ModelValue_1961"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_831" name="Sintesis tfJUND[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_831" name="degradacion tfGATA2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_831">
@@ -6171,126 +6347,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_412" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_430" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18193" name="Cgh_tfJUND" value="1"/>
-          <Constant key="Parameter_17437" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_18702" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_18703" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_18139" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_18134" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_18704" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_18705" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13090" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_13085" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_18706" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_18707" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_13103" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_13102" name="ks_tfJUND" value="1"/>
+          <Constant key="Parameter_13336" name="kd_tfGATA2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_60" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_610">
-              <SourceParameter reference="ModelValue_1961"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_611">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_612">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_609">
+            <CallParameter functionParameter="FunctionParameter_543">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_608">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_607">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_606">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_605">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_604">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_603">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_602">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_567">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_568">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_569">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_570">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_571">
+            <CallParameter functionParameter="FunctionParameter_542">
               <SourceParameter reference="ModelValue_1962"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_572">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_573">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_574">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_575">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_616">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_617">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_618">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_619">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_620">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_621">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_622">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_541">
+              <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_832" name="degradacion tfJUND[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_832" name="degradacion tfFOXP2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_832">
@@ -6303,26 +6380,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_412" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_433" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18708" name="kd_tfJUND" value="1"/>
+          <Constant key="Parameter_10987" name="kd_tfFOXP2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_66" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_58" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_649">
+            <CallParameter functionParameter="FunctionParameter_495">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_648">
+            <CallParameter functionParameter="FunctionParameter_496">
               <SourceParameter reference="ModelValue_1963"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_647">
-              <SourceParameter reference="Metabolite_412"/>
+            <CallParameter functionParameter="FunctionParameter_497">
+              <SourceParameter reference="Metabolite_433"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_833" name="Sintesis tfNFKB1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_833" name="Sintesis tfAP2B1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_833">
@@ -6338,154 +6415,58 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_403" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_18709" name="Cgh_tfNFKB1" value="1"/>
-          <Constant key="Parameter_13340" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_13331" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_16917" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_16916" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_18710" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_18711" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13336" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_10987" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_18712" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_18713" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_18714" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_10647" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_10590" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_13254" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_13225" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_17352" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_13106" name="ks_tfNFKB1" value="1"/>
+          <Constant key="Parameter_18712" name="Cgh_tfAP2B1" value="1"/>
+          <Constant key="Parameter_18713" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18714" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_10647" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_10590" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_13254" name="ks_tfAP2B1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_67" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_39" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_644">
+            <CallParameter functionParameter="FunctionParameter_264">
               <SourceParameter reference="ModelValue_1964"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_645">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_263">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_646">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_643">
+            <CallParameter functionParameter="FunctionParameter_262">
               <SourceParameter reference="Metabolite_427"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_642">
-              <SourceParameter reference="Metabolite_432"/>
+            <CallParameter functionParameter="FunctionParameter_261">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_641">
+            <CallParameter functionParameter="FunctionParameter_250">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_640">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_639">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_638">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_637">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_636">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_635">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_634">
+            <CallParameter functionParameter="FunctionParameter_265">
               <SourceParameter reference="ModelValue_1905"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_633">
+            <CallParameter functionParameter="FunctionParameter_266">
               <SourceParameter reference="ModelValue_1906"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_632">
-              <SourceParameter reference="ModelValue_1907"/>
+            <CallParameter functionParameter="FunctionParameter_267">
+              <SourceParameter reference="ModelValue_1922"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_631">
+            <CallParameter functionParameter="FunctionParameter_268">
               <SourceParameter reference="ModelValue_1965"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_630">
-              <SourceParameter reference="ModelValue_1908"/>
+            <CallParameter functionParameter="FunctionParameter_269">
+              <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_629">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_628">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_627">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_626">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_625">
-              <SourceParameter reference="ModelValue_1966"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_624">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_623">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_650">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_651">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_652">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_653">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_654">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_655">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_656">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_657">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_658">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_659">
-              <SourceParameter reference="Metabolite_405"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_660">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_270">
+              <SourceParameter reference="Metabolite_432"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_834" name="degradacion tfNFKB1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_834" name="Sintesis tfGATA2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_834">
@@ -6497,27 +6478,78 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_403" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_430" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_6126" name="kd_tfNFKB1" value="1"/>
+          <Constant key="Parameter_13225" name="Cgh_tfGATA2" value="1"/>
+          <Constant key="Parameter_10221" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_13106" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_6126" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_18141" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_13632" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_10589" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_18654" name="ks_tfGATA2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_68" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_59" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_695">
+            <CallParameter functionParameter="FunctionParameter_500">
+              <SourceParameter reference="ModelValue_1966"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_499">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_498">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_501">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_694">
+            <CallParameter functionParameter="FunctionParameter_502">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_503">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_504">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_505">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_506">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_507">
               <SourceParameter reference="ModelValue_1967"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_693">
-              <SourceParameter reference="Metabolite_403"/>
+            <CallParameter functionParameter="FunctionParameter_524">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_525">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_526">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_527">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_528">
+              <SourceParameter reference="Metabolite_426"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_835" name="Sintesis tfSMAD4[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_835" name="degradacion tfJUNB[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_835">
@@ -6529,177 +6561,30 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_413" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_431" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_18141" name="Cgh_tfSMAD4" value="1"/>
-          <Constant key="Parameter_13632" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_10589" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_18654" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_18715" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19410" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19353" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_18716" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_18717" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_18718" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_13168" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_10631" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_13255" name="kr_MIR145" value="1"/>
-          <Constant key="Parameter_19351" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_6007" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_12940" name="ks_tfSMAD4" value="1"/>
+          <Constant key="Parameter_18715" name="kd_tfJUNB" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_69" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_64" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_690">
-              <SourceParameter reference="ModelValue_1968"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_691">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_692">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_689">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_688">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_687">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_686">
+            <CallParameter functionParameter="FunctionParameter_615">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_685">
-              <SourceParameter reference="ModelValue_1900"/>
+            <CallParameter functionParameter="FunctionParameter_614">
+              <SourceParameter reference="ModelValue_1968"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_684">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_683">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_682">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_681">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_680">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_679">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_678">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_677">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_676">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_675">
-              <SourceParameter reference="ModelValue_1949"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_674">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_673">
-              <SourceParameter reference="ModelValue_1917"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_672">
-              <SourceParameter reference="ModelValue_1969"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_671">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_670">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_669">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_668">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_667">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_666">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_665">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_664">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_663">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_662">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_613">
+              <SourceParameter reference="Metabolite_431"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_836" name="degradacion tfSMAD4[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_836" name="Sintesis tfJUND[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_836">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_413" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_16951" name="kd_tfSMAD4" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_70" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_725">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_724">
-              <SourceParameter reference="ModelValue_1970"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_723">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_837" name="Sintesis tfSP1[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_837">
               <dcterms:created>
                 <rdf:Description>
                   <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
@@ -6712,1260 +6597,125 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_408" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_425" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_16934" name="Cgh_tfSP1" value="1"/>
-          <Constant key="Parameter_3286" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_3336" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_13296" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_13295" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_13294" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_13293" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_13292" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_13291" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_13290" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_13289" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13288" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_13287" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_13286" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_13285" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_13284" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_13283" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_13282" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_13281" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_13280" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_10642" name="kr_MIR145" value="1"/>
-          <Constant key="Parameter_10625" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_10628" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_6050" name="kr_MIR200B" value="1"/>
-          <Constant key="Parameter_7308" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_3506" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_10188" name="ks_tfSP1" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_71" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_720">
-              <SourceParameter reference="ModelValue_1971"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_721">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_722">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_719">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_718">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_717">
-              <SourceParameter reference="Metabolite_428"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_716">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_715">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_714">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_713">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_712">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_711">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_710">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_709">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_708">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_707">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_706">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_705">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_704">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_703">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_702">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_701">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_700">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_699">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_698">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_697">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_696">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_661">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_726">
-              <SourceParameter reference="ModelValue_1949"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_727">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_728">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_729">
-              <SourceParameter reference="ModelValue_1941"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_730">
-              <SourceParameter reference="ModelValue_1942"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_731">
-              <SourceParameter reference="ModelValue_1917"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_732">
-              <SourceParameter reference="ModelValue_1972"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_733">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_734">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_735">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_736">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_737">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_738">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_739">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_740">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_741">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_742">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_743">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_744">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_745">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_746">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_747">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_748">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_749">
-              <SourceParameter reference="Metabolite_405"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_750">
-              <SourceParameter reference="Metabolite_426"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_838" name="degradacion tfSP1[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_838">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_408" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_18650" name="kd_tfSP1" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_72" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_803">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_802">
-              <SourceParameter reference="ModelValue_1973"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_801">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_839" name="Sintesis tfSP3[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_839">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_406" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_6800" name="Cgh_tfSP3" value="1"/>
-          <Constant key="Parameter_6076" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_7806" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_10200" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_17285" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_7894" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_19648" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19098" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_19015" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_3401" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_17376" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_3934" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_8162" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_3957" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_7189" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_4032" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_4292" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_3495" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_7769" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_9935" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_3496" name="kr_MIR145" value="1"/>
-          <Constant key="Parameter_7878" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_7737" name="ks_tfSP3" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_73" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_798">
-              <SourceParameter reference="ModelValue_1974"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_799">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_800">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_797">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_796">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_795">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_794">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_793">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_792">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_791">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_790">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_789">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_788">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_787">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_786">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_785">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_784">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_783">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_782">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_781">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_780">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_779">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_778">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_777">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_776">
-              <SourceParameter reference="ModelValue_1949"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_775">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_774">
-              <SourceParameter reference="ModelValue_1975"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_773">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_772">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_771">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_770">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_769">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_768">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_767">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_766">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_765">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_764">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_763">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_762">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_761">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_760">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_759">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_758">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_757">
-              <SourceParameter reference="Metabolite_405"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_756">
-              <SourceParameter reference="Metabolite_426"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_840" name="degradacion tfSP3[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_840">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_406" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_7636" name="kd_tfSP3" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_74" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_843">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_842">
-              <SourceParameter reference="ModelValue_1976"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_841">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_841" name="Sintesis tfTCF7L2[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_841">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_407" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_425" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_3448" name="Cgh_tfTCF7L2" value="1"/>
-          <Constant key="Parameter_10167" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19603" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_7677" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_3718" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_3332" name="kr_MIR200B" value="1"/>
-          <Constant key="Parameter_5926" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_19620" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_21648" name="kr_MIR222" value="1"/>
-          <Constant key="Parameter_21647" name="ks_tfTCF7L2" value="1"/>
+          <Constant key="Parameter_19410" name="Cgh_tfJUND" value="1"/>
+          <Constant key="Parameter_19353" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_18716" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_18717" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_18718" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_13168" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_10631" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_13255" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19351" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_6007" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_12940" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_16951" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_16934" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_3264" name="ks_tfJUND" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_75" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_65" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_838">
-              <SourceParameter reference="ModelValue_1977"/>
+            <CallParameter functionParameter="FunctionParameter_610">
+              <SourceParameter reference="ModelValue_1969"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_839">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_611">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_840">
-              <SourceParameter reference="Metabolite_428"/>
+            <CallParameter functionParameter="FunctionParameter_612">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_837">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_836">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_835">
-              <SourceParameter reference="Metabolite_430"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_834">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_833">
+            <CallParameter functionParameter="FunctionParameter_609">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_832">
+            <CallParameter functionParameter="FunctionParameter_608">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_607">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_606">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_605">
               <SourceParameter reference="ModelValue_1904"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_831">
+            <CallParameter functionParameter="FunctionParameter_604">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_603">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_602">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_567">
               <SourceParameter reference="ModelValue_1907"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_830">
-              <SourceParameter reference="ModelValue_1908"/>
+            <CallParameter functionParameter="FunctionParameter_568">
+              <SourceParameter reference="ModelValue_1909"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_829">
-              <SourceParameter reference="ModelValue_1941"/>
+            <CallParameter functionParameter="FunctionParameter_569">
+              <SourceParameter reference="ModelValue_1915"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_828">
-              <SourceParameter reference="ModelValue_1942"/>
+            <CallParameter functionParameter="FunctionParameter_570">
+              <SourceParameter reference="ModelValue_1910"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_827">
-              <SourceParameter reference="ModelValue_1917"/>
+            <CallParameter functionParameter="FunctionParameter_571">
+              <SourceParameter reference="ModelValue_1970"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_826">
-              <SourceParameter reference="ModelValue_1931"/>
+            <CallParameter functionParameter="FunctionParameter_572">
+              <SourceParameter reference="Metabolite_414"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_825">
-              <SourceParameter reference="ModelValue_1978"/>
+            <CallParameter functionParameter="FunctionParameter_573">
+              <SourceParameter reference="Metabolite_428"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_824">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_823">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_822">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_842" name="degradacion tfTCF7L2[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_842">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_407" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_19643" name="kd_tfTCF7L2" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_76" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_751">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_804">
-              <SourceParameter reference="ModelValue_1979"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_805">
+            <CallParameter functionParameter="FunctionParameter_574">
               <SourceParameter reference="Metabolite_407"/>
             </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_843" name="Sintesis tfTFAP2A[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_843">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_409" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_3053" name="Cgh_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_19395" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19394" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_3465" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_19548" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_19547" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_19585" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19584" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_7581" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_19583" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_7588" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19582" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19594" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_19593" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_19596" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_19595" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_19613" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_10180" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_2960" name="ka_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_10217" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_17291" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_5939" name="kr_MIR204" value="1"/>
-          <Constant key="Parameter_5992" name="kr_MIR222" value="1"/>
-          <Constant key="Parameter_19647" name="ks_tfTFAP2A" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_77" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_808">
-              <SourceParameter reference="ModelValue_1980"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_807">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_806">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_809">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_810">
-              <SourceParameter reference="Metabolite_430"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_811">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_812">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_813">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_814">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_815">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_816">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_817">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_818">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_819">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_820">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_821">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_752">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_753">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_754">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_755">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_844">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_845">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_846">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_847">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_848">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_849">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_850">
-              <SourceParameter reference="ModelValue_1917"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_851">
-              <SourceParameter reference="ModelValue_1931"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_852">
-              <SourceParameter reference="ModelValue_1981"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_853">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_854">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_855">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_856">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_857">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_858">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_859">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_860">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_861">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_862">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_863">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_864">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_865">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_866">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_867">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_868">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_869">
+            <CallParameter functionParameter="FunctionParameter_575">
               <SourceParameter reference="Metabolite_405"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_870">
-              <SourceParameter reference="Metabolite_426"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_844" name="degradacion tfTFAP2A[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_844">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_409" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_19598" name="kd_tfTFAP2A" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_78" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_917">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_916">
-              <SourceParameter reference="ModelValue_1982"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_915">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_845" name="Sintesis tfTFAP2C[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_845">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_405" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_19597" name="Cgh_tfTFAP2C" value="1"/>
-          <Constant key="Parameter_19670" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19601" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_19586" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_19528" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_19569" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_7591" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19617" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_3162" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_19610" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_18720" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_18721" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_21646" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_21645" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_5988" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_3489" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_7809" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_6825" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_7871" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_8203" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_3060" name="ks_tfTFAP2C" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_79" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_912">
-              <SourceParameter reference="ModelValue_1983"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_913">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_914">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_911">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_910">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_909">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_908">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_907">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_906">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_905">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_904">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_903">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_902">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_901">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_900">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_899">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_898">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_897">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_896">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_895">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_894">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_893">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_892">
-              <SourceParameter reference="ModelValue_1984"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_891">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_890">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_889">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_888">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_887">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_886">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_885">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_884">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_883">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_882">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_881">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_880">
-              <SourceParameter reference="Metabolite_412"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_879">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_878">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_877">
-              <SourceParameter reference="Metabolite_408"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_876">
+            <CallParameter functionParameter="FunctionParameter_616">
               <SourceParameter reference="Metabolite_406"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_875">
-              <SourceParameter reference="Metabolite_409"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_874">
-              <SourceParameter reference="Metabolite_426"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_846" name="degradacion tfTFAP2C[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_846">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_405" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_7623" name="kd_tfTFAP2C" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_80" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_955">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_954">
-              <SourceParameter reference="ModelValue_1985"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_953">
-              <SourceParameter reference="Metabolite_405"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_847" name="Sintesis tfTP53[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_847">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_426" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
-        </ListOfModifiers>
-        <ListOfConstants>
-          <Constant key="Parameter_3395" name="Cgh_tfTP53" value="1"/>
-          <Constant key="Parameter_5947" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_3973" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_19520" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_2638" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_7772" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_6882" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_8283" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_7742" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19572" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_6765" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_4283" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_19523" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_19631" name="kr_MIR222" value="1"/>
-          <Constant key="Parameter_5936" name="ks_tfTP53" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_81" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_950">
-              <SourceParameter reference="ModelValue_1986"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_951">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_952">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_949">
+            <CallParameter functionParameter="FunctionParameter_617">
               <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_948">
+            <CallParameter functionParameter="FunctionParameter_618">
               <SourceParameter reference="Metabolite_432"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_947">
-              <SourceParameter reference="Compartment_13"/>
+            <CallParameter functionParameter="FunctionParameter_619">
+              <SourceParameter reference="Metabolite_431"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_946">
-              <SourceParameter reference="ModelValue_1912"/>
+            <CallParameter functionParameter="FunctionParameter_620">
+              <SourceParameter reference="Metabolite_418"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_945">
-              <SourceParameter reference="ModelValue_1900"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_944">
-              <SourceParameter reference="ModelValue_1913"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_943">
-              <SourceParameter reference="ModelValue_1901"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_942">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_941">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_940">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_939">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_938">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_937">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_936">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_935">
-              <SourceParameter reference="ModelValue_1931"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_934">
-              <SourceParameter reference="ModelValue_1987"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_933">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_932">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_931">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_930">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_929">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_928">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_927">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_926">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_925">
-              <SourceParameter reference="Metabolite_403"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_924">
-              <SourceParameter reference="Metabolite_406"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_848" name="degradacion tfTP53[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_848">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_426" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_10203" name="kd_tfTP53" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_82" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_975">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_974">
-              <SourceParameter reference="ModelValue_1988"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_973">
+            <CallParameter functionParameter="FunctionParameter_621">
               <SourceParameter reference="Metabolite_426"/>
             </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_622">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_849" name="Transcripcion arnETS1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_837" name="Sintesis tfJUN[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_849">
+            <rdf:Description rdf:about="#Reaction_837">
               <dcterms:created>
                 <rdf:Description>
                   <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
@@ -7978,146 +6728,1000 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_432" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19630" name="Cgh_ETS1" value="1"/>
-          <Constant key="Parameter_19628" name="KsArn_ETS1" value="1"/>
-          <Constant key="Parameter_5200" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_19629" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_5201" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19634" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_18722" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_18207" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19637" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_19636" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_19639" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_19638" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_21644" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_21643" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_19641" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_19531" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_19570" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_3263" name="Cgh_tfJUN" value="1"/>
+          <Constant key="Parameter_13296" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_13295" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_13294" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_13293" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_13292" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_13291" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_13290" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_13289" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_13288" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_13287" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_13286" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_13285" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_13284" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_13283" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_13282" name="kr_MIR200B" value="1"/>
+          <Constant key="Parameter_13281" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_13280" name="ks_tfJUN" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_83" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_61" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_970">
-              <SourceParameter reference="ModelValue_1989"/>
+            <CallParameter functionParameter="FunctionParameter_538">
+              <SourceParameter reference="ModelValue_1971"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_971">
-              <SourceParameter reference="ModelValue_1990"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_972">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_969">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_968">
+            <CallParameter functionParameter="FunctionParameter_539">
               <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_967">
-              <SourceParameter reference="ModelValue_1913"/>
+            <CallParameter functionParameter="FunctionParameter_540">
+              <SourceParameter reference="Metabolite_424"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_966">
-              <SourceParameter reference="ModelValue_1901"/>
+            <CallParameter functionParameter="FunctionParameter_537">
+              <SourceParameter reference="Metabolite_427"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_965">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_964">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_963">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_962">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_961">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_960">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_959">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_958">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_957">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_956">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_873">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_872">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_871">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_918">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_919">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_920">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_921">
+            <CallParameter functionParameter="FunctionParameter_536">
               <SourceParameter reference="Metabolite_410"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_922">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_923">
-              <SourceParameter reference="Metabolite_411"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_976">
+            <CallParameter functionParameter="FunctionParameter_535">
               <SourceParameter reference="Metabolite_412"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_977">
-              <SourceParameter reference="Metabolite_403"/>
+            <CallParameter functionParameter="FunctionParameter_534">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_978">
-              <SourceParameter reference="Metabolite_413"/>
+            <CallParameter functionParameter="FunctionParameter_533">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_979">
-              <SourceParameter reference="Metabolite_408"/>
+            <CallParameter functionParameter="FunctionParameter_532">
+              <SourceParameter reference="ModelValue_1931"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_980">
+            <CallParameter functionParameter="FunctionParameter_531">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_530">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_529">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_544">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_545">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_546">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_547">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_548">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_549">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_550">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_551">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_552">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_553">
+              <SourceParameter reference="ModelValue_1923"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_554">
+              <SourceParameter reference="ModelValue_1924"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_555">
+              <SourceParameter reference="ModelValue_1972"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_556">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_557">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_558">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_559">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_560">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_561">
               <SourceParameter reference="Metabolite_406"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_981">
-              <SourceParameter reference="Metabolite_409"/>
+            <CallParameter functionParameter="FunctionParameter_562">
+              <SourceParameter reference="Metabolite_430"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_982">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_563">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_564">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_565">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_566">
+              <SourceParameter reference="Metabolite_422"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_850" name="degradacion arnETS1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_838" name="degradacion arnETS1[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_838">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_421" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_10642" name="KdArn_ETS1" value="1"/>
+          <Constant key="Parameter_10625" name="kr_MIR145" value="1"/>
+          <Constant key="Parameter_10628" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_6740" name="kr_MIR200B" value="1"/>
+          <Constant key="Parameter_4418" name="kr_MIR200C" value="1"/>
+          <Constant key="Parameter_17334" name="kr_MIR222" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_84" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1015">
+              <SourceParameter reference="ModelValue_1973"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1014">
+              <SourceParameter reference="Metabolite_419"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1013">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1012">
+              <SourceParameter reference="Metabolite_410"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1011">
+              <SourceParameter reference="Metabolite_412"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1010">
+              <SourceParameter reference="Metabolite_411"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1009">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1008">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1007">
+              <SourceParameter reference="ModelValue_1921"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1006">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1005">
+              <SourceParameter reference="ModelValue_1923"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1004">
+              <SourceParameter reference="ModelValue_1924"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1003">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_839" name="Transcripcion arnPLAUR[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_839">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_425" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_7869" name="Cgh_PLAUR" value="1"/>
+          <Constant key="Parameter_18650" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_6682" name="KsArn_PLAUR" value="1"/>
+          <Constant key="Parameter_6439" name="ka_tfAP2B1" value="1"/>
+          <Constant key="Parameter_6588" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_7824" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_10117" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_3129" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19648" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_16545" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_6150" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_3401" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_6869" name="ka_tfFOXP2" value="1"/>
+          <Constant key="Parameter_7987" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_8234" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_3957" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_7189" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_3918" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_6583" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_3495" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_6967" name="ka_tfTCF7L2" value="1"/>
+          <Constant key="Parameter_10143" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_3496" name="ka_tfTFAP2C" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_85" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_990">
+              <SourceParameter reference="ModelValue_1974"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_991">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_992">
+              <SourceParameter reference="ModelValue_1975"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_993">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_994">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_995">
+              <SourceParameter reference="ModelValue_1976"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_996">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_997">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_998">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_999">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1000">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1001">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1002">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_989">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_988">
+              <SourceParameter reference="ModelValue_1977"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_987">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_986">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_985">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_984">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_983">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1016">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1017">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1018">
+              <SourceParameter reference="ModelValue_1978"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1019">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1020">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1021">
+              <SourceParameter reference="Metabolite_403"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1022">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1023">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1024">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1025">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1026">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1027">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1028">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1029">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1030">
+              <SourceParameter reference="Metabolite_433"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1031">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1032">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1033">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1034">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1035">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1036">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1037">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1038">
+              <SourceParameter reference="Metabolite_420"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1039">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1040">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_840" name="degradacion arnPLAUR[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_840">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_425" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_3182" name="KdArn_PLAUR" value="1"/>
+          <Constant key="Parameter_8288" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_7598" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_3448" name="kr_MIR204" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_86" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1085">
+              <SourceParameter reference="ModelValue_1979"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1084">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1083">
+              <SourceParameter reference="Metabolite_427"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1082">
+              <SourceParameter reference="Metabolite_413"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1081">
+              <SourceParameter reference="Metabolite_425"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1080">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1079">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1078">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1077">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_841" name="Sintesis MIR145[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_841">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_419" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_3541" name="Cgh_MIR145" value="1"/>
+          <Constant key="Parameter_19603" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_6581" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_5955" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_5582" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_7957" name="ks_MIR145" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_87" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1068">
+              <SourceParameter reference="ModelValue_1980"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1069">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1070">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1071">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1072">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1073">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1074">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1075">
+              <SourceParameter reference="ModelValue_1981"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1076">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1067">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1066">
+              <SourceParameter reference="Metabolite_423"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_842" name="degradacion MIR145[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_842">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_419" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfConstants>
+          <Constant key="Parameter_19620" name="kd_MIR145" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_88" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1055">
+              <SourceParameter reference="Metabolite_419"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1056">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1057">
+              <SourceParameter reference="ModelValue_1982"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_843" name="Sintesis MIR200C[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_843">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_412" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_21648" name="Cgh_MIR200C" value="1"/>
+          <Constant key="Parameter_21647" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_19643" name="ks_MIR200C" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_95" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1100">
+              <SourceParameter reference="ModelValue_1983"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1095">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1096">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1101">
+              <SourceParameter reference="ModelValue_1984"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1102">
+              <SourceParameter reference="Metabolite_423"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_844" name="degradacion MIR200C[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_844">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_412" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfConstants>
+          <Constant key="Parameter_7686" name="kd_MIR200C" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_96" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1107">
+              <SourceParameter reference="Metabolite_412"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1106">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1105">
+              <SourceParameter reference="ModelValue_1985"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_845" name="Sintesis MIR204[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_845">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_413" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_19395" name="Cgh_MIR204" value="1"/>
+          <Constant key="Parameter_19394" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_3465" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19548" name="ks_MIR204" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_97" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1108">
+              <SourceParameter reference="ModelValue_1986"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1103">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1104">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1109">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1110">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1111">
+              <SourceParameter reference="ModelValue_1987"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1112">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_846" name="degradacion MIR204[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_846">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_413" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfConstants>
+          <Constant key="Parameter_19547" name="kd_MIR204" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_98" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1119">
+              <SourceParameter reference="Metabolite_413"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1118">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1117">
+              <SourceParameter reference="ModelValue_1988"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_847" name="Sintesis MIR222[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_847">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_411" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_19585" name="Cgh_MIR222" value="1"/>
+          <Constant key="Parameter_19584" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_2649" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_19583" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_2646" name="ks_MIR222" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_99" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1114">
+              <SourceParameter reference="ModelValue_1989"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1115">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1116">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1113">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1120">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1121">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1122">
+              <SourceParameter reference="ModelValue_1990"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1123">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1124">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_848" name="degradacion tfJUND[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_848">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_408" stoichiometry="1"/>
+        </ListOfSubstrates>
+        <ListOfConstants>
+          <Constant key="Parameter_19582" name="kd_tfJUND" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_66" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_649">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_648">
+              <SourceParameter reference="ModelValue_1991"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_647">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_849" name="Sintesis tfNFKB1[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_849">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_409" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_19594" name="Cgh_tfNFKB1" value="1"/>
+          <Constant key="Parameter_19593" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19596" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_19595" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_19613" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_3504" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_4444" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_17391" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_7845" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_6948" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_6641" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_19647" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_19598" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_19597" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_19670" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_19601" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_19586" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_19528" name="ks_tfNFKB1" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_67" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_644">
+              <SourceParameter reference="ModelValue_1992"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_645">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_646">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_643">
+              <SourceParameter reference="Metabolite_427"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_642">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_641">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_640">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_639">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_638">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_637">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_636">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_635">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_634">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_633">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_632">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_631">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_630">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_629">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_628">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_627">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_626">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_625">
+              <SourceParameter reference="ModelValue_1993"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_624">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_623">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_650">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_651">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_652">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_653">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_654">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_655">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_656">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_657">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_658">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_659">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_660">
+              <SourceParameter reference="Metabolite_423"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_850" name="degradacion MIR222[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_850">
@@ -8130,68 +7734,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_432" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_411" stoichiometry="1"/>
         </ListOfSubstrates>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_433" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_425" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
-        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19409" name="KdArn_ETS1" value="1"/>
-          <Constant key="Parameter_19404" name="kr_MIR145" value="1"/>
-          <Constant key="Parameter_19387" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_8126" name="kr_MIR200B" value="1"/>
-          <Constant key="Parameter_2786" name="kr_MIR200C" value="1"/>
-          <Constant key="Parameter_19352" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_19569" name="kd_MIR222" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_84" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_100" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1015">
-              <SourceParameter reference="ModelValue_1991"/>
+            <CallParameter functionParameter="FunctionParameter_1133">
+              <SourceParameter reference="Metabolite_411"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1014">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1013">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1012">
-              <SourceParameter reference="Metabolite_428"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1011">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1010">
-              <SourceParameter reference="Metabolite_430"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1009">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1008">
+            <CallParameter functionParameter="FunctionParameter_1132">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1007">
-              <SourceParameter reference="ModelValue_1949"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1006">
-              <SourceParameter reference="ModelValue_1916"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1005">
-              <SourceParameter reference="ModelValue_1941"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1004">
-              <SourceParameter reference="ModelValue_1942"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1003">
-              <SourceParameter reference="ModelValue_1931"/>
+            <CallParameter functionParameter="FunctionParameter_1131">
+              <SourceParameter reference="ModelValue_1994"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_851" name="Sintesis MIR145[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_851" name="degradacion tfTCF7L2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_851">
@@ -8203,62 +7765,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_433" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_420" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_10920" name="Cgh_MIR145" value="1"/>
-          <Constant key="Parameter_12941" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_10626" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_13428" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_13229" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_19589" name="ks_MIR145" value="1"/>
+          <Constant key="Parameter_2666" name="kd_tfTCF7L2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_87" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_76" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1068">
-              <SourceParameter reference="ModelValue_1992"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1069">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1070">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1071">
+            <CallParameter functionParameter="FunctionParameter_751">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1072">
-              <SourceParameter reference="ModelValue_1904"/>
+            <CallParameter functionParameter="FunctionParameter_804">
+              <SourceParameter reference="ModelValue_1995"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1073">
-              <SourceParameter reference="ModelValue_1939"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1074">
-              <SourceParameter reference="ModelValue_1915"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1075">
-              <SourceParameter reference="ModelValue_1993"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1076">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1067">
-              <SourceParameter reference="Metabolite_413"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1066">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_805">
+              <SourceParameter reference="Metabolite_420"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_852" name="Transcripcion arnPLAUR[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_852" name="Sintesis tfTFAP2A[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_852">
@@ -8271,197 +7798,205 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_431" stoichiometry="1"/>
+          <Product metabolite="Metabolite_426" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_420" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19575" name="Cgh_PLAUR" value="1"/>
-          <Constant key="Parameter_2665" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_19618" name="KsArn_PLAUR" value="1"/>
-          <Constant key="Parameter_10287" name="ka_tfAP2B1" value="1"/>
-          <Constant key="Parameter_3458" name="ka_tfATF1" value="1"/>
-          <Constant key="Parameter_8177" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_21642" name="ka_tfE2F2" value="1"/>
-          <Constant key="Parameter_19649" name="ka_tfE2F3" value="1"/>
-          <Constant key="Parameter_8704" name="ka_tfETV4" value="1"/>
-          <Constant key="Parameter_19553" name="ka_tfFOS" value="1"/>
-          <Constant key="Parameter_17384" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_9341" name="ka_tfFOSL2" value="1"/>
-          <Constant key="Parameter_17839" name="ka_tfFOXP2" value="1"/>
-          <Constant key="Parameter_18921" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_7266" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_9943" name="ka_tfJUNB" value="1"/>
-          <Constant key="Parameter_5616" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_18370" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_9985" name="ka_tfSP1" value="1"/>
-          <Constant key="Parameter_9920" name="ka_tfSP3" value="1"/>
-          <Constant key="Parameter_4414" name="ka_tfTCF7L2" value="1"/>
-          <Constant key="Parameter_10141" name="ka_tfTFAP2A" value="1"/>
-          <Constant key="Parameter_10048" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_19617" name="Cgh_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_5583" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19610" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_18720" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_18721" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_21646" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_21645" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_7894" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_3489" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_7945" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_6748" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_5897" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_8089" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_2946" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_7577" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_3395" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_7933" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_8120" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_19520" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_5169" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_4232" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_10108" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_4488" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_7815" name="ks_tfTFAP2A" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_85" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_77" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_990">
-              <SourceParameter reference="ModelValue_1994"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_991">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_992">
-              <SourceParameter reference="ModelValue_1995"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_993">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_994">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_995">
+            <CallParameter functionParameter="FunctionParameter_808">
               <SourceParameter reference="ModelValue_1996"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_996">
-              <SourceParameter reference="ModelValue_1938"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_997">
-              <SourceParameter reference="ModelValue_1912"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_998">
-              <SourceParameter reference="ModelValue_1922"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_999">
+            <CallParameter functionParameter="FunctionParameter_807">
               <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1000">
-              <SourceParameter reference="ModelValue_1913"/>
+            <CallParameter functionParameter="FunctionParameter_806">
+              <SourceParameter reference="Metabolite_427"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1001">
-              <SourceParameter reference="ModelValue_1901"/>
+            <CallParameter functionParameter="FunctionParameter_809">
+              <SourceParameter reference="Metabolite_413"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1002">
-              <SourceParameter reference="ModelValue_1902"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_989">
-              <SourceParameter reference="ModelValue_1903"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_988">
-              <SourceParameter reference="ModelValue_1997"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_987">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_986">
-              <SourceParameter reference="ModelValue_1914"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_985">
-              <SourceParameter reference="ModelValue_1905"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_984">
-              <SourceParameter reference="ModelValue_1906"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_983">
-              <SourceParameter reference="ModelValue_1946"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1016">
-              <SourceParameter reference="ModelValue_1907"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1017">
-              <SourceParameter reference="ModelValue_1965"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1018">
-              <SourceParameter reference="ModelValue_1998"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1019">
-              <SourceParameter reference="ModelValue_1908"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1020">
-              <SourceParameter reference="ModelValue_1927"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1021">
-              <SourceParameter reference="Metabolite_423"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1022">
-              <SourceParameter reference="Metabolite_416"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1023">
-              <SourceParameter reference="Metabolite_419"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1024">
-              <SourceParameter reference="Metabolite_418"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1025">
-              <SourceParameter reference="Metabolite_420"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1026">
-              <SourceParameter reference="Metabolite_422"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1027">
-              <SourceParameter reference="Metabolite_421"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1028">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1029">
-              <SourceParameter reference="Metabolite_414"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1030">
-              <SourceParameter reference="Metabolite_415"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1031">
-              <SourceParameter reference="Metabolite_410"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1032">
-              <SourceParameter reference="Metabolite_404"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1033">
+            <CallParameter functionParameter="FunctionParameter_810">
               <SourceParameter reference="Metabolite_411"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1034">
-              <SourceParameter reference="Metabolite_412"/>
+            <CallParameter functionParameter="FunctionParameter_811">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1035">
-              <SourceParameter reference="Metabolite_403"/>
+            <CallParameter functionParameter="FunctionParameter_812">
+              <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1036">
-              <SourceParameter reference="Metabolite_408"/>
+            <CallParameter functionParameter="FunctionParameter_813">
+              <SourceParameter reference="ModelValue_1931"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1037">
-              <SourceParameter reference="Metabolite_406"/>
+            <CallParameter functionParameter="FunctionParameter_814">
+              <SourceParameter reference="ModelValue_1919"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1038">
+            <CallParameter functionParameter="FunctionParameter_815">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_816">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_817">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_818">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_819">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_820">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_821">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_752">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_753">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_754">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_755">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_844">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_845">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_846">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_847">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_848">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_849">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_850">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_851">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_852">
+              <SourceParameter reference="ModelValue_1997"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_853">
+              <SourceParameter reference="Metabolite_404"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_854">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_855">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_856">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_857">
               <SourceParameter reference="Metabolite_407"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1039">
+            <CallParameter functionParameter="FunctionParameter_858">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_859">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_860">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_861">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_862">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_863">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_864">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_865">
               <SourceParameter reference="Metabolite_409"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1040">
-              <SourceParameter reference="Metabolite_405"/>
+            <CallParameter functionParameter="FunctionParameter_866">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_867">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_868">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_869">
+              <SourceParameter reference="Metabolite_422"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_870">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_853" name="degradacion arnPLAUR[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_853" name="degradacion tfTFAP2A[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_853">
@@ -8474,52 +8009,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_431" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_426" stoichiometry="1"/>
         </ListOfSubstrates>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
-        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_9817" name="KdArn_PLAUR" value="1"/>
-          <Constant key="Parameter_10053" name="kr_MIR155" value="1"/>
-          <Constant key="Parameter_10065" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_10096" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_19572" name="kd_tfTFAP2A" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_86" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_78" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1085">
-              <SourceParameter reference="ModelValue_1999"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1084">
-              <SourceParameter reference="Metabolite_429"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1083">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1082">
-              <SourceParameter reference="Metabolite_424"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1081">
-              <SourceParameter reference="Metabolite_431"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1080">
+            <CallParameter functionParameter="FunctionParameter_917">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1079">
-              <SourceParameter reference="ModelValue_1916"/>
+            <CallParameter functionParameter="FunctionParameter_916">
+              <SourceParameter reference="ModelValue_1998"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1078">
-              <SourceParameter reference="ModelValue_1940"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1077">
-              <SourceParameter reference="ModelValue_1917"/>
+            <CallParameter functionParameter="FunctionParameter_915">
+              <SourceParameter reference="Metabolite_426"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_854" name="Sintesis MIR155[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_854" name="Sintesis tfTFAP2C[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_854">
@@ -8532,77 +8041,181 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_429" stoichiometry="1"/>
+          <Product metabolite="Metabolite_422" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_412" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_403" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_17388" name="Cgh_MIR155" value="1"/>
-          <Constant key="Parameter_10116" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_10039" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_9956" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_6811" name="ka_tfJUND" value="1"/>
-          <Constant key="Parameter_21657" name="ka_tfNFKB1" value="1"/>
-          <Constant key="Parameter_21656" name="ka_tfSMAD4" value="1"/>
-          <Constant key="Parameter_3356" name="ks_MIR155" value="1"/>
+          <Constant key="Parameter_7803" name="Cgh_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_4501" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19523" name="ka_tfATF1" value="1"/>
+          <Constant key="Parameter_19631" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_6576" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_8068" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19630" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_19628" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_7617" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_19629" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_7614" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19634" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_18722" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_18207" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_19637" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_19636" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_19639" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_19638" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_21644" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_21643" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_19641" name="ks_tfTFAP2C" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_89" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_79" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1060">
-              <SourceParameter reference="ModelValue_2000"/>
+            <CallParameter functionParameter="FunctionParameter_912">
+              <SourceParameter reference="ModelValue_1999"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1059">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_913">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1058">
-              <SourceParameter reference="Metabolite_432"/>
+            <CallParameter functionParameter="FunctionParameter_914">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1061">
+            <CallParameter functionParameter="FunctionParameter_911">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1062">
+            <CallParameter functionParameter="FunctionParameter_910">
+              <SourceParameter reference="ModelValue_1931"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_909">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_908">
+              <SourceParameter reference="ModelValue_1901"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_907">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_906">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_905">
               <SourceParameter reference="ModelValue_1904"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1063">
+            <CallParameter functionParameter="FunctionParameter_904">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_903">
               <SourceParameter reference="ModelValue_1914"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1064">
+            <CallParameter functionParameter="FunctionParameter_902">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_901">
               <SourceParameter reference="ModelValue_1906"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1065">
-              <SourceParameter reference="ModelValue_1946"/>
+            <CallParameter functionParameter="FunctionParameter_900">
+              <SourceParameter reference="ModelValue_1907"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1054">
-              <SourceParameter reference="ModelValue_1939"/>
+            <CallParameter functionParameter="FunctionParameter_899">
+              <SourceParameter reference="ModelValue_1908"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1053">
-              <SourceParameter reference="ModelValue_2001"/>
+            <CallParameter functionParameter="FunctionParameter_898">
+              <SourceParameter reference="ModelValue_1932"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1052">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_897">
+              <SourceParameter reference="ModelValue_1950"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1051">
+            <CallParameter functionParameter="FunctionParameter_896">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_895">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_894">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_893">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_892">
+              <SourceParameter reference="ModelValue_2000"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_891">
               <SourceParameter reference="Metabolite_404"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1050">
-              <SourceParameter reference="Metabolite_412"/>
+            <CallParameter functionParameter="FunctionParameter_890">
+              <SourceParameter reference="Metabolite_415"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1049">
-              <SourceParameter reference="Metabolite_403"/>
+            <CallParameter functionParameter="FunctionParameter_889">
+              <SourceParameter reference="Metabolite_414"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1048">
-              <SourceParameter reference="Metabolite_413"/>
+            <CallParameter functionParameter="FunctionParameter_888">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_887">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_886">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_885">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_884">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_883">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_882">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_881">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_880">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_879">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_878">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_877">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_876">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_875">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_874">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_855" name="Sintesis MIR16_2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_855" name="degradacion tfTFAP2C[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_855">
@@ -8614,38 +8227,27 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfProducts>
-          <Product metabolite="Metabolite_427" stoichiometry="1"/>
-        </ListOfProducts>
-        <ListOfModifiers>
-          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
-        </ListOfModifiers>
+        <ListOfSubstrates>
+          <Substrate metabolite="Metabolite_422" stoichiometry="1"/>
+        </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4617" name="Cgh_MIR16_2" value="1"/>
-          <Constant key="Parameter_16544" name="ka_tfE2F1" value="1"/>
-          <Constant key="Parameter_8772" name="ks_MIR16_2" value="1"/>
+          <Constant key="Parameter_19531" name="kd_tfTFAP2C" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_91" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_80" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1088">
-              <SourceParameter reference="ModelValue_2002"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1089">
+            <CallParameter functionParameter="FunctionParameter_955">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1090">
-              <SourceParameter reference="ModelValue_1912"/>
+            <CallParameter functionParameter="FunctionParameter_954">
+              <SourceParameter reference="ModelValue_2001"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1087">
-              <SourceParameter reference="ModelValue_2003"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1086">
-              <SourceParameter reference="Metabolite_419"/>
+            <CallParameter functionParameter="FunctionParameter_953">
+              <SourceParameter reference="Metabolite_422"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_856" name="Sintesis tfAP2B1[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_856" name="Sintesis tfTP53[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_856">
@@ -8661,58 +8263,130 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_423" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_404" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_427" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_411" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19216" name="Cgh_tfAP2B1" value="1"/>
-          <Constant key="Parameter_19608" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_10371" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_4929" name="ka_tfJUN" value="1"/>
-          <Constant key="Parameter_4618" name="kr_MIR16_2" value="1"/>
-          <Constant key="Parameter_4723" name="ks_tfAP2B1" value="1"/>
+          <Constant key="Parameter_19570" name="Cgh_tfTP53" value="1"/>
+          <Constant key="Parameter_19409" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19404" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_19387" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_17199" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_7147" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_19352" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_10920" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_12941" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_10626" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_13428" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_13229" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_19589" name="kr_MIR16_2" value="1"/>
+          <Constant key="Parameter_19575" name="kr_MIR222" value="1"/>
+          <Constant key="Parameter_7572" name="ks_tfTP53" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_39" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_81" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_264">
-              <SourceParameter reference="ModelValue_2004"/>
+            <CallParameter functionParameter="FunctionParameter_950">
+              <SourceParameter reference="ModelValue_2002"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_263">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_951">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_262">
+            <CallParameter functionParameter="FunctionParameter_952">
               <SourceParameter reference="Metabolite_427"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_261">
-              <SourceParameter reference="Metabolite_432"/>
+            <CallParameter functionParameter="FunctionParameter_949">
+              <SourceParameter reference="Metabolite_411"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_250">
+            <CallParameter functionParameter="FunctionParameter_948">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_947">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_265">
+            <CallParameter functionParameter="FunctionParameter_946">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_945">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_944">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_943">
               <SourceParameter reference="ModelValue_1904"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_266">
-              <SourceParameter reference="ModelValue_1914"/>
+            <CallParameter functionParameter="FunctionParameter_942">
+              <SourceParameter reference="ModelValue_1913"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_267">
-              <SourceParameter reference="ModelValue_1940"/>
+            <CallParameter functionParameter="FunctionParameter_941">
+              <SourceParameter reference="ModelValue_1905"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_268">
-              <SourceParameter reference="ModelValue_2005"/>
+            <CallParameter functionParameter="FunctionParameter_940">
+              <SourceParameter reference="ModelValue_1906"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_269">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_939">
+              <SourceParameter reference="ModelValue_1907"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_270">
-              <SourceParameter reference="Metabolite_404"/>
+            <CallParameter functionParameter="FunctionParameter_938">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_937">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_936">
+              <SourceParameter reference="ModelValue_1922"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_935">
+              <SourceParameter reference="ModelValue_1934"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_934">
+              <SourceParameter reference="ModelValue_2003"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_933">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_932">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_931">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_930">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_929">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_928">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_927">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_926">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_925">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_924">
+              <SourceParameter reference="Metabolite_417"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_857" name="degradacion MIR145[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_857" name="degradacion tfTP53[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_857">
@@ -8725,26 +8399,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_433" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_423" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_4864" name="kd_MIR145" value="1"/>
+          <Constant key="Parameter_19618" name="kd_tfTP53" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_88" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_82" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1055">
-              <SourceParameter reference="Metabolite_433"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1056">
+            <CallParameter functionParameter="FunctionParameter_975">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1057">
-              <SourceParameter reference="ModelValue_2006"/>
+            <CallParameter functionParameter="FunctionParameter_974">
+              <SourceParameter reference="ModelValue_2004"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_973">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_858" name="degradacion MIR155[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_858" name="Transcripcion arnETS1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_858">
@@ -8756,27 +8430,150 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </rdf:Description>
           </rdf:RDF>
         </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_429" stoichiometry="1"/>
-        </ListOfSubstrates>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_421" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_429" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+        </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_18379" name="kd_MIR155" value="1"/>
+          <Constant key="Parameter_10287" name="Cgh_ETS1" value="1"/>
+          <Constant key="Parameter_3458" name="KsArn_ETS1" value="1"/>
+          <Constant key="Parameter_7968" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_21642" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19649" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_8704" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_19553" name="ka_tfFOSL2" value="1"/>
+          <Constant key="Parameter_8211" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_9341" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_17839" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_6611" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_19202" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_8664" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_19517" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_17114" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_6678" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_3615" name="ka_tfTP53" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_90" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_83" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1093">
-              <SourceParameter reference="Metabolite_429"/>
+            <CallParameter functionParameter="FunctionParameter_970">
+              <SourceParameter reference="ModelValue_2005"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1092">
+            <CallParameter functionParameter="FunctionParameter_971">
+              <SourceParameter reference="ModelValue_2006"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_972">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1091">
-              <SourceParameter reference="ModelValue_2007"/>
+            <CallParameter functionParameter="FunctionParameter_969">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_968">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_967">
+              <SourceParameter reference="ModelValue_1903"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_966">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_965">
+              <SourceParameter reference="ModelValue_1914"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_964">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_963">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_962">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_961">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_960">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_959">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_958">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_957">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_956">
+              <SourceParameter reference="ModelValue_1915"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_873">
+              <SourceParameter reference="ModelValue_1920"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_872">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_871">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_918">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_919">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_920">
+              <SourceParameter reference="Metabolite_429"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_921">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_922">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_923">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_976">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_977">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_978">
+              <SourceParameter reference="Metabolite_416"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_979">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_980">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_981">
+              <SourceParameter reference="Metabolite_426"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_982">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_859" name="degradacion MIR16_2[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_859" name="degradacion tfJUN[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_859">
@@ -8789,26 +8586,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_427" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_432" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_19076" name="kd_MIR16_2" value="1"/>
+          <Constant key="Parameter_7851" name="kd_tfJUN" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_92" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_62" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1045">
-              <SourceParameter reference="Metabolite_427"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1044">
+            <CallParameter functionParameter="FunctionParameter_601">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1043">
-              <SourceParameter reference="ModelValue_2008"/>
+            <CallParameter functionParameter="FunctionParameter_600">
+              <SourceParameter reference="ModelValue_2007"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_599">
+              <SourceParameter reference="Metabolite_432"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_860" name="Sintesis MIR200B[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_860" name="Sintesis tfJUNB[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_860">
@@ -8821,37 +8618,109 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_428" stoichiometry="1"/>
+          <Product metabolite="Metabolite_431" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_414" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_407" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_406" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_422" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_9683" name="Cgh_MIR200B" value="1"/>
-          <Constant key="Parameter_21330" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_18939" name="ks_MIR200B" value="1"/>
+          <Constant key="Parameter_8576" name="Cgh_tfJUNB" value="1"/>
+          <Constant key="Parameter_8613" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_19515" name="ka_tfE2F2" value="1"/>
+          <Constant key="Parameter_6741" name="ka_tfETV4" value="1"/>
+          <Constant key="Parameter_19516" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_8580" name="ka_tfFOSL1" value="1"/>
+          <Constant key="Parameter_8396" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_6714" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_8922" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_8917" name="ka_tfTFAP2C" value="1"/>
+          <Constant key="Parameter_8790" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_21657" name="ks_tfJUNB" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_93" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_63" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1046">
-              <SourceParameter reference="ModelValue_2009"/>
+            <CallParameter functionParameter="FunctionParameter_596">
+              <SourceParameter reference="ModelValue_2008"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1041">
+            <CallParameter functionParameter="FunctionParameter_597">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_598">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_595">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_594">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1042">
-              <SourceParameter reference="ModelValue_1915"/>
+            <CallParameter functionParameter="FunctionParameter_593">
+              <SourceParameter reference="ModelValue_1901"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1047">
-              <SourceParameter reference="ModelValue_2010"/>
+            <CallParameter functionParameter="FunctionParameter_592">
+              <SourceParameter reference="ModelValue_1903"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1094">
-              <SourceParameter reference="Metabolite_426"/>
+            <CallParameter functionParameter="FunctionParameter_591">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_590">
+              <SourceParameter reference="ModelValue_1913"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_589">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_588">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_587">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_586">
+              <SourceParameter reference="ModelValue_1910"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_585">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_584">
+              <SourceParameter reference="ModelValue_2009"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_583">
+              <SourceParameter reference="Metabolite_414"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_582">
+              <SourceParameter reference="Metabolite_407"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_581">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_580">
+              <SourceParameter reference="Metabolite_406"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_579">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_578">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_577">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_576">
+              <SourceParameter reference="Metabolite_422"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_861" name="degradacion MIR200B[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_861" name="degradacion tfNFKB1[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_861">
@@ -8864,26 +8733,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_428" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_409" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_6270" name="kd_MIR200B" value="1"/>
+          <Constant key="Parameter_21656" name="kd_tfNFKB1" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_94" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_68" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1099">
-              <SourceParameter reference="Metabolite_428"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1098">
+            <CallParameter functionParameter="FunctionParameter_695">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1097">
-              <SourceParameter reference="ModelValue_2011"/>
+            <CallParameter functionParameter="FunctionParameter_694">
+              <SourceParameter reference="ModelValue_2010"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_693">
+              <SourceParameter reference="Metabolite_409"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_862" name="Sintesis MIR200C[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_862" name="Sintesis tfSMAD4[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_862">
@@ -8896,72 +8765,144 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_425" stoichiometry="1"/>
+          <Product metabolite="Metabolite_416" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
+          <Modifier metabolite="Metabolite_428" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_405" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_431" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_418" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_426" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_419" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_424" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_413" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_19144" name="Cgh_MIR200C" value="1"/>
-          <Constant key="Parameter_19108" name="ka_tfTP53" value="1"/>
-          <Constant key="Parameter_6178" name="ks_MIR200C" value="1"/>
+          <Constant key="Parameter_3356" name="Cgh_tfSMAD4" value="1"/>
+          <Constant key="Parameter_19155" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_4817" name="ka_tfE2F3" value="1"/>
+          <Constant key="Parameter_19220" name="ka_tfFOS" value="1"/>
+          <Constant key="Parameter_4718" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_19608" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_7144" name="ka_tfJUNB" value="1"/>
+          <Constant key="Parameter_19052" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_6499" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_20164" name="ka_tfSP1" value="1"/>
+          <Constant key="Parameter_4999" name="ka_tfSP3" value="1"/>
+          <Constant key="Parameter_6463" name="ka_tfTFAP2A" value="1"/>
+          <Constant key="Parameter_17999" name="kr_MIR145" value="1"/>
+          <Constant key="Parameter_9665" name="kr_MIR155" value="1"/>
+          <Constant key="Parameter_21330" name="kr_MIR204" value="1"/>
+          <Constant key="Parameter_6523" name="ks_tfSMAD4" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_95" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_69" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1100">
-              <SourceParameter reference="ModelValue_2012"/>
+            <CallParameter functionParameter="FunctionParameter_690">
+              <SourceParameter reference="ModelValue_2011"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1095">
+            <CallParameter functionParameter="FunctionParameter_691">
+              <SourceParameter reference="ModelValue_1900"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_692">
+              <SourceParameter reference="Metabolite_419"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_689">
+              <SourceParameter reference="Metabolite_424"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_688">
+              <SourceParameter reference="Metabolite_413"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_687">
+              <SourceParameter reference="Metabolite_421"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_686">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1096">
+            <CallParameter functionParameter="FunctionParameter_685">
+              <SourceParameter reference="ModelValue_1902"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_684">
+              <SourceParameter reference="ModelValue_1904"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_683">
+              <SourceParameter reference="ModelValue_1905"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_682">
+              <SourceParameter reference="ModelValue_1906"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_681">
+              <SourceParameter reference="ModelValue_1907"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_680">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_679">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_678">
+              <SourceParameter reference="ModelValue_1909"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_677">
+              <SourceParameter reference="ModelValue_1951"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_676">
               <SourceParameter reference="ModelValue_1915"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1101">
-              <SourceParameter reference="ModelValue_2013"/>
+            <CallParameter functionParameter="FunctionParameter_675">
+              <SourceParameter reference="ModelValue_1921"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1102">
+            <CallParameter functionParameter="FunctionParameter_674">
+              <SourceParameter reference="ModelValue_1933"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_673">
+              <SourceParameter reference="ModelValue_1946"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_672">
+              <SourceParameter reference="ModelValue_2012"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_671">
+              <SourceParameter reference="Metabolite_428"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_670">
+              <SourceParameter reference="Metabolite_405"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_669">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_668">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_667">
+              <SourceParameter reference="Metabolite_431"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_666">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_665">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_664">
+              <SourceParameter reference="Metabolite_418"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_663">
+              <SourceParameter reference="Metabolite_417"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_662">
               <SourceParameter reference="Metabolite_426"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_863" name="degradacion MIR200C[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_863" name="Sintesis MIR155[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_863">
-              <dcterms:created>
-                <rdf:Description>
-                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
-                </rdf:Description>
-              </dcterms:created>
-            </rdf:Description>
-          </rdf:RDF>
-        </MiriamAnnotation>
-        <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_425" stoichiometry="1"/>
-        </ListOfSubstrates>
-        <ListOfConstants>
-          <Constant key="Parameter_4863" name="kd_MIR200C" value="1"/>
-        </ListOfConstants>
-        <KineticLaw function="Function_96" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
-          <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1107">
-              <SourceParameter reference="Metabolite_425"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1106">
-              <SourceParameter reference="Compartment_13"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1105">
-              <SourceParameter reference="ModelValue_2014"/>
-            </CallParameter>
-          </ListOfCallParameters>
-        </KineticLaw>
-      </Reaction>
-      <Reaction key="Reaction_864" name="Sintesis MIR204[merge]" reversible="false" fast="false" addNoise="false">
-        <MiriamAnnotation>
-<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
-            <rdf:Description rdf:about="#Reaction_864">
               <dcterms:created>
                 <rdf:Description>
                   <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
@@ -8974,42 +8915,117 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <Product metabolite="Metabolite_424" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
+          <Modifier metabolite="Metabolite_421" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_430" stoichiometry="1"/>
           <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_408" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_409" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_416" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_18316" name="Cgh_MIR204" value="1"/>
-          <Constant key="Parameter_7292" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_6362" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_5793" name="ks_MIR204" value="1"/>
+          <Constant key="Parameter_6343" name="Cgh_MIR155" value="1"/>
+          <Constant key="Parameter_4741" name="KaArn_ETS1" value="1"/>
+          <Constant key="Parameter_7359" name="ka_tfGATA2" value="1"/>
+          <Constant key="Parameter_8933" name="ka_tfJUN" value="1"/>
+          <Constant key="Parameter_6453" name="ka_tfJUND" value="1"/>
+          <Constant key="Parameter_20182" name="ka_tfNFKB1" value="1"/>
+          <Constant key="Parameter_6460" name="ka_tfSMAD4" value="1"/>
+          <Constant key="Parameter_19221" name="ks_MIR155" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_97" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_89" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1108">
-              <SourceParameter reference="ModelValue_2015"/>
+            <CallParameter functionParameter="FunctionParameter_1060">
+              <SourceParameter reference="ModelValue_2013"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1103">
-              <SourceParameter reference="ModelValue_1899"/>
+            <CallParameter functionParameter="FunctionParameter_1059">
+              <SourceParameter reference="ModelValue_1900"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1104">
-              <SourceParameter reference="Metabolite_432"/>
+            <CallParameter functionParameter="FunctionParameter_1058">
+              <SourceParameter reference="Metabolite_421"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1109">
+            <CallParameter functionParameter="FunctionParameter_1061">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1110">
-              <SourceParameter reference="ModelValue_1904"/>
+            <CallParameter functionParameter="FunctionParameter_1062">
+              <SourceParameter reference="ModelValue_1905"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1111">
-              <SourceParameter reference="ModelValue_2016"/>
+            <CallParameter functionParameter="FunctionParameter_1063">
+              <SourceParameter reference="ModelValue_1906"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1112">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_1064">
+              <SourceParameter reference="ModelValue_1908"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1065">
+              <SourceParameter reference="ModelValue_1932"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1054">
+              <SourceParameter reference="ModelValue_1950"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1053">
+              <SourceParameter reference="ModelValue_2014"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1052">
+              <SourceParameter reference="Metabolite_430"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1051">
+              <SourceParameter reference="Metabolite_432"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1050">
+              <SourceParameter reference="Metabolite_408"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1049">
+              <SourceParameter reference="Metabolite_409"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1048">
+              <SourceParameter reference="Metabolite_416"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_865" name="degradacion MIR204[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_864" name="Sintesis MIR16_2[merge]" reversible="false" fast="false" addNoise="false">
+        <MiriamAnnotation>
+<rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+            <rdf:Description rdf:about="#Reaction_864">
+              <dcterms:created>
+                <rdf:Description>
+                  <dcterms:W3CDTF>2020-03-09T23:04:03Z</dcterms:W3CDTF>
+                </rdf:Description>
+              </dcterms:created>
+            </rdf:Description>
+          </rdf:RDF>
+        </MiriamAnnotation>
+        <ListOfProducts>
+          <Product metabolite="Metabolite_427" stoichiometry="1"/>
+        </ListOfProducts>
+        <ListOfModifiers>
+          <Modifier metabolite="Metabolite_415" stoichiometry="1"/>
+        </ListOfModifiers>
+        <ListOfConstants>
+          <Constant key="Parameter_4719" name="Cgh_MIR16_2" value="1"/>
+          <Constant key="Parameter_8893" name="ka_tfE2F1" value="1"/>
+          <Constant key="Parameter_2897" name="ks_MIR16_2" value="1"/>
+        </ListOfConstants>
+        <KineticLaw function="Function_91" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+          <ListOfCallParameters>
+            <CallParameter functionParameter="FunctionParameter_1088">
+              <SourceParameter reference="ModelValue_2015"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1089">
+              <SourceParameter reference="Compartment_13"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1090">
+              <SourceParameter reference="ModelValue_1919"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1087">
+              <SourceParameter reference="ModelValue_2016"/>
+            </CallParameter>
+            <CallParameter functionParameter="FunctionParameter_1086">
+              <SourceParameter reference="Metabolite_415"/>
+            </CallParameter>
+          </ListOfCallParameters>
+        </KineticLaw>
+      </Reaction>
+      <Reaction key="Reaction_865" name="degradacion MIR16_2[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_865">
@@ -9022,26 +9038,26 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_424" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_427" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_2957" name="kd_MIR204" value="1"/>
+          <Constant key="Parameter_7102" name="kd_MIR16_2" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_98" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_92" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1119">
-              <SourceParameter reference="Metabolite_424"/>
+            <CallParameter functionParameter="FunctionParameter_1045">
+              <SourceParameter reference="Metabolite_427"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1118">
+            <CallParameter functionParameter="FunctionParameter_1044">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1117">
+            <CallParameter functionParameter="FunctionParameter_1043">
               <SourceParameter reference="ModelValue_2017"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_866" name="Sintesis MIR222[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_866" name="Sintesis MIR200B[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_866">
@@ -9054,53 +9070,37 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfProducts>
-          <Product metabolite="Metabolite_430" stoichiometry="1"/>
+          <Product metabolite="Metabolite_410" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfModifiers>
-          <Modifier metabolite="Metabolite_432" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_417" stoichiometry="1"/>
-          <Modifier metabolite="Metabolite_410" stoichiometry="1"/>
+          <Modifier metabolite="Metabolite_423" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_18986" name="Cgh_MIR222" value="1"/>
-          <Constant key="Parameter_6652" name="KaArn_ETS1" value="1"/>
-          <Constant key="Parameter_17296" name="ka_tfFOSL1" value="1"/>
-          <Constant key="Parameter_7113" name="ka_tfGATA2" value="1"/>
-          <Constant key="Parameter_19156" name="ks_MIR222" value="1"/>
+          <Constant key="Parameter_6438" name="Cgh_MIR200B" value="1"/>
+          <Constant key="Parameter_7059" name="ka_tfTP53" value="1"/>
+          <Constant key="Parameter_5756" name="ks_MIR200B" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_99" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_93" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1114">
+            <CallParameter functionParameter="FunctionParameter_1046">
               <SourceParameter reference="ModelValue_2018"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1115">
-              <SourceParameter reference="ModelValue_1899"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1116">
-              <SourceParameter reference="Metabolite_432"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1113">
+            <CallParameter functionParameter="FunctionParameter_1041">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1120">
-              <SourceParameter reference="ModelValue_1902"/>
+            <CallParameter functionParameter="FunctionParameter_1042">
+              <SourceParameter reference="ModelValue_1920"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1121">
-              <SourceParameter reference="ModelValue_1904"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1122">
+            <CallParameter functionParameter="FunctionParameter_1047">
               <SourceParameter reference="ModelValue_2019"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1123">
-              <SourceParameter reference="Metabolite_417"/>
-            </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1124">
-              <SourceParameter reference="Metabolite_410"/>
+            <CallParameter functionParameter="FunctionParameter_1094">
+              <SourceParameter reference="Metabolite_423"/>
             </CallParameter>
           </ListOfCallParameters>
         </KineticLaw>
       </Reaction>
-      <Reaction key="Reaction_867" name="degradacion MIR222[merge]" reversible="false" fast="false" addNoise="false">
+      <Reaction key="Reaction_867" name="degradacion MIR200B[merge]" reversible="false" fast="false" addNoise="false">
         <MiriamAnnotation>
 <rdf:RDF xmlns:dcterms="http://purl.org/dc/terms/" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <rdf:Description rdf:about="#Reaction_867">
@@ -9113,20 +9113,20 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           </rdf:RDF>
         </MiriamAnnotation>
         <ListOfSubstrates>
-          <Substrate metabolite="Metabolite_430" stoichiometry="1"/>
+          <Substrate metabolite="Metabolite_410" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_5496" name="kd_MIR222" value="1"/>
+          <Constant key="Parameter_6416" name="kd_MIR200B" value="1"/>
         </ListOfConstants>
-        <KineticLaw function="Function_100" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
+        <KineticLaw function="Function_94" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]">
           <ListOfCallParameters>
-            <CallParameter functionParameter="FunctionParameter_1133">
-              <SourceParameter reference="Metabolite_430"/>
+            <CallParameter functionParameter="FunctionParameter_1099">
+              <SourceParameter reference="Metabolite_410"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1132">
+            <CallParameter functionParameter="FunctionParameter_1098">
               <SourceParameter reference="Compartment_13"/>
             </CallParameter>
-            <CallParameter functionParameter="FunctionParameter_1131">
+            <CallParameter functionParameter="FunctionParameter_1097">
               <SourceParameter reference="ModelValue_2020"/>
             </CallParameter>
           </ListOfCallParameters>
@@ -9142,7 +9142,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_13">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:54Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:56Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -9155,113 +9155,93 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]]" value="1" type="Compartment" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Species Values" type="Group">
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfNFKB1]" value="4.1995086114964939e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUN]" value="4.2513255202864641e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTFAP2C]" value="3.3262632588145232e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSP3]" value="3.3311785301820062e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTCF7L2]" value="3.4918209441847388e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSP1]" value="5.158524907548373e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTFAP2A]" value="3.7821086087710523e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfGATA2]" value="3.3319788727019019e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUNB]" value="4.7391189297034645e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUND]" value="5.016137409125465e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSMAD4]" value="3.9713465564191634e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOSL2]" value="4.3596216793178955e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOXP2]" value="2.2069616617127322e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfAP2B1]" value="4.8343500541456347e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfATF1]" value="5.1024882846599014e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOS]" value="3.5024361718733726e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOSL1]" value="4.2239091218208861e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfETV4]" value="4.6084685838108495e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUND]" value="5.016137409125465e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfNFKB1]" value="4.1995086114964939e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR200B]" value="4.1780048189745101e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR222]" value="7.9514714753128696e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR200C]" value="3.3260079812873585e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR204]" value="3.5122350320048479e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfE2F2]" value="3.7587342712486928e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfE2F1]" value="4.4098403119244187e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfE2F3]" value="3.9538925855733199e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOS]" value="3.5024361718733726e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfETV4]" value="4.6084685838108495e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfAP2B1]" value="4.8343500541456347e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR204]" value="3.5122350320048479e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR200C]" value="3.3260079812873585e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTP53]" value="5.0039907510168955e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR16_2]" value="6.1324787259325297e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR200B]" value="4.1780048189745101e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR155]" value="5.635192789380518e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR222]" value="7.9514714753128696e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[arnPLAUR]" value="4.170179581094732e+24" type="Species" simulationType="reactions"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[arnETS1]" value="3.9058178351118895e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSMAD4]" value="3.9713465564191634e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSP3]" value="3.3311785301820062e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfSP1]" value="5.158524907548373e+24" type="Species" simulationType="reactions"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR145]" value="5.4612651958289058e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTCF7L2]" value="3.4918209441847388e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[arnETS1]" value="3.9058178351118895e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTFAP2C]" value="3.3262632588145232e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTP53]" value="5.0039907510168955e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR155]" value="5.635192789380518e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[arnPLAUR]" value="4.170179581094732e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfTFAP2A]" value="3.7821086087710523e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[MIR16_2]" value="6.1324787259325297e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfE2F3]" value="3.9538925855733199e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOSL2]" value="4.3596216793178955e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfGATA2]" value="3.3319788727019019e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUNB]" value="4.7391189297034645e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfJUN]" value="4.2513255202864641e+24" type="Species" simulationType="reactions"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[default\[merge\]],Vector=Metabolites[tfFOXP2]" value="2.2069616617127322e+24" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfATF1\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOS\[merge\]]" value="0.99535941169716191" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]]" value="0.066216388773158052" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]]" value="0.99999928225756518" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOSL1\[merge\]]" value="0.07113257807061997" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfATF1\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfATF1\[merge\]]" value="0.081645323285807161" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfE2F1\[merge\]]" value="0.002204871305336191" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfE2F2\[merge\]]" value="0.00085333111916343696" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfE2F2\[merge\]]" value="0.0093620483940459881" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfATF1\[merge\]]" value="0.77031442485182722" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfE2F1\[merge\]]" value="0.00018995333863459313" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfAP2B1\[merge\]]" value="0.49846579766433824" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOSL1\[merge\]]" value="0.36703300599722799" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOSL2\[merge\]]" value="0.03046534327889026" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOSL2\[merge\]]" value="0.23608383670346322" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOXP2\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]]" value="0.00016455892022335688" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOXP2\[merge\]]" value="0.090319040501781842" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOXP2\[merge\]]" value="0.9979735958175896" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfGATA2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfGATA2\[merge\]]" value="0.060447535187030513" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfGATA2\[merge\]]" value="0.59673579223763062" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUN\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F3\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR200B\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR200C\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUN\[merge\]]" value="0.49913170551240033" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUN\[merge\]]" value="0.57163103395501269" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUNB\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUNB\[merge\]]" value="0.20633431870157271" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F3\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfE2F3\[merge\]]" value="0.065179713780862236" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfE2F3\[merge\]]" value="0.086844267079243212" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfETV4\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfETV4\[merge\]]" value="0.054515269841047806" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfETV4\[merge\]]" value="0.3164790043453875" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOS\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]]" value="0.00016455892022335688" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOS\[merge\]]" value="0.097188279545152786" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOS\[merge\]]" value="0.99535941169716191" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOSL1\[merge\]]" value="0.07113257807061997" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUNB\[merge\]]" value="0.79209762635389713" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUND\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUND\[merge\]]" value="0.10124481925641045" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUND\[merge\]]" value="0.93227755310657323" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfNFKB1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfNFKB1\[merge\]]" value="0.13448436050643989" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfNFKB1\[merge\]]" value="0.77019738440391528" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfSMAD4\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfSMAD4\[merge\]]" value="0.020406830480394052" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOSL1\[merge\]]" value="0.36703300599722799" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOSL2\[merge\]]" value="0.03046534327889026" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOSL2\[merge\]]" value="0.23608383670346322" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfSMAD4\[merge\]]" value="0.1579464425804423" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfATF1\[merge\]]" value="0.77031442485182722" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfE2F1\[merge\]]" value="0.00018995333863459313" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfE2F1\[merge\]]" value="0.002204871305336191" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfE2F2\[merge\]]" value="0.00085333111916343696" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfE2F2\[merge\]]" value="0.0093620483940459881" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfSP1\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfSP1\[merge\]]" value="0.1519624929094808" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfSP1\[merge\]]" value="0.16850565819974619" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfSP3\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
@@ -9269,6 +9249,42 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfSP3\[merge\]]" value="0.0090021234253634449" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfTCF7L2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfTCF7L2\[merge\]]" value="0.99996496761887965" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfFOXP2\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfFOXP2\[merge\]]" value="0.090319040501781842" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR155\[merge\]]" value="0.37621892756378605" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfGATA2\[merge\]]" value="0.59673579223763062" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfFOXP2\[merge\]]" value="0.9979735958175896" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfAP2B1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfAP2B1\[merge\]]" value="0.13976360764723308" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfGATA2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfGATA2\[merge\]]" value="0.060447535187030513" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUNB\[merge\]]" value="0.79209762635389713" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUND\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUND\[merge\]]" value="0.10124481925641045" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUN\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUN\[merge\]]" value="0.49913170551240033" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KdArn_ETS1\[merge\]]" value="0.84694889724673528" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_PLAUR\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KsArn_PLAUR\[merge\]]" value="0.062823379680250965" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfAP2B1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOXP2\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTCF7L2\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KdArn_PLAUR\[merge\]]" value="0.3247710332552935" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR145\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR145\[merge\]]" value="0.0042964231665525007" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR145\[merge\]]" value="0.27816203526320765" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR200C\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR200C\[merge\]]" value="0.027597640664111203" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR200C\[merge\]]" value="0.015864499844477607" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR204\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR204\[merge\]]" value="0.0246698580060963" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR204\[merge\]]" value="0.98057711802223069" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR222\[merge\]]" value="0" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR222\[merge\]]" value="0.34558740182636299" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUND\[merge\]]" value="0.93227755310657323" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfNFKB1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfNFKB1\[merge\]]" value="0.13448436050643989" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR222\[merge\]]" value="0.0008603463631500633" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfTCF7L2\[merge\]]" value="0.40282096041798315" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfTFAP2A\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfTFAP2A\[merge\]]" value="0.17904219388372403" type="ModelValue" simulationType="fixed"/>
@@ -9281,61 +9297,119 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfTP53\[merge\]]" value="0.36069339273741513" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_ETS1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KsArn_ETS1\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KdArn_ETS1\[merge\]]" value="0.84694889724673528" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR145\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR145\[merge\]]" value="0.0042964231665525007" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_PLAUR\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KsArn_PLAUR\[merge\]]" value="0.062823379680250965" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfAP2B1\[merge\]]" value="9.9999999999999995e-07" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfFOXP2\[merge\]]" value="0.0001" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_tfTCF7L2\[merge\]]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KdArn_PLAUR\[merge\]]" value="0.3247710332552935" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfJUN\[merge\]]" value="0.57163103395501269" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfJUNB\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfJUNB\[merge\]]" value="0.20633431870157271" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_tfNFKB1\[merge\]]" value="0.77019738440391528" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfSMAD4\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfSMAD4\[merge\]]" value="0.020406830480394052" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR155\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR155\[merge\]]" value="0.013277424773137026" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR16_2\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR16_2\[merge\]]" value="0.025201777679596995" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_tfAP2B1\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_tfAP2B1\[merge\]]" value="0.13976360764723308" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR145\[merge\]]" value="0.27816203526320765" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR155\[merge\]]" value="0.37621892756378605" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR16_2\[merge\]]" value="0.188245356809564" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR200B\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR200B\[merge\]]" value="0.09955908143051985" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR200B\[merge\]]" value="0.90811930103749217" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR200C\[merge\]]" value="3" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR200C\[merge\]]" value="0.027597640664111203" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR200C\[merge\]]" value="0.015864499844477607" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR204\[merge\]]" value="2" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR204\[merge\]]" value="0.0246698580060963" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR204\[merge\]]" value="0.98057711802223069" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[Cgh_MIR222\[merge\]]" value="0" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR222\[merge\]]" value="0.34558740182636299" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR222\[merge\]]" value="0.0008603463631500633" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSP1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSP3\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTFAP2A\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTCF7L2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfNFKB1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUND\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUNB\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSMAD4\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUN\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTFAP2C\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTP53\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOSL2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfAP2B1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfATF1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOSL1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOXP2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F3\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfAP2B1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOS\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOSL1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfE2F3\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[KrArn_ETS1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfETV4\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTCF7L2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTFAP2A\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTP53\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfFOSL2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfGATA2\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSP1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfTFAP2C\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSP3\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUNB\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUND\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfNFKB1\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfJUN\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_tfSMAD4\[merge\]]" value="0.019" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOS\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOS\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOS" value="0.99535941169716191" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOSL1" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOSL1" value="0.07113257807061997" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfATF1\[merge\]]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfATF1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfATF1" value="3" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
@@ -9398,520 +9472,10 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfE2F1" value="0.002204871305336191" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfE2F2" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfE2F2" value="0.00085333111916343696" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfE2F2" value="0.0093620483940459881" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfATF1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfATF1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfATF1" value="0.77031442485182722" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfATF1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfE2F1" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfE2F1" value="0.00018995333863459313" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfAP2B1\[merge\]]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfAP2B1" value="0.49846579766433824" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_tfAP2B1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOSL1" value="0.36703300599722799" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOSL2" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOSL2" value="0.03046534327889026" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOSL2" value="0.23608383670346322" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOXP2" value="3" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOXP2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR222" value="0.00016455892022335688" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOXP2" value="0.090319040501781842" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOXP2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOXP2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOXP2" value="0.9979735958175896" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOXP2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfGATA2" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfGATA2" value="0.060447535187030513" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfGATA2\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfGATA2" value="0.59673579223763062" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUN" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSMAD4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200B" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200B\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200C" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUN" value="0.49913170551240033" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUN\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUN" value="0.57163103395501269" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUNB" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUNB" value="0.20633431870157271" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUNB\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -10115,344 +9679,94 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOS\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOS\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOS" value="0.99535941169716191" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOSL1" value="0.36703300599722799" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOS\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOSL1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOSL1" value="2" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOSL2" value="2" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL1\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOSL2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOSL1" value="0.07113257807061997" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUNB\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUNB" value="0.79209762635389713" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUND" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUND" value="0.10124481925641045" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUND\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUND" value="0.93227755310657323" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfNFKB1" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfNFKB1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOSL2" value="0.03046534327889026" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfNFKB1" value="0.13448436050643989" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfNFKB1\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOSL2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfNFKB1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfNFKB1" value="0.77019738440391528" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOSL2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOSL2" value="0.23608383670346322" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfNFKB1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfSMAD4" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfSMAD4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR145" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfSMAD4" value="0.020406830480394052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfSMAD4\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOSL2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -10460,6 +9774,171 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfSMAD4" value="0.1579464425804423" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_tfSMAD4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfATF1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfATF1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfATF1" value="0.77031442485182722" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfATF1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfE2F1" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfE2F1" value="0.00018995333863459313" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfE2F1" value="0.002204871305336191" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfE2F2" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfE2F2" value="0.00085333111916343696" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfE2F2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfE2F2" value="0.0093620483940459881" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfE2F2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -10780,6 +10259,705 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfTCF7L2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfTCF7L2" value="0.99996496761887965" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_tfTCF7L2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfFOXP2" value="3" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfFOXP2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR222" value="0.00016455892022335688" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfFOXP2" value="0.090319040501781842" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfFOXP2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR155\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR155\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR155" value="0.37621892756378605" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfGATA2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfGATA2" value="0.59673579223763062" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOXP2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfFOXP2\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfFOXP2" value="0.9979735958175896" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfFOXP2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfAP2B1" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfAP2B1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfAP2B1" value="0.13976360764723308" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfAP2B1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfGATA2" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfGATA2\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfGATA2" value="0.060447535187030513" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUNB\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUNB" value="0.79209762635389713" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUND" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUND" value="0.10124481925641045" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUN" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSMAD4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200B" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200B\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200C" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUN" value="0.49913170551240033" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=KdArn_ETS1" value="0.84694889724673528" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KdArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR145" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200B" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200B\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200C" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR222" value="0.00016455892022335688" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_PLAUR" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_PLAUR\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KsArn_PLAUR" value="0.062823379680250965" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KsArn_PLAUR\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfAP2B1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfAP2B1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOXP2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOXP2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTCF7L2" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTCF7L2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KdArn_PLAUR" value="0.3247710332552935" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KdArn_PLAUR\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR145" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR145\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSMAD4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR145" value="0.0042964231665525007" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR145\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR145\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR145\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR145" value="0.27816203526320765" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR145\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR200C" value="3" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR200C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR200C" value="0.027597640664111203" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR200C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR200C\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR200C" value="0.015864499844477607" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR200C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR204" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR204" value="0.0246698580060963" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR204\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR204\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR204" value="0.98057711802223069" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR222" value="0" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR222\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR222" value="0.34558740182636299" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR222\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUND\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUND\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUND" value="0.93227755310657323" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfNFKB1" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfNFKB1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfNFKB1" value="0.13448436050643989" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfNFKB1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR222\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR222\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR222" value="0.0008603463631500633" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR222\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -11204,206 +11382,161 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=KdArn_ETS1" value="0.84694889724673528" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUN\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfJUN\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfJUN" value="0.57163103395501269" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KdArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR145" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200B" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200B\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR200C" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR200C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnETS1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR222" value="0.00016455892022335688" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR222\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfJUN\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR145" value="2" type="ReactionParameter" simulationType="assignment">
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfJUNB" value="2" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR145\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfJUNB\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSMAD4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSMAD4\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR145\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR145" value="0.0042964231665525007" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR145\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_PLAUR" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_PLAUR\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KsArn_PLAUR" value="0.062823379680250965" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KsArn_PLAUR\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfAP2B1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfAP2B1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfATF1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfATF1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F2" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfETV4" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfETV4\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOXP2" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOXP2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTCF7L2" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTCF7L2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Transcripcion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2C" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2C\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=KdArn_PLAUR" value="0.3247710332552935" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KdArn_PLAUR\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfJUNB\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfJUNB" value="0.20633431870157271" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfJUNB\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion arnPLAUR\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfNFKB1\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion tfNFKB1\[merge\]],ParameterGroup=Parameters,Parameter=kd_tfNFKB1" value="0.77019738440391528" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kd_tfNFKB1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+          </ModelParameterGroup>
+          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]]" type="Reaction">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfSMAD4" value="2" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfSMAD4\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfE2F3" value="0.066216388773158052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfE2F3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOS" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOS\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUNB" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUNB\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUND" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUND\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfNFKB1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfNFKB1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP1" value="0.99999928225756518" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP1\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfSP3" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfSP3\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTFAP2A" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTFAP2A\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR145" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR145\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR155" value="0.0001" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR155\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR204" value="1" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR204\[merge\]],Reference=InitialValue>
+              </InitialExpression>
+            </ModelParameter>
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfSMAD4\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfSMAD4" value="0.020406830480394052" type="ReactionParameter" simulationType="assignment">
+              <InitialExpression>
+                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfSMAD4\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -11466,52 +11599,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_tfAP2B1" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_tfAP2B1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfJUN" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfJUN\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=kr_MIR16_2" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR16_2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis tfAP2B1\[merge\]],ParameterGroup=Parameters,Parameter=ks_tfAP2B1" value="0.13976360764723308" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_tfAP2B1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR145\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR145\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR145" value="0.27816203526320765" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR145\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR155\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR155\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR155" value="0.37621892756378605" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR155\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR16_2\[merge\]]" type="Reaction">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR16_2\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR16_2" value="0.188245356809564" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
@@ -11540,93 +11627,6 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR200B\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR200B" value="0.90811930103749217" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR200B\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR200C" value="3" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR200C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfTP53" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfTP53\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR200C" value="0.027597640664111203" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR200C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR200C\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR200C\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR200C" value="0.015864499844477607" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR200C\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR204" value="2" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR204\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR204\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR204" value="0.0246698580060963" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR204\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR204\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR204\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR204" value="0.98057711802223069" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR204\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=Cgh_MIR222" value="0" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[Cgh_MIR222\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=KaArn_ETS1" value="1" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[KaArn_ETS1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfFOSL1" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfFOSL1\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ka_tfGATA2" value="9.9999999999999995e-07" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ka_tfGATA2\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[Sintesis MIR222\[merge\]],ParameterGroup=Parameters,Parameter=ks_MIR222" value="0.34558740182636299" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR222\[merge\]],Reference=InitialValue>
-              </InitialExpression>
-            </ModelParameter>
-          </ModelParameterGroup>
-          <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR222\[merge\]]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradacion MIR222\[merge\]],ParameterGroup=Parameters,Parameter=kd_MIR222" value="0.0008603463631500633" type="ReactionParameter" simulationType="assignment">
-              <InitialExpression>
-                &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR222\[merge\]],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
@@ -11815,7 +11815,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_2043"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 4.1995086114964939e+24 4.2513255202864641e+24 3.3262632588145232e+24 3.3311785301820062e+24 3.4918209441847388e+24 5.158524907548373e+24 3.7821086087710523e+24 3.3319788727019019e+24 4.7391189297034645e+24 5.016137409125465e+24 3.9713465564191634e+24 4.3596216793178955e+24 2.2069616617127322e+24 5.1024882846599014e+24 4.2239091218208861e+24 3.7587342712486928e+24 4.4098403119244187e+24 3.9538925855733199e+24 3.5024361718733726e+24 4.6084685838108495e+24 4.8343500541456347e+24 3.5122350320048479e+24 3.3260079812873585e+24 5.0039907510168955e+24 6.1324787259325297e+24 4.1780048189745101e+24 5.635192789380518e+24 7.9514714753128696e+24 4.170179581094732e+24 3.9058178351118895e+24 5.4612651958289058e+24 1 3 1 0.066216388773158052 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 0.99999928225756518 0.0001 0.081645323285807161 0.002204871305336191 2 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 0.0001 1 0.00085333111916343696 0.0093620483940459881 0.77031442485182722 2 0.0001 0.00018995333863459313 0.49846579766433824 0.36703300599722799 2 0.0001 0.03046534327889026 0.23608383670346322 3 0.00016455892022335688 0.090319040501781842 0.9979735958175896 2 0.060447535187030513 0.59673579223763062 2 9.9999999999999995e-07 9.9999999999999995e-07 1 9.9999999999999995e-07 1 0.49913170551240033 0.57163103395501269 2 9.9999999999999995e-07 0.20633431870157271 2 0.0001 0.065179713780862236 0.086844267079243212 2 0.054515269841047806 0.3164790043453875 2 0.097188279545152786 0.99535941169716191 2 0.07113257807061997 0.79209762635389713 2 0.10124481925641045 0.93227755310657323 2 9.9999999999999995e-07 0.13448436050643989 0.77019738440391528 2 0.020406830480394052 0.1579464425804423 3 0.1519624929094808 0.16850565819974619 1 0.00085371150331779461 0.0090021234253634449 2 0.99996496761887965 0.40282096041798315 2 0.17904219388372403 0.7107646545244064 2 0.34433147503093586 0.8211710614629476 2 0.090606086577602635 0.36069339273741513 2 1 0.84694889724673528 2 0.0042964231665525007 2 0.062823379680250965 9.9999999999999995e-07 0.0001 1 0.3247710332552935 2 0.013277424773137026 2 0.025201777679596995 2 0.13976360764723308 0.27816203526320765 0.37621892756378605 0.188245356809564 2 0.09955908143051985 0.90811930103749217 3 0.027597640664111203 0.015864499844477607 2 0.0246698580060963 0.98057711802223069 0 0.34558740182636299 0.0008603463631500633 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 
+      0 4.8343500541456347e+24 5.1024882846599014e+24 3.5024361718733726e+24 4.2239091218208861e+24 4.6084685838108495e+24 5.016137409125465e+24 4.1995086114964939e+24 4.1780048189745101e+24 7.9514714753128696e+24 3.3260079812873585e+24 3.5122350320048479e+24 3.7587342712486928e+24 4.4098403119244187e+24 3.9713465564191634e+24 3.3311785301820062e+24 5.158524907548373e+24 5.4612651958289058e+24 3.4918209441847388e+24 3.9058178351118895e+24 3.3262632588145232e+24 5.0039907510168955e+24 5.635192789380518e+24 4.170179581094732e+24 3.7821086087710523e+24 6.1324787259325297e+24 3.9538925855733199e+24 4.3596216793178955e+24 3.3319788727019019e+24 4.7391189297034645e+24 4.2513255202864641e+24 2.2069616617127322e+24 1 0.99535941169716191 2 1 0.0001 0.066216388773158052 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 9.9999999999999995e-07 0.99999928225756518 0.0001 0.07113257807061997 3 9.9999999999999995e-07 9.9999999999999995e-07 0.0001 0.081645323285807161 0.49846579766433824 2 9.9999999999999995e-07 9.9999999999999995e-07 0.0001 1 9.9999999999999995e-07 1 0.065179713780862236 0.086844267079243212 2 0.054515269841047806 0.3164790043453875 2 9.9999999999999995e-07 9.9999999999999995e-07 0.0001 0.00016455892022335688 0.097188279545152786 0.36703300599722799 2 0.03046534327889026 0.23608383670346322 0.1579464425804423 0.77031442485182722 2 0.00018995333863459313 0.002204871305336191 2 1 0.00085333111916343696 0.0093620483940459881 3 9.9999999999999995e-07 9.9999999999999995e-07 0.1519624929094808 0.16850565819974619 1 0.00085371150331779461 0.0090021234253634449 2 0.99996496761887965 3 0.090319040501781842 0.37621892756378605 0.59673579223763062 0.9979735958175896 2 0.13976360764723308 2 0.060447535187030513 0.79209762635389713 2 0.10124481925641045 2 0.49913170551240033 0.84694889724673528 2 0.062823379680250965 9.9999999999999995e-07 0.0001 1 0.3247710332552935 2 0.0042964231665525007 0.27816203526320765 3 0.027597640664111203 0.015864499844477607 2 0.0246698580060963 0.98057711802223069 0 0.34558740182636299 0.93227755310657323 2 0.13448436050643989 0.0008603463631500633 0.40282096041798315 2 0.17904219388372403 0.7107646545244064 2 0.34433147503093586 0.8211710614629476 2 0.090606086577602635 0.36069339273741513 2 1 0.57163103395501269 2 0.20633431870157271 0.77019738440391528 2 0.020406830480394052 2 0.013277424773137026 2 0.025201777679596995 0.188245356809564 2 0.09955908143051985 0.90811930103749217 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 0.019 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -12250,7 +12250,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -12268,7 +12268,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -12286,7 +12286,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_12">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -12304,7 +12304,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -12322,7 +12322,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -12340,7 +12340,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_40">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2020-12-05T21:46:28Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2020-12-05T22:31:28Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
