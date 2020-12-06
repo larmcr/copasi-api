@@ -100,13 +100,13 @@ namespace CopasiApi
     {
       try
       {
-        root.GetFiles(SOURCE).ToList().ForEach(file =>
+        root.GetFiles(SOURCE).OrderBy(file => file.FullName).ToList().ForEach(file =>
         {
           Console.WriteLine(file.FullName);
           ProcessScan(file.FullName, file.DirectoryName);
         });
 
-        root.GetDirectories().ToList().ForEach(folder =>
+        root.GetDirectories().OrderBy(folder => folder.FullName).ToList().ForEach(folder =>
         {
           ProcessModels(folder);
         });
@@ -173,12 +173,12 @@ namespace CopasiApi
           }
         }
 
-        files.ToList().ForEach(file =>
+        files.OrderBy(file => file.FullName).ToList().ForEach(file =>
         {
           ParseFile(file.FullName, pair, hash);
         });
 
-        root.GetDirectories().ToList().ForEach(folder =>
+        root.GetDirectories().OrderBy(folder => folder.FullName).ToList().ForEach(folder =>
         {
           ProcessScans(folder, hash);
         });
