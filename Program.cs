@@ -1,11 +1,11 @@
-﻿using Microsoft.VisualBasic.FileIO;
+﻿using org.COPASI;
+using Microsoft.VisualBasic.FileIO;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.Json;
 using System.Text.RegularExpressions;
-using org.COPASI;
 
 namespace CopasiApi
 {
@@ -14,13 +14,11 @@ namespace CopasiApi
     private static string MODELS = "models";
     private static string RESULTS = "results";
     private static string SOURCE = "mod-00TODO-v01.cps";
-
     private static uint STEPS = 4;
     private static double MIN = 1.0;
     private static double MAX = 5.0;
 
     private static string[] CNVS = new string[] { "Cgh_ETS1", "Cgh_tfAP2B1", "Cgh_tfATF1", "Cgh_tfE2F1", "Cgh_tfE2F2", "Cgh_tfE2F3", "Cgh_tfETV4", "Cgh_tfFOS", "Cgh_tfFOSL1", "Cgh_tfFOSL2", "Cgh_tfFOXP2", "Cgh_tfGATA2", "Cgh_tfJUN", "Cgh_tfJUNB", "Cgh_tfJUND", "Cgh_tfNFKB1", "Cgh_tfSMAD4", "Cgh_tfSP1", "Cgh_tfSP3", "Cgh_tfTCF7L2", "Cgh_tfTFAP2A", "Cgh_tfTFAP2C", "Cgh_tfTP53", "Cgh_MIR145", "Cgh_MIR155", "Cgh_MIR16_2", "Cgh_MIR200B", "Cgh_MIR200C", "Cgh_MIR204", "Cgh_MIR222" };
-
     private static string[] SPECIES = new string[] { "arnPLAUR" };
 
     private static void printError(Exception exception, string source)
@@ -29,7 +27,7 @@ namespace CopasiApi
       Environment.Exit(1);
     }
 
-    private static void ParameterScan(string file, string folder)
+    private static void ProcessScan(string file, string folder)
     {
       try
       {
@@ -94,7 +92,7 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        printError(exception, "UpdateModel");
+        printError(exception, "ProcessScan");
       }
     }
 
@@ -105,7 +103,7 @@ namespace CopasiApi
         root.GetFiles(SOURCE).ToList().ForEach(file =>
         {
           Console.WriteLine(file.FullName);
-          ParameterScan(file.FullName, file.DirectoryName);
+          ProcessScan(file.FullName, file.DirectoryName);
         });
 
         root.GetDirectories().ToList().ForEach(folder =>
@@ -129,24 +127,31 @@ namespace CopasiApi
 
     private static void ParseFile(string file, string pair, Dictionary<string, Dictionary<string, List<string>>> hash)
     {
-      using (var parser = new TextFieldParser(file))
+      try
       {
-        parser.SetDelimiters(",");
-        var cgh = "";
-        while (!parser.EndOfData)
+        using (var parser = new TextFieldParser(file))
         {
-          var row = parser.ReadFields();
-          var val = row[1];
-          if (row[0].Contains("Cgh_"))
+          parser.SetDelimiters(",");
+          var cgh = "";
+          while (!parser.EndOfData)
           {
-            cgh = GetHeader(row[0]);
-            hash[pair].Add(cgh, new List<string>());
-          }
-          else
-          {
-            hash[pair][cgh].Add(val);
+            var row = parser.ReadFields();
+            var val = row[1];
+            if (row[0].Contains("Cgh_"))
+            {
+              cgh = GetHeader(row[0]);
+              hash[pair].Add(cgh, new List<string>());
+            }
+            else
+            {
+              hash[pair][cgh].Add(val);
+            }
           }
         }
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ParseFile");
       }
     }
 
@@ -155,7 +160,6 @@ namespace CopasiApi
       try
       {
         var pair = "";
-
         var files = root.GetFiles("*.csv");
         if (files.Length > 0)
         {
@@ -187,30 +191,36 @@ namespace CopasiApi
 
     private static void ProcessHash(Dictionary<string, Dictionary<string, List<string>>> hash)
     {
-      var json = new Dictionary<string, Dictionary<string, List<dynamic>>>();
-
-      hash.Keys.OrderBy(key => key).ToList().ForEach(pair =>
+      try
       {
-        json.Add(pair, new Dictionary<string, List<dynamic>>());
-
-        var x = new List<dynamic> { 1, 2, 3, 4, 5 };
-        json[pair].Add("x", x);
-
-        var y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
-        json[pair].Add("y", y);
-
-        var z = new List<dynamic>();
-        y.ForEach(cgh =>
+        var json = new Dictionary<string, Dictionary<string, List<dynamic>>>();
+        hash.Keys.OrderBy(key => key).ToList().ForEach(pair =>
         {
-          z.Add(new List<dynamic>(hash[pair][cgh]).Select(val => Double.Parse(val)));
-        });
-        json[pair].Add("z", z);
-      });
+          json.Add(pair, new Dictionary<string, List<dynamic>>());
 
-      var jsonFile = MODELS + "/scans.json";
-      var jsonString = JsonSerializer.Serialize(json);
-      File.WriteAllText(jsonFile, jsonString);
-      Console.WriteLine("JSON Created/Updated: " + jsonFile + "\n");
+          var x = new List<dynamic> { 1, 2, 3, 4, 5 };
+          json[pair].Add("x", x);
+
+          var y = hash[pair].Keys.OrderBy(key => key).ToList<dynamic>();
+          json[pair].Add("y", y);
+
+          var z = new List<dynamic>();
+          y.ForEach(cgh =>
+          {
+            z.Add(new List<dynamic>(hash[pair][cgh]).Select(val => Double.Parse(val)));
+          });
+          json[pair].Add("z", z);
+        });
+
+        var jsonFile = MODELS + "/scans.json";
+        var jsonString = JsonSerializer.Serialize(json);
+        File.WriteAllText(jsonFile, jsonString);
+        Console.WriteLine("JSON Created/Updated: " + jsonFile + "\n");
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ProcessHash");
+      }
     }
 
     public static void Main(string[] args)
@@ -219,7 +229,7 @@ namespace CopasiApi
       {
         var root = new DirectoryInfo(MODELS);
         var hash = new Dictionary<string, Dictionary<string, List<string>>>();
-        
+
         ProcessModels(root);
         ProcessScans(root, hash);
         ProcessHash(hash);
