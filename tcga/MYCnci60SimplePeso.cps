@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2021-02-27T23:11:10Z -->
+<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2021-02-27T23:16:56Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="29" versionDevel="228" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -1114,41 +1114,41 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1],Vector=Metabolites[MIR20A]" value="30110704285000000" type="Species" simulationType="reactions"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Initial Global Quantities" type="Group">
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_STAT3]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_STAT3]" value="1.0894670579808312" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_STAT3]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_STAT3]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_STAT3]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR19A]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR19A]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR19A]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR19A]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MYC]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_STAT3]" value="0.1050028019896887" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_STAT3]" value="6.8040684503241247" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR19A]" value="0.41955986701041376" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR19A]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR19A]" value="0.39544319617410068" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR19A]" value="0.048469426966817435" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MYC]" value="0.9708760789256371" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MYC]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MYC]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_MYC]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR21]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MYC]" value="0.13798312540688257" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ka_MYC]" value="1.7397871724227223" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR21]" value="2.1367203567424449" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR21]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR21]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR21]" value="0.0015568452860501415" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR21]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR17]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR17]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR17]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR17]" value="5.2960675773652746" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR17]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR17]" value="0.1139350570801594" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR17]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR20A]" value="0.5" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR20A]" value="1" type="ModelValue" simulationType="fixed"/>
-          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR20A]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[ks_MIR20A]" value="4.0983817924626802" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[CNV_MIR20A]" value="0.5" type="ModelValue" simulationType="fixed"/>
+          <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kd_MIR20A]" value="0.12318206044030275" type="ModelValue" simulationType="fixed"/>
           <ModelParameter cn="CN=Root,Model=New Model,Vector=Values[kr_MIR20A]" value="0.5" type="ModelValue" simulationType="fixed"/>
         </ModelParameterGroup>
         <ModelParameterGroup cn="String=Kinetic Parameters" type="Group">
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation STAT3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation STAT3],ParameterGroup=Parameters,Parameter=&quot;kd_STAT3&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation STAT3],ParameterGroup=Parameters,Parameter=&quot;kd_STAT3&quot;" value="0.1050028019896887" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_STAT3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis STAT3]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis STAT3],ParameterGroup=Parameters,Parameter=&quot;ks_STAT3&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis STAT3],ParameterGroup=Parameters,Parameter=&quot;ks_STAT3&quot;" value="1.0894670579808312" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_STAT3],Reference=InitialValue>
               </InitialExpression>
@@ -1160,38 +1160,38 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR19A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR19A],ParameterGroup=Parameters,Parameter=&quot;kd_MIR19A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR19A],ParameterGroup=Parameters,Parameter=&quot;kd_MIR19A&quot;" value="0.39544319617410068" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR19A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;ks_MIR19A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;ks_MIR19A&quot;" value="0.41955986701041376" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR19A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR19A&quot;" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR19A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[CNV_MIR19A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR19A],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="1.7397871724227223" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_MYC],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation MYC]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MYC],ParameterGroup=Parameters,Parameter=&quot;kd_MYC&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MYC],ParameterGroup=Parameters,Parameter=&quot;kd_MYC&quot;" value="0.13798312540688257" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MYC],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MYC]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MYC],ParameterGroup=Parameters,Parameter=&quot;ks_MYC&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MYC],ParameterGroup=Parameters,Parameter=&quot;ks_MYC&quot;" value="0.9708760789256371" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_MYC],Reference=InitialValue>
               </InitialExpression>
@@ -1201,21 +1201,21 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 &lt;CN=Root,Model=New Model,Vector=Values[CNV_MYC],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MYC],ParameterGroup=Parameters,Parameter=&quot;kr_MIR19A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MYC],ParameterGroup=Parameters,Parameter=&quot;kr_MIR19A&quot;" value="0.048469426966817435" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kr_MIR19A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR21]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR21],ParameterGroup=Parameters,Parameter=&quot;kd_MIR21&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR21],ParameterGroup=Parameters,Parameter=&quot;kd_MIR21&quot;" value="0.0015568452860501415" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR21],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR21]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR21],ParameterGroup=Parameters,Parameter=&quot;ks_MIR21&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR21],ParameterGroup=Parameters,Parameter=&quot;ks_MIR21&quot;" value="2.1367203567424449" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR21],Reference=InitialValue>
               </InitialExpression>
@@ -1225,55 +1225,55 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
                 &lt;CN=Root,Model=New Model,Vector=Values[CNV_MIR21],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR21],ParameterGroup=Parameters,Parameter=&quot;ka_STAT3&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR21],ParameterGroup=Parameters,Parameter=&quot;ka_STAT3&quot;" value="6.8040684503241247" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_STAT3],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR17]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR17],ParameterGroup=Parameters,Parameter=&quot;kd_MIR17&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR17],ParameterGroup=Parameters,Parameter=&quot;kd_MIR17&quot;" value="0.1139350570801594" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR17],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;ks_MIR17&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;ks_MIR17&quot;" value="5.2960675773652746" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR17],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR17&quot;" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR17&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[CNV_MIR17],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR17],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="1.7397871724227223" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_MYC],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR20A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR20A],ParameterGroup=Parameters,Parameter=&quot;kd_MIR20A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[degradation MIR20A],ParameterGroup=Parameters,Parameter=&quot;kd_MIR20A&quot;" value="0.12318206044030275" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[kd_MIR20A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
           </ModelParameterGroup>
           <ModelParameterGroup cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A]" type="Reaction">
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;ks_MIR20A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;ks_MIR20A&quot;" value="4.0983817924626802" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ks_MIR20A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR20A&quot;" value="1" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;CNV_MIR20A&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[CNV_MIR20A],Reference=InitialValue>
               </InitialExpression>
             </ModelParameter>
-            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="0.5" type="ReactionParameter" simulationType="assignment">
+            <ModelParameter cn="CN=Root,Model=New Model,Vector=Reactions[synthesis MIR20A],ParameterGroup=Parameters,Parameter=&quot;ka_MYC&quot;" value="1.7397871724227223" type="ReactionParameter" simulationType="assignment">
               <InitialExpression>
                 &lt;CN=Root,Model=New Model,Vector=Values[ka_MYC],Reference=InitialValue>
               </InitialExpression>
@@ -1317,7 +1317,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       <StateTemplateVariable objectReference="ModelValue_23"/>
     </StateTemplate>
     <InitialState type="initialState">
-      0 30110704285000000 30110704285000000 30110704285000000 30110704285000000 30110704285000000 30110704285000000 5 0.5 1 0.5 0.5 0.5 1 0.5 0.5 0.5 1 0.5 0.5 0.5 1 0.5 0.5 0.5 1 0.5 0.5 0.5 1 0.5 0.5 
+      0 30110704285000000 30110704285000000 30110704285000000 30110704285000000 30110704285000000 30110704285000000 5 1.0894670579808312 1 0.1050028019896887 6.8040684503241247 0.41955986701041376 0.5 0.39544319617410068 0.048469426966817435 0.9708760789256371 1 0.13798312540688257 1.7397871724227223 2.1367203567424449 1 0.0015568452860501415 0.5 5.2960675773652746 0.5 0.1139350570801594 0.5 4.0983817924626802 0.5 0.12318206044030275 0.5 
     </InitialState>
   </Model>
   <ListOfTasks>
@@ -1414,7 +1414,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_STAT3],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="1.0894670580000001"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1424,7 +1424,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_STAT3],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.1050028019896887"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1434,7 +1434,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ka_STAT3],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="6.8040684503241247"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1444,7 +1444,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_MIR19A],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.41955986701041376"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1454,7 +1454,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_MIR19A],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.39544319617410068"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1464,7 +1464,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kr_MIR19A],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.048469426966817435"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1474,7 +1474,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_MYC],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.9708760789256371"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1484,7 +1484,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_MYC],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.13798312540688257"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1494,7 +1494,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ka_MYC],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="1.7397871724227223"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1504,7 +1504,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_MIR21],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="2.1367203567424449"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1514,7 +1514,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_MIR21],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.0015568452860501415"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1534,7 +1534,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_MIR17],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="5.2960675773652746"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1544,7 +1544,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_MIR17],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.1139350570801594"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1564,7 +1564,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[ks_MIR20A],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="4.0983817924626802"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
@@ -1574,7 +1574,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
             <Parameter name="ObjectCN" type="cn" value="CN=Root,Model=New Model,Vector=Values[kd_MIR20A],Reference=InitialValue"/>
             <Parameter name="LowerBound" type="cn" value="1e-6"/>
             <Parameter name="UpperBound" type="cn" value="1e6"/>
-            <Parameter name="StartValue" type="float" value="0.5"/>
+            <Parameter name="StartValue" type="float" value="0.12318206044030275"/>
             <ParameterGroup name="Affected Experiments">
             </ParameterGroup>
             <ParameterGroup name="Affected Cross Validation Experiments">
