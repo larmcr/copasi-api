@@ -146,14 +146,14 @@ namespace CopasiApi
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
 
-      var task = (CFitTask)dataModel.getTask("Parameter Estimation");
-      task.setUpdateModel(true);
-      task.getReport().setTarget(TARGET_ESTIMATION);
-      var result = task.process(true);
-      Console.WriteLine(result);
-      Console.WriteLine(task.getProcessError());
-      Console.WriteLine(task.getProcessWarning());
-      Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
+      // var task = (CFitTask)dataModel.getTask("Parameter Estimation");
+      // task.setUpdateModel(true);
+      // task.getReport().setTarget(TARGET_ESTIMATION);
+      // var result = task.process(true);
+      // Console.WriteLine(result);
+      // Console.WriteLine(task.getProcessError());
+      // Console.WriteLine(task.getProcessWarning());
+      // Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
 
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
