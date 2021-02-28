@@ -141,7 +141,7 @@ namespace CopasiApi
       });
     }
 
-    private void ProcessTask (List<string> species, string modelPath)
+    private void ProcessTask(List<string> species, string modelPath)
     {
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
@@ -155,14 +155,36 @@ namespace CopasiApi
       var fitProblem = (CFitProblem)task.getProblem();
       fitProblem.setModel(model);
 
-      var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
+      var columns = (uint)species.ToArray().Length + 1;
 
+      var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
+
+      var experiment = new CExperiment(dataModel);
+      experiment.setFileName(TARGET_EXPERIMENTS);
+      experiment.setFirstRow(1);
+      experiment.setLastRow(2);
+      experiment.setExperimentType(CTaskEnum.Task_steadyState);
+      experiment.setHeaderRow(1);
+      experiment.setNumColumns(columns);
+
+      var objectMap = experiment.getObjectMap();
+      objectMap.setNumCols(columns);
+      objectMap.setRole(0, CExperiment.ignore);
+
+      var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
+      var mapInd = 1;
       var numModelValues = model.getNumModelValues();
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
-        if (!cn.getString().Contains("[CNV_"))
+        if (cn.getString().Contains("[CNV_"))
+        {
+          objectMap.setRole((uint)mapInd, CExperiment.independent);
+          objectMap.setObjectCN((uint)mapInd, cn.getString());
+          ++mapInd;
+        }
+        else
         {
           var fitItem = new CFitItem(dataModel);
           fitItem.setObjectCN(cn);
@@ -173,14 +195,15 @@ namespace CopasiApi
         }
       }
 
-      var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set"); 
-      var experiment = new CExperiment(dataModel);
-      experiment.setFileName(TARGET_EXPERIMENTS);
-      experiment.setFirstRow(1);
-      experiment.setLastRow(2);
-      experiment.setExperimentType(CTaskEnum.Task_steadyState);
-      experiment.setHeaderRow(1);
-      experiment.setNumColumns((uint)species.ToArray().Length + 1);
+      var numMetabs = model.getNumMetabs();
+      for (var i = 0; i < numMetabs; ++i)
+      {
+        var cons = model.getMetabolite((uint)i).getConcentrationReference().getCN().getString();
+        objectMap.setRole((uint)mapInd, CExperiment.dependent);
+        objectMap.setObjectCN((uint)mapInd, cons);
+        ++mapInd;
+      }
+
       experimentSet.addExperiment(experiment);
 
       // task.getReport().setTarget(TARGET_ESTIMATION);
