@@ -4,6 +4,7 @@ using System.IO;
 using Microsoft.VisualBasic.FileIO;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace CopasiApi
 {
@@ -12,16 +13,18 @@ namespace CopasiApi
     private string SOURCE_FOLDER = "tcga";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
+
+    private string TARGET_EXPERIMENTS = "Experiments.tab";
     private string SOURCE_MODEL = "Model.cps";
     private string RESULTS = "results";
 
+    private string LINE_HEADER = "LINE";
+
     public Experiments()
     {
-      var root = new DirectoryInfo(SOURCE_FOLDER);
-      var species = GetSpecies();
+      var species = GetSpecies().ToList();
       var experiments = GetExperiments(species);
-      // Console.WriteLine(species.Length);
-      // var tree = GetTree();
+      ProcessExperiments(species, experiments);
     }
     private void printError(Exception exception, string source)
     {
@@ -29,9 +32,9 @@ namespace CopasiApi
       Environment.Exit(1);
     }
 
-    private string [] GetSpecies ()
+    private string[] GetSpecies()
     {
-      string [] species = new string[]{};
+      string[] species = new string[] { };
       try
       {
         var path = SOURCE_FOLDER + "/" + SOURCE_SPECIES;
@@ -43,15 +46,14 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        printError(exception, "GetEspecies");
+        printError(exception, "GetSpecies");
       }
       return species;
     }
 
-    private Dictionary<string, Dictionary<string, string>> GetExperiments(string [] species)
+    private Dictionary<string, Dictionary<string, string>> GetExperiments(List<string> species)
     {
       var experiments = new Dictionary<string, Dictionary<string, string>>();
-      var listSpecies = species.ToList();
       try
       {
         var path = SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS;
@@ -59,24 +61,25 @@ namespace CopasiApi
         {
           parser.SetDelimiters(",");
           Dictionary<string, int> indexes = null;
-          while (!parser.EndOfData) 
+          while (!parser.EndOfData)
           {
             var row = parser.ReadFields();
             var key = row[0];
-            if (String.IsNullOrEmpty(key)) {
-              indexes = GetIndexes(species, row);
+            if (String.IsNullOrEmpty(key))
+            {
+              indexes = GetIndexes(species, row.ToList());
             }
             else
             {
               experiments.Add(key, new Dictionary<string, string>());
-              listSpecies.ForEach((spe) =>
+              species.ForEach((spe) =>
               {
                 var index = indexes[spe];
                 experiments[key].Add(spe, row[index]);
               });
             }
           }
-          Console.WriteLine(experiments.Keys.ToArray().Length);
+          // Console.WriteLine(experiments.Keys.ToArray().Length);
         }
       }
       catch (Exception exception)
@@ -86,16 +89,41 @@ namespace CopasiApi
       return experiments;
     }
 
-    private Dictionary<string, int> GetIndexes(string [] species, string [] headers)
+    private Dictionary<string, int> GetIndexes(List<string> species, List<string> headers)
     {
       var indexes = new Dictionary<string, int>();
-      var listHeaders = headers.ToList();
       species.ToList().ForEach((spe) =>
       {
-        var index = listHeaders.IndexOf(spe);
+        var index = headers.IndexOf(spe);
         indexes.Add(spe, index);
       });
       return indexes;
+    }
+
+    private void ProcessExperiments(List<string> species, Dictionary<string, Dictionary<string, string>> experiments)
+    {
+      var headers = new List<string>(species);
+      headers.Insert(0, LINE_HEADER);
+      experiments.Keys.ToList().ForEach((exp) =>
+      {
+        var line = experiments[exp];
+        var values = new List<string>();
+        values.Add(exp);
+        species.ForEach((spe) =>
+        {
+          values.Add(line[spe]);
+        });
+        var csv = new StringBuilder();
+        csv.AppendLine(String.Join("\t", headers));
+        csv.AppendLine(String.Join("\t", values));
+        
+        var path = SOURCE_FOLDER + "/" + RESULTS + "/" + exp;
+        if (!Directory.Exists(path))
+        {
+          Directory.CreateDirectory(path);
+        }
+        File.WriteAllText(path + "/" + TARGET_EXPERIMENTS, csv.ToString());
+      });
     }
   }
 }
