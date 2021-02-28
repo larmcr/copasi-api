@@ -1,102 +1,36 @@
-/Users/luis/Desktop/copasi-api/Experiments.cs(20,20): warning CS0414: The field 'Experiments.TARGET_ESTIMATION' is assigned but its value is never used [/Users/luis/Desktop/copasi-api/copasi-api.csproj]
 -> All Experiments were created
 -> Model was copied: tcga/results/1-1/Model.cps
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
+True
+
+>WARNING 2021-02-28T14:36:39<
+  CFitting (12): The Fisher information matrix is singular. Therefore, the correlation matrix can not be calculated.
+	|-> Parameter Estimation processed: True
 		|-> Model Saved (True): tcga/results/1-1/Model.cps
 -> Model was copied: tcga/results/2-1/Model.cps
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
+True
+
+>WARNING 2021-02-28T14:36:39<
+  CFitting (12): The Fisher information matrix is singular. Therefore, the correlation matrix can not be calculated.
+	|-> Parameter Estimation processed: True
 		|-> Model Saved (True): tcga/results/2-1/Model.cps
 -> Model was copied: tcga/results/3-1/Model.cps
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
+True
+
+>WARNING 2021-02-28T14:36:39<
+  CFitting (12): The Fisher information matrix is singular. Therefore, the correlation matrix can not be calculated.
+	|-> Parameter Estimation processed: True
 		|-> Model Saved (True): tcga/results/3-1/Model.cps
 -> Model was copied: tcga/results/4-1/Model.cps
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
+True
+
+>WARNING 2021-02-28T14:36:40<
+  CFitting (12): The Fisher information matrix is singular. Therefore, the correlation matrix can not be calculated.
+	|-> Parameter Estimation processed: True
 		|-> Model Saved (True): tcga/results/4-1/Model.cps
 -> Model was copied: tcga/results/5-1/Model.cps
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
-org.COPASI.CCommonName
+True
+
+>WARNING 2021-02-28T14:36:40<
+  CFitting (12): The Fisher information matrix is singular. Therefore, the correlation matrix can not be calculated.
+	|-> Parameter Estimation processed: True
 		|-> Model Saved (True): tcga/results/5-1/Model.cps

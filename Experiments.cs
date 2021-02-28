@@ -86,7 +86,6 @@ namespace CopasiApi
               });
             }
           }
-          // Console.WriteLine(experiments.Keys.ToArray().Length);
         }
       }
       catch (Exception exception)
@@ -142,21 +141,25 @@ namespace CopasiApi
         var targetModel = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
         File.Copy(sourceModel, targetModel, true);
         Console.WriteLine("-> Model was copied: " + targetModel);
-        ProcessTask(species, targetModel);
+        ProcessTask(species, exp);
       });
     }
 
-    private void ProcessTask(List<string> species, string modelPath)
+    private void ProcessTask(List<string> species, string exp)
     {
+      var modelPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
+      var experimentPath = Path.GetFullPath(SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_EXPERIMENTS);
+      var estimationPath = Path.GetFullPath(SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_ESTIMATION);
+      
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
 
       var model = dataModel.getModel();
 
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
+      task.getReport().setTarget(estimationPath);
       task.setScheduled(false);
       task.setUpdateModel(true);
-      COptMethod fitMethod = (COptMethod)task.getMethod();
       task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
 
       var fitProblem = (CFitProblem)task.getProblem();
@@ -167,7 +170,7 @@ namespace CopasiApi
       var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
 
       var experiment = new CExperiment(dataModel);
-      experiment.setFileName(TARGET_EXPERIMENTS);
+      experiment.setFileName(experimentPath);
       experiment.setFirstRow(1);
       experiment.setLastRow(2);
       experiment.setExperimentType(CTaskEnum.Task_steadyState);
@@ -219,12 +222,11 @@ namespace CopasiApi
 
       experimentSet.addExperiment(experiment);
 
-      // task.getReport().setTarget(TARGET_ESTIMATION);
-      // var result = task.process(true);
-      // Console.WriteLine(result);
-      // Console.WriteLine(task.getProcessError());
-      // Console.WriteLine(task.getProcessWarning());
-      // Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
+      var result = task.process(true);
+      Console.WriteLine(result);
+      Console.WriteLine(task.getProcessError());
+      Console.WriteLine(task.getProcessWarning());
+      Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
 
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
