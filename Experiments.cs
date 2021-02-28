@@ -15,8 +15,9 @@ namespace CopasiApi
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
     private string TARGET_EXPERIMENTS = "Experiments.tab";
     private string SOURCE_MODEL = "Model.cps";
-
     private string TARGET_MODEL = "Model.cps";
+
+    private string TARGET_ESTIMATION = "par-est.txt";
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
 
@@ -136,8 +137,26 @@ namespace CopasiApi
         var targetModel = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
         File.Copy(sourceModel, targetModel, true);
         Console.WriteLine("-> Model was copied: " + targetModel);
-        // ProcessTask(targetModel);
+        ProcessTask(targetModel);
       });
+    }
+
+    private void ProcessTask (string modelPath)
+    {
+      var dataModel = CRootContainer.addDatamodel();
+      dataModel.addModel(modelPath);
+
+      var task = (CFitTask)dataModel.getTask("Parameter Estimation");
+      task.setUpdateModel(true);
+      task.getReport().setTarget(TARGET_ESTIMATION);
+      var result = task.process(true);
+      Console.WriteLine(result);
+      Console.WriteLine(task.getProcessError());
+      Console.WriteLine(task.getProcessWarning());
+      Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
+
+      var saved = dataModel.saveModel(modelPath, true);
+      Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
     }
   }
 }
