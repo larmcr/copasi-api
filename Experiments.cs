@@ -5,6 +5,7 @@ using Microsoft.VisualBasic.FileIO;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Text.RegularExpressions;
 
 namespace CopasiApi
 {
@@ -20,6 +21,10 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
+    private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
+    {
+      {"MYC", 1.0}
+    };
 
     public Experiments()
     {
@@ -151,7 +156,7 @@ namespace CopasiApi
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
       task.setScheduled(false);
       task.setUpdateModel(true);
-      COptMethod fitMethod=(COptMethod)task.getMethod();
+      COptMethod fitMethod = (COptMethod)task.getMethod();
       task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
 
       var fitProblem = (CFitProblem)task.getProblem();
@@ -203,6 +208,12 @@ namespace CopasiApi
         var cons = model.getMetabolite((uint)i).getConcentrationReference().getCN().getString();
         objectMap.setRole((uint)mapInd, CExperiment.dependent);
         objectMap.setObjectCN((uint)mapInd, cons);
+        var regex = new Regex("=.+\\[(.+)\\]");
+        var value = regex.Match(cons).Groups[1].Value;
+        if (WEIGHTS.ContainsKey(value))
+        {
+          objectMap.setScale((uint)mapInd, WEIGHTS[value]);
+        }
         ++mapInd;
       }
 
