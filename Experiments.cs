@@ -147,9 +147,10 @@ namespace CopasiApi
 
     private void ProcessTask(List<string> species, string exp)
     {
-      var modelPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
-      var experimentPath = Path.GetFullPath(SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_EXPERIMENTS);
-      var estimationPath = Path.GetFullPath(SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_ESTIMATION);
+      var folderPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/";
+      var modelPath =  Path.GetFullPath(folderPath + TARGET_MODEL);
+      var experimentPath = Path.GetFullPath(folderPath + TARGET_EXPERIMENTS);
+      var estimationPath = Path.GetFullPath(folderPath + TARGET_ESTIMATION);
       
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
@@ -223,13 +224,12 @@ namespace CopasiApi
       experimentSet.addExperiment(experiment);
 
       var result = task.process(true);
-      Console.WriteLine(result);
-      Console.WriteLine(task.getProcessError());
-      Console.WriteLine(task.getProcessWarning());
       Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
 
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
+
+      CRootContainer.removeDatamodel(dataModel);
     }
   }
 }
