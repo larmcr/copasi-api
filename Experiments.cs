@@ -26,7 +26,7 @@ namespace CopasiApi
       var species = GetSpecies().ToList();
       var experiments = GetExperiments(species);
       ProcessExperiments(species, experiments);
-      ProcessModels(experiments);
+      ProcessModels(species, experiments);
     }
     private void printError(Exception exception, string source)
     {
@@ -129,7 +129,7 @@ namespace CopasiApi
       Console.WriteLine("-> All Experiments were created");
     }
 
-    private void ProcessModels(Dictionary<string, Dictionary<string, string>> experiments)
+    private void ProcessModels(List<string> species, Dictionary<string, Dictionary<string, string>> experiments)
     {
       var sourceModel = SOURCE_FOLDER + "/" + SOURCE_MODEL;
       experiments.Keys.ToList().ForEach((exp) =>
@@ -137,11 +137,11 @@ namespace CopasiApi
         var targetModel = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
         File.Copy(sourceModel, targetModel, true);
         Console.WriteLine("-> Model was copied: " + targetModel);
-        ProcessTask(targetModel);
+        ProcessTask(species, targetModel);
       });
     }
 
-    private void ProcessTask (string modelPath)
+    private void ProcessTask (List<string> species, string modelPath)
     {
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
@@ -152,19 +152,18 @@ namespace CopasiApi
       task.setScheduled(false);
       task.setUpdateModel(true);
 
-      var problem = (CFitProblem)task.getProblem();
-      problem.setModel(model);
+      var fitProblem = (CFitProblem)task.getProblem();
+      fitProblem.setModel(model);
 
-      var optimizationItemGroup = (CCopasiParameterGroup)problem.getParameter("OptimizationItemList");
+      var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
 
-      var max = model.getNumModelValues();
-      for (var i = 0; i < max; ++i)
+      var numModelValues = model.getNumModelValues();
+      for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
         if (!cn.getString().Contains("[CNV_"))
         {
-          Console.WriteLine(cn);
           var fitItem = new CFitItem(dataModel);
           fitItem.setObjectCN(cn);
           fitItem.setStartValue(0.5);
@@ -173,6 +172,16 @@ namespace CopasiApi
           optimizationItemGroup.addParameter(fitItem);
         }
       }
+
+      var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set"); 
+      var experiment = new CExperiment(dataModel);
+      experiment.setFileName(TARGET_EXPERIMENTS);
+      experiment.setFirstRow(1);
+      experiment.setLastRow(2);
+      experiment.setExperimentType(CTaskEnum.Task_steadyState);
+      experiment.setHeaderRow(1);
+      experiment.setNumColumns((uint)species.ToArray().Length + 1);
+      experimentSet.addExperiment(experiment);
 
       // task.getReport().setTarget(TARGET_ESTIMATION);
       // var result = task.process(true);
