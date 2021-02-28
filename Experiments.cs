@@ -13,11 +13,11 @@ namespace CopasiApi
     private string SOURCE_FOLDER = "tcga";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
-
     private string TARGET_EXPERIMENTS = "Experiments.tab";
     private string SOURCE_MODEL = "Model.cps";
-    private string RESULTS = "results";
 
+    private string TARGET_MODEL = "Model.cps";
+    private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
 
     public Experiments()
@@ -25,6 +25,7 @@ namespace CopasiApi
       var species = GetSpecies().ToList();
       var experiments = GetExperiments(species);
       ProcessExperiments(species, experiments);
+      ProcessModels(experiments);
     }
     private void printError(Exception exception, string source)
     {
@@ -116,13 +117,26 @@ namespace CopasiApi
         var csv = new StringBuilder();
         csv.AppendLine(String.Join("\t", headers));
         csv.AppendLine(String.Join("\t", values));
-        
+
         var path = SOURCE_FOLDER + "/" + RESULTS + "/" + exp;
         if (!Directory.Exists(path))
         {
           Directory.CreateDirectory(path);
         }
         File.WriteAllText(path + "/" + TARGET_EXPERIMENTS, csv.ToString());
+      });
+      Console.WriteLine("-> All Experiments were created");
+    }
+
+    private void ProcessModels(Dictionary<string, Dictionary<string, string>> experiments)
+    {
+      var sourceModel = SOURCE_FOLDER + "/" + SOURCE_MODEL;
+      experiments.Keys.ToList().ForEach((exp) =>
+      {
+        var targetModel = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
+        File.Copy(sourceModel, targetModel, true);
+        Console.WriteLine("-> Model was copied: " + targetModel);
+        // ProcessTask(targetModel);
       });
     }
   }
