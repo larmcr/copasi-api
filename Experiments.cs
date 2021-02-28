@@ -146,8 +146,34 @@ namespace CopasiApi
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
 
-      // var task = (CFitTask)dataModel.getTask("Parameter Estimation");
-      // task.setUpdateModel(true);
+      var model = dataModel.getModel();
+
+      var task = (CFitTask)dataModel.getTask("Parameter Estimation");
+      task.setScheduled(false);
+      task.setUpdateModel(true);
+
+      var problem = (CFitProblem)task.getProblem();
+      problem.setModel(model);
+
+      var optimizationItemGroup = (CCopasiParameterGroup)problem.getParameter("OptimizationItemList");
+
+      var max = model.getNumModelValues();
+      for (var i = 0; i < max; ++i)
+      {
+        var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
+        var cn = initialValueRef.getCN();
+        if (!cn.getString().Contains("[CNV_"))
+        {
+          Console.WriteLine(cn);
+          var fitItem = new CFitItem(dataModel);
+          fitItem.setObjectCN(cn);
+          fitItem.setStartValue(0.5);
+          fitItem.setUpperBound(new CCommonName("1e6"));
+          fitItem.setLowerBound(new CCommonName("1e-6"));
+          optimizationItemGroup.addParameter(fitItem);
+        }
+      }
+
       // task.getReport().setTarget(TARGET_ESTIMATION);
       // var result = task.process(true);
       // Console.WriteLine(result);
