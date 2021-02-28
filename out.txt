@@ -1,16 +1,4 @@
 -> All Experiments were created
 -> Model was copied: tcga/results/1-1/Model.cps
-	|-> Parameter Estimation processed: True
+	|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/tcga/results/1-1/par-est.txt
 		|-> Model Saved (True): /Users/luis/Desktop/copasi-api/tcga/results/1-1/Model.cps
--> Model was copied: tcga/results/2-1/Model.cps
-	|-> Parameter Estimation processed: True
-		|-> Model Saved (True): /Users/luis/Desktop/copasi-api/tcga/results/2-1/Model.cps
--> Model was copied: tcga/results/3-1/Model.cps
-	|-> Parameter Estimation processed: True
-		|-> Model Saved (True): /Users/luis/Desktop/copasi-api/tcga/results/3-1/Model.cps
--> Model was copied: tcga/results/4-1/Model.cps
-	|-> Parameter Estimation processed: True
-		|-> Model Saved (True): /Users/luis/Desktop/copasi-api/tcga/results/4-1/Model.cps
--> Model was copied: tcga/results/5-1/Model.cps
-	|-> Parameter Estimation processed: True
-		|-> Model Saved (True): /Users/luis/Desktop/copasi-api/tcga/results/5-1/Model.cps

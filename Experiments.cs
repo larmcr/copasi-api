@@ -14,7 +14,7 @@ namespace CopasiApi
     private string SOURCE_FOLDER = "tcga";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
-    private string TARGET_EXPERIMENTS = "Experiments.tab";
+    private string TARGET_EXPERIMENTS = "Experiment.tab";
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model.cps";
     private string TARGET_ESTIMATION = "par-est.txt";
@@ -222,13 +222,10 @@ namespace CopasiApi
       }
 
       experimentSet.addExperiment(experiment);
-
       var result = task.process(true);
-      Console.WriteLine("\t|-> Parameter Estimation processed: " + result);
-
+      Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
-
       CRootContainer.removeDatamodel(dataModel);
     }
   }
