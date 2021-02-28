@@ -16,10 +16,10 @@ namespace CopasiApi
     private string TARGET_EXPERIMENTS = "Experiments.tab";
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model.cps";
-
     private string TARGET_ESTIMATION = "par-est.txt";
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
+    private string ESTIMATION_METHOD = "NL2SOL";
 
     public Experiments()
     {
@@ -151,6 +151,8 @@ namespace CopasiApi
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
       task.setScheduled(false);
       task.setUpdateModel(true);
+      COptMethod fitMethod=(COptMethod)task.getMethod();
+      task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
 
       var fitProblem = (CFitProblem)task.getProblem();
       fitProblem.setModel(model);
