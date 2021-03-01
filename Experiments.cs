@@ -18,6 +18,8 @@ namespace CopasiApi
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model.cps";
     private string TARGET_ESTIMATION = "par-est.txt";
+    private string TARGET_INI = "ini.csv";
+    private string TARGET_FIT = "fit.csv";
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
@@ -35,7 +37,6 @@ namespace CopasiApi
     {
       // ProcessModel();
       ProcessEstimations();
-
     }
 
     private void ProcessModel()
@@ -66,25 +67,36 @@ namespace CopasiApi
     private void ProcessEstimations()
     {
       var values = GetValues();
-      // ks.ForEach((k) => Console.WriteLine(k));
-      var matrix = new List<List<string>>();
-      var strFit = new StringBuilder("LINE,");
+      var matIni = new List<List<string>>();
+      var matFit = new List<List<string>>();
+      var strIni = new StringBuilder(LINE_HEADER + ",");
+      var strFit = new StringBuilder(LINE_HEADER + ",");
       var header = String.Join(",", ks);
+      strIni.AppendLine(header);
       strFit.AppendLine(header);
       lines.ForEach((line) =>
       {
-        var row = new List<string>();
-        row.Add(line);
+        var rowIni = new List<string>();
+        var rowFit = new List<string>();
+        rowIni.Add(line);
+        rowFit.Add(line);
         ks.ForEach((k) =>
         {
-          row.Add(values[line][k][FITTED]);
+          rowIni.Add(values[line][k][INITIAL]);
+          rowFit.Add(values[line][k][FITTED]);
         });
-        matrix.Add(row);
+        matIni.Add(rowIni);
+        matFit.Add(rowFit);
       });
-      matrix.ForEach((row) =>{
+      matIni.ForEach((row) =>{
+        strIni.AppendLine(String.Join(",", row));
+      });
+      matFit.ForEach((row) =>{
         strFit.AppendLine(String.Join(",", row));
       });
-      File.WriteAllText("out.csv", strFit.ToString().Trim());
+      var path = SOURCE_FOLDER + "/" + RESULTS + "/";
+      File.WriteAllText(path + TARGET_INI, strIni.ToString().Trim());
+      File.WriteAllText(path + TARGET_FIT, strFit.ToString().Trim());
     }
 
     private void printError(Exception exception, string source)
