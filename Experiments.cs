@@ -21,6 +21,8 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
+    private string INITIAL = "ini";
+    private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
       {"MYC", 1.0}
@@ -248,9 +250,11 @@ namespace CopasiApi
       var path = SOURCE_FOLDER + "/" + RESULTS;
       var directoryInfo = new DirectoryInfo(path);
       var directories = directoryInfo.GetDirectories();
+      var dict = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>();
       directories.OrderBy(file => file.CreationTime).ToList().ForEach((dir) =>
       {
         var name = dir.Name;
+        dict.Add(name, new Dictionary<string, Dictionary<string, string>>());
         var file = path + "/" + name + "/" + TARGET_ESTIMATION;
         var text = File.ReadAllText(file);
         var regexIni = new Regex("Values\\[(.+)\\[.+Start\\sValue\\s=\\s(.+)");
@@ -262,14 +266,19 @@ namespace CopasiApi
           var groIni = match.Groups;
           var speIni = groIni[1].Value;
           var valIni = groIni[2].Value;
-          Console.WriteLine("Ini -> " + speIni + ": " + valIni);
+          if (!dict[name].ContainsKey(speIni)) {
+            dict[name].Add(speIni, new Dictionary<string, string>());
+          }
+          dict[name][speIni].Add(INITIAL, valIni);
+          // Console.WriteLine("ini -> " + name + " : " + speIni + " : " + valIni);
         });
         matchesFit.ToList().ForEach((match) =>
         {
           var groFit = match.Groups;
           var speFit = groFit[1].Value;
           var valFit = groFit[2].Value;
-          Console.WriteLine("Fit -> " + speFit + ": " + valFit);
+          dict[name][speFit].Add(FITTED, valFit);
+          // Console.WriteLine("fit -> " + name + " : " + speFit + " : " + valFit);
         });
       });
     }
