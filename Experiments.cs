@@ -296,6 +296,7 @@ namespace CopasiApi
       lines = new List<string>(names);
       lines.ForEach((line) =>
       {
+        // Console.WriteLine(line);
         values.Add(line, new Dictionary<string, Dictionary<string, string>>());
         var file = path + "/" + line + "/" + TARGET_ESTIMATION;
         var text = File.ReadAllText(file);
