@@ -14,7 +14,7 @@ namespace CopasiApi
     private string SOURCE_FOLDER = "tcga";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
-    private string TARGET_EXPERIMENTS = "Experiment.tab";
+    private string TARGET_EXPERIMENT = "Experiment.tab";
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model.cps";
     private string TARGET_ESTIMATION = "par-est.txt";
@@ -31,7 +31,24 @@ namespace CopasiApi
       var species = GetSpecies().ToList();
       var experiments = GetExperiments(species);
       ProcessExperiments(species, experiments);
-      ProcessModels(species, experiments);
+
+      var modelPath = Path.GetFullPath(SOURCE_FOLDER + "/" + SOURCE_MODEL);
+      var dataModel = CRootContainer.addDatamodel();
+      dataModel.addModel(modelPath);
+      var model = dataModel.getModel();
+      var task = GetTask(dataModel);
+
+      var fitProblem = (CFitProblem)task.getProblem();
+      fitProblem.setModel(model);
+
+      var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
+      var experiment = GetExperiment(species, dataModel, model, fitProblem);
+      experimentSet.addExperiment(experiment);
+
+      experiments.Keys.ToList().ForEach((exp) =>
+      {
+        ProcessTask(task, experimentSet, exp, dataModel);
+      });
     }
     private void printError(Exception exception, string source)
     {
@@ -128,50 +145,27 @@ namespace CopasiApi
         {
           Directory.CreateDirectory(path);
         }
-        File.WriteAllText(path + "/" + TARGET_EXPERIMENTS, csv.ToString());
+        File.WriteAllText(path + "/" + TARGET_EXPERIMENT, csv.ToString());
       });
       Console.WriteLine("-> All Experiments were created");
     }
 
-    private void ProcessModels(List<string> species, Dictionary<string, Dictionary<string, string>> experiments)
+    private CFitTask GetTask(CDataModel dataModel)
     {
-      var sourceModel = SOURCE_FOLDER + "/" + SOURCE_MODEL;
-      experiments.Keys.ToList().ForEach((exp) =>
-      {
-        var targetModel = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/" + TARGET_MODEL;
-        File.Copy(sourceModel, targetModel, true);
-        Console.WriteLine("-> Model was copied: " + targetModel);
-        ProcessTask(species, exp);
-      });
+      var task = (CFitTask)dataModel.getTask("Parameter Estimation");
+      // task.getReport().setTarget(estimationPath);
+      task.setScheduled(false);
+      task.setUpdateModel(false);
+      task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
+      return task;
     }
 
-    private void ProcessTask(List<string> species, string exp)
+    private CExperiment GetExperiment(List<string> species, CDataModel dataModel, CModel model, CFitProblem fitProblem)
     {
-      var folderPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/";
-      var modelPath =  Path.GetFullPath(folderPath + TARGET_MODEL);
-      var experimentPath = Path.GetFullPath(folderPath + TARGET_EXPERIMENTS);
-      var estimationPath = Path.GetFullPath(folderPath + TARGET_ESTIMATION);
-      
-      var dataModel = CRootContainer.addDatamodel();
-      dataModel.addModel(modelPath);
-
-      var model = dataModel.getModel();
-
-      var task = (CFitTask)dataModel.getTask("Parameter Estimation");
-      task.getReport().setTarget(estimationPath);
-      task.setScheduled(false);
-      task.setUpdateModel(true);
-      task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
-
-      var fitProblem = (CFitProblem)task.getProblem();
-      fitProblem.setModel(model);
-
       var columns = (uint)species.ToArray().Length + 1;
 
-      var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
-
       var experiment = new CExperiment(dataModel);
-      experiment.setFileName(experimentPath);
+      // experiment.setFileName(experimentPath);
       experiment.setFirstRow(1);
       experiment.setLastRow(2);
       experiment.setExperimentType(CTaskEnum.Task_steadyState);
@@ -221,12 +215,26 @@ namespace CopasiApi
         ++mapInd;
       }
 
-      experimentSet.addExperiment(experiment);
-      var result = task.process(true);
-      Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
+      return experiment;
+    }
+
+    private void ProcessTask(CFitTask task, CExperimentSet experimentSet, string exp, CDataModel dataModel)
+    {
+      var folderPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/";
+      var experimentPath = Path.GetFullPath(folderPath + TARGET_EXPERIMENT);
+      var estimationPath = Path.GetFullPath(folderPath + TARGET_ESTIMATION);
+
+      task.getReport().setTarget(estimationPath);
+      experimentSet.getExperiment(0).setFileName(experimentPath);
+
+      var modelPath =  Path.GetFullPath(folderPath + TARGET_MODEL);
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
-      CRootContainer.removeDatamodel(dataModel);
+
+      var result = task.process(true);
+      Console.WriteLine(task.getProcessError());
+      Console.WriteLine(task.getProcessWarning());
+      Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
     }
   }
 }
