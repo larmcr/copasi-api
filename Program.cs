@@ -15,7 +15,7 @@ namespace CopasiApi
     {
       try
       {
-        var experiments = new Experiments();
+        new Experiments();
       }
       catch (Exception exception)
       {

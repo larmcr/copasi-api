@@ -28,6 +28,17 @@ namespace CopasiApi
 
     public Experiments()
     {
+      // ProcessModel();
+      ProcessEstimations();
+    }
+    private void printError(Exception exception, string source)
+    {
+      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
+      Environment.Exit(1);
+    }
+
+    private void ProcessModel()
+    {
       var species = GetSpecies().ToList();
       var experiments = GetExperiments(species);
       ProcessExperiments(species, experiments);
@@ -49,11 +60,6 @@ namespace CopasiApi
       {
         ProcessTask(task, experimentSet, exp, dataModel);
       });
-    }
-    private void printError(Exception exception, string source)
-    {
-      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
-      Environment.Exit(1);
     }
 
     private string[] GetSpecies()
@@ -227,7 +233,7 @@ namespace CopasiApi
       task.getReport().setTarget(estimationPath);
       experimentSet.getExperiment(0).setFileName(experimentPath);
 
-      var modelPath =  Path.GetFullPath(folderPath + TARGET_MODEL);
+      var modelPath = Path.GetFullPath(folderPath + TARGET_MODEL);
       var saved = dataModel.saveModel(modelPath, true);
       Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
 
@@ -235,6 +241,37 @@ namespace CopasiApi
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
       Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
+    }
+
+    private void ProcessEstimations()
+    {
+      var path = SOURCE_FOLDER + "/" + RESULTS;
+      var directoryInfo = new DirectoryInfo(path);
+      var directories = directoryInfo.GetDirectories();
+      directories.OrderBy(file => file.CreationTime).ToList().ForEach((dir) =>
+      {
+        var name = dir.Name;
+        var file = path + "/" + name + "/" + TARGET_ESTIMATION;
+        var text = File.ReadAllText(file);
+        var regexIni = new Regex("Values\\[(.+)\\[.+Start\\sValue\\s=\\s(.+)");
+        var regexFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
+        var matchesIni = regexIni.Matches(text);
+        var matchesFit = regexFit.Matches(text);
+        matchesIni.ToList().ForEach((match) =>
+        {
+          var groIni = match.Groups;
+          var speIni = groIni[1].Value;
+          var valIni = groIni[2].Value;
+          Console.WriteLine("Ini -> " + speIni + ": " + valIni);
+        });
+        matchesFit.ToList().ForEach((match) =>
+        {
+          var groFit = match.Groups;
+          var speFit = groFit[1].Value;
+          var valFit = groFit[2].Value;
+          Console.WriteLine("Fit -> " + speFit + ": " + valFit);
+        });
+      });
     }
   }
 }
