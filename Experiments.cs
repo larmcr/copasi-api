@@ -28,15 +28,14 @@ namespace CopasiApi
       {"MYC", 1.0}
     };
 
+    private List<string> lines = null;
+    private List<string> ks = null;
+
     public Experiments()
     {
       // ProcessModel();
       ProcessEstimations();
-    }
-    private void printError(Exception exception, string source)
-    {
-      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
-      Environment.Exit(1);
+
     }
 
     private void ProcessModel()
@@ -62,6 +61,36 @@ namespace CopasiApi
       {
         ProcessTask(task, experimentSet, exp, dataModel);
       });
+    }
+
+    private void ProcessEstimations()
+    {
+      var values = GetValues();
+      // ks.ForEach((k) => Console.WriteLine(k));
+      var matrix = new List<List<string>>();
+      var strFit = new StringBuilder("LINE,");
+      var header = String.Join(",", ks);
+      strFit.AppendLine(header);
+      lines.ForEach((line) =>
+      {
+        var row = new List<string>();
+        row.Add(line);
+        ks.ForEach((k) =>
+        {
+          row.Add(values[line][k][FITTED]);
+        });
+        matrix.Add(row);
+      });
+      matrix.ForEach((row) =>{
+        strFit.AppendLine(String.Join(",", row));
+      });
+      File.WriteAllText("out.csv", strFit.ToString().Trim());
+    }
+
+    private void printError(Exception exception, string source)
+    {
+      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
+      Environment.Exit(1);
     }
 
     private string[] GetSpecies()
@@ -245,42 +274,46 @@ namespace CopasiApi
       Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
     }
 
-    private void ProcessEstimations()
+    private Dictionary<string, Dictionary<string, Dictionary<string, string>>> GetValues()
     {
+      var values = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>();
       var path = SOURCE_FOLDER + "/" + RESULTS;
       var directoryInfo = new DirectoryInfo(path);
       var directories = directoryInfo.GetDirectories();
-      var dict = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>();
-      directories.OrderBy(file => file.CreationTime).ToList().ForEach((dir) =>
+      var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
+      lines = new List<string>(names);
+      lines.ForEach((line) =>
       {
-        var name = dir.Name;
-        dict.Add(name, new Dictionary<string, Dictionary<string, string>>());
-        var file = path + "/" + name + "/" + TARGET_ESTIMATION;
+        values.Add(line, new Dictionary<string, Dictionary<string, string>>());
+        var file = path + "/" + line + "/" + TARGET_ESTIMATION;
         var text = File.ReadAllText(file);
         var regexIni = new Regex("Values\\[(.+)\\[.+Start\\sValue\\s=\\s(.+)");
         var regexFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
         var matchesIni = regexIni.Matches(text);
         var matchesFit = regexFit.Matches(text);
+        if (ks == null)
+        {
+          ks = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
+        }
         matchesIni.ToList().ForEach((match) =>
         {
           var groIni = match.Groups;
-          var speIni = groIni[1].Value;
-          var valIni = groIni[2].Value;
-          if (!dict[name].ContainsKey(speIni)) {
-            dict[name].Add(speIni, new Dictionary<string, string>());
+          var kName = groIni[1].Value;
+          if (!values[line].ContainsKey(kName))
+          {
+            values[line].Add(kName, new Dictionary<string, string>());
           }
-          dict[name][speIni].Add(INITIAL, valIni);
+          values[line][kName].Add(INITIAL, groIni[2].Value);
           // Console.WriteLine("ini -> " + name + " : " + speIni + " : " + valIni);
         });
         matchesFit.ToList().ForEach((match) =>
         {
           var groFit = match.Groups;
-          var speFit = groFit[1].Value;
-          var valFit = groFit[2].Value;
-          dict[name][speFit].Add(FITTED, valFit);
-          // Console.WriteLine("fit -> " + name + " : " + speFit + " : " + valFit);
+          values[line][groFit[1].Value].Add(FITTED, groFit[2].Value);
+          // Console.WriteLine("fit -> " + line + " : " + groFit[1].Value + " : " + groFit[2].Value);
         });
       });
+      return values;
     }
   }
 }
