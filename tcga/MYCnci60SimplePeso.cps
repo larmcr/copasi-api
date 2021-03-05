@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.30 (Build 240) (http://www.copasi.org) at 2021-02-28T15:26:34Z -->
+<!-- generated with COPASI 4.30 (Build 240) (http://www.copasi.org) at 2021-03-02T01:26:21Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="30" versionDevel="240" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -695,7 +695,7 @@
           <Substrate metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7497" name="&quot;kd_STAT3&quot;" value="0.5"/>
+          <Constant key="Parameter_4999" name="&quot;kd_STAT3&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_40" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -724,8 +724,8 @@
           <Product metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfProducts>
         <ListOfConstants>
-          <Constant key="Parameter_7540" name="&quot;ks_STAT3&quot;" value="0.5"/>
-          <Constant key="Parameter_7471" name="&quot;CNV_STAT3&quot;" value="1"/>
+          <Constant key="Parameter_4998" name="&quot;ks_STAT3&quot;" value="0.5"/>
+          <Constant key="Parameter_4997" name="&quot;CNV_STAT3&quot;" value="1"/>
         </ListOfConstants>
         <KineticLaw function="Function_41" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -754,7 +754,7 @@
           <Substrate metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7532" name="&quot;kd_MIR19A&quot;" value="0.5"/>
+          <Constant key="Parameter_4996" name="&quot;kd_MIR19A&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_42" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -786,9 +786,9 @@
           <Modifier metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7528" name="&quot;ks_MIR19A&quot;" value="0.5"/>
-          <Constant key="Parameter_7539" name="&quot;CNV_MIR19A&quot;" value="1"/>
-          <Constant key="Parameter_7538" name="&quot;ka_MYC&quot;" value="0.5"/>
+          <Constant key="Parameter_4995" name="&quot;ks_MIR19A&quot;" value="0.5"/>
+          <Constant key="Parameter_4994" name="&quot;CNV_MIR19A&quot;" value="1"/>
+          <Constant key="Parameter_4993" name="&quot;ka_MYC&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_43" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -823,7 +823,7 @@
           <Substrate metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7537" name="&quot;kd_MYC&quot;" value="0.5"/>
+          <Constant key="Parameter_4992" name="&quot;kd_MYC&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_44" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -855,9 +855,9 @@
           <Modifier metabolite="Metabolite_1" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7536" name="&quot;ks_MYC&quot;" value="0.5"/>
-          <Constant key="Parameter_7470" name="&quot;CNV_MYC&quot;" value="1"/>
-          <Constant key="Parameter_7546" name="&quot;kr_MIR19A&quot;" value="0.5"/>
+          <Constant key="Parameter_4991" name="&quot;ks_MYC&quot;" value="0.5"/>
+          <Constant key="Parameter_4990" name="&quot;CNV_MYC&quot;" value="1"/>
+          <Constant key="Parameter_4989" name="&quot;kr_MIR19A&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_45" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -892,7 +892,7 @@
           <Substrate metabolite="Metabolite_3" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7545" name="&quot;kd_MIR21&quot;" value="0.5"/>
+          <Constant key="Parameter_4988" name="&quot;kd_MIR21&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_46" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -924,9 +924,9 @@
           <Modifier metabolite="Metabolite_0" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7544" name="&quot;ks_MIR21&quot;" value="0.5"/>
-          <Constant key="Parameter_7543" name="&quot;CNV_MIR21&quot;" value="1"/>
-          <Constant key="Parameter_7550" name="&quot;ka_STAT3&quot;" value="0.5"/>
+          <Constant key="Parameter_4987" name="&quot;ks_MIR21&quot;" value="0.5"/>
+          <Constant key="Parameter_4986" name="&quot;CNV_MIR21&quot;" value="1"/>
+          <Constant key="Parameter_4985" name="&quot;ka_STAT3&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_47" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -961,7 +961,7 @@
           <Substrate metabolite="Metabolite_4" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7549" name="&quot;kd_MIR17&quot;" value="0.5"/>
+          <Constant key="Parameter_4984" name="&quot;kd_MIR17&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_48" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -993,9 +993,9 @@
           <Modifier metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7548" name="&quot;ks_MIR17&quot;" value="0.5"/>
-          <Constant key="Parameter_7547" name="&quot;CNV_MIR17&quot;" value="1"/>
-          <Constant key="Parameter_7493" name="&quot;ka_MYC&quot;" value="0.5"/>
+          <Constant key="Parameter_4983" name="&quot;ks_MIR17&quot;" value="0.5"/>
+          <Constant key="Parameter_4982" name="&quot;CNV_MIR17&quot;" value="1"/>
+          <Constant key="Parameter_4981" name="&quot;ka_MYC&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_49" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -1030,7 +1030,7 @@
           <Substrate metabolite="Metabolite_5" stoichiometry="1"/>
         </ListOfSubstrates>
         <ListOfConstants>
-          <Constant key="Parameter_7499" name="&quot;kd_MIR20A&quot;" value="0.5"/>
+          <Constant key="Parameter_4980" name="&quot;kd_MIR20A&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_50" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -1062,9 +1062,9 @@
           <Modifier metabolite="Metabolite_2" stoichiometry="1"/>
         </ListOfModifiers>
         <ListOfConstants>
-          <Constant key="Parameter_7492" name="&quot;ks_MIR20A&quot;" value="0.5"/>
-          <Constant key="Parameter_7494" name="&quot;CNV_MIR20A&quot;" value="1"/>
-          <Constant key="Parameter_7489" name="&quot;ka_MYC&quot;" value="0.5"/>
+          <Constant key="Parameter_4979" name="&quot;ks_MIR20A&quot;" value="0.5"/>
+          <Constant key="Parameter_4978" name="&quot;CNV_MIR20A&quot;" value="1"/>
+          <Constant key="Parameter_4977" name="&quot;ka_MYC&quot;" value="0.5"/>
         </ListOfConstants>
         <KineticLaw function="Function_51" unitType="Default" scalingCompartment="CN=Root,Model=New Model,Vector=Compartments[Compartment1]">
           <ListOfCallParameters>
@@ -1093,7 +1093,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:16Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:58Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1977,7 +1977,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1995,7 +1995,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2013,7 +2013,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_12">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2031,7 +2031,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2049,7 +2049,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2067,7 +2067,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_40">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-02-28T15:25:02Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-02T01:25:54Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>

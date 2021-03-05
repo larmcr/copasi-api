@@ -35,7 +35,7 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessModel();
+      ProcessModel();
       ProcessEstimations();
     }
 
@@ -76,6 +76,7 @@ namespace CopasiApi
       strFit.AppendLine(header);
       lines.ForEach((line) =>
       {
+        Console.WriteLine("-> Values (initial & fitted) of line: " + line);
         var rowIni = new List<string>();
         var rowFit = new List<string>();
         rowIni.Add(line);
@@ -226,17 +227,21 @@ namespace CopasiApi
       objectMap.setRole(0, CExperiment.ignore);
 
       var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
-      var mapInd = 1;
       var numModelValues = model.getNumModelValues();
+      var regex = new Regex("Values\\[(.+)\\\\\\[");
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
-        if (cn.getString().Contains("[CNV_"))
+        var cnStr = cn.getString();
+        // Console.WriteLine(cnStr);
+        if (cnStr.Contains("[CNV_"))
         {
-          objectMap.setRole((uint)mapInd, CExperiment.independent);
-          objectMap.setObjectCN((uint)mapInd, cn.getString());
-          ++mapInd;
+          var value = regex.Match(cnStr).Groups[1].Value;
+          // Console.WriteLine(value);
+          var index = species.IndexOf(value);
+          objectMap.setRole((uint)index + 1, CExperiment.independent);
+          objectMap.setObjectCN((uint)index + 1, cnStr);
         }
         else
         {
@@ -249,19 +254,20 @@ namespace CopasiApi
         }
       }
 
+      regex = new Regex("=.+\\[(.+)\\]");
       var numMetabs = model.getNumMetabs();
       for (var i = 0; i < numMetabs; ++i)
       {
         var cons = model.getMetabolite((uint)i).getConcentrationReference().getCN().getString();
-        objectMap.setRole((uint)mapInd, CExperiment.dependent);
-        objectMap.setObjectCN((uint)mapInd, cons);
-        var regex = new Regex("=.+\\[(.+)\\]");
         var value = regex.Match(cons).Groups[1].Value;
+        // Console.WriteLine(value);
+        var index = species.IndexOf(value);
+        objectMap.setRole((uint)index + 1, CExperiment.dependent);
+        objectMap.setObjectCN((uint)index + 1, cons);
         if (WEIGHTS.ContainsKey(value))
         {
-          objectMap.setScale((uint)mapInd, WEIGHTS[value]);
+          objectMap.setScale((uint)index + 1, WEIGHTS[value]);
         }
-        ++mapInd;
       }
 
       return experiment;
@@ -272,6 +278,8 @@ namespace CopasiApi
       var folderPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/";
       var experimentPath = Path.GetFullPath(folderPath + TARGET_EXPERIMENT);
       var estimationPath = Path.GetFullPath(folderPath + TARGET_ESTIMATION);
+
+      File.Delete(estimationPath);
 
       task.getReport().setTarget(estimationPath);
       experimentSet.getExperiment(0).setFileName(experimentPath);
@@ -296,7 +304,6 @@ namespace CopasiApi
       lines = new List<string>(names);
       lines.ForEach((line) =>
       {
-        // Console.WriteLine(line);
         values.Add(line, new Dictionary<string, Dictionary<string, string>>());
         var file = path + "/" + line + "/" + TARGET_ESTIMATION;
         var text = File.ReadAllText(file);

@@ -196,8 +196,8 @@ Parameter Estimation Result:
 Objective Function Value:	7.81899e-26
 Standard Deviation:	nan
 Function Evaluations:	479
-CPU Time [s]:	0.089
-Evaluations/Second [1/s]:	5382.02
+CPU Time [s]:	0.098
+Evaluations/Second [1/s]:	4887.76
 
 	Parameter	Value	Gradient	Standard Deviation
 	Values[ks_STAT3].InitialValue:	1.08947	0.0553076	nan
