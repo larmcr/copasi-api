@@ -4,7 +4,6 @@ using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text.Json;
 using System.Text.RegularExpressions;
 
 namespace CopasiApi
@@ -14,16 +13,22 @@ namespace CopasiApi
     private string SOURCE_FOLDER = "scans";
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model-scan.cps";
-    private string TARGET_SCAN = "scan.csv";
-    private static string RESULTS = "results";
-    private static string CNV = "CNV_MYC";
-    private static string[] SPECIES = new string[] { "MYC", "MIR17", "MIR19A", "MIR20A" };
-    private static uint STEPS = 4;
-    private static double MIN = 1.0;
-    private static double MAX = 5.0;
+    private string SOURCE_SCANS = "fit.csv";
+    private string TARGET_SCANS = "scan.csv";
+    private string TARGET_FOLDER = "results";
+    private string CNV = "CNV_MYC";
+    private string[] SPECIES = new string[] { "MYC", "MIR17", "MIR19A", "MIR20A" };
+    private uint STEPS = 4;
+    private double MIN = 1.0;
+    private double MAX = 5.0;
+
+    private List<string> lines;
+    private List<string> ks;
+    private Dictionary<string, List<double>> dict;
 
     public Scans()
     {
+      ProcessData();
       ProcessModel();
     }
 
@@ -31,7 +36,7 @@ namespace CopasiApi
     {
       var modelPath = Path.GetFullPath(SOURCE_FOLDER + "/" + SOURCE_MODEL);
       var modelTarget = Path.GetFullPath(SOURCE_FOLDER + "/" + TARGET_MODEL);
-      var targetFile = Path.GetFullPath(SOURCE_FOLDER + "/" + TARGET_SCAN);
+      var targetFile = Path.GetFullPath(SOURCE_FOLDER + "/" + TARGET_SCANS);
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
       var model = dataModel.getModel();
@@ -44,7 +49,7 @@ namespace CopasiApi
       report.setSeparator(new CCopasiReportSeparator(","));
 
       var numModelValues = model.getNumModelValues();
-      var regex = new Regex("Values\\[(.+)\\\\\\[");
+      var regex = new Regex("Values\\[([^\\\\]+)\\\\");
 
       var table = report.getTableAddr();
 
@@ -52,20 +57,27 @@ namespace CopasiApi
 
       for (var i = 0; i < numModelValues; ++i)
       {
-        var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
+        var modelValue = model.getModelValue((uint)i);
+        var initialValueRef = modelValue.getInitialValueReference();
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
-        // Console.WriteLine(cnStr);
         if (cnStr.Contains(CNV))
         {
           cnvCn = new CRegisteredCommonName(initialValueRef.getCN().getString());
           table.Add(cnvCn);
         }
+        else
+        {
+          var k = regex.Match(cnStr).Groups[1].Value;
+          var index = ks.IndexOf(k);
+          if (index > -1)
+          {
+            var val = dict["1-1"][index];
+            modelValue.setInitialValue(val);
+          }
+        }
       }
-      // var cnvRef = model.getModelValue(CNV + "[merge]").getInitialValueReference();
-      // var cnvCn = new CRegisteredCommonName(cnvRef.getCN().getString());
-      // var table = report.getTableAddr();
-      // table.Add(cnvCn);
+
       SPECIES.ToList().ForEach(specie =>
       {
         table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
@@ -97,6 +109,44 @@ namespace CopasiApi
 
       var processed = scanTask.process(true);
       Console.WriteLine("\t|\t|-> Scan Processed (" + processed + "): " + targetFile);
+    }
+
+    private void ProcessData()
+    {
+      dict = new Dictionary<string, List<double>>();
+      try
+      {
+        var path = SOURCE_FOLDER + "/" + SOURCE_SCANS;
+        using (var parser = new TextFieldParser(path))
+        {
+          parser.SetDelimiters(",");
+          while (!parser.EndOfData)
+          {
+            var row = parser.ReadFields();
+            if (row[0] == "LINE")
+            {
+              lines = new List<string>();
+              ks = new List<string>(row.Skip(1));
+            } else 
+            {
+              var line = row[0];
+              lines.Add(line);
+              var list = new List<double>(row.Skip(1).Select((val) => Double.Parse(val)));
+              dict.Add(line, new List<double>(list));
+            }
+          }
+        }
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ProcessData");
+      }
+    }
+
+    private void printError(Exception exception, string source)
+    {
+      Console.Error.WriteLine("ERROR (" + source + "): " + exception);
+      Environment.Exit(1);
     }
   }
 }
