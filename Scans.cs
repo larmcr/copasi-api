@@ -21,15 +21,15 @@ namespace CopasiApi
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;
-
     private List<string> lines;
     private List<string> ks;
     private Dictionary<string, List<double>> dict;
 
     public Scans()
     {
-      ProcessData();
-      ProcessModel();
+      // ProcessData();
+      // ProcessModel();
+      ProcessScans();
     }
 
     private void ProcessModel()
@@ -95,7 +95,7 @@ namespace CopasiApi
       scanItem.getParameter("Use Values").setBoolValue(false);
 
       var success = true;
-      for(var l = 0; success && l < lines.Count; ++l)
+      for (var l = 0; success && l < lines.Count; ++l)
       {
         success &= ProcessTask(dataModel, model, scanTask, numModelValues, lines[l]);
       }
@@ -130,7 +130,7 @@ namespace CopasiApi
       model.compile();
 
       scanTask.getReport().setTarget(targetFile);
-      
+
       var saved = dataModel.saveModel(targetModel, true);
       Console.WriteLine("\t|-> Model Saved (" + saved + "): " + targetModel);
 
@@ -170,6 +170,74 @@ namespace CopasiApi
       catch (Exception exception)
       {
         printError(exception, "ProcessData");
+      }
+    }
+
+    private void ProcessScans()
+    {
+      try
+      {
+        var path = SOURCE_FOLDER + "/" + TARGET_FOLDER;
+        var directoryInfo = new DirectoryInfo(path);
+        var directories = directoryInfo.GetDirectories();
+        var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
+        List<string> prefixes = null;
+        List<string> suffixes = null;
+        List<string> headers = new List<string>() { "LINE" };
+        var first = true;
+        names.ToList().ForEach((line) =>
+        {
+          var file = path + "/" + line + "/" + TARGET_SCANS;
+          using (var parser = new TextFieldParser(file))
+          {
+            parser.SetDelimiters(",");
+            while (!parser.EndOfData)
+            {
+              var row = parser.ReadFields();
+              if (row[0].Contains("Values"))
+              {
+                if (first)
+                {
+                  prefixes = new List<string>();
+                  suffixes = new List<string>();
+                  var regex = new Regex("Values\\[([^\\[]+)");
+                  var match = regex.Match(row[0]);
+                  prefixes.Add(match.Groups[1].Value);
+                  regex = new Regex("\\[([^\\[]+)\\]");
+                  row.Skip(1).ToList().ForEach((pre) =>
+                  {
+                    match = regex.Match(pre);
+                    prefixes.Add(match.Groups[1].Value);
+                  });
+                }
+              }
+              else
+              {
+                if (first)
+                {
+                  var suffix = row[0];
+                  suffixes.Add(suffix);
+                }
+              }
+            }
+          }
+          if (first)
+          {
+            prefixes.ForEach((pre) =>
+            {
+              suffixes.ForEach((suf) =>
+              {
+                headers.Add(pre + "_" + suf);
+              });
+            });
+            first = false;
+          }
+        });
+        headers.ForEach((hea) => Console.WriteLine(hea));
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ProcessScans");
       }
     }
 
