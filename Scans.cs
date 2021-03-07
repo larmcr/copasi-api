@@ -177,6 +177,7 @@ namespace CopasiApi
     {
       try
       {
+        var table = new Dictionary<string, Dictionary<string, Dictionary<string, string>>>();
         var path = SOURCE_FOLDER + "/" + TARGET_FOLDER;
         var directoryInfo = new DirectoryInfo(path);
         var directories = directoryInfo.GetDirectories();
@@ -187,6 +188,7 @@ namespace CopasiApi
         var first = true;
         names.ToList().ForEach((line) =>
         {
+          table.Add(line, new Dictionary<string, Dictionary<string, string>>());
           var file = path + "/" + line + "/" + TARGET_SCANS;
           using (var parser = new TextFieldParser(file))
           {
@@ -202,22 +204,43 @@ namespace CopasiApi
                   suffixes = new List<string>();
                   var regex = new Regex("Values\\[([^\\[]+)");
                   var match = regex.Match(row[0]);
-                  prefixes.Add(match.Groups[1].Value);
+                  var value = match.Groups[1].Value;
+                  prefixes.Add(value);
+                  table[line].Add(value, new Dictionary<string, string>());
                   regex = new Regex("\\[([^\\[]+)\\]");
                   row.Skip(1).ToList().ForEach((pre) =>
                   {
                     match = regex.Match(pre);
-                    prefixes.Add(match.Groups[1].Value);
+                    value = match.Groups[1].Value;
+                    prefixes.Add(value);
+                    table[line].Add(value, new Dictionary<string, string>());
                   });
                 }
               }
               else
               {
+                var suffix = row[0];
                 if (first)
                 {
-                  var suffix = row[0];
                   suffixes.Add(suffix);
+                  prefixes.ForEach((pre) => {
+                    table[line][pre] = new Dictionary<string, string>();
+                  });
                 }
+                var rowInd = 0;
+                row.ToList().ForEach((val) =>
+                {
+                  var preInd = 0;
+                  prefixes.ForEach((pre) => {
+                    if (rowInd == preInd)
+                    {
+                      Console.WriteLine(line + ": " + pre + ": " + suffix + ": " + val);
+                      table[line][pre].Add(suffix, val);
+                    }
+                    ++preInd;
+                  });
+                  ++rowInd;
+                });
               }
             }
           }
