@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Text.RegularExpressions;
+using System.Text;
 
 namespace CopasiApi
 {
@@ -14,7 +15,8 @@ namespace CopasiApi
     private string SOURCE_MODEL = "Model.cps";
     private string TARGET_MODEL = "Model-scan.cps";
     private string SOURCE_SCANS = "fit.csv";
-    private string TARGET_SCANS = "scan.csv";
+    private string TARGET_SCAN = "scan.csv";
+    private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
     private string CNV = "CNV_MYC";
     private string[] SPECIES = new string[] { "MYC", "MIR17", "MIR19A", "MIR20A" };
@@ -109,7 +111,7 @@ namespace CopasiApi
         Directory.CreateDirectory(results);
       }
       var targetModel = Path.GetFullPath(results + "/" + TARGET_MODEL);
-      var targetFile = Path.GetFullPath(results + "/" + TARGET_SCANS);
+      var targetFile = Path.GetFullPath(results + "/" + TARGET_SCAN);
 
       var regex = new Regex("Values\\[([^\\\\]+)\\\\");
       for (var i = 0; i < numModelValues; ++i)
@@ -186,10 +188,11 @@ namespace CopasiApi
         List<string> suffixes = null;
         List<string> headers = new List<string>() { "LINE" };
         var first = true;
-        names.ToList().ForEach((line) =>
+        var lines = names.ToList();
+        lines.ForEach((line) =>
         {
           table.Add(line, new Dictionary<string, Dictionary<string, string>>());
-          var file = path + "/" + line + "/" + TARGET_SCANS;
+          var file = path + "/" + line + "/" + TARGET_SCAN;
           using (var parser = new TextFieldParser(file))
           {
             parser.SetDelimiters(",");
@@ -223,10 +226,12 @@ namespace CopasiApi
                 if (first)
                 {
                   suffixes.Add(suffix);
-                  prefixes.ForEach((pre) => {
-                    table[line][pre] = new Dictionary<string, string>();
-                  });
                 }
+                prefixes.ForEach((pre) => {
+                  if(!table[line].ContainsKey(pre)) {
+                    table[line][pre] = new Dictionary<string, string>();
+                  }
+                });
                 var rowInd = 0;
                 row.ToList().ForEach((val) =>
                 {
@@ -234,7 +239,6 @@ namespace CopasiApi
                   prefixes.ForEach((pre) => {
                     if (rowInd == preInd)
                     {
-                      Console.WriteLine(line + ": " + pre + ": " + suffix + ": " + val);
                       table[line][pre].Add(suffix, val);
                     }
                     ++preInd;
@@ -256,7 +260,18 @@ namespace CopasiApi
             first = false;
           }
         });
-        headers.ForEach((hea) => Console.WriteLine(hea));
+        var csv = new StringBuilder();
+        csv.AppendLine(String.Join(",", headers));
+        lines.ForEach((line) => {
+          var row = new List<string>(){line};
+          prefixes.ForEach((pre) => {
+            suffixes.ForEach((suf) => {
+              row.Add(table[line][pre][suf]);
+            });
+          });
+          csv.AppendLine(String.Join(",", row));
+        });
+        File.WriteAllText(SOURCE_FOLDER + "/" + TARGET_FOLDER + "/" + TARGET_SCANS, csv.ToString());
       }
       catch (Exception exception)
       {
