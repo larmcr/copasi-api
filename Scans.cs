@@ -35,8 +35,7 @@ namespace CopasiApi
     private void ProcessModel()
     {
       var modelPath = Path.GetFullPath(SOURCE_FOLDER + "/" + SOURCE_MODEL);
-      var modelTarget = Path.GetFullPath(SOURCE_FOLDER + "/" + TARGET_MODEL);
-      var targetFile = Path.GetFullPath(SOURCE_FOLDER + "/" + TARGET_SCANS);
+
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
       var model = dataModel.getModel();
@@ -49,13 +48,13 @@ namespace CopasiApi
       report.setSeparator(new CCopasiReportSeparator(","));
 
       var numModelValues = model.getNumModelValues();
-      var regex = new Regex("Values\\[([^\\\\]+)\\\\");
 
       var table = report.getTableAddr();
 
       CRegisteredCommonName cnvCn = null;
 
-      for (var i = 0; i < numModelValues; ++i)
+      var done = false;
+      for (var i = 0; !done && i < numModelValues; ++i)
       {
         var modelValue = model.getModelValue((uint)i);
         var initialValueRef = modelValue.getInitialValueReference();
@@ -65,16 +64,7 @@ namespace CopasiApi
         {
           cnvCn = new CRegisteredCommonName(initialValueRef.getCN().getString());
           table.Add(cnvCn);
-        }
-        else
-        {
-          var k = regex.Match(cnStr).Groups[1].Value;
-          var index = ks.IndexOf(k);
-          if (index > -1)
-          {
-            var val = dict["1-1"][index];
-            modelValue.setInitialValue(val);
-          }
+          done = true;
         }
       }
 
@@ -84,9 +74,9 @@ namespace CopasiApi
       });
 
       var scanTask = (CScanTask)dataModel.getTask("Scan");
+      scanTask.setUpdateModel(false);
       scanTask.setScheduled(false);
       scanTask.getReport().setReportDefinition(report);
-      scanTask.getReport().setTarget(targetFile);
       scanTask.getReport().setAppend(false);
 
       var scanProblem = (CScanProblem)scanTask.getProblem();
@@ -104,11 +94,50 @@ namespace CopasiApi
       scanItem.getParameter("Values").setStringValue("");
       scanItem.getParameter("Use Values").setBoolValue(false);
 
-      var saved = dataModel.saveModel(modelTarget, true);
-      Console.WriteLine("\t|-> Model Saved (" + saved + "): " + modelTarget);
+      var success = true;
+      for(var l = 0; success && l < lines.Count; ++l)
+      {
+        success &= ProcessTask(dataModel, model, scanTask, numModelValues, lines[l]);
+      }
+    }
+
+    private bool ProcessTask(CDataModel dataModel, CModel model, CScanTask scanTask, uint numModelValues, string line)
+    {
+      var results = SOURCE_FOLDER + "/" + TARGET_FOLDER + "/" + line;
+      if (!Directory.Exists(results))
+      {
+        Directory.CreateDirectory(results);
+      }
+      var targetModel = Path.GetFullPath(results + "/" + TARGET_MODEL);
+      var targetFile = Path.GetFullPath(results + "/" + TARGET_SCANS);
+
+      var regex = new Regex("Values\\[([^\\\\]+)\\\\");
+      for (var i = 0; i < numModelValues; ++i)
+      {
+        var modelValue = model.getModelValue((uint)i);
+        var initialValueRef = modelValue.getInitialValueReference();
+        var cn = initialValueRef.getCN();
+        var cnStr = cn.getString();
+        var k = regex.Match(cnStr).Groups[1].Value;
+        var index = ks.IndexOf(k);
+        if (index > -1)
+        {
+          var val = dict[line][index];
+          modelValue.setInitialValue(val);
+        }
+      }
+
+      model.compile();
+
+      scanTask.getReport().setTarget(targetFile);
+      
+      var saved = dataModel.saveModel(targetModel, true);
+      Console.WriteLine("\t|-> Model Saved (" + saved + "): " + targetModel);
 
       var processed = scanTask.process(true);
       Console.WriteLine("\t|\t|-> Scan Processed (" + processed + "): " + targetFile);
+
+      return saved && processed;
     }
 
     private void ProcessData()
@@ -127,7 +156,8 @@ namespace CopasiApi
             {
               lines = new List<string>();
               ks = new List<string>(row.Skip(1));
-            } else 
+            }
+            else
             {
               var line = row[0];
               lines.Add(line);
