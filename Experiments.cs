@@ -60,7 +60,7 @@ namespace CopasiApi
 
       experiments.Keys.ToList().ForEach((exp) =>
       {
-        ProcessTask(task, experimentSet, exp, dataModel);
+        ProcessTask(task, experimentSet, exp, dataModel, model);
       });
     }
 
@@ -273,7 +273,7 @@ namespace CopasiApi
       return experiment;
     }
 
-    private void ProcessTask(CFitTask task, CExperimentSet experimentSet, string exp, CDataModel dataModel)
+    private void ProcessTask(CFitTask task, CExperimentSet experimentSet, string exp, CDataModel dataModel, CModel model)
     {
       var folderPath = SOURCE_FOLDER + "/" + RESULTS + "/" + exp + "/";
       var experimentPath = Path.GetFullPath(folderPath + TARGET_EXPERIMENT);
@@ -283,6 +283,8 @@ namespace CopasiApi
 
       task.getReport().setTarget(estimationPath);
       experimentSet.getExperiment(0).setFileName(experimentPath);
+
+      model.compile();
 
       var modelPath = Path.GetFullPath(folderPath + TARGET_MODEL);
       var saved = dataModel.saveModel(modelPath, true);
