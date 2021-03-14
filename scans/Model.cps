@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2021-03-06T12:12:45Z -->
+<!-- generated with COPASI 4.29 (Build 228) (http://www.copasi.org) at 2021-03-12T22:43:00Z -->
 <?oxygen RNGSchema="http://www.copasi.org/static/schema/CopasiML.rng" type="xml"?>
 <COPASI xmlns="http://www.copasi.org/static/schema" versionMajor="4" versionMinor="29" versionDevel="228" copasiSourcesModified="0">
   <ListOfFunctions>
@@ -1093,7 +1093,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#ModelParameterSet_1">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:38Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:58Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -1363,14 +1363,14 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
       </Method>
     </Task>
     <Task key="Task_17" name="Scan" type="scan" scheduled="false" updateModel="false">
-      <Report reference="Report_10" target="MYCcomp" append="1" confirmOverwrite="1"/>
+      <Report reference="Report_22" target="STAT3comp" append="1" confirmOverwrite="1"/>
       <Problem>
         <Parameter name="Subtask" type="unsignedInteger" value="0"/>
         <ParameterGroup name="ScanItems">
           <ParameterGroup name="ScanItem">
             <Parameter name="Number of steps" type="unsignedInteger" value="10"/>
             <Parameter name="Type" type="unsignedInteger" value="1"/>
-            <Parameter name="Object" type="cn" value="CN=Root,Model=New Model,Vector=Values[CNV_MYC\[merge\]],Reference=InitialValue"/>
+            <Parameter name="Object" type="cn" value="CN=Root,Model=New Model,Vector=Values[CNV_STAT3\[merge\]],Reference=InitialValue"/>
             <Parameter name="Minimum" type="float" value="1"/>
             <Parameter name="Maximum" type="float" value="5"/>
             <Parameter name="log" type="bool" value="0"/>
@@ -1976,15 +1976,12 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
         <Object cn="CN=Root,Vector=TaskList[Linear Noise Approximation],Object=Result"/>
       </Footer>
     </Report>
-    <Report key="Report_10" name="ScanParameters" taskType="timeCourse" separator="&#x09;" precision="6">
+    <Report key="Report_22" name="ScanParameters" taskType="timeCourse" separator="&#x09;" precision="6">
       <Comment>
       </Comment>
       <Table printTitle="1">
-        <Object cn="CN=Root,Model=New Model,Vector=Values[CNV_MYC\[merge\]],Reference=InitialValue"/>
-        <Object cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1\[merge\]],Vector=Metabolites[MYC],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1\[merge\]],Vector=Metabolites[MIR17],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1\[merge\]],Vector=Metabolites[MIR19A],Reference=Concentration"/>
-        <Object cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1\[merge\]],Vector=Metabolites[MIR20A],Reference=Concentration"/>
+        <Object cn="CN=Root,Model=New Model,Vector=Values[CNV_STAT3\[merge\]],Reference=InitialValue"/>
+        <Object cn="CN=Root,Model=New Model,Vector=Compartments[Compartment1\[merge\]],Vector=Metabolites[STAT3],Reference=Concentration"/>
       </Table>
     </Report>
   </ListOfReports>
@@ -2079,7 +2076,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_0">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2097,7 +2094,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_4">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2115,7 +2112,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_12">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2133,7 +2130,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_16">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2151,7 +2148,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_34">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
@@ -2169,7 +2166,7 @@ xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
 <rdf:Description rdf:about="#Unit_40">
 <dcterms:created>
 <rdf:Description>
-<dcterms:W3CDTF>2021-03-06T12:03:33Z</dcterms:W3CDTF>
+<dcterms:W3CDTF>2021-03-12T22:40:53Z</dcterms:W3CDTF>
 </rdf:Description>
 </dcterms:created>
 </rdf:Description>
