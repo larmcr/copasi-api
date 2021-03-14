@@ -18,8 +18,8 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_STAT3";
-    private string[] SPECIES = new string[] { "STAT3", "MYC" };
+    private string CNV = "CNV_POU2F1";
+    private string[] SPECIES = new string[] { "POU2F1", "MIRLET7G" };
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;
@@ -72,6 +72,7 @@ namespace CopasiApi
 
       SPECIES.ToList().ForEach((specie) =>
       {
+        Console.WriteLine(specie);
         table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
       });
 
