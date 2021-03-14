@@ -27,7 +27,7 @@ namespace CopasiApi
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      {"MYC", 1.0}
+      // {"MYC", 1.0}
     };
 
     private List<string> lines = null;
@@ -53,6 +53,7 @@ namespace CopasiApi
 
       var fitProblem = (CFitProblem)task.getProblem();
       fitProblem.setModel(model);
+      fitProblem.setCalculateStatistics(false);
 
       var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
       var experiment = GetExperiment(species, dataModel, model, fitProblem);
@@ -288,12 +289,16 @@ namespace CopasiApi
 
       var modelPath = Path.GetFullPath(folderPath + TARGET_MODEL);
       var saved = dataModel.saveModel(modelPath, true);
-      Console.WriteLine("\t\t|-> Model Saved (" + saved + "): " + modelPath);
+      Console.WriteLine("\t|-> Model Saved (" + saved + "): " + modelPath);
 
       var result = task.process(true);
+      Console.WriteLine("\t\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
-      Console.WriteLine("\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
+
+      if (!result) {
+        System.Environment.Exit(1);
+      }
     }
 
     private Dictionary<string, Dictionary<string, Dictionary<string, string>>> GetValues()
