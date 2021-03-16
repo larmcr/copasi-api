@@ -11,8 +11,9 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "tcga";
+    private string SOURCE_FOLDER = "nci60";
     private string SOURCE_SPECIES = "Species.csv";
+    private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
     private string TARGET_EXPERIMENT = "Experiment.tab";
     private string SOURCE_MODEL = "Model.cps";
@@ -35,8 +36,51 @@ namespace CopasiApi
 
     public Experiments()
     {
+      // ProcessExperiments();
       ProcessModel();
       ProcessEstimations();
+    }
+
+    private void ProcessExperiments ()
+    {
+      try
+      {
+        var path = SOURCE_FOLDER + "/" + SOURCE_LINES;
+        var experiments = new Dictionary<string, List<string>>();
+        List<string> lines = null;
+        List<string> items = null;
+        using (var parser = new TextFieldParser(path))
+        {
+          parser.SetDelimiters("\t");
+          while (!parser.EndOfData)
+          {
+            var row = parser.ReadFields();
+            var key = row[0];
+            if (key == "Line")
+            {
+              if (lines == null && items == null) {
+                lines = new List<string>();
+                items = new List<string>(row.Skip(1));
+              }
+            }
+            else
+            {
+              lines.Add(key);
+              experiments.Add(key, new List<string>(row.Skip(1)));
+            }
+          }
+        }
+        var csv = new StringBuilder();
+        csv.AppendLine("," + String.Join(",", items));
+        lines.ForEach((line) => {
+          csv.AppendLine(line + "," + String.Join(",", experiments[line]));
+        });
+        File.WriteAllText(SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS, csv.ToString());
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "GetExperiments");
+      }
     }
 
     private void ProcessModel()
