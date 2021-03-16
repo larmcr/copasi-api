@@ -1,6 +1,10 @@
-STAT5A
-ESR1
-MIR222
+STAT5B
+CCND1
+ESR2
+MIR19A
+MIR19B1
+MIR23B
+PIM1
 	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/scans/results/1-1/Model-scan.cps
 	|	|-> Scan Processed (True): /Users/luis/Desktop/copasi-api/scans/results/1-1/scan.csv
 	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/scans/results/2-1/Model-scan.cps
