@@ -18,8 +18,8 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_ATF3";
-    private string[] SPECIES = new string[] { "ATF3", "MIR17", "TP53", "MIR590" };
+    private string CNV = "CNV_RUNX1T1";
+    private string[] SPECIES = new string[] { "RUNX1T1", "AR", "MIR223" };
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;

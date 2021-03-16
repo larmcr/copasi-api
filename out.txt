@@ -1,7 +1,6 @@
-ATF3
-MIR17
-TP53
-MIR590
+RUNX1T1
+AR
+MIR223
 	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/scans/results/1-1/Model-scan.cps
 	|	|-> Scan Processed (True): /Users/luis/Desktop/copasi-api/scans/results/1-1/scan.csv
 	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/scans/results/2-1/Model-scan.cps
