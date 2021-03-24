@@ -24,11 +24,12 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
+    private uint ESTIMATION_LIMIT = 10;
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      // {"MYC", 1.0}
+      {"arnPLAUR", 0.5}
     };
 
     private List<string> lines = null;
@@ -36,8 +37,8 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessExperiments();
-      ProcessModel();
+      ProcessExperiments();
+      // ProcessModel();
       // ProcessEstimations();
     }
 
@@ -79,7 +80,7 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        printError(exception, "GetExperiments");
+        printError(exception, "ProcessExperiments");
       }
     }
 
@@ -96,6 +97,7 @@ namespace CopasiApi
       var task = GetTask(dataModel);
 
       var fitProblem = (CFitProblem)task.getProblem();
+
       fitProblem.setModel(model);
       fitProblem.setCalculateStatistics(false);
 
@@ -248,10 +250,12 @@ namespace CopasiApi
     private CFitTask GetTask(CDataModel dataModel)
     {
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
-      // task.getReport().setTarget(estimationPath);
       task.setScheduled(false);
       task.setUpdateModel(false);
       task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
+      var method = task.getMethod();
+      var parameter = method.getParameter("Iteration Limit");
+      parameter.setUIntValue(ESTIMATION_LIMIT);
       return task;
     }
 
@@ -260,7 +264,6 @@ namespace CopasiApi
       var columns = (uint)species.ToArray().Length + 1;
 
       var experiment = new CExperiment(dataModel);
-      // experiment.setFileName(experimentPath);
       experiment.setFirstRow(1);
       experiment.setLastRow(2);
       experiment.setExperimentType(CTaskEnum.Task_steadyState);
@@ -280,11 +283,11 @@ namespace CopasiApi
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
         // Console.WriteLine(cnStr);
-        if (cnStr.Contains("[CNV_"))
+        if (cnStr.Contains("[CNV_") || cnStr.Contains("[Cgh_"))
         {
           var value = regex.Match(cnStr).Groups[1].Value;
-          // Console.WriteLine(value);
           var index = species.IndexOf(value);
+          Console.WriteLine(index + " -> " + value);
           objectMap.setRole((uint)index + 1, CExperiment.independent);
           objectMap.setObjectCN((uint)index + 1, cnStr);
         }
@@ -305,7 +308,6 @@ namespace CopasiApi
       {
         var cons = model.getMetabolite((uint)i).getConcentrationReference().getCN().getString();
         var value = regex.Match(cons).Groups[1].Value;
-        // Console.WriteLine(value);
         var index = species.IndexOf(value);
         objectMap.setRole((uint)index + 1, CExperiment.dependent);
         objectMap.setObjectCN((uint)index + 1, cons);
@@ -375,13 +377,11 @@ namespace CopasiApi
             values[line].Add(kName, new Dictionary<string, string>());
           }
           values[line][kName].Add(INITIAL, groIni[2].Value);
-          // Console.WriteLine("ini -> " + name + " : " + speIni + " : " + valIni);
         });
         matchesFit.ToList().ForEach((match) =>
         {
           var groFit = match.Groups;
           values[line][groFit[1].Value].Add(FITTED, groFit[2].Value);
-          // Console.WriteLine("fit -> " + line + " : " + groFit[1].Value + " : " + groFit[2].Value);
         });
       });
       return values;
