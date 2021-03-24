@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "nci60";
+    private string SOURCE_FOLDER = "ccle";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -38,7 +38,7 @@ namespace CopasiApi
     {
       // ProcessExperiments();
       ProcessModel();
-      ProcessEstimations();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments ()
@@ -56,7 +56,7 @@ namespace CopasiApi
           {
             var row = parser.ReadFields();
             var key = row[0];
-            if (key == "Line")
+            if (key == "Line" || key == "Linea")
             {
               if (lines == null && items == null) {
                 lines = new List<string>();
