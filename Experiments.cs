@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "ccle";
+    private string SOURCE_FOLDER = "tcga";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -24,12 +24,12 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
-    private uint ESTIMATION_LIMIT = 10;
+    private uint ESTIMATION_LIMIT = 1;
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      {"arnPLAUR", 0.5}
+      { "MYC", 1.0 }
     };
 
     private List<string> lines = null;
@@ -37,9 +37,9 @@ namespace CopasiApi
 
     public Experiments()
     {
-      ProcessExperiments();
+      // ProcessExperiments();
       // ProcessModel();
-      // ProcessEstimations();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments ()
@@ -287,7 +287,6 @@ namespace CopasiApi
         {
           var value = regex.Match(cnStr).Groups[1].Value;
           var index = species.IndexOf(value);
-          Console.WriteLine(index + " -> " + value);
           objectMap.setRole((uint)index + 1, CExperiment.independent);
           objectMap.setObjectCN((uint)index + 1, cnStr);
         }
