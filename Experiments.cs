@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "tcga";
+    private string SOURCE_FOLDER = "plaur";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -24,12 +24,12 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
-    private uint ESTIMATION_LIMIT = 1;
+    private uint ESTIMATION_LIMIT = 20;
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      { "MYC", 1.0 }
+      { "PLAUR", 1.0 }
     };
 
     private List<string> lines = null;
@@ -38,8 +38,8 @@ namespace CopasiApi
     public Experiments()
     {
       // ProcessExperiments();
-      // ProcessModel();
-      ProcessEstimations();
+      ProcessModel();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments ()
@@ -57,7 +57,7 @@ namespace CopasiApi
           {
             var row = parser.ReadFields();
             var key = row[0];
-            if (key == "Line" || key == "Linea")
+            if (key.ToLower() == "line" || key.ToLower() == "linea")
             {
               if (lines == null && items == null) {
                 lines = new List<string>();
