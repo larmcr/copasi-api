@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "plaur";
+    private string SOURCE_FOLDER = "edwin";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -29,7 +29,7 @@ namespace CopasiApi
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      { "PLAUR", 1.0 }
+      { "MYC", 1.0 }
     };
 
     private List<string> lines = null;
@@ -38,8 +38,8 @@ namespace CopasiApi
     public Experiments()
     {
       // ProcessExperiments();
-      // ProcessModel();
-      ProcessEstimations();
+      ProcessModel();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments ()
