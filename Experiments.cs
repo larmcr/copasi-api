@@ -370,18 +370,39 @@ namespace CopasiApi
         }
         matchesIni.ToList().ForEach((match) =>
         {
-          var groIni = match.Groups;
-          var kName = groIni[1].Value;
+          var groupIni = match.Groups;
+          var kName = groupIni[1].Value;
           if (!values[line].ContainsKey(kName))
           {
             values[line].Add(kName, new Dictionary<string, string>());
           }
-          values[line][kName].Add(INITIAL, groIni[2].Value);
+          values[line][kName].Add(INITIAL, groupIni[2].Value);
         });
         matchesFit.ToList().ForEach((match) =>
         {
-          var groFit = match.Groups;
-          values[line][groFit[1].Value].Add(FITTED, groFit[2].Value);
+          var groupFit = match.Groups;
+          values[line][groupFit[1].Value].Add(FITTED, groupFit[2].Value);
+        });
+
+        var regexSpecies = new Regex("\\s\\[(\\w+)\\]\\((\\w+)\\)");
+        var matchesSpecies = regexSpecies.Matches(text);
+        matchesSpecies.ToList().ForEach((match) =>
+        {
+          var groupSpecies = match.Groups;
+          Console.WriteLine(groupSpecies[1].Value + " -> " + groupSpecies[2].Value);
+        });
+
+        var regexIniFit = new Regex("1\\.\\s.+");
+        var matchesIniFit = regexIniFit.Matches(text);
+        matchesIniFit.ToList().ForEach((match) =>
+        {
+          var groupIniFit = match.Groups;
+          var all = groupIniFit[0].Value.Split("\t");
+          all.ToList().ForEach((item) =>
+          {
+            Console.Write(item + " - ");
+          });
+          Console.WriteLine();
         });
       });
       return values;
