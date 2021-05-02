@@ -37,12 +37,12 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessExperiments();
-      // ProcessModel();
-      ProcessEstimations();
+      // PreProcessExperiments();
+      ProcessModel();
+      // ProcessEstimations();
     }
 
-    private void ProcessExperiments()
+    private void PreProcessExperiments()
     {
       try
       {
@@ -82,16 +82,12 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        printError(exception, "ProcessExperiments");
+        printError(exception, "PreProcessExperiments");
       }
     }
 
     private void ProcessModel()
     {
-      var species = GetSpecies().ToList();
-      var experiments = GetExperiments(species);
-      ProcessExperiments(species, experiments);
-
       var modelPath = Path.GetFullPath(SOURCE_FOLDER + "/" + SOURCE_MODEL);
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
@@ -99,16 +95,19 @@ namespace CopasiApi
       var task = GetTask(dataModel);
 
       var fitProblem = (CFitProblem)task.getProblem();
-
       fitProblem.setModel(model);
       fitProblem.setCalculateStatistics(false);
+
+      var species = GetSpecies().ToList();
 
       var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
       var experiment = GetExperiment(species, dataModel, model, fitProblem);
       experimentSet.addExperiment(experiment);
 
+      var experiments = GetExperiments(species);
       experiments.Keys.ToList().ForEach((exp) =>
       {
+        ProcessExperiment(species, exp, experiments[exp]);
         ProcessTask(task, experimentSet, exp, dataModel, model);
       });
     }
@@ -224,31 +223,27 @@ namespace CopasiApi
       return indexes;
     }
 
-    private void ProcessExperiments(List<string> species, Dictionary<string, Dictionary<string, string>> experiments)
+    private void ProcessExperiment(List<string> species, string experiment, Dictionary<string, string> line)
     {
       var headers = new List<string>(species);
       headers.Insert(0, LINE_HEADER);
-      experiments.Keys.ToList().ForEach((exp) =>
+      var values = new List<string>();
+      values.Add(experiment);
+      species.ForEach((spe) =>
       {
-        var line = experiments[exp];
-        var values = new List<string>();
-        values.Add(exp);
-        species.ForEach((spe) =>
-        {
-          values.Add(line[spe]);
-        });
-        var csv = new StringBuilder();
-        csv.AppendLine(String.Join("\t", headers));
-        csv.AppendLine(String.Join("\t", values));
-
-        var path = SOURCE_FOLDER + "/" + RESULTS + "/" + exp;
-        if (!Directory.Exists(path))
-        {
-          Directory.CreateDirectory(path);
-        }
-        File.WriteAllText(path + "/" + TARGET_EXPERIMENT, csv.ToString());
+        values.Add(line[spe]);
       });
-      Console.WriteLine("-> All Experiments were created");
+      var csv = new StringBuilder();
+      csv.AppendLine(String.Join("\t", headers));
+      csv.AppendLine(String.Join("\t", values));
+
+      var path = SOURCE_FOLDER + "/" + RESULTS + "/" + experiment;
+      if (!Directory.Exists(path))
+      {
+        Directory.CreateDirectory(path);
+      }
+      File.WriteAllText(path + "/" + TARGET_EXPERIMENT, csv.ToString());
+      Console.WriteLine(" -> Experiment '" + experiment + "' was created");
     }
 
     private CFitTask GetTask(CDataModel dataModel)
@@ -281,7 +276,7 @@ namespace CopasiApi
       var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
       var numModelValues = model.getNumModelValues();
       var regex = new Regex("Values\\[(.+)\\\\\\[");
-      Console.WriteLine("numModelValues: " + numModelValues);
+      // Console.WriteLine("numModelValues: " + numModelValues);
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
@@ -358,6 +353,7 @@ namespace CopasiApi
       var directoryInfo = new DirectoryInfo(path);
       var directories = directoryInfo.GetDirectories();
       var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
+      var firstTime = true;
       lines = new List<string>(names);
       lines.ForEach((line) =>
       {
@@ -399,7 +395,7 @@ namespace CopasiApi
           var val = groupSpecies[2].Value;
           if (val.ToLower() == "data")
           {
-            vars.Add(spe);
+            if (firstTime) vars.Add(spe);
             indexes.Add(index, (spe, INITIAL));
             values[line].Add(spe, new Dictionary<string, string>());
             values[line][spe].Add(INITIAL, "#");
@@ -411,6 +407,7 @@ namespace CopasiApi
           }
           ++index;
         });
+        firstTime = false;
         var regexIniFit = new Regex("1\\.\\s.+");
         var matchesIniFit = regexIniFit.Matches(text);
         matchesIniFit.ToList().ForEach((match) =>
