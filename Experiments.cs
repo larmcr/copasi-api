@@ -42,7 +42,7 @@ namespace CopasiApi
       ProcessEstimations();
     }
 
-    private void ProcessExperiments ()
+    private void ProcessExperiments()
     {
       try
       {
@@ -59,7 +59,8 @@ namespace CopasiApi
             var key = row[0];
             if (key.ToLower() == "line" || key.ToLower() == "linea")
             {
-              if (lines == null && items == null) {
+              if (lines == null && items == null)
+              {
                 lines = new List<string>();
                 items = new List<string>(row.Skip(1));
               }
@@ -73,7 +74,8 @@ namespace CopasiApi
         }
         var csv = new StringBuilder();
         csv.AppendLine("," + String.Join(",", items));
-        lines.ForEach((line) => {
+        lines.ForEach((line) =>
+        {
           csv.AppendLine(line + "," + String.Join(",", experiments[line]));
         });
         File.WriteAllText(SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS, csv.ToString());
@@ -136,10 +138,12 @@ namespace CopasiApi
         matIni.Add(rowIni);
         matFit.Add(rowFit);
       });
-      matIni.ForEach((row) =>{
+      matIni.ForEach((row) =>
+      {
         strIni.AppendLine(String.Join(",", row));
       });
-      matFit.ForEach((row) =>{
+      matFit.ForEach((row) =>
+      {
         strFit.AppendLine(String.Join(",", row));
       });
       var path = SOURCE_FOLDER + "/" + RESULTS + "/";
@@ -341,7 +345,8 @@ namespace CopasiApi
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
 
-      if (!result) {
+      if (!result)
+      {
         System.Environment.Exit(1);
       }
     }
@@ -392,12 +397,15 @@ namespace CopasiApi
           var groupSpecies = match.Groups;
           var spe = groupSpecies[1].Value;
           var val = groupSpecies[2].Value;
-          if (val.ToLower() == "data") {
+          if (val.ToLower() == "data")
+          {
             vars.Add(spe);
             indexes.Add(index, (spe, INITIAL));
             values[line].Add(spe, new Dictionary<string, string>());
             values[line][spe].Add(INITIAL, "#");
-          } else if (val.ToLower() == "fit") {
+          }
+          else if (val.ToLower() == "fit")
+          {
             indexes.Add(index, (spe, FITTED));
             values[line][spe].Add(FITTED, "#");
           }
@@ -412,7 +420,8 @@ namespace CopasiApi
           var ind = 1;
           all.Skip(1).ToList().ForEach((item) =>
           {
-            if (ind < index && ind % 3 != 0) {
+            if (ind < index && ind % 3 != 0)
+            {
               var (key, val) = indexes[ind];
               values[line][key][val] = item;
             }

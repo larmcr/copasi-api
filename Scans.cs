@@ -227,8 +227,10 @@ namespace CopasiApi
                 {
                   suffixes.Add(suffix);
                 }
-                prefixes.ForEach((pre) => {
-                  if(!table[line].ContainsKey(pre)) {
+                prefixes.ForEach((pre) =>
+                {
+                  if (!table[line].ContainsKey(pre))
+                  {
                     table[line][pre] = new Dictionary<string, string>();
                   }
                 });
@@ -236,7 +238,8 @@ namespace CopasiApi
                 row.ToList().ForEach((val) =>
                 {
                   var preInd = 0;
-                  prefixes.ForEach((pre) => {
+                  prefixes.ForEach((pre) =>
+                  {
                     if (rowInd == preInd)
                     {
                       table[line][pre].Add(suffix, val);
@@ -262,10 +265,13 @@ namespace CopasiApi
         });
         var csv = new StringBuilder();
         csv.AppendLine(String.Join(",", headers));
-        lines.ForEach((line) => {
-          var row = new List<string>(){line};
-          prefixes.ForEach((pre) => {
-            suffixes.ForEach((suf) => {
+        lines.ForEach((line) =>
+        {
+          var row = new List<string>() { line };
+          prefixes.ForEach((pre) =>
+          {
+            suffixes.ForEach((suf) =>
+            {
               row.Add(table[line][pre][suf]);
             });
           });
