@@ -7,11 +7,11 @@
   </PropertyGroup>
 
   <ItemGroup>
-  <Reference Include="copasicsP">
-    <HintPath>copasicsP.dll</HintPath>
-    <SpecificVersion>False</SpecificVersion> 
-    <!-- You may set it to true if your dll has a specific version -->
-  </Reference>
+    <Reference Include="copasicsP">
+      <HintPath>copasicsP.dll</HintPath>
+      <SpecificVersion>False</SpecificVersion> 
+      <!-- You may set it to true if your dll has a specific version -->
+    </Reference>
   </ItemGroup>
 
 </Project>

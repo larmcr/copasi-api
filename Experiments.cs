@@ -24,7 +24,7 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
-    private uint ESTIMATION_LIMIT = 2000;
+    private uint ESTIMATION_LIMIT = 20;
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
@@ -38,8 +38,8 @@ namespace CopasiApi
     public Experiments()
     {
       // ProcessExperiments();
-      ProcessModel();
-      // ProcessEstimations();
+      // ProcessModel();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments ()
@@ -277,6 +277,7 @@ namespace CopasiApi
       var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
       var numModelValues = model.getNumModelValues();
       var regex = new Regex("Values\\[(.+)\\\\\\[");
+      Console.WriteLine("numModelValues: " + numModelValues);
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
