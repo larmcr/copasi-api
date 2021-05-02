@@ -33,7 +33,7 @@ namespace CopasiApi
     };
 
     private List<string> lines = null;
-    private List<string> ks = null;
+    private List<string> vars = null;
 
     public Experiments()
     {
@@ -118,7 +118,7 @@ namespace CopasiApi
       var matFit = new List<List<string>>();
       var strIni = new StringBuilder(LINE_HEADER + ",");
       var strFit = new StringBuilder(LINE_HEADER + ",");
-      var header = String.Join(",", ks);
+      var header = String.Join(",", vars);
       strIni.AppendLine(header);
       strFit.AppendLine(header);
       lines.ForEach((line) =>
@@ -128,7 +128,7 @@ namespace CopasiApi
         var rowFit = new List<string>();
         rowIni.Add(line);
         rowFit.Add(line);
-        ks.ForEach((k) =>
+        vars.ForEach((k) =>
         {
           rowIni.Add(values[line][k][INITIAL]);
           rowFit.Add(values[line][k][FITTED]);
@@ -283,7 +283,6 @@ namespace CopasiApi
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
-        // Console.WriteLine(cnStr);
         if (cnStr.Contains("[CNV_") || cnStr.Contains("[Cgh_"))
         {
           var value = regex.Match(cnStr).Groups[1].Value;
@@ -364,19 +363,19 @@ namespace CopasiApi
         var regexFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
         var matchesIni = regexIni.Matches(text);
         var matchesFit = regexFit.Matches(text);
-        if (ks == null)
+        if (vars == null)
         {
-          ks = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
+          vars = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
         }
         matchesIni.ToList().ForEach((match) =>
         {
           var groupIni = match.Groups;
-          var kName = groupIni[1].Value;
-          if (!values[line].ContainsKey(kName))
+          var name = groupIni[1].Value;
+          if (!values[line].ContainsKey(name))
           {
-            values[line].Add(kName, new Dictionary<string, string>());
+            values[line].Add(name, new Dictionary<string, string>());
           }
-          values[line][kName].Add(INITIAL, groupIni[2].Value);
+          values[line][name].Add(INITIAL, groupIni[2].Value);
         });
         matchesFit.ToList().ForEach((match) =>
         {
@@ -384,25 +383,41 @@ namespace CopasiApi
           values[line][groupFit[1].Value].Add(FITTED, groupFit[2].Value);
         });
 
-        var regexSpecies = new Regex("\\s\\[(\\w+)\\]\\((\\w+)\\)");
+        var regexSpecies = new Regex("\\s\\[(\\w+)\\]\\(([\\w\\s]+)\\)");
         var matchesSpecies = regexSpecies.Matches(text);
+        var index = 1;
+        var indexes = new Dictionary<int, (string, string)>();
         matchesSpecies.ToList().ForEach((match) =>
         {
           var groupSpecies = match.Groups;
-          Console.WriteLine(groupSpecies[1].Value + " -> " + groupSpecies[2].Value);
+          var spe = groupSpecies[1].Value;
+          var val = groupSpecies[2].Value;
+          if (val.ToLower() == "data") {
+            vars.Add(spe);
+            indexes.Add(index, (spe, INITIAL));
+            values[line].Add(spe, new Dictionary<string, string>());
+            values[line][spe].Add(INITIAL, "#");
+          } else if (val.ToLower() == "fit") {
+            indexes.Add(index, (spe, FITTED));
+            values[line][spe].Add(FITTED, "#");
+          }
+          ++index;
         });
-
         var regexIniFit = new Regex("1\\.\\s.+");
         var matchesIniFit = regexIniFit.Matches(text);
         matchesIniFit.ToList().ForEach((match) =>
         {
           var groupIniFit = match.Groups;
           var all = groupIniFit[0].Value.Split("\t");
-          all.ToList().ForEach((item) =>
+          var ind = 1;
+          all.Skip(1).ToList().ForEach((item) =>
           {
-            Console.Write(item + " - ");
+            if (ind < index && ind % 3 != 0) {
+              var (key, val) = indexes[ind];
+              values[line][key][val] = item;
+            }
+            ++ind;
           });
-          Console.WriteLine();
         });
       });
       return values;
