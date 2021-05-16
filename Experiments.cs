@@ -33,16 +33,16 @@ namespace CopasiApi
     };
 
     private List<string> lines = null;
-    private List<string> vars = null;
+    private List<string> ks = null;
 
     public Experiments()
     {
-      // PreProcessExperiments();
-      ProcessModel();
-      // ProcessEstimations();
+      // ProcessExperiments();
+      // ProcessModel();
+      ProcessEstimations();
     }
 
-    private void PreProcessExperiments()
+    private void ProcessExperiments ()
     {
       try
       {
@@ -59,8 +59,7 @@ namespace CopasiApi
             var key = row[0];
             if (key.ToLower() == "line" || key.ToLower() == "linea")
             {
-              if (lines == null && items == null)
-              {
+              if (lines == null && items == null) {
                 lines = new List<string>();
                 items = new List<string>(row.Skip(1));
               }
@@ -74,20 +73,23 @@ namespace CopasiApi
         }
         var csv = new StringBuilder();
         csv.AppendLine("," + String.Join(",", items));
-        lines.ForEach((line) =>
-        {
+        lines.ForEach((line) => {
           csv.AppendLine(line + "," + String.Join(",", experiments[line]));
         });
         File.WriteAllText(SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS, csv.ToString());
       }
       catch (Exception exception)
       {
-        printError(exception, "PreProcessExperiments");
+        printError(exception, "ProcessExperiments");
       }
     }
 
     private void ProcessModel()
     {
+      var species = GetSpecies().ToList();
+      var experiments = GetExperiments(species);
+      ProcessExperiments(species, experiments);
+
       var modelPath = Path.GetFullPath(SOURCE_FOLDER + "/" + SOURCE_MODEL);
       var dataModel = CRootContainer.addDatamodel();
       dataModel.addModel(modelPath);
@@ -95,19 +97,16 @@ namespace CopasiApi
       var task = GetTask(dataModel);
 
       var fitProblem = (CFitProblem)task.getProblem();
+
       fitProblem.setModel(model);
       fitProblem.setCalculateStatistics(false);
-
-      var species = GetSpecies().ToList();
 
       var experimentSet = (CExperimentSet)fitProblem.getParameter("Experiment Set");
       var experiment = GetExperiment(species, dataModel, model, fitProblem);
       experimentSet.addExperiment(experiment);
 
-      var experiments = GetExperiments(species);
       experiments.Keys.ToList().ForEach((exp) =>
       {
-        ProcessExperiment(species, exp, experiments[exp]);
         ProcessTask(task, experimentSet, exp, dataModel, model);
       });
     }
@@ -119,7 +118,7 @@ namespace CopasiApi
       var matFit = new List<List<string>>();
       var strIni = new StringBuilder(LINE_HEADER + ",");
       var strFit = new StringBuilder(LINE_HEADER + ",");
-      var header = String.Join(",", vars);
+      var header = String.Join(",", ks);
       strIni.AppendLine(header);
       strFit.AppendLine(header);
       lines.ForEach((line) =>
@@ -129,7 +128,7 @@ namespace CopasiApi
         var rowFit = new List<string>();
         rowIni.Add(line);
         rowFit.Add(line);
-        vars.ForEach((k) =>
+        ks.ForEach((k) =>
         {
           rowIni.Add(values[line][k][INITIAL]);
           rowFit.Add(values[line][k][FITTED]);
@@ -137,12 +136,10 @@ namespace CopasiApi
         matIni.Add(rowIni);
         matFit.Add(rowFit);
       });
-      matIni.ForEach((row) =>
-      {
+      matIni.ForEach((row) =>{
         strIni.AppendLine(String.Join(",", row));
       });
-      matFit.ForEach((row) =>
-      {
+      matFit.ForEach((row) =>{
         strFit.AppendLine(String.Join(",", row));
       });
       var path = SOURCE_FOLDER + "/" + RESULTS + "/";
@@ -223,27 +220,31 @@ namespace CopasiApi
       return indexes;
     }
 
-    private void ProcessExperiment(List<string> species, string experiment, Dictionary<string, string> line)
+    private void ProcessExperiments(List<string> species, Dictionary<string, Dictionary<string, string>> experiments)
     {
       var headers = new List<string>(species);
       headers.Insert(0, LINE_HEADER);
-      var values = new List<string>();
-      values.Add(experiment);
-      species.ForEach((spe) =>
+      experiments.Keys.ToList().ForEach((exp) =>
       {
-        values.Add(line[spe]);
-      });
-      var csv = new StringBuilder();
-      csv.AppendLine(String.Join("\t", headers));
-      csv.AppendLine(String.Join("\t", values));
+        var line = experiments[exp];
+        var values = new List<string>();
+        values.Add(exp);
+        species.ForEach((spe) =>
+        {
+          values.Add(line[spe]);
+        });
+        var csv = new StringBuilder();
+        csv.AppendLine(String.Join("\t", headers));
+        csv.AppendLine(String.Join("\t", values));
 
-      var path = SOURCE_FOLDER + "/" + RESULTS + "/" + experiment;
-      if (!Directory.Exists(path))
-      {
-        Directory.CreateDirectory(path);
-      }
-      File.WriteAllText(path + "/" + TARGET_EXPERIMENT, csv.ToString());
-      Console.WriteLine(" -> Experiment '" + experiment + "' was created");
+        var path = SOURCE_FOLDER + "/" + RESULTS + "/" + exp;
+        if (!Directory.Exists(path))
+        {
+          Directory.CreateDirectory(path);
+        }
+        File.WriteAllText(path + "/" + TARGET_EXPERIMENT, csv.ToString());
+      });
+      Console.WriteLine("-> All Experiments were created");
     }
 
     private CFitTask GetTask(CDataModel dataModel)
@@ -276,12 +277,13 @@ namespace CopasiApi
       var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
       var numModelValues = model.getNumModelValues();
       var regex = new Regex("Values\\[(.+)\\\\\\[");
-      // Console.WriteLine("numModelValues: " + numModelValues);
+      Console.WriteLine("numModelValues: " + numModelValues);
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
+        // Console.WriteLine(cnStr);
         if (cnStr.Contains("[CNV_") || cnStr.Contains("[Cgh_"))
         {
           var value = regex.Match(cnStr).Groups[1].Value;
@@ -340,8 +342,7 @@ namespace CopasiApi
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
 
-      if (!result)
-      {
+      if (!result) {
         System.Environment.Exit(1);
       }
     }
@@ -353,7 +354,6 @@ namespace CopasiApi
       var directoryInfo = new DirectoryInfo(path);
       var directories = directoryInfo.GetDirectories();
       var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
-      var firstTime = true;
       lines = new List<string>(names);
       lines.ForEach((line) =>
       {
@@ -364,66 +364,24 @@ namespace CopasiApi
         var regexFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
         var matchesIni = regexIni.Matches(text);
         var matchesFit = regexFit.Matches(text);
-        if (vars == null)
+        if (ks == null)
         {
-          vars = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
+          ks = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
         }
         matchesIni.ToList().ForEach((match) =>
         {
-          var groupIni = match.Groups;
-          var name = groupIni[1].Value;
-          if (!values[line].ContainsKey(name))
+          var groIni = match.Groups;
+          var kName = groIni[1].Value;
+          if (!values[line].ContainsKey(kName))
           {
-            values[line].Add(name, new Dictionary<string, string>());
+            values[line].Add(kName, new Dictionary<string, string>());
           }
-          values[line][name].Add(INITIAL, groupIni[2].Value);
+          values[line][kName].Add(INITIAL, groIni[2].Value);
         });
         matchesFit.ToList().ForEach((match) =>
         {
-          var groupFit = match.Groups;
-          values[line][groupFit[1].Value].Add(FITTED, groupFit[2].Value);
-        });
-
-        var regexSpecies = new Regex("\\s\\[(\\w+)\\]\\(([\\w\\s]+)\\)");
-        var matchesSpecies = regexSpecies.Matches(text);
-        var index = 1;
-        var indexes = new Dictionary<int, (string, string)>();
-        matchesSpecies.ToList().ForEach((match) =>
-        {
-          var groupSpecies = match.Groups;
-          var spe = groupSpecies[1].Value;
-          var val = groupSpecies[2].Value;
-          if (val.ToLower() == "data")
-          {
-            if (firstTime) vars.Add(spe);
-            indexes.Add(index, (spe, INITIAL));
-            values[line].Add(spe, new Dictionary<string, string>());
-            values[line][spe].Add(INITIAL, "#");
-          }
-          else if (val.ToLower() == "fit")
-          {
-            indexes.Add(index, (spe, FITTED));
-            values[line][spe].Add(FITTED, "#");
-          }
-          ++index;
-        });
-        firstTime = false;
-        var regexIniFit = new Regex("1\\.\\s.+");
-        var matchesIniFit = regexIniFit.Matches(text);
-        matchesIniFit.ToList().ForEach((match) =>
-        {
-          var groupIniFit = match.Groups;
-          var all = groupIniFit[0].Value.Split("\t");
-          var ind = 1;
-          all.Skip(1).ToList().ForEach((item) =>
-          {
-            if (ind < index && ind % 3 != 0)
-            {
-              var (key, val) = indexes[ind];
-              values[line][key][val] = item;
-            }
-            ++ind;
-          });
+          var groFit = match.Groups;
+          values[line][groFit[1].Value].Add(FITTED, groFit[2].Value);
         });
       });
       return values;
