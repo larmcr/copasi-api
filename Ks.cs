@@ -10,9 +10,7 @@ namespace CopasiApi
   class Ks
   {
     private string SOURCE_FOLDER = "plaur";
-
     private string SOURCE_FILE = "par-est.txt";
-
     private string TARGET_FILE = "ks.txt";
 
     public Ks()
@@ -23,7 +21,8 @@ namespace CopasiApi
       var values = GetValues(text);
       var builder = new StringBuilder();
       var index = 0;
-      names.ForEach((name) => {
+      names.ForEach((name) =>
+      {
         builder.AppendLine(name + " " + values[index]);
         index++;
       });
@@ -49,7 +48,6 @@ namespace CopasiApi
       var matches = regex.Matches(text);
       var lastMatch = matches.ToList().Last();
       var values = lastMatch.Groups[1].Value.Trim();
-      Console.WriteLine(values);
       return values.Split("\t").ToList();
     }
   }
