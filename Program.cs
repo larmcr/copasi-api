@@ -18,7 +18,7 @@ namespace CopasiApi
         // new Models();
         // new Experiments();
         // new Scans();
-        new Ks();
+        // new Ks();
       }
       catch (Exception exception)
       {
