@@ -24,7 +24,7 @@ namespace CopasiApi
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
-    private uint ESTIMATION_LIMIT = 20;
+    private uint ESTIMATION_LIMIT = 2000;
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
