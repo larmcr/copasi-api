@@ -18,8 +18,8 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_MYC";
-    private string[] SPECIES = new string[] { "MYC", "MIR106B", "MIR125A", "MIR135B", "MIR148A", "MIR151A", "MIR155", "MIR16-1", "MIR17", "MIR184", "MIR196A1", "MIR196B", "MIR19A", "MIR19B1", "MIR19B2", "MIR20A", "MIR21", "MIR222", "MIR23A", "MIR24-2", "MIR26A1", "MIR26A2", "MIR29A", "MIR29B1", "MIR29B2", "MIR30A", "MIR30D", "MIR34A", "MIR34C", "MIR371A", "MIR373", "MIR429", "MIR449A", "MIR449C", "MIR455", "MIR494", "MIR655", "MIR92A1", "MIR92A2", "MIRLET7A1", "MIRLET7B", "MIRLET7C", "MIRLET7E", "MIRLET7G", "MIRLET7I", "MYB", "MYBL2", "NFIC", "NFKB1", "POU2F1", "POU2F2", "PPARA", "PPARD", "RARB", "RELA", "SMAD3", "SP1", "STAT1", "STAT3", "TCF7L2", "TFAP2A", "TP53", "WT1" };
+    private string CNV = "CNV_STAT3";
+    private string[] SPECIES = new string[] { "MIR17", "MIR19A", "MIR20A", "MIR21", "MYC", "STAT3" };
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;
@@ -267,12 +267,20 @@ namespace CopasiApi
         csv.AppendLine(String.Join(",", headers));
         lines.ForEach((line) =>
         {
+          Console.WriteLine("\t|\t|-> Scan Executing: " + line);
           var row = new List<string>() { line };
           prefixes.ForEach((pre) =>
           {
             suffixes.ForEach((suf) =>
             {
-              row.Add(table[line][pre][suf]);
+              if (table.ContainsKey(line) && table[line].ContainsKey(pre) && table[line][pre].ContainsKey(suf))
+              {
+                row.Add(table[line][pre][suf]);
+              }
+              else
+              {
+                row.Add("nan");
+              }
             });
           });
           csv.AppendLine(String.Join(",", row));
