@@ -1,1003 +1,898 @@
-numModelValues: 1001
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CEBPB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CEBPB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CEBPB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_YBX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_STAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_ATF4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_ESR1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR34A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DDX5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CEBPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CEBPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CEBPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_TP53\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_MYC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DDX5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DDX5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_E2F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_E2F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_E2F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_E2F3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_CEBPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR106A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR17\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR20A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_E2F2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_E2F2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_E2F2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_E2F3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_E2F3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_E2F3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR195\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_EGR3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_EGR3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_EGR3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ELK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ELK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ELK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_HIF1A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ESR1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ESR1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ESR1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_PPARG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_RARA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_BRCA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_JUN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_SMAD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR22\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR221\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR18A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR19A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_JUN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR106A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR106A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_MYCN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR15A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR15A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR15A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_E2F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MYC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR17\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR17\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR17\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_CCND1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR18A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_WT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_WT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_WT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_PAX8\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_YBX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_YBX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_YBX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR23B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR23B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR23B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_ESR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAP3K12\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAP3K12\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAP3K12\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAPK9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAPK9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAPK9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_JAK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_JAK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_JAK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTPRO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTPRO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTPRO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PHLPP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PHLPP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PHLPP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NCOA3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NCOA3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NCOA3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MDM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MDM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MDM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LDLR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TGFBR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TGFBR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_WEE1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_WEE1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_WEE1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_YES1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_YES1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_YES1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BMPR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BMPR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BMPR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PSAP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PSAP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_IMPDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_IMPDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_IMPDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MSMO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MSMO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MSMO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AKT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AKT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ABCA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ABCA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ABCA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAP2K3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAP2K3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAP2K3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAP3K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAP3K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAP3K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SMAD7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SMAD7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SMAD7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_SMAD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ABL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ABL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ABL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRKG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRKG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRKG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PHLPP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PHLPP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PHLPP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DUSP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DUSP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DUSP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UBE2G2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UBE2G2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UBE2G2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PFKFB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PFKFB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PFKFB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PDK3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PDK3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PDK3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PDK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PDK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PDK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PDHA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PDHA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PDHA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PDE6D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PDE6D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PDE6D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MTHFD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MTHFD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MTHFD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MTHFR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MTHFR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MTHFR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PLA2G4A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PLA2G4A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PLA2G4A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PCMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PCMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PCMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PCK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PCK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PCK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TKT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TKT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TKT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UBE2L3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UBE2L3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UBE2L3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PDE4C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PDE4C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PDE4C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PMM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PMM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PMM2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFA1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFB5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFB5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFB5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFS6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFS6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFS6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NDUFV1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NDUFV1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NDUFV1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MPO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MPO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MPO\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_RNMT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_RNMT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_RNMT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PREP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PREP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PREP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PIGF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PIGF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PIGF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PIK3C3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PIK3C3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PIK3C3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PKM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PKM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PKM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PKN2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PKN2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PKN2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTDSS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTDSS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTDSS1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPID\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPID\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPID\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPP1CB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPP1CB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPP1CB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TYK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TYK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TYK2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TXN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPP2CA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPP2CA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPP2CA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PLOD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PLOD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PLOD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PCBD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PCBD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PCBD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PBK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PBK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PBK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPP2R1B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPP2R1B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTRH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTRH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTRH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ENO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ENO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ENO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTPN6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTPN6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTPN6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CDC25C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CDC25C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CDC25C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CRAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CRAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CRAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DPAGT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DPAGT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DPAGT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SOD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SOD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SOD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SRD5A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SRD5A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SRD5A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SRM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SRM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SRM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CMAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CMAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CMAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SFXN3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SFXN3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SFXN3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_COASY\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_COASY\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_COASY\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_COX7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_COX7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_COX7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AMD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AMD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AMD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DBI\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DBI\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DCK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DCK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DCK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UCP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UCP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UCP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_COX7A2L\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HSD11B2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HSD11B2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HSD11B2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ABAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ABAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ABAT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ABCB6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ATP1A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ATP1A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ATM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ATM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ATM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ATP5S\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ATP5S\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ATP5S\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_STAT6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_STAT6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_STAT6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BCKDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BCKDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BCKDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7I\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7I\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ALDH9A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ALDH9A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ALDH9A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AGPS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AGPS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AGPS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LTA4H\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LTA4H\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LTA4H\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LBR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LBR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LBR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ILK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ILK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ILK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_IMPA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_IMPA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_IMPA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LPCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LPCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LPCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LDHA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_KHK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_KHK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_KHK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAT2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CAD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAN2A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAN2A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAN2A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_METTL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_METTL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_METTL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HADHB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HADHB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HADHB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ETFA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ETFA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ETFA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ETFB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ETFB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ETFB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FADS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FADS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FADS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FAH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GALT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GALT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GALT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GAPDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GAPDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GAPDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GLA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GLA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GLA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR26B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR26B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR26B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_B3GAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_B3GAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_B3GAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_EHHADH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_EHHADH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_EHHADH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CYP19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CYP19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CYP19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NOS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NOS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NOS3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NOS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NOS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NOS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PIM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PIM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PIM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ATF4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAT2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAT2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MCCC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MCCC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MCCC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ARSB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ARSB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ARSB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAP4K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAP4K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAP4K5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MAN2A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MAN2A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MAN2A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MGEA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ATF4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ATF4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BRCA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BRCA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BRCA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_PARP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CCND1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CCND1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CCND1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_FOS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_RARB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_ETS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR29A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR15A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7E\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ESR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ESR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ESR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ETS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ETS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ETS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_JUN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_JUN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_JUNB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_JUNB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_JUNB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR106A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTEN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTEN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DNMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DNMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DNMT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FAS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TGFBR2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SMURF1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SMURF1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SMURF1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_KAT2B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_KAT2B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_KAT2B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UBE2C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR18A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR18A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR195\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR195\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR195\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_EGR3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR19A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR19A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR20A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR20A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR20A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_DDX5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR22\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR22\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR22\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR221\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR221\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR221\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_FOSL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR29A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR29A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR29A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR29C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR29C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR29C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR34A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR34A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR34A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7E\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7E\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7E\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7F1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIRLET7G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIRLET7G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MYBL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MYBL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MYBL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MYC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MYC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MYC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_MYBL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_WT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MYCN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MYCN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MYCN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_E2F2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR29C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PARP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PARP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PARP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PAX8\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PAX8\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PAX8\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPARG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPARG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPARG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_CEBPB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_RARA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_RARA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_RARA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_RARB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_RARB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_RARB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SMAD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SMAD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SMAD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SMAD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SMAD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SMAD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_JUNB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_STAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_STAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_STAT3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TGFB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TGFB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TGFB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TP53\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TP53\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TP53\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_HOXA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UBE2C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UBE2C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PSAP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_KIT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_KIT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_KIT\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ERBB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ERBB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ERBB4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DPYSL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DPYSL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DPYSL2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AKT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NAGPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NAGPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NAGPA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UBE2D3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UBE2D3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UBE2D3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRKCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRKCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRKCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TYMS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TYMS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TYMS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLR3G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLR3G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLR3G\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLR3D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLR3D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLR3D\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLR1C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLR1C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLR1C\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLG2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLG2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLG2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLE3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLE3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLE3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLD4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_INSR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_INSR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_INSR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_POLB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_POLB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_POLB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PNP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PNP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PNP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PMVK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PMVK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PMVK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRDX3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRDX3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRDX3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_QDPR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_QDPR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_QDPR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPIA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PPIA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PPIA\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TXN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TXN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRKDC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRKDC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRKDC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRPS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRPS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRPS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PRKCSH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PRKCSH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PRKCSH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PARP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PARP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PARP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PAICS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PAICS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PAICS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ODC1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ODC1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ODC1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PPP2R1B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC25A11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC25A11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC25A11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC25A28\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC25A28\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC25A28\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC25A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC25A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC25A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC28A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC28A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC28A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC2A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC2A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC2A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC31A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC31A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC31A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MKNK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MKNK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MKNK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC3A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC3A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC3A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC4A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC4A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC4A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC1A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC1A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC1A4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_YARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_YARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_YARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UROD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UROD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UROD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_USP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_USP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_USP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_USP11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_USP11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_USP11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC19A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_USP4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_USP4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_USP4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_UQCRC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_UQCRC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_UQCRC2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC25A21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC25A21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC25A21\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_STK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_STK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_STK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TCIRG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TCIRG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TCIRG1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TFRC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TFRC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TFRC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_STK11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_STK11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_STK11\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SCD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SARS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SARS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SARS2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SARS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_RPS6KB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_RPS6KB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_RPS6KB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_RPS6KA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_RPS6KA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_RPS6KA2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC7A5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC7A5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC7A5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SLC9A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SLC9A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SLC9A3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACHE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACHE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACHE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_USP49\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_USP49\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_USP49\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTPRS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTPRS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTPRS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_SIRT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_SIRT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_SIRT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_TGM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_TGM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_TGM1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ABCB6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ABCB6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ABCC4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ABCC4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ABCC4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACADM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACADM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACADM\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACE\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACP5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACP5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACP5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACPP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACPP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACPP\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ALDH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ALDH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ALDH2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ACYP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ACYP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ACYP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ADCY9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ADCY9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ADCY9\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AHCYL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AHCYL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AHCYL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BARD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BARD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BARD1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AKR7A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AKR7A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AKR7A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BCAT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BLK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BLK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BLK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_BSG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_BSG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_BSG\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ENO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ENO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ENO2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_B4GALT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MGEA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MGEA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MGST1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MGST1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MGST1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HSD17B6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HSD17B6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HSD17B6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MET\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MET\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MET\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AKR1A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AKR1A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AKR1A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CAD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CAD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FPGS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FPGS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FPGS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_EPHX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_EPHX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_EPHX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_EPM2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_EPM2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_EPM2A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ESD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ESD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ESD\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FAH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FAH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GNS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GNS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GNS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FUT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FUT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FUT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GAK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GAK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GAK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GMDS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GMDS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GMDS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FASN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FASN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FASN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FECH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FECH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FECH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_IDH3B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_IDH3B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_IDH3B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_IDI1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_IDI1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_IDI1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GSTP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GSTP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GSTP1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FGFR4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FGFR4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FGFR4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FKBP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FKBP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FKBP2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ETFDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ETFDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ETFDH\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GSTO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GSTO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GSTO1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HMBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HMBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HMBS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_GALC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_GALC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_GALC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_NR1D1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_NR1D1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_NR1D1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AQP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AQP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AQP3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR23A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MIR23A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MIR23A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_TGFB1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTPN18\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTPN18\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTPN1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LDLR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LDLR\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_LIMK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_LIMK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_LIMK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTEN\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTPN18\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTPN1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTPN1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_PTP4A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_PTP4A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_PTP4A1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CDC25A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CDC25A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CDC25A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CDK16\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CDK16\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CDK16\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CDK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CDK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CDK4\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CDK6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CDK6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CDK6\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AMPD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AMPD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AMPD2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AMPD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AMPD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AMPD3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_APOB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_APOB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_APOB\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ALG5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ALG5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ALG5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AQP7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AQP7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AQP7\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DPYSL3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_B4GALT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_B4GALT1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FOS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FOS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FOS\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ka_ELK1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_FOSL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_FOSL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_FOSL1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HIF1A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HIF1A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HIF1A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HOXA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HOXA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HOXA5\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIR19A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DPYSL3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DPYSL3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DTYMK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_DTYMK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_DTYMK\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CTSC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CTSC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CTSC\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_CTSF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_CTSF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_CTSF\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_DBI\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_COX7A2L\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_COX7A2L\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HMOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HMOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HMOX1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_HDAC3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_HDAC3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_HDAC3\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ATP1A2\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MIRLET7I\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_MDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_MDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_MDH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_AKR1B10\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_AKR1B10\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_AKR1B10\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kd_ASAH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[ks_ASAH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[CNV_ASAH1\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIRLET7I\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR23B\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR23A\[merge\]],Reference=InitialValue
-	 |-> cnStr: CN=Root,Model=New Model,Vector=Values[kr_MIR26B\[merge\]],Reference=InitialValue
- -> Experiment 'BR:BT_549' was created
+-> Values (initial & fitted) of line: 22RV1_PROSTATE
+-> Values (initial & fitted) of line: 2313287_STOMACH
+-> Values (initial & fitted) of line: 42MGBA_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: 5637_URINARY_TRACT
+-> Values (initial & fitted) of line: 59M_OVARY
+-> Values (initial & fitted) of line: 639V_URINARY_TRACT
+-> Values (initial & fitted) of line: 647V_URINARY_TRACT
+-> Values (initial & fitted) of line: 697_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: 769P_KIDNEY
+-> Values (initial & fitted) of line: 786O_KIDNEY
+-> Values (initial & fitted) of line: 8305C_THYROID
+-> Values (initial & fitted) of line: 8505C_THYROID
+-> Values (initial & fitted) of line: 8MGBA_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: A101D_SKIN
+-> Values (initial & fitted) of line: A172_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: A204_SOFT_TISSUE
+-> Values (initial & fitted) of line: A2058_SKIN
+-> Values (initial & fitted) of line: A253_SALIVARY_GLAND
+-> Values (initial & fitted) of line: A2780_OVARY
+-> Values (initial & fitted) of line: A375_SKIN
+-> Values (initial & fitted) of line: A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: A498_KIDNEY
+-> Values (initial & fitted) of line: A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: A549_LUNG
+-> Values (initial & fitted) of line: A673_BONE
+-> Values (initial & fitted) of line: A704_KIDNEY
+-> Values (initial & fitted) of line: ABC1_LUNG
+-> Values (initial & fitted) of line: ACCMESO1_PLEURA
+-> Values (initial & fitted) of line: ACHN_KIDNEY
+-> Values (initial & fitted) of line: AGS_STOMACH
+-> Values (initial & fitted) of line: ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: AM38_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: AML193_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: AN3CA_ENDOMETRIUM
+-> Values (initial & fitted) of line: ASPC1_PANCREAS
+-> Values (initial & fitted) of line: AU565_BREAST
+-> Values (initial & fitted) of line: BC3C_URINARY_TRACT
+-> Values (initial & fitted) of line: BCP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: BCPAP_THYROID
+-> Values (initial & fitted) of line: BDCM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: BEN_LUNG
+-> Values (initial & fitted) of line: BFTC905_URINARY_TRACT
+-> Values (initial & fitted) of line: BFTC909_KIDNEY
+-> Values (initial & fitted) of line: BHT101_THYROID
+-> Values (initial & fitted) of line: BHY_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR16_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR18_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR22_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR31_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR56_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BICR6_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: BL41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: BL70_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: BT20_BREAST
+-> Values (initial & fitted) of line: BT474_BREAST
+-> Values (initial & fitted) of line: BT483_BREAST
+-> Values (initial & fitted) of line: BT549_BREAST
+-> Values (initial & fitted) of line: BV173_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: BXPC3_PANCREAS
+-> Values (initial & fitted) of line: C2BBE1_LARGE_INTESTINE
+-> Values (initial & fitted) of line: C32_SKIN
+-> Values (initial & fitted) of line: CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: CADOES1_BONE
+-> Values (initial & fitted) of line: CAKI1_KIDNEY
+-> Values (initial & fitted) of line: CAKI2_KIDNEY
+-> Values (initial & fitted) of line: CAL120_BREAST
+-> Values (initial & fitted) of line: CAL12T_LUNG
+-> Values (initial & fitted) of line: CAL148_BREAST
+-> Values (initial & fitted) of line: CAL27_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: CAL29_URINARY_TRACT
+-> Values (initial & fitted) of line: CAL33_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: CAL51_BREAST
+-> Values (initial & fitted) of line: CAL54_KIDNEY
+-> Values (initial & fitted) of line: CAL62_THYROID
+-> Values (initial & fitted) of line: CAL78_BONE
+-> Values (initial & fitted) of line: CAL851_BREAST
+-> Values (initial & fitted) of line: CALU1_LUNG
+-> Values (initial & fitted) of line: CALU3_LUNG
+-> Values (initial & fitted) of line: CALU6_LUNG
+-> Values (initial & fitted) of line: CAMA1_BREAST
+-> Values (initial & fitted) of line: CAOV3_OVARY
+-> Values (initial & fitted) of line: CAOV4_OVARY
+-> Values (initial & fitted) of line: CAPAN1_PANCREAS
+-> Values (initial & fitted) of line: CAPAN2_PANCREAS
+-> Values (initial & fitted) of line: CAS1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: CCFSTTG1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: CCK81_LARGE_INTESTINE
+-> Values (initial & fitted) of line: CFPAC1_PANCREAS
+-> Values (initial & fitted) of line: CHAGOK1_LUNG
+-> Values (initial & fitted) of line: CHP126_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: CHP212_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: CJM_SKIN
+-> Values (initial & fitted) of line: CL11_LARGE_INTESTINE
+-> Values (initial & fitted) of line: CL14_LARGE_INTESTINE
+-> Values (initial & fitted) of line: CL34_LARGE_INTESTINE
+-> Values (initial & fitted) of line: CL40_LARGE_INTESTINE
+-> Values (initial & fitted) of line: CMK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: CMLT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: COLO668_LUNG
+-> Values (initial & fitted) of line: COLO678_LARGE_INTESTINE
+-> Values (initial & fitted) of line: COLO679_SKIN
+-> Values (initial & fitted) of line: COLO680N_OESOPHAGUS
+-> Values (initial & fitted) of line: COLO684_ENDOMETRIUM
+-> Values (initial & fitted) of line: COLO741_SKIN
+-> Values (initial & fitted) of line: COLO783_SKIN
+-> Values (initial & fitted) of line: COLO792_SKIN
+-> Values (initial & fitted) of line: COLO800_SKIN
+-> Values (initial & fitted) of line: COLO829_SKIN
+-> Values (initial & fitted) of line: CORL105_LUNG
+-> Values (initial & fitted) of line: CORL24_LUNG
+-> Values (initial & fitted) of line: CORL279_LUNG
+-> Values (initial & fitted) of line: CORL311_LUNG
+-> Values (initial & fitted) of line: CORL47_LUNG
+-> Values (initial & fitted) of line: CORL88_LUNG
+-> Values (initial & fitted) of line: CORL95_LUNG
+-> Values (initial & fitted) of line: COV318_OVARY
+-> Values (initial & fitted) of line: COV362_OVARY
+-> Values (initial & fitted) of line: COV434_OVARY
+-> Values (initial & fitted) of line: COV644_OVARY
+-> Values (initial & fitted) of line: CW2_LARGE_INTESTINE
+-> Values (initial & fitted) of line: D283MED_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: D341MED_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: DANG_PANCREAS
+-> Values (initial & fitted) of line: DAOY_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: DBTRG05MG_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: DEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: DETROIT562_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: DKMG_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: DM3_FIBROBLAST
+-> Values (initial & fitted) of line: DMS114_LUNG
+-> Values (initial & fitted) of line: DMS153_LUNG
+-> Values (initial & fitted) of line: DMS273_LUNG
+-> Values (initial & fitted) of line: DMS454_LUNG
+-> Values (initial & fitted) of line: DMS53_LUNG
+-> Values (initial & fitted) of line: DMS79_LUNG
+-> Values (initial & fitted) of line: DND41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: DU145_PROSTATE
+-> Values (initial & fitted) of line: DU4475_BREAST
+-> Values (initial & fitted) of line: DV90_LUNG
+-> Values (initial & fitted) of line: EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: EBC1_LUNG
+-> Values (initial & fitted) of line: ECC10_STOMACH
+-> Values (initial & fitted) of line: ECC12_STOMACH
+-> Values (initial & fitted) of line: ECGI10_OESOPHAGUS
+-> Values (initial & fitted) of line: EFE184_ENDOMETRIUM
+-> Values (initial & fitted) of line: EFM192A_BREAST
+-> Values (initial & fitted) of line: EFM19_BREAST
+-> Values (initial & fitted) of line: EFO21_OVARY
+-> Values (initial & fitted) of line: EFO27_OVARY
+-> Values (initial & fitted) of line: EHEB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: EM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: EN_ENDOMETRIUM
+-> Values (initial & fitted) of line: EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: EPLC272H_LUNG
+-> Values (initial & fitted) of line: ES2_OVARY
+-> Values (initial & fitted) of line: ESS1_ENDOMETRIUM
+-> Values (initial & fitted) of line: F36P_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: FADU_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: FTC133_THYROID
+-> Values (initial & fitted) of line: FTC238_THYROID
+-> Values (initial & fitted) of line: FU97_STOMACH
+-> Values (initial & fitted) of line: FUOV1_OVARY
+-> Values (initial & fitted) of line: G292CLONEA141B1_BONE
+-> Values (initial & fitted) of line: G361_SKIN
+-> Values (initial & fitted) of line: G401_SOFT_TISSUE
+-> Values (initial & fitted) of line: G402_SOFT_TISSUE
+-> Values (initial & fitted) of line: GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: GAMG_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: GB1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: GCIY_STOMACH
+-> Values (initial & fitted) of line: GCT_SOFT_TISSUE
+-> Values (initial & fitted) of line: GDM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: GI1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: GMS10_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: GOS3_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: GP2D_LARGE_INTESTINE
+-> Values (initial & fitted) of line: GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: GSS_STOMACH
+-> Values (initial & fitted) of line: GSU_STOMACH
+-> Values (initial & fitted) of line: H4_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: HARA_LUNG
+-> Values (initial & fitted) of line: HCC1143_BREAST
+-> Values (initial & fitted) of line: HCC1171_LUNG
+-> Values (initial & fitted) of line: HCC1187_BREAST
+-> Values (initial & fitted) of line: HCC1195_LUNG
+-> Values (initial & fitted) of line: HCC1359_LUNG
+-> Values (initial & fitted) of line: HCC1395_BREAST
+-> Values (initial & fitted) of line: HCC1419_BREAST
+-> Values (initial & fitted) of line: HCC1428_BREAST
+-> Values (initial & fitted) of line: HCC1500_BREAST
+-> Values (initial & fitted) of line: HCC1569_BREAST
+-> Values (initial & fitted) of line: HCC1599_BREAST
+-> Values (initial & fitted) of line: HCC15_LUNG
+-> Values (initial & fitted) of line: HCC1806_BREAST
+-> Values (initial & fitted) of line: HCC1937_BREAST
+-> Values (initial & fitted) of line: HCC1954_BREAST
+-> Values (initial & fitted) of line: HCC202_BREAST
+-> Values (initial & fitted) of line: HCC2157_BREAST
+-> Values (initial & fitted) of line: HCC2279_LUNG
+-> Values (initial & fitted) of line: HCC2935_LUNG
+-> Values (initial & fitted) of line: HCC33_LUNG
+-> Values (initial & fitted) of line: HCC366_LUNG
+-> Values (initial & fitted) of line: HCC38_BREAST
+-> Values (initial & fitted) of line: HCC4006_LUNG
+-> Values (initial & fitted) of line: HCC44_LUNG
+-> Values (initial & fitted) of line: HCC56_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HCC70_BREAST
+-> Values (initial & fitted) of line: HCC78_LUNG
+-> Values (initial & fitted) of line: HCC95_LUNG
+-> Values (initial & fitted) of line: HCT116_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HCT15_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HDLM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HDMYZ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HDQP1_BREAST
+-> Values (initial & fitted) of line: HEC108_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC151_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC1A_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC1B_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC251_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC265_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC50B_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC59_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEC6_ENDOMETRIUM
+-> Values (initial & fitted) of line: HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HEP3B217_LIVER
+-> Values (initial & fitted) of line: HEPG2_LIVER
+-> Values (initial & fitted) of line: HEYA8_OVARY
+-> Values (initial & fitted) of line: HGC27_STOMACH
+-> Values (initial & fitted) of line: HH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HLFA_FIBROBLAST
+-> Values (initial & fitted) of line: HLF_LIVER
+-> Values (initial & fitted) of line: HMC18_BREAST
+-> Values (initial & fitted) of line: HMCB_SKIN
+-> Values (initial & fitted) of line: HOS_BONE
+-> Values (initial & fitted) of line: HPAC_PANCREAS
+-> Values (initial & fitted) of line: HPAFII_PANCREAS
+-> Values (initial & fitted) of line: HS172T_FIBROBLAST
+-> Values (initial & fitted) of line: HS229T_FIBROBLAST
+-> Values (initial & fitted) of line: HS274T_FIBROBLAST
+-> Values (initial & fitted) of line: HS281T_FIBROBLAST
+-> Values (initial & fitted) of line: HS294T_SKIN
+-> Values (initial & fitted) of line: HS343T_FIBROBLAST
+-> Values (initial & fitted) of line: HS578T_BREAST
+-> Values (initial & fitted) of line: HS600T_FIBROBLAST
+-> Values (initial & fitted) of line: HS606T_FIBROBLAST
+-> Values (initial & fitted) of line: HS616T_FIBROBLAST
+-> Values (initial & fitted) of line: HS618T_FIBROBLAST
+-> Values (initial & fitted) of line: HS675T_FIBROBLAST
+-> Values (initial & fitted) of line: HS683_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: HS688AT_FIBROBLAST
+-> Values (initial & fitted) of line: HS695T_SKIN
+-> Values (initial & fitted) of line: HS698T_FIBROBLAST
+-> Values (initial & fitted) of line: HS706T_BONE
+-> Values (initial & fitted) of line: HS729_SOFT_TISSUE
+-> Values (initial & fitted) of line: HS737T_FIBROBLAST
+-> Values (initial & fitted) of line: HS739T_FIBROBLAST
+-> Values (initial & fitted) of line: HS742T_FIBROBLAST
+-> Values (initial & fitted) of line: HS746T_STOMACH
+-> Values (initial & fitted) of line: HS751T_FIBROBLAST
+-> Values (initial & fitted) of line: HS766T_PANCREAS
+-> Values (initial & fitted) of line: HS819T_FIBROBLAST
+-> Values (initial & fitted) of line: HS821T_FIBROBLAST
+-> Values (initial & fitted) of line: HS822T_FIBROBLAST
+-> Values (initial & fitted) of line: HS839T_FIBROBLAST
+-> Values (initial & fitted) of line: HS840T_FIBROBLAST
+-> Values (initial & fitted) of line: HS852T_SKIN
+-> Values (initial & fitted) of line: HS863T_FIBROBLAST
+-> Values (initial & fitted) of line: HS870T_FIBROBLAST
+-> Values (initial & fitted) of line: HS888T_FIBROBLAST
+-> Values (initial & fitted) of line: HS895T_FIBROBLAST
+-> Values (initial & fitted) of line: HS934T_FIBROBLAST
+-> Values (initial & fitted) of line: HS940T_FIBROBLAST
+-> Values (initial & fitted) of line: HS944T_SKIN
+-> Values (initial & fitted) of line: HSC2_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: HSC3_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: HSC4_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: HT1080_SOFT_TISSUE
+-> Values (initial & fitted) of line: HT115_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HT1197_URINARY_TRACT
+-> Values (initial & fitted) of line: HT1376_URINARY_TRACT
+-> Values (initial & fitted) of line: HT144_SKIN
+-> Values (initial & fitted) of line: HT29_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HT55_LARGE_INTESTINE
+-> Values (initial & fitted) of line: HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HUCCT1_BILIARY_TRACT
+-> Values (initial & fitted) of line: HUG1N_STOMACH
+-> Values (initial & fitted) of line: HUH1_LIVER
+-> Values (initial & fitted) of line: HUH28_BILIARY_TRACT
+-> Values (initial & fitted) of line: HUH6_LIVER
+-> Values (initial & fitted) of line: HUH7_LIVER
+-> Values (initial & fitted) of line: HUNS1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HUPT3_PANCREAS
+-> Values (initial & fitted) of line: HUPT4_PANCREAS
+-> Values (initial & fitted) of line: HUT102_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HUT78_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: HUTU80_SMALL_INTESTINE
+-> Values (initial & fitted) of line: IALM_LUNG
+-> Values (initial & fitted) of line: IGR1_SKIN
+-> Values (initial & fitted) of line: IGR37_SKIN
+-> Values (initial & fitted) of line: IGR39_SKIN
+-> Values (initial & fitted) of line: IGROV1_OVARY
+-> Values (initial & fitted) of line: IM95_STOMACH
+-> Values (initial & fitted) of line: IMR32_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: IPC298_SKIN
+-> Values (initial & fitted) of line: ISHIKAWAHERAKLIO02ER_ENDOMETRIUM
+-> Values (initial & fitted) of line: ISTMES1_PLEURA
+-> Values (initial & fitted) of line: ISTMES2_PLEURA
+-> Values (initial & fitted) of line: J82_URINARY_TRACT
+-> Values (initial & fitted) of line: JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JHH1_LIVER
+-> Values (initial & fitted) of line: JHH2_LIVER
+-> Values (initial & fitted) of line: JHH4_LIVER
+-> Values (initial & fitted) of line: JHH5_LIVER
+-> Values (initial & fitted) of line: JHH6_LIVER
+-> Values (initial & fitted) of line: JHH7_LIVER
+-> Values (initial & fitted) of line: JHOC5_OVARY
+-> Values (initial & fitted) of line: JHOM1_OVARY
+-> Values (initial & fitted) of line: JHOM2B_OVARY
+-> Values (initial & fitted) of line: JHOS2_OVARY
+-> Values (initial & fitted) of line: JHOS4_OVARY
+-> Values (initial & fitted) of line: JHUEM1_ENDOMETRIUM
+-> Values (initial & fitted) of line: JHUEM2_ENDOMETRIUM
+-> Values (initial & fitted) of line: JHUEM3_ENDOMETRIUM
+-> Values (initial & fitted) of line: JHUEM7_ENDOMETRIUM
+-> Values (initial & fitted) of line: JIMT1_BREAST
+-> Values (initial & fitted) of line: JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JL1_PLEURA
+-> Values (initial & fitted) of line: JM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JMSU1_URINARY_TRACT
+-> Values (initial & fitted) of line: JURLMK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JVM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: JVM3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: K029AX_SKIN
+-> Values (initial & fitted) of line: K562_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KALS1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KARPAS299_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KARPAS422_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KARPAS620_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KASUMI2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KASUMI6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KATOIII_STOMACH
+-> Values (initial & fitted) of line: KCL22_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KE37_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KE39_STOMACH
+-> Values (initial & fitted) of line: KE97_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KELLY_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: KG1C_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KG1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KHM1B_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KIJK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KLE_ENDOMETRIUM
+-> Values (initial & fitted) of line: KM12_LARGE_INTESTINE
+-> Values (initial & fitted) of line: KMBC2_URINARY_TRACT
+-> Values (initial & fitted) of line: KMH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMRC1_KIDNEY
+-> Values (initial & fitted) of line: KMRC20_KIDNEY
+-> Values (initial & fitted) of line: KMRC2_KIDNEY
+-> Values (initial & fitted) of line: KMRC3_KIDNEY
+-> Values (initial & fitted) of line: KMS11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS12BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS20_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS21BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS26_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS27_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS28BM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KMS34_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KNS42_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KNS60_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KNS62_LUNG
+-> Values (initial & fitted) of line: KNS81_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KO52_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KOPN8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KP2_PANCREAS
+-> Values (initial & fitted) of line: KP3_PANCREAS
+-> Values (initial & fitted) of line: KP4_PANCREAS
+-> Values (initial & fitted) of line: KPNRTBM1_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: KPNSI9S_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: KPNYN_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: KS1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: KU1919_URINARY_TRACT
+-> Values (initial & fitted) of line: KU812_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KURAMOCHI_OVARY
+-> Values (initial & fitted) of line: KYM1_SOFT_TISSUE
+-> Values (initial & fitted) of line: KYO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: KYSE140_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE150_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE180_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE270_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE30_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE410_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE450_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE510_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE520_OESOPHAGUS
+-> Values (initial & fitted) of line: KYSE70_OESOPHAGUS
+-> Values (initial & fitted) of line: L1236_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: L33_PANCREAS
+-> Values (initial & fitted) of line: L363_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: L428_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: L540_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: LAMA84_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: LC1F_LUNG
+-> Values (initial & fitted) of line: LCLC103H_LUNG
+-> Values (initial & fitted) of line: LCLC97TM1_LUNG
+-> Values (initial & fitted) of line: LI7_LIVER
+-> Values (initial & fitted) of line: LK2_LUNG
+-> Values (initial & fitted) of line: LMSU_STOMACH
+-> Values (initial & fitted) of line: LN18_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: LN229_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: LNCAPCLONEFGC_PROSTATE
+-> Values (initial & fitted) of line: LOUCY_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: LOUNH91_LUNG
+-> Values (initial & fitted) of line: LOVO_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LOXIMVI_SKIN
+-> Values (initial & fitted) of line: LP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: LS1034_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LS123_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LS180_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LS411N_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LS513_LARGE_INTESTINE
+-> Values (initial & fitted) of line: LU99_LUNG
+-> Values (initial & fitted) of line: LUDLU1_LUNG
+-> Values (initial & fitted) of line: LXF289_LUNG
+-> Values (initial & fitted) of line: M059K_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: M07E_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MALME3M_SKIN
+-> Values (initial & fitted) of line: MC116_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MCAS_OVARY
+-> Values (initial & fitted) of line: MCF7_BREAST
+-> Values (initial & fitted) of line: MDAMB134VI_BREAST
+-> Values (initial & fitted) of line: MDAMB157_BREAST
+-> Values (initial & fitted) of line: MDAMB175VII_BREAST
+-> Values (initial & fitted) of line: MDAMB231_BREAST
+-> Values (initial & fitted) of line: MDAMB361_BREAST
+-> Values (initial & fitted) of line: MDAMB415_BREAST
+-> Values (initial & fitted) of line: MDAMB435S_SKIN
+-> Values (initial & fitted) of line: MDAMB436_BREAST
+-> Values (initial & fitted) of line: MDAMB453_BREAST
+-> Values (initial & fitted) of line: MDAMB468_BREAST
+-> Values (initial & fitted) of line: MDAPCA2B_PROSTATE
+-> Values (initial & fitted) of line: MDST8_LARGE_INTESTINE
+-> Values (initial & fitted) of line: ME1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MEC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MEG01_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MELHO_SKIN
+-> Values (initial & fitted) of line: MELJUSO_SKIN
+-> Values (initial & fitted) of line: MESSA_SOFT_TISSUE
+-> Values (initial & fitted) of line: MEWO_SKIN
+-> Values (initial & fitted) of line: MFE280_ENDOMETRIUM
+-> Values (initial & fitted) of line: MFE296_ENDOMETRIUM
+-> Values (initial & fitted) of line: MFE319_ENDOMETRIUM
+-> Values (initial & fitted) of line: MG63_BONE
+-> Values (initial & fitted) of line: MHHCALL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MHHCALL3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MHHCALL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MHHES1_BONE
+-> Values (initial & fitted) of line: MHHNB11_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: MIAPACA2_PANCREAS
+-> Values (initial & fitted) of line: MINO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MKN1_STOMACH
+-> Values (initial & fitted) of line: MKN45_STOMACH
+-> Values (initial & fitted) of line: MKN74_STOMACH
+-> Values (initial & fitted) of line: MKN7_STOMACH
+-> Values (initial & fitted) of line: ML1_THYROID
+-> Values (initial & fitted) of line: MM1S_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLM13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLM16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLP2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLP8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLT13_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MOLT16_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MONOMAC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MONOMAC6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MORCPR_LUNG
+-> Values (initial & fitted) of line: MPP89_PLEURA
+-> Values (initial & fitted) of line: MSTO211H_PLEURA
+-> Values (initial & fitted) of line: MUTZ5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: MV411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NALM19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NALM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NALM6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NAMALWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NB1_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: NB4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NCCSTCK140_STOMACH
+-> Values (initial & fitted) of line: NCIH1048_LUNG
+-> Values (initial & fitted) of line: NCIH1092_LUNG
+-> Values (initial & fitted) of line: NCIH1105_LUNG
+-> Values (initial & fitted) of line: NCIH1155_LUNG
+-> Values (initial & fitted) of line: NCIH1184_LUNG
+-> Values (initial & fitted) of line: NCIH1299_LUNG
+-> Values (initial & fitted) of line: NCIH1339_LUNG
+-> Values (initial & fitted) of line: NCIH1341_LUNG
+-> Values (initial & fitted) of line: NCIH1355_LUNG
+-> Values (initial & fitted) of line: NCIH1373_LUNG
+-> Values (initial & fitted) of line: NCIH1385_LUNG
+-> Values (initial & fitted) of line: NCIH1395_LUNG
+-> Values (initial & fitted) of line: NCIH1435_LUNG
+-> Values (initial & fitted) of line: NCIH1436_LUNG
+-> Values (initial & fitted) of line: NCIH1437_LUNG
+-> Values (initial & fitted) of line: NCIH146_LUNG
+-> Values (initial & fitted) of line: NCIH1563_LUNG
+-> Values (initial & fitted) of line: NCIH1568_LUNG
+-> Values (initial & fitted) of line: NCIH1573_LUNG
+-> Values (initial & fitted) of line: NCIH1581_LUNG
+-> Values (initial & fitted) of line: NCIH1618_LUNG
+-> Values (initial & fitted) of line: NCIH1623_LUNG
+-> Values (initial & fitted) of line: NCIH1648_LUNG
+-> Values (initial & fitted) of line: NCIH1650_LUNG
+-> Values (initial & fitted) of line: NCIH1651_LUNG
+-> Values (initial & fitted) of line: NCIH1666_LUNG
+-> Values (initial & fitted) of line: NCIH1693_LUNG
+-> Values (initial & fitted) of line: NCIH1694_LUNG
+-> Values (initial & fitted) of line: NCIH1703_LUNG
+-> Values (initial & fitted) of line: NCIH1734_LUNG
+-> Values (initial & fitted) of line: NCIH1755_LUNG
+-> Values (initial & fitted) of line: NCIH1781_LUNG
+-> Values (initial & fitted) of line: NCIH1792_LUNG
+-> Values (initial & fitted) of line: NCIH1793_LUNG
+-> Values (initial & fitted) of line: NCIH1836_LUNG
+-> Values (initial & fitted) of line: NCIH1869_LUNG
+-> Values (initial & fitted) of line: NCIH1876_LUNG
+-> Values (initial & fitted) of line: NCIH1915_LUNG
+-> Values (initial & fitted) of line: NCIH1930_LUNG
+-> Values (initial & fitted) of line: NCIH1944_LUNG
+-> Values (initial & fitted) of line: NCIH1963_LUNG
+-> Values (initial & fitted) of line: NCIH196_LUNG
+-> Values (initial & fitted) of line: NCIH1975_LUNG
+-> Values (initial & fitted) of line: NCIH2009_LUNG
+-> Values (initial & fitted) of line: NCIH2023_LUNG
+-> Values (initial & fitted) of line: NCIH2029_LUNG
+-> Values (initial & fitted) of line: NCIH2030_LUNG
+-> Values (initial & fitted) of line: NCIH2052_PLEURA
+-> Values (initial & fitted) of line: NCIH2066_LUNG
+-> Values (initial & fitted) of line: NCIH2073_LUNG
+-> Values (initial & fitted) of line: NCIH2081_LUNG
+-> Values (initial & fitted) of line: NCIH2085_LUNG
+-> Values (initial & fitted) of line: NCIH2087_LUNG
+-> Values (initial & fitted) of line: NCIH209_LUNG
+-> Values (initial & fitted) of line: NCIH2106_LUNG
+-> Values (initial & fitted) of line: NCIH2110_LUNG
+-> Values (initial & fitted) of line: NCIH211_LUNG
+-> Values (initial & fitted) of line: NCIH2122_LUNG
+-> Values (initial & fitted) of line: NCIH2126_LUNG
+-> Values (initial & fitted) of line: NCIH2170_LUNG
+-> Values (initial & fitted) of line: NCIH2171_LUNG
+-> Values (initial & fitted) of line: NCIH2172_LUNG
+-> Values (initial & fitted) of line: NCIH2196_LUNG
+-> Values (initial & fitted) of line: NCIH2227_LUNG
+-> Values (initial & fitted) of line: NCIH2228_LUNG
+-> Values (initial & fitted) of line: NCIH226_LUNG
+-> Values (initial & fitted) of line: NCIH2286_LUNG
+-> Values (initial & fitted) of line: NCIH2291_LUNG
+-> Values (initial & fitted) of line: NCIH2342_LUNG
+-> Values (initial & fitted) of line: NCIH2347_LUNG
+-> Values (initial & fitted) of line: NCIH23_LUNG
+-> Values (initial & fitted) of line: NCIH2405_LUNG
+-> Values (initial & fitted) of line: NCIH2444_LUNG
+-> Values (initial & fitted) of line: NCIH2452_PLEURA
+-> Values (initial & fitted) of line: NCIH28_PLEURA
+-> Values (initial & fitted) of line: NCIH292_LUNG
+-> Values (initial & fitted) of line: NCIH322_LUNG
+-> Values (initial & fitted) of line: NCIH3255_LUNG
+-> Values (initial & fitted) of line: NCIH358_LUNG
+-> Values (initial & fitted) of line: NCIH441_LUNG
+-> Values (initial & fitted) of line: NCIH460_LUNG
+-> Values (initial & fitted) of line: NCIH508_LARGE_INTESTINE
+-> Values (initial & fitted) of line: NCIH510_LUNG
+-> Values (initial & fitted) of line: NCIH520_LUNG
+-> Values (initial & fitted) of line: NCIH522_LUNG
+-> Values (initial & fitted) of line: NCIH524_LUNG
+-> Values (initial & fitted) of line: NCIH526_LUNG
+-> Values (initial & fitted) of line: NCIH596_LUNG
+-> Values (initial & fitted) of line: NCIH647_LUNG
+-> Values (initial & fitted) of line: NCIH650_LUNG
+-> Values (initial & fitted) of line: NCIH660_PROSTATE
+-> Values (initial & fitted) of line: NCIH661_LUNG
+-> Values (initial & fitted) of line: NCIH69_LUNG
+-> Values (initial & fitted) of line: NCIH727_LUNG
+-> Values (initial & fitted) of line: NCIH747_LARGE_INTESTINE
+-> Values (initial & fitted) of line: NCIH810_LUNG
+-> Values (initial & fitted) of line: NCIH82_LUNG
+-> Values (initial & fitted) of line: NCIH838_LUNG
+-> Values (initial & fitted) of line: NCIH841_LUNG
+-> Values (initial & fitted) of line: NCIH854_LUNG
+-> Values (initial & fitted) of line: NCIH889_LUNG
+-> Values (initial & fitted) of line: NCIH929_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NCIN87_STOMACH
+-> Values (initial & fitted) of line: NCO2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NH6_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: NIHOVCAR3_OVARY
+-> Values (initial & fitted) of line: NMCG1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: NOMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NUDUL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: NUGC2_STOMACH
+-> Values (initial & fitted) of line: NUGC3_STOMACH
+-> Values (initial & fitted) of line: OAW28_OVARY
+-> Values (initial & fitted) of line: OAW42_OVARY
+-> Values (initial & fitted) of line: OC314_OVARY
+-> Values (initial & fitted) of line: OCIAML2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCIAML3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCIAML5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCILY19_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCILY3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCIM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OCUM1_STOMACH
+-> Values (initial & fitted) of line: OE19_OESOPHAGUS
+-> Values (initial & fitted) of line: OE21_OESOPHAGUS
+-> Values (initial & fitted) of line: ONCODG1_OVARY
+-> Values (initial & fitted) of line: ONS76_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: OPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: OSRC2_KIDNEY
+-> Values (initial & fitted) of line: OUMS23_LARGE_INTESTINE
+-> Values (initial & fitted) of line: OV56_OVARY
+-> Values (initial & fitted) of line: OV7_OVARY
+-> Values (initial & fitted) of line: OV90_OVARY
+-> Values (initial & fitted) of line: OVCAR4_OVARY
+-> Values (initial & fitted) of line: OVCAR8_OVARY
+-> Values (initial & fitted) of line: OVISE_OVARY
+-> Values (initial & fitted) of line: OVK18_OVARY
+-> Values (initial & fitted) of line: OVKATE_OVARY
+-> Values (initial & fitted) of line: OVMANA_OVARY
+-> Values (initial & fitted) of line: OVSAHO_OVARY
+-> Values (initial & fitted) of line: OVTOKO_OVARY
+-> Values (initial & fitted) of line: P12ICHIKAWA_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: P31FUJ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: P3HR1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: PANC0203_PANCREAS
+-> Values (initial & fitted) of line: PANC0213_PANCREAS
+-> Values (initial & fitted) of line: PANC0327_PANCREAS
+-> Values (initial & fitted) of line: PANC0403_PANCREAS
+-> Values (initial & fitted) of line: PANC0504_PANCREAS
+-> Values (initial & fitted) of line: PANC0813_PANCREAS
+-> Values (initial & fitted) of line: PANC1005_PANCREAS
+-> Values (initial & fitted) of line: PANC1_PANCREAS
+-> Values (initial & fitted) of line: PATU8902_PANCREAS
+-> Values (initial & fitted) of line: PATU8988S_PANCREAS
+-> Values (initial & fitted) of line: PATU8988T_PANCREAS
+-> Values (initial & fitted) of line: PC14_LUNG
+-> Values (initial & fitted) of line: PC3_PROSTATE
+-> Values (initial & fitted) of line: PECAPJ15_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: PECAPJ34CLONEC12_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: PECAPJ41CLONED2_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: PECAPJ49_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: PEER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: PF382_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: PFEIFFER_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: PK1_PANCREAS
+-> Values (initial & fitted) of line: PK45H_PANCREAS
+-> Values (initial & fitted) of line: PL21_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: PLCPRF5_LIVER
+-> Values (initial & fitted) of line: PSN1_PANCREAS
+-> Values (initial & fitted) of line: QGP1_PANCREAS
+-> Values (initial & fitted) of line: RAJI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RCC10RGB_KIDNEY
+-> Values (initial & fitted) of line: RCHACV_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RCM1_LARGE_INTESTINE
+-> Values (initial & fitted) of line: RDES_BONE
+-> Values (initial & fitted) of line: RD_SOFT_TISSUE
+-> Values (initial & fitted) of line: REC1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: REH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RERFGC1B_STOMACH
+-> Values (initial & fitted) of line: RERFLCAD1_LUNG
+-> Values (initial & fitted) of line: RERFLCAD2_LUNG
+-> Values (initial & fitted) of line: RERFLCAI_LUNG
+-> Values (initial & fitted) of line: RERFLCKJ_LUNG
+-> Values (initial & fitted) of line: RERFLCMS_LUNG
+-> Values (initial & fitted) of line: RERFLCSQ1_LUNG
+-> Values (initial & fitted) of line: RH18_SOFT_TISSUE
+-> Values (initial & fitted) of line: RH30_SOFT_TISSUE
+-> Values (initial & fitted) of line: RH41_SOFT_TISSUE
+-> Values (initial & fitted) of line: RI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RKN_SOFT_TISSUE
+-> Values (initial & fitted) of line: RKO_LARGE_INTESTINE
+-> Values (initial & fitted) of line: RL952_ENDOMETRIUM
+-> Values (initial & fitted) of line: RL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RMUGS_OVARY
+-> Values (initial & fitted) of line: RPMI7951_SKIN
+-> Values (initial & fitted) of line: RPMI8226_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RPMI8402_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RS411_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: RT112_URINARY_TRACT
+-> Values (initial & fitted) of line: RT4_URINARY_TRACT
+-> Values (initial & fitted) of line: RVH421_SKIN
+-> Values (initial & fitted) of line: S117_THYROID
+-> Values (initial & fitted) of line: SBC5_LUNG
+-> Values (initial & fitted) of line: SCABER_URINARY_TRACT
+-> Values (initial & fitted) of line: SCC15_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SCC25_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SCC4_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SCC9_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SCLC21H_LUNG
+-> Values (initial & fitted) of line: SEM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SET2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SF126_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SF295_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SH10TC_STOMACH
+-> Values (initial & fitted) of line: SH4_SKIN
+-> Values (initial & fitted) of line: SHP77_LUNG
+-> Values (initial & fitted) of line: SIGM5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SIMA_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SJSA1_BONE
+-> Values (initial & fitted) of line: SKBR3_BREAST
+-> Values (initial & fitted) of line: SKCO1_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SKES1_BONE
+-> Values (initial & fitted) of line: SKHEP1_LIVER
+-> Values (initial & fitted) of line: SKLMS1_SOFT_TISSUE
+-> Values (initial & fitted) of line: SKLU1_LUNG
+-> Values (initial & fitted) of line: SKM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SKMEL1_SKIN
+-> Values (initial & fitted) of line: SKMEL24_SKIN
+-> Values (initial & fitted) of line: SKMEL28_SKIN
+-> Values (initial & fitted) of line: SKMEL30_SKIN
+-> Values (initial & fitted) of line: SKMEL31_SKIN
+-> Values (initial & fitted) of line: SKMEL3_SKIN
+-> Values (initial & fitted) of line: SKMEL5_SKIN
+-> Values (initial & fitted) of line: SKMES1_LUNG
+-> Values (initial & fitted) of line: SKMM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SKNAS_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SKNBE2_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SKNDZ_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SKNFI_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SKNMC_BONE
+-> Values (initial & fitted) of line: SKNSH_AUTONOMIC_GANGLIA
+-> Values (initial & fitted) of line: SKOV3_OVARY
+-> Values (initial & fitted) of line: SKUT1_SOFT_TISSUE
+-> Values (initial & fitted) of line: SNGM_ENDOMETRIUM
+-> Values (initial & fitted) of line: SNU1040_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU1076_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SNU1077_ENDOMETRIUM
+-> Values (initial & fitted) of line: SNU1079_BILIARY_TRACT
+-> Values (initial & fitted) of line: SNU1105_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU1196_BILIARY_TRACT
+-> Values (initial & fitted) of line: SNU1197_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU119_OVARY
+-> Values (initial & fitted) of line: SNU1214_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SNU1272_KIDNEY
+-> Values (initial & fitted) of line: SNU16_STOMACH
+-> Values (initial & fitted) of line: SNU175_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU182_LIVER
+-> Values (initial & fitted) of line: SNU1_STOMACH
+-> Values (initial & fitted) of line: SNU201_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU213_PANCREAS
+-> Values (initial & fitted) of line: SNU216_STOMACH
+-> Values (initial & fitted) of line: SNU245_BILIARY_TRACT
+-> Values (initial & fitted) of line: SNU283_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU308_BILIARY_TRACT
+-> Values (initial & fitted) of line: SNU324_PANCREAS
+-> Values (initial & fitted) of line: SNU349_KIDNEY
+-> Values (initial & fitted) of line: SNU387_LIVER
+-> Values (initial & fitted) of line: SNU398_LIVER
+-> Values (initial & fitted) of line: SNU407_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU410_PANCREAS
+-> Values (initial & fitted) of line: SNU423_LIVER
+-> Values (initial & fitted) of line: SNU449_LIVER
+-> Values (initial & fitted) of line: SNU466_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU46_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SNU475_LIVER
+-> Values (initial & fitted) of line: SNU478_BILIARY_TRACT
+-> Values (initial & fitted) of line: SNU489_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU503_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU520_STOMACH
+-> Values (initial & fitted) of line: SNU5_STOMACH
+-> Values (initial & fitted) of line: SNU601_STOMACH
+-> Values (initial & fitted) of line: SNU61_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU620_STOMACH
+-> Values (initial & fitted) of line: SNU626_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU668_STOMACH
+-> Values (initial & fitted) of line: SNU685_ENDOMETRIUM
+-> Values (initial & fitted) of line: SNU719_STOMACH
+-> Values (initial & fitted) of line: SNU738_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SNU761_LIVER
+-> Values (initial & fitted) of line: SNU81_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNU840_OVARY
+-> Values (initial & fitted) of line: SNU878_LIVER
+-> Values (initial & fitted) of line: SNU886_LIVER
+-> Values (initial & fitted) of line: SNU899_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: SNU8_OVARY
+-> Values (initial & fitted) of line: SNUC1_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNUC2A_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNUC4_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SNUC5_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SQ1_LUNG
+-> Values (initial & fitted) of line: SR786_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: ST486_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SU8686_PANCREAS
+-> Values (initial & fitted) of line: SUDHL10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUDHL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUDHL4_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUDHL5_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUDHL6_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUDHL8_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUIT2_PANCREAS
+-> Values (initial & fitted) of line: SUPB15_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUPM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUPT11_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SUPT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: SW1088_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SW1116_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW1271_LUNG
+-> Values (initial & fitted) of line: SW1353_BONE
+-> Values (initial & fitted) of line: SW1417_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW1463_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW1573_LUNG
+-> Values (initial & fitted) of line: SW1710_URINARY_TRACT
+-> Values (initial & fitted) of line: SW1783_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: SW1990_PANCREAS
+-> Values (initial & fitted) of line: SW403_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW480_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW48_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW579_THYROID
+-> Values (initial & fitted) of line: SW620_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW780_URINARY_TRACT
+-> Values (initial & fitted) of line: SW837_LARGE_INTESTINE
+-> Values (initial & fitted) of line: SW900_LUNG
+-> Values (initial & fitted) of line: SW948_LARGE_INTESTINE
+-> Values (initial & fitted) of line: T173_FIBROBLAST
+-> Values (initial & fitted) of line: T24_URINARY_TRACT
+-> Values (initial & fitted) of line: T3M10_LUNG
+-> Values (initial & fitted) of line: T3M4_PANCREAS
+-> Values (initial & fitted) of line: T47D_BREAST
+-> Values (initial & fitted) of line: T84_LARGE_INTESTINE
+-> Values (initial & fitted) of line: T98G_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: TC71_BONE
+-> Values (initial & fitted) of line: TCCPAN2_PANCREAS
+-> Values (initial & fitted) of line: TCCSUP_URINARY_TRACT
+-> Values (initial & fitted) of line: TE10_OESOPHAGUS
+-> Values (initial & fitted) of line: TE11_OESOPHAGUS
+-> Values (initial & fitted) of line: TE125T_FIBROBLAST
+-> Values (initial & fitted) of line: TE14_OESOPHAGUS
+-> Values (initial & fitted) of line: TE159T_FIBROBLAST
+-> Values (initial & fitted) of line: TE15_OESOPHAGUS
+-> Values (initial & fitted) of line: TE1_OESOPHAGUS
+-> Values (initial & fitted) of line: TE441T_SOFT_TISSUE
+-> Values (initial & fitted) of line: TE4_OESOPHAGUS
+-> Values (initial & fitted) of line: TE5_OESOPHAGUS
+-> Values (initial & fitted) of line: TE617T_SOFT_TISSUE
+-> Values (initial & fitted) of line: TE6_OESOPHAGUS
+-> Values (initial & fitted) of line: TE8_OESOPHAGUS
+-> Values (initial & fitted) of line: TE9_OESOPHAGUS
+-> Values (initial & fitted) of line: TEN_ENDOMETRIUM
+-> Values (initial & fitted) of line: TF1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: TGBC11TKB_STOMACH
+-> Values (initial & fitted) of line: THP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: TM31_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: TO175T_FIBROBLAST
+-> Values (initial & fitted) of line: TOLEDO_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: TOV112D_OVARY
+-> Values (initial & fitted) of line: TOV21G_OVARY
+-> Values (initial & fitted) of line: TT2609C02_THYROID
+-> Values (initial & fitted) of line: TT_OESOPHAGUS
+-> Values (initial & fitted) of line: TT_THYROID
+-> Values (initial & fitted) of line: TUHR10TKB_KIDNEY
+-> Values (initial & fitted) of line: TUHR14TKB_KIDNEY
+-> Values (initial & fitted) of line: TUHR4TKB_KIDNEY
+-> Values (initial & fitted) of line: TYKNU_OVARY
+-> Values (initial & fitted) of line: U251MG_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: U266B1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: U2OS_BONE
+-> Values (initial & fitted) of line: U87MG_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: U937_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: UACC257_SKIN
+-> Values (initial & fitted) of line: UACC62_SKIN
+-> Values (initial & fitted) of line: UACC893_BREAST
+-> Values (initial & fitted) of line: UMUC1_URINARY_TRACT
+-> Values (initial & fitted) of line: UMUC3_URINARY_TRACT
+-> Values (initial & fitted) of line: VCAP_PROSTATE
+-> Values (initial & fitted) of line: VMCUB1_URINARY_TRACT
+-> Values (initial & fitted) of line: VMRCRCW_KIDNEY
+-> Values (initial & fitted) of line: VMRCRCZ_KIDNEY
+-> Values (initial & fitted) of line: WM115_SKIN
+-> Values (initial & fitted) of line: WM1799_SKIN
+-> Values (initial & fitted) of line: WM2664_SKIN
+-> Values (initial & fitted) of line: WM793_SKIN
+-> Values (initial & fitted) of line: WM88_SKIN
+-> Values (initial & fitted) of line: WM983B_SKIN
+-> Values (initial & fitted) of line: WSUDLCL2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE
+-> Values (initial & fitted) of line: YAPC_PANCREAS
+-> Values (initial & fitted) of line: YD10B_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: YD15_SALIVARY_GLAND
+-> Values (initial & fitted) of line: YD38_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: YD8_UPPER_AERODIGESTIVE_TRACT
+-> Values (initial & fitted) of line: YH13_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: YKG1_CENTRAL_NERVOUS_SYSTEM
+-> Values (initial & fitted) of line: ZR751_BREAST
+-> Values (initial & fitted) of line: ZR7530_BREAST

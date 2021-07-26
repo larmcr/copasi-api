@@ -29,7 +29,7 @@ namespace CopasiApi
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      { "MYC", 1.0 }
+      // { "MYC", 1.0 }
     };
 
     private List<string> lines = null;
@@ -37,9 +37,9 @@ namespace CopasiApi
 
     public Experiments()
     {
-      ProcessExperiments();
+      // ProcessExperiments();
       // ProcessModel();
-      // ProcessEstimations();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments ()

@@ -1,0 +1,67 @@
+-> All Experiments were created
+numModelValues: 24
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH7_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH7_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOC5_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOC5_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOM1_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOM1_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOM2B_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOM2B_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOS2_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOS2_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOS4_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHOS4_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM1_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM1_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM2_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM2_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM3_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM3_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM7_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHUEM7_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JIMT1_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JIMT1_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JJN3_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JK1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JL1_PLEURA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JL1_PLEURA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JMSU1_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (False): /Users/luis/Desktop/copasi-api/minimo/results/JMSU1_URINARY_TRACT/par-est.txt
+>ERROR 2021-07-25T20:00:41<
+  Optimization (6): No adjustable Parameters specified.
+

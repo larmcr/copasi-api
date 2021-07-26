@@ -1,0 +1,1302 @@
+-> All Experiments were created
+numModelValues: 24
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/22RV1_PROSTATE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/22RV1_PROSTATE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/2313287_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/2313287_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/42MGBA_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/42MGBA_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+>WARNING 2021-07-25T19:54:23<
+  Optimization (8): '17' Function Evaluations out of '93' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/5637_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/5637_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/59M_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/59M_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/639V_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/639V_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/647V_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/647V_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/697_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/697_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/769P_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/769P_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/786O_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/786O_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/8305C_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/8305C_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/8505C_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/8505C_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/8MGBA_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/8MGBA_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A101D_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A101D_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A172_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A172_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A204_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A204_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A2058_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A2058_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A253_SALIVARY_GLAND/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A253_SALIVARY_GLAND/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A2780_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A2780_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A375_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A375_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A3KAW_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A498_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A498_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A4FUK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A549_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A549_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A673_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A673_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/A704_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/A704_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ABC1_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ABC1_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ACCMESO1_PLEURA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ACCMESO1_PLEURA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ACHN_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ACHN_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AGS_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AGS_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ALLSIL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AM38_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AM38_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AML193_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AML193_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AMO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AN3CA_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AN3CA_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ASPC1_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ASPC1_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/AU565_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/AU565_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BC3C_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BC3C_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BCP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BCP1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BCPAP_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BCPAP_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BDCM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BDCM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BEN_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BEN_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BFTC905_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BFTC905_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BFTC909_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BFTC909_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BHT101_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BHT101_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BHY_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BHY_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR16_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR16_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR18_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR18_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR22_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR22_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR31_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR31_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR56_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR56_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR6_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BICR6_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BL41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BL41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BL70_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BL70_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BT20_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BT20_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BT474_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BT474_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BT483_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BT483_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BT549_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BT549_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BV173_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BV173_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/BXPC3_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/BXPC3_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/C2BBE1_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/C2BBE1_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/C32_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/C32_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CA46_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CADOES1_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CADOES1_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAKI1_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAKI1_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAKI2_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAKI2_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL120_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL120_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL12T_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL12T_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL148_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL148_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL27_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL27_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL29_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL29_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL33_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL33_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL51_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL51_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL54_KIDNEY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL54_KIDNEY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL62_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL62_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL78_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL78_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL851_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAL851_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU1_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU1_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU3_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU3_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU6_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CALU6_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAMA1_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAMA1_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAOV3_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAOV3_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAOV4_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAOV4_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAPAN1_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAPAN1_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAPAN2_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAPAN2_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CAS1_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CAS1_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CCFSTTG1_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CCFSTTG1_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CCK81_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CCK81_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CFPAC1_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CFPAC1_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CHAGOK1_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CHAGOK1_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CHP126_AUTONOMIC_GANGLIA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CHP126_AUTONOMIC_GANGLIA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CHP212_AUTONOMIC_GANGLIA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CHP212_AUTONOMIC_GANGLIA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CI1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CJM_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CJM_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CL11_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CL11_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CL14_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CL14_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CL34_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CL34_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CL40_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CL40_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CMK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CMK_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CMLT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CMLT1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO668_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO668_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO678_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO678_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO679_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO679_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO680N_OESOPHAGUS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO680N_OESOPHAGUS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO684_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO684_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO741_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO741_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO783_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO783_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO792_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO792_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO800_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO800_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO829_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COLO829_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL105_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL105_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL24_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL24_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL279_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL279_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL311_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL311_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL47_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL47_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL88_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL88_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL95_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CORL95_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COV318_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COV318_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COV362_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COV362_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COV434_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COV434_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/COV644_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/COV644_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/CW2_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/CW2_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/D283MED_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/D283MED_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/D341MED_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/D341MED_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DANG_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DANG_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DAOY_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DAOY_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DAUDI_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DBTRG05MG_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DBTRG05MG_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+>WARNING 2021-07-25T19:55:40<
+  Optimization (8): '27' Function Evaluations out of '100' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DETROIT562_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DETROIT562_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DKMG_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DKMG_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DM3_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DM3_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS114_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS114_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS153_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS153_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS273_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS273_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS454_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS454_LUNG/par-est.txt
+
+>WARNING 2021-07-25T19:55:47<
+  Optimization (8): '12' Function Evaluations out of '130' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS53_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS53_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS79_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DMS79_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DND41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DND41_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DOHH2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DU145_PROSTATE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DU145_PROSTATE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DU4475_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DU4475_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/DV90_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/DV90_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EB1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EBC1_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EBC1_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ECC10_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ECC10_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ECC12_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ECC12_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ECGI10_OESOPHAGUS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ECGI10_OESOPHAGUS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EFE184_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EFE184_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EFM192A_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EFM192A_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EFM19_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EFM19_BREAST/par-est.txt
+
+>WARNING 2021-07-25T19:56:09<
+  Optimization (8): '27' Function Evaluations out of '425' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EFO21_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EFO21_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EFO27_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EFO27_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EHEB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EHEB_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EJM_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EN_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EN_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EOL1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/EPLC272H_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/EPLC272H_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ES2_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ES2_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ESS1_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ESS1_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/F36P_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/F36P_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/FADU_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/FADU_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/FTC133_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/FTC133_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/FTC238_THYROID/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/FTC238_THYROID/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/FU97_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/FU97_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/FUOV1_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/FUOV1_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/G292CLONEA141B1_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/G292CLONEA141B1_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/G361_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/G361_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/G401_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/G401_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/G402_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/G402_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GA10_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GAMG_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GAMG_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GB1_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GB1_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GCIY_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GCIY_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GCT_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GCT_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GDM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GDM1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GI1_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GI1_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GMS10_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GMS10_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GOS3_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GOS3_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GP2D_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GP2D_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GRANTA519_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GSS_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GSS_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/GSU_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/GSU_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/H4_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/H4_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HARA_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HARA_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1143_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1143_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1171_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1171_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1187_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1187_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1195_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1195_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1359_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1359_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1395_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1395_BREAST/par-est.txt
+
+>WARNING 2021-07-25T19:56:31<
+  Optimization (8): '10' Function Evaluations out of '96' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1419_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1419_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1428_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1428_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1500_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1500_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1569_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1569_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1599_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1599_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC15_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC15_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1806_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1806_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1937_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1937_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1954_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC1954_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC202_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC202_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2157_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2157_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2279_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2279_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2935_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC2935_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC33_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC33_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC366_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC366_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC38_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC38_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC4006_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC4006_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC44_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC44_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC56_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC56_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC70_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC70_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC78_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC78_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC95_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCC95_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCT116_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCT116_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HCT15_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HCT15_LARGE_INTESTINE/par-est.txt
+
+>WARNING 2021-07-25T19:57:03<
+  Optimization (8): '36' Function Evaluations out of '235' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HDLM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HDLM2_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HDMYZ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HDMYZ_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HDQP1_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HDQP1_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC108_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC108_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC151_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC151_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC1A_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC1A_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC1B_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC1B_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC251_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC251_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC265_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC265_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC50B_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC50B_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC59_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC59_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC6_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEC6_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEL9217_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEL_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEP3B217_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEP3B217_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEPG2_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEPG2_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HEYA8_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HEYA8_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HGC27_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HGC27_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HH_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HL60_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HLFA_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HLFA_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HLF_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HLF_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HMC18_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HMC18_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HMCB_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HMCB_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HOS_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HOS_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HPAC_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HPAC_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HPAFII_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HPAFII_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS172T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS172T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS229T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS229T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS274T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS274T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS281T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS281T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS294T_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS294T_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS343T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS343T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS578T_BREAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS578T_BREAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS600T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS600T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS606T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS606T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS616T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS616T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS618T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS618T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS675T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS675T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS683_CENTRAL_NERVOUS_SYSTEM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS683_CENTRAL_NERVOUS_SYSTEM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS688AT_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS688AT_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS695T_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS695T_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS698T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS698T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS706T_BONE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS706T_BONE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS729_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS729_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS737T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS737T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS739T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS739T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS742T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS742T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS746T_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS746T_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS751T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS751T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS766T_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS766T_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS819T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS819T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS821T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS821T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS822T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS822T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS839T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS839T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS840T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS840T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS852T_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS852T_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS863T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS863T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS870T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS870T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS888T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS888T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS895T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS895T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS934T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS934T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS940T_FIBROBLAST/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS940T_FIBROBLAST/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HS944T_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HS944T_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC2_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC2_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC3_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC3_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC4_UPPER_AERODIGESTIVE_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HSC4_UPPER_AERODIGESTIVE_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1080_SOFT_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1080_SOFT_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT115_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT115_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1197_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1197_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1376_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT1376_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT144_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT144_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT29_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT29_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT55_LARGE_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT55_LARGE_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HT_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUCCT1_BILIARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUCCT1_BILIARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUG1N_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUG1N_STOMACH/par-est.txt
+
+>WARNING 2021-07-25T19:57:36<
+  Optimization (8): '29' Function Evaluations out of '424' failed.
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH1_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH1_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH28_BILIARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH28_BILIARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH6_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH6_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH7_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUH7_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUNS1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUNS1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUPT3_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUPT3_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUPT4_PANCREAS/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUPT4_PANCREAS/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUT102_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUT102_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUT78_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUT78_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/HUTU80_SMALL_INTESTINE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/HUTU80_SMALL_INTESTINE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IALM_LUNG/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IALM_LUNG/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR1_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR1_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR37_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR37_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR39_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IGR39_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IGROV1_OVARY/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IGROV1_OVARY/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IM95_STOMACH/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IM95_STOMACH/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IMR32_AUTONOMIC_GANGLIA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IMR32_AUTONOMIC_GANGLIA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/IPC298_SKIN/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/IPC298_SKIN/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ISHIKAWAHERAKLIO02ER_ENDOMETRIUM/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ISHIKAWAHERAKLIO02ER_ENDOMETRIUM/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ISTMES1_PLEURA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ISTMES1_PLEURA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/ISTMES2_PLEURA/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/ISTMES2_PLEURA/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/J82_URINARY_TRACT/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/J82_URINARY_TRACT/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JEKO1_HAEMATOPOIETIC_AND_LYMPHOID_TISSUE/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH1_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH1_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH2_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH2_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH4_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH4_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH5_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH5_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH6_LIVER/Model.cps
+		|-> Parameter Estimation processed (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH6_LIVER/par-est.txt
+
+
+	|-> Model Saved (True): /Users/luis/Desktop/copasi-api/minimo/results/JHH7_LIVER/Model.cps
+		|-> Parameter Estimation processed (False): /Users/luis/Desktop/copasi-api/minimo/results/JHH7_LIVER/par-est.txt
+>ERROR 2021-07-25T19:57:52<
+  Optimization (6): No adjustable Parameters specified.
+
