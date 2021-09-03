@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "minimo";
+    private string SOURCE_FOLDER = "ms";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
