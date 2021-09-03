@@ -25,6 +25,9 @@ namespace CopasiApi
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "NL2SOL";
     private uint ESTIMATION_LIMIT = 2000;
+    private string ESTIMATION_LOWER = "1e-9";
+    private string ESTIMATION_UPPER = "1e6";
+
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
@@ -38,8 +41,8 @@ namespace CopasiApi
     public Experiments()
     {
       // ProcessExperiments();
-      // ProcessModel();
-      ProcessEstimations();
+      ProcessModel();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments ()
@@ -296,8 +299,8 @@ namespace CopasiApi
           var fitItem = new CFitItem(dataModel);
           fitItem.setObjectCN(cn);
           fitItem.setStartValue(0.5);
-          fitItem.setUpperBound(new CCommonName("1e6"));
-          fitItem.setLowerBound(new CCommonName("1e-6"));
+          fitItem.setLowerBound(new CCommonName(ESTIMATION_LOWER));
+          fitItem.setUpperBound(new CCommonName(ESTIMATION_UPPER));
           optimizationItemGroup.addParameter(fitItem);
         }
       }
