@@ -25,19 +25,52 @@ namespace CopasiApi
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "ParticleSwarm";
     private uint ESTIMATION_LIMIT = 2000;
-    private string ESTIMATION_LOWER = "1e-9";
-    private string ESTIMATION_UPPER = "1e6";
+    private double ESTIMATION_START = 0.5;
+    private string ESTIMATION_LOWER = "0.0001";
+    private string ESTIMATION_UPPER = "1";
 
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      { "MIR21", 0.2 },
+      { "MIR21", 0.15 },
       { "MIR20A", 0.15},
       { "MIR17", 0.15 },
-      { "STAT3", 0.15 },
+      { "STAT3", 0.2 },
       { "MIR19A", 0.15 },
       { "MYC", 0.2 },
+    };
+    private Dictionary<string, double> STARTS = new Dictionary<string, double>()
+    {
+      // { "ks_MIR21", 0.002135751032 },
+      // { "kd_MIR21", 0.3755409212 },
+      // { "kr_MIR21", 38.70953636 },
+      // { "ks_MIR20A", 0.08442806758 },
+      // { "kd_MIR20A", 1.26337025 },
+      // { "kr_MIR20A", 67.97453911 },
+      // { "ks_MIR17", 0.06999554017 },
+      // { "kd_MIR17", 1.380189047 },
+      // { "kr_MIR17", 89.90331478 },
+      // { "ks_STAT3", 0.5342237032 },
+      // { "kd_STAT3", 0.000103570695 },
+      // { "ka_STAT3", 132.0540587 },
+      // { "ks_MIR19A", 0.04874176006 },
+      // { "kd_MIR19A", 0.9860607238 },
+      // { "kr_MIR19A", 107.9264593 },
+      // { "ks_MYC", 0.6327625229 },
+      // { "kd_MYC", 0.07975735416 },
+      // { "ka_MYC", 14.62279343 },
+    };
+
+    private Dictionary<string, string> LOWERS = new Dictionary<string, string>()
+    {
+      // { "kd_STAT3", "0.0000001" },
+    };
+
+    private Dictionary<string, string> UPPERS = new Dictionary<string, string>()
+    {
+      // { "ka_STAT3", "200" },
+      // { "kr_MIR19A", "200" },
     };
 
     private List<string> lines = null;
@@ -45,8 +78,8 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessExperiments();
-      ProcessModel();
+      ProcessExperiments();
+      // ProcessModel();
       // ProcessEstimations();
     }
 
@@ -292,21 +325,38 @@ namespace CopasiApi
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
-        // Console.WriteLine(cnStr);
+        var value = regex.Match(cnStr).Groups[1].Value;
         if (cnStr.Contains("[CNV_") || cnStr.Contains("[Cgh_"))
         {
-          var value = regex.Match(cnStr).Groups[1].Value;
           var index = species.IndexOf(value);
           objectMap.setRole((uint)index + 1, CExperiment.independent);
           objectMap.setObjectCN((uint)index + 1, cnStr);
         }
-        else
+        else if (!value.StartsWith("T0_"))
         {
           var fitItem = new CFitItem(dataModel);
           fitItem.setObjectCN(cn);
-          fitItem.setStartValue(0.5);
-          fitItem.setLowerBound(new CCommonName(ESTIMATION_LOWER));
-          fitItem.setUpperBound(new CCommonName(ESTIMATION_UPPER));
+          if (STARTS.ContainsKey(value)) {
+            fitItem.setStartValue(STARTS[value]);
+          }
+          else
+          {
+            fitItem.setStartValue(ESTIMATION_START);
+          }
+          if (LOWERS.ContainsKey(value)) {
+            fitItem.setLowerBound(new CCommonName(LOWERS[value]));
+          }
+          else
+          {
+            fitItem.setLowerBound(new CCommonName(ESTIMATION_LOWER));
+          }
+          if (UPPERS.ContainsKey(value)) {
+            fitItem.setUpperBound(new CCommonName(UPPERS[value]));
+          }
+          else
+          {
+            fitItem.setUpperBound(new CCommonName(ESTIMATION_UPPER));
+          }
           optimizationItemGroup.addParameter(fitItem);
         }
       }
