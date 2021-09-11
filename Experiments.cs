@@ -21,6 +21,7 @@ namespace CopasiApi
     private string TARGET_ESTIMATION = "par-est.txt";
     private string TARGET_INI = "ini.csv";
     private string TARGET_FIT = "fit.csv";
+    private string TARGET_CONCENTRATIONS = "concentratrions.csv";
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
     private string ESTIMATION_METHOD = "ParticleSwarm";
@@ -419,6 +420,26 @@ namespace CopasiApi
       Console.WriteLine("\t\t|-> Parameter Estimation processed (" + result + "): " + estimationPath);
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
+
+      var numMetabs = model.getNumMetabs();
+      var builder = new StringBuilder();
+      var headers = new List<string>();
+      for (var i = 0; i < numMetabs; ++i)
+      {
+        var str = model.getMetabolite((uint)i).getObjectName();
+        headers.Add("T0_" + str);
+      }
+      builder.AppendJoin(",", headers);
+      builder.Append("\n");
+      var values = new List<double>();
+      for (var i = 0; i < numMetabs; ++i)
+      {
+        var val = model.getMetabolite((uint)i).getValue();
+        values.Add(val);
+      }
+      builder.AppendJoin(",", values);
+      builder.Append("\n");
+      File.WriteAllText(folderPath + "/" + TARGET_CONCENTRATIONS, builder.ToString().Trim());
 
       if (!result)
       {
