@@ -78,12 +78,12 @@ namespace CopasiApi
 
     public Experiments()
     {
-      ProcessExperiments();
-      // ProcessModel();
+      // ProcessExperiments();
+      ProcessModel();
       // ProcessEstimations();
     }
 
-    private void ProcessExperiments ()
+    private void ProcessExperiments()
     {
       try
       {
@@ -100,7 +100,8 @@ namespace CopasiApi
             var key = row[0];
             if (key.ToLower() == "line" || key.ToLower() == "linea")
             {
-              if (lines == null && items == null) {
+              if (lines == null && items == null)
+              {
                 lines = new List<string>();
                 items = new List<string>(row.Skip(1));
               }
@@ -114,7 +115,8 @@ namespace CopasiApi
         }
         var csv = new StringBuilder();
         csv.AppendLine("," + String.Join(",", items));
-        lines.ForEach((line) => {
+        lines.ForEach((line) =>
+        {
           csv.AppendLine(line + "," + String.Join(",", experiments[line]));
         });
         File.WriteAllText(SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS, csv.ToString());
@@ -177,10 +179,12 @@ namespace CopasiApi
         matIni.Add(rowIni);
         matFit.Add(rowFit);
       });
-      matIni.ForEach((row) =>{
+      matIni.ForEach((row) =>
+      {
         strIni.AppendLine(String.Join(",", row));
       });
-      matFit.ForEach((row) =>{
+      matFit.ForEach((row) =>
+      {
         strFit.AppendLine(String.Join(",", row));
       });
       var path = SOURCE_FOLDER + "/" + RESULTS + "/";
@@ -318,8 +322,11 @@ namespace CopasiApi
 
       var optimizationItemGroup = (CCopasiParameterGroup)fitProblem.getParameter("OptimizationItemList");
       var numModelValues = model.getNumModelValues();
+      var numMetabs = model.getNumMetabs();
       var regex = new Regex("Values\\[(.+)\\\\\\[");
       Console.WriteLine("numModelValues: " + numModelValues);
+      Console.WriteLine("numMetabs: " + numMetabs);
+      var m = 0;
       for (var i = 0; i < numModelValues; ++i)
       {
         var initialValueRef = model.getModelValue((uint)i).getInitialValueReference();
@@ -332,25 +339,38 @@ namespace CopasiApi
           objectMap.setRole((uint)index + 1, CExperiment.independent);
           objectMap.setObjectCN((uint)index + 1, cnStr);
         }
-        else if (!value.StartsWith("T0_"))
+        else if (value.StartsWith("T0_"))
+        {
+          var iniConRef = model.getMetabolite((uint)m).getInitialConcentrationReference();
+          var conCn = iniConRef.getCN();
+          var valCnStr = conCn.getString();
+          var index = species.LastIndexOf(value);
+          objectMap.setRole((uint)index + 1, CExperiment.independent);
+          objectMap.setObjectCN((uint)index + 1, valCnStr);
+          m++;
+        }
+        else
         {
           var fitItem = new CFitItem(dataModel);
           fitItem.setObjectCN(cn);
-          if (STARTS.ContainsKey(value)) {
+          if (STARTS.ContainsKey(value))
+          {
             fitItem.setStartValue(STARTS[value]);
           }
           else
           {
             fitItem.setStartValue(ESTIMATION_START);
           }
-          if (LOWERS.ContainsKey(value)) {
+          if (LOWERS.ContainsKey(value))
+          {
             fitItem.setLowerBound(new CCommonName(LOWERS[value]));
           }
           else
           {
             fitItem.setLowerBound(new CCommonName(ESTIMATION_LOWER));
           }
-          if (UPPERS.ContainsKey(value)) {
+          if (UPPERS.ContainsKey(value))
+          {
             fitItem.setUpperBound(new CCommonName(UPPERS[value]));
           }
           else
@@ -362,7 +382,6 @@ namespace CopasiApi
       }
 
       regex = new Regex("=.+\\[(.+)\\]");
-      var numMetabs = model.getNumMetabs();
       for (var i = 0; i < numMetabs; ++i)
       {
         var cons = model.getMetabolite((uint)i).getConcentrationReference().getCN().getString();
@@ -401,7 +420,8 @@ namespace CopasiApi
       Console.WriteLine(task.getProcessError());
       Console.WriteLine(task.getProcessWarning());
 
-      if (!result) {
+      if (!result)
+      {
         System.Environment.Exit(1);
       }
     }
