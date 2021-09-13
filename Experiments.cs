@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "ms";
+    private string SOURCE_FOLDER = "tmp";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -43,39 +43,18 @@ namespace CopasiApi
     };
     private Dictionary<string, double> STARTS = new Dictionary<string, double>()
     {
-      // { "ks_MIR21", 0.002135751032 },
-      // { "kd_MIR21", 0.3755409212 },
-      // { "kr_MIR21", 38.70953636 },
-      // { "ks_MIR20A", 0.08442806758 },
-      // { "kd_MIR20A", 1.26337025 },
-      // { "kr_MIR20A", 67.97453911 },
-      // { "ks_MIR17", 0.06999554017 },
-      // { "kd_MIR17", 1.380189047 },
-      // { "kr_MIR17", 89.90331478 },
-      // { "ks_STAT3", 0.5342237032 },
-      // { "kd_STAT3", 0.000103570695 },
-      // { "ka_STAT3", 132.0540587 },
-      // { "ks_MIR19A", 0.04874176006 },
-      // { "kd_MIR19A", 0.9860607238 },
-      // { "kr_MIR19A", 107.9264593 },
-      // { "ks_MYC", 0.6327625229 },
-      // { "kd_MYC", 0.07975735416 },
-      // { "ka_MYC", 14.62279343 },
     };
 
     private Dictionary<string, string> LOWERS = new Dictionary<string, string>()
     {
-      // { "kd_STAT3", "0.0000001" },
     };
 
     private Dictionary<string, string> UPPERS = new Dictionary<string, string>()
     {
-      // { "ka_STAT3", "200" },
-      // { "kr_MIR19A", "200" },
     };
 
     private List<string> lines = null;
-    private List<string> ks = null;
+    private List<string> info = null;
 
     public Experiments()
     {
@@ -162,7 +141,7 @@ namespace CopasiApi
       var matFit = new List<List<string>>();
       var strIni = new StringBuilder(LINE_HEADER + ",");
       var strFit = new StringBuilder(LINE_HEADER + ",");
-      var header = String.Join(",", ks);
+      var header = String.Join(",", info);
       strIni.AppendLine(header);
       strFit.AppendLine(header);
       lines.ForEach((line) =>
@@ -172,7 +151,7 @@ namespace CopasiApi
         var rowFit = new List<string>();
         rowIni.Add(line);
         rowFit.Add(line);
-        ks.ForEach((k) =>
+        info.ForEach((k) =>
         {
           rowIni.Add(values[line][k][INITIAL]);
           rowFit.Add(values[line][k][FITTED]);
@@ -460,15 +439,19 @@ namespace CopasiApi
         values.Add(line, new Dictionary<string, Dictionary<string, string>>());
         var file = path + "/" + line + "/" + TARGET_ESTIMATION;
         var text = File.ReadAllText(file);
-        var regexIni = new Regex("Values\\[(.+)\\[.+Start\\sValue\\s=\\s(.+)");
-        var regexFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
-        var matchesIni = regexIni.Matches(text);
-        var matchesFit = regexFit.Matches(text);
-        if (ks == null)
+        var regexKsIni = new Regex("Values\\[(.+)\\[.+Start\\sValue\\s=\\s(.+)");
+        var regexKsFit = new Regex("Values\\[(.+)\\[.+InitialValue:\\s([^\\s]+)\\s");
+        var regexSpeNameFit = new Regex("\\[([a-zA-Z\\d]+)\\]\\(Fit\\)");
+        var regexSpeValueFit = new Regex(@"[1]\.\s(.+)");
+        var matchesKsIni = regexKsIni.Matches(text);
+        var matchesKsFit = regexKsFit.Matches(text);
+        var matchesSpeNameFit = regexSpeNameFit.Matches(text);
+        var matchSpeValFit = regexSpeValueFit.Match(text);
+        if (info == null)
         {
-          ks = new List<string>(matchesIni.ToList().Select((match) => match.Groups[1].Value));
+          info = new List<string>(matchesKsIni.ToList().Select((match) => match.Groups[1].Value));
         }
-        matchesIni.ToList().ForEach((match) =>
+        matchesKsIni.ToList().ForEach((match) =>
         {
           var groIni = match.Groups;
           var kName = groIni[1].Value;
@@ -478,11 +461,24 @@ namespace CopasiApi
           }
           values[line][kName].Add(INITIAL, groIni[2].Value);
         });
-        matchesFit.ToList().ForEach((match) =>
+        matchesKsFit.ToList().ForEach((match) =>
         {
           var groFit = match.Groups;
           values[line][groFit[1].Value].Add(FITTED, groFit[2].Value);
         });
+
+        var vals = matchSpeValFit.Groups[1].Value.Split("\t");
+        for (var i = 0; i < matchesSpeNameFit.Count; ++i)
+        {
+          var index = 3 * i + 1;
+          if (index < vals.Length) {
+            var name = matchesSpeNameFit[i].Groups[1].Value;
+            if (!values[line].ContainsKey(name)) {
+              values[line].Add(name, new Dictionary<string, string>());
+            }
+            values[line][name].Add(FITTED, vals[index]);
+          }
+        }
       });
       return values;
     }
