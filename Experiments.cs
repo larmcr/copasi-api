@@ -142,21 +142,21 @@ namespace CopasiApi
       var strIni = new StringBuilder(LINE_HEADER + ",");
       var strFit = new StringBuilder(LINE_HEADER + ",");
       var header = String.Join(",", info);
-      strIni.AppendLine(header);
+      // strIni.AppendLine(header);
       strFit.AppendLine(header);
       lines.ForEach((line) =>
       {
         Console.WriteLine("-> Values (initial & fitted) of line: " + line);
-        var rowIni = new List<string>();
+        // var rowIni = new List<string>();
         var rowFit = new List<string>();
-        rowIni.Add(line);
+        // rowIni.Add(line);
         rowFit.Add(line);
-        info.ForEach((k) =>
+        info.ForEach((item) =>
         {
-          rowIni.Add(values[line][k][INITIAL]);
-          rowFit.Add(values[line][k][FITTED]);
+          // rowIni.Add(values[line][item][INITIAL]);
+          rowFit.Add(values[line][item][FITTED]);
         });
-        matIni.Add(rowIni);
+        // matIni.Add(rowIni);
         matFit.Add(rowFit);
       });
       matIni.ForEach((row) =>
@@ -470,14 +470,11 @@ namespace CopasiApi
         var vals = matchSpeValFit.Groups[1].Value.Split("\t");
         for (var i = 0; i < matchesSpeNameFit.Count; ++i)
         {
+          var spe = matchesSpeNameFit[i].Groups[1].Value;
+          info.Add(spe);
+          values[line].Add(spe, new Dictionary<string, string>());
           var index = 3 * i + 1;
-          if (index < vals.Length) {
-            var name = matchesSpeNameFit[i].Groups[1].Value;
-            if (!values[line].ContainsKey(name)) {
-              values[line].Add(name, new Dictionary<string, string>());
-            }
-            values[line][name].Add(FITTED, vals[index]);
-          }
+          values[line][spe].Add(FITTED, vals[index]);
         }
       });
       return values;
