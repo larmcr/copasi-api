@@ -476,6 +476,19 @@ namespace CopasiApi
           var index = 3 * i + 1;
           values[line][spe].Add(FITTED, vals[index]);
         }
+
+        file = path + "/" + line + "/" + TARGET_CONCENTRATIONS;
+        text = File.ReadAllText(file);
+        var textLines = text.Split("\n");
+        var heads = textLines[0].Split("\t");
+        vals = textLines[1].Split("\t");
+        for (var i = 0; i < heads.Length; ++i)
+        {
+          var head = heads[i];
+          info.Add(head);
+          values[line].Add(head, new Dictionary<string, string>());
+          values[line][head].Add(FITTED, vals[i]);
+        }
       });
       return values;
     }
