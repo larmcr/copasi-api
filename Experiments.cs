@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "tmp";
+    private string SOURCE_FOLDER = "ms";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -471,24 +471,30 @@ namespace CopasiApi
         for (var i = 0; i < matchesSpeNameFit.Count; ++i)
         {
           var spe = matchesSpeNameFit[i].Groups[1].Value;
-          info.Add(spe);
-          values[line].Add(spe, new Dictionary<string, string>());
+          if (!info.Contains(spe))
+          {
+            info.Add(spe);
+          }
+          if (!values[line].ContainsKey(spe))
+          {
+            values[line].Add(spe, new Dictionary<string, string>());
+          }
           var index = 3 * i + 1;
           values[line][spe].Add(FITTED, vals[index]);
         }
 
-        file = path + "/" + line + "/" + TARGET_CONCENTRATIONS;
-        text = File.ReadAllText(file);
-        var textLines = text.Split("\n");
-        var heads = textLines[0].Split("\t");
-        vals = textLines[1].Split("\t");
-        for (var i = 0; i < heads.Length; ++i)
-        {
-          var head = heads[i];
-          info.Add(head);
-          values[line].Add(head, new Dictionary<string, string>());
-          values[line][head].Add(FITTED, vals[i]);
-        }
+        // file = path + "/" + line + "/" + TARGET_CONCENTRATIONS;
+        // text = File.ReadAllText(file);
+        // var textLines = text.Split("\n");
+        // var heads = textLines[0].Split("\t");
+        // vals = textLines[1].Split("\t");
+        // for (var i = 0; i < heads.Length; ++i)
+        // {
+        //   var head = heads[i];
+        //   info.Add(head);
+        //   values[line].Add(head, new Dictionary<string, string>());
+        //   values[line][head].Add(FITTED, vals[i]);
+        // }
       });
       return values;
     }
