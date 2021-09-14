@@ -24,7 +24,7 @@ namespace CopasiApi
     private double MIN = 1.0;
     private double MAX = 5.0;
     private List<string> lines;
-    private List<string> ks;
+    private List<string> list;
     private Dictionary<string, List<double>> dict;
 
     public Scans()
@@ -120,12 +120,22 @@ namespace CopasiApi
         var initialValueRef = modelValue.getInitialValueReference();
         var cn = initialValueRef.getCN();
         var cnStr = cn.getString();
-        var k = regex.Match(cnStr).Groups[1].Value;
-        var index = ks.IndexOf(k);
+        var name = regex.Match(cnStr).Groups[1].Value;
+        var index = list.IndexOf(name);
+        Console.WriteLine(name + " -> " + index);
         if (index > -1)
         {
-          var val = dict[line][index];
-          modelValue.setInitialValue(val);
+          modelValue.setInitialValue(dict[line][index]);
+        }
+        else if (name.StartsWith("T0_"))
+        {
+          var parts = name.Split("_");
+          index = list.IndexOf(parts[1]);
+          Console.WriteLine(parts[1] + " -> " + index);
+          if (index > -1)
+          {
+            modelValue.setInitialValue(dict[line][index]);
+          }
         }
       }
 
@@ -157,7 +167,7 @@ namespace CopasiApi
             if (row[0] == "LINE")
             {
               lines = new List<string>();
-              ks = new List<string>(row.Skip(1));
+              list = new List<string>(row.Skip(1));
             }
             else
             {
