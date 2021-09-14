@@ -24,11 +24,11 @@ namespace CopasiApi
     private string TARGET_CONCENTRATIONS = "concentratrions.csv";
     private string RESULTS = "results";
     private string LINE_HEADER = "LINE";
-    private string ESTIMATION_METHOD = "ParticleSwarm";
+    private string ESTIMATION_METHOD = "NL2SOL";
     private uint ESTIMATION_LIMIT = 2000;
     private double ESTIMATION_START = 0.5;
     private string ESTIMATION_LOWER = "0.0001";
-    private string ESTIMATION_UPPER = "1";
+    private string ESTIMATION_UPPER = "100";
 
     private string INITIAL = "ini";
     private string FITTED = "fit";
@@ -58,9 +58,9 @@ namespace CopasiApi
 
     public Experiments()
     {
-      ProcessExperiments();
+      // ProcessExperiments();
       // ProcessModel();
-      // ProcessEstimations();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments()
@@ -278,10 +278,10 @@ namespace CopasiApi
       task.setScheduled(false);
       task.setUpdateModel(false);
       task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
-      task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
+      // task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
       var method = task.getMethod();
-      // var parameter = method.getParameter("Iteration Limit");
-      // parameter.setUIntValue(ESTIMATION_LIMIT);
+      var parameter = method.getParameter("Iteration Limit");
+      parameter.setUIntValue(ESTIMATION_LIMIT);
       return task;
     }
 

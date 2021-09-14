@@ -18,7 +18,7 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_MYC";
+    private string CNV = "CNV_STAT3";
     private string[] SPECIES = new string[] { "MIR21", "MIR20A", "MIR17", "STAT3", "MIR19A", "MYC" };
     private uint STEPS = 4;
     private double MIN = 1.0;
@@ -122,7 +122,6 @@ namespace CopasiApi
         var cnStr = cn.getString();
         var name = regex.Match(cnStr).Groups[1].Value;
         var index = list.IndexOf(name);
-        Console.WriteLine(name + " -> " + index);
         if (index > -1)
         {
           modelValue.setInitialValue(dict[line][index]);
@@ -131,7 +130,6 @@ namespace CopasiApi
         {
           var parts = name.Split("_");
           index = list.IndexOf(parts[1]);
-          Console.WriteLine(parts[1] + " -> " + index);
           if (index > -1)
           {
             modelValue.setInitialValue(dict[line][index]);
