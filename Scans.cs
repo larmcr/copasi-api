@@ -18,8 +18,8 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_STAT3";
-    private string[] SPECIES = new string[] { "MIR21", "MIR20A", "MIR17", "STAT3", "MIR19A", "MYC" };
+    private string CNV = "CNV_MIR16-2";
+    private string[] SPECIES = new string[] { "PLAUR", "JUN", "MIR335", "ETV4", "MIR204", "MIR146A", "JUND", "MIR16-1", "TCF7L2", "SP1", "FOS", "E2F2", "FOXP2", "JUNB", "SP3", "TFAP2A", "NFKB1", "MIR155", "TFAP2C", "ATF1", "FOSL1", "FOSL2", "MIR16-2" };
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;
@@ -275,7 +275,7 @@ namespace CopasiApi
         csv.AppendLine(String.Join(",", headers));
         lines.ForEach((line) =>
         {
-          Console.WriteLine("\t|\t|-> Scan Executing: " + line);
+          Console.WriteLine("\t|-> Scan Executing: " + line);
           var row = new List<string>() { line };
           prefixes.ForEach((pre) =>
           {
