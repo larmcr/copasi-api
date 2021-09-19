@@ -18,8 +18,9 @@ namespace CopasiApi
     private string TARGET_SCAN = "scan.csv";
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_FOLDER = "results";
-    private string CNV = "CNV_MIR16-2";
+    private string[] CNVS = { "CNV_MIR16-2", "CNV_MIR155" };
     private string[] SPECIES = new string[] { "PLAUR", "JUN", "MIR335", "ETV4", "MIR204", "MIR146A", "JUND", "MIR16-1", "TCF7L2", "SP1", "FOS", "E2F2", "FOXP2", "JUNB", "SP3", "TFAP2A", "NFKB1", "MIR155", "TFAP2C", "ATF1", "FOSL1", "FOSL2", "MIR16-2" };
+    private string MAIN = "PLAUR";
     private uint STEPS = 4;
     private double MIN = 1.0;
     private double MAX = 5.0;
@@ -31,7 +32,40 @@ namespace CopasiApi
     {
       ProcessData();
       ProcessModel();
-      ProcessScans();
+      // ProcessScans();
+    }
+
+    private void ProcessData()
+    {
+      dict = new Dictionary<string, List<double>>();
+      try
+      {
+        var path = SOURCE_FOLDER + "/" + SOURCE_SCANS;
+        using (var parser = new TextFieldParser(path))
+        {
+          parser.SetDelimiters(",");
+          while (!parser.EndOfData)
+          {
+            var row = parser.ReadFields();
+            if (row[0] == "LINE")
+            {
+              lines = new List<string>();
+              list = new List<string>(row.Skip(1));
+            }
+            else
+            {
+              var line = row[0];
+              lines.Add(line);
+              var list = new List<double>(row.Skip(1).Select((val) => Double.Parse(val)));
+              dict.Add(line, new List<double>(list));
+            }
+          }
+        }
+      }
+      catch (Exception exception)
+      {
+        printError(exception, "ProcessData");
+      }
     }
 
     private void ProcessModel()
@@ -43,37 +77,11 @@ namespace CopasiApi
       var model = dataModel.getModel();
 
       var reports = dataModel.getReportDefinitionList();
-      var report = reports.createReportDefinition("Scan Parameters, Time, Concentrations, Volumes, and Global Quantity Values", "A table of scan parameters, time, variable species concentrations, variable compartment volumes, and variable global quantity values.");
+      var report = reports.createReportDefinition("PS", "3 dimensional table");
       report.setTaskType(CTaskEnum.Task_scan);
       report.setIsTable(true);
       report.setPrecision(6);
       report.setSeparator(new CCopasiReportSeparator(","));
-
-      var numModelValues = model.getNumModelValues();
-
-      var table = report.getTableAddr();
-
-      CRegisteredCommonName cnvCn = null;
-
-      var done = false;
-      for (var i = 0; !done && i < numModelValues; ++i)
-      {
-        var modelValue = model.getModelValue((uint)i);
-        var initialValueRef = modelValue.getInitialValueReference();
-        var cn = initialValueRef.getCN();
-        var cnStr = cn.getString();
-        if (cnStr.Contains(CNV))
-        {
-          cnvCn = new CRegisteredCommonName(initialValueRef.getCN().getString());
-          table.Add(cnvCn);
-          done = true;
-        }
-      }
-
-      SPECIES.ToList().ForEach((specie) =>
-      {
-        table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
-      });
 
       var scanTask = (CScanTask)dataModel.getTask("Scan");
       scanTask.setUpdateModel(false);
@@ -84,17 +92,47 @@ namespace CopasiApi
       var scanProblem = (CScanProblem)scanTask.getProblem();
       scanProblem.setModel(dataModel.getModel());
       scanProblem.setSubtask(CTaskEnum.Task_steadyState);
-      var scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, STEPS);
-      scanProblem.setContinueFromCurrentState(false);
-      scanProblem.setOutputInSubtask(false);
-      scanProblem.setContinueOnError(false);
 
-      scanItem.getParameter("Object").setCNValue(cnvCn);
-      scanItem.getParameter("Minimum").setDblValue(MIN);
-      scanItem.getParameter("Maximum").setDblValue(MAX);
-      scanItem.getParameter("log").setBoolValue(false);
-      scanItem.getParameter("Values").setStringValue("");
-      scanItem.getParameter("Use Values").setBoolValue(false);
+      var table = report.getTableAddr();
+
+      var numModelValues = model.getNumModelValues();
+      var count = 0;
+      for (var i = 0; CNVS.Length != count && i < numModelValues; ++i)
+      {
+        var modelValue = model.getModelValue((uint)i);
+        var initialValueRef = modelValue.getInitialValueReference();
+        var cn = initialValueRef.getCN();
+        var cnStr = cn.getString();
+        var cnv = CNVS.ToList().Find((item) => cnStr.Contains(item));
+        if (cnv != null)
+        {
+          var cnvCn = new CRegisteredCommonName(initialValueRef.getCN().getString());
+          table.Add(cnvCn);
+          var scanItem = scanProblem.addScanItem(CScanProblem.SCAN_LINEAR, STEPS);
+          scanProblem.setContinueFromCurrentState(false);
+          scanProblem.setOutputInSubtask(false);
+          scanProblem.setContinueOnError(false);
+          scanItem.getParameter("Object").setCNValue(cnvCn);
+          scanItem.getParameter("Minimum").setDblValue(MIN);
+          scanItem.getParameter("Maximum").setDblValue(MAX);
+          scanItem.getParameter("log").setBoolValue(false);
+          scanItem.getParameter("Values").setStringValue("");
+          scanItem.getParameter("Use Values").setBoolValue(false);
+          ++count;
+        }
+      }
+
+      if (MAIN != null && MAIN != "")
+      {
+        table.Add(new CRegisteredCommonName(model.getMetabolite(MAIN).getConcentrationReference().getCN().getString()));
+      }
+      else
+      {
+        SPECIES.ToList().ForEach((specie) =>
+        {
+          table.Add(new CRegisteredCommonName(model.getMetabolite(specie).getConcentrationReference().getCN().getString()));
+        });
+      }
 
       var success = true;
       for (var l = 0; success && l < lines.Count; ++l)
@@ -148,39 +186,6 @@ namespace CopasiApi
       Console.WriteLine("\t|\t|-> Scan Processed (" + processed + "): " + targetFile);
 
       return saved && processed;
-    }
-
-    private void ProcessData()
-    {
-      dict = new Dictionary<string, List<double>>();
-      try
-      {
-        var path = SOURCE_FOLDER + "/" + SOURCE_SCANS;
-        using (var parser = new TextFieldParser(path))
-        {
-          parser.SetDelimiters(",");
-          while (!parser.EndOfData)
-          {
-            var row = parser.ReadFields();
-            if (row[0] == "LINE")
-            {
-              lines = new List<string>();
-              list = new List<string>(row.Skip(1));
-            }
-            else
-            {
-              var line = row[0];
-              lines.Add(line);
-              var list = new List<double>(row.Skip(1).Select((val) => Double.Parse(val)));
-              dict.Add(line, new List<double>(list));
-            }
-          }
-        }
-      }
-      catch (Exception exception)
-      {
-        printError(exception, "ProcessData");
-      }
     }
 
     private void ProcessScans()
