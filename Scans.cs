@@ -282,7 +282,7 @@ namespace CopasiApi
         csv.AppendLine(String.Join(",", headers));
         lines.ForEach((line) =>
         {
-          Console.WriteLine("\t|-> Scan Executing: " + line);
+          Console.WriteLine("\t|-> Scan Parsing: " + line);
           var row = new List<string>() { line };
           prefixes.ForEach((pre) =>
           {
@@ -312,19 +312,22 @@ namespace CopasiApi
     {
       try
       {
-        var table = new Dictionary<string, Dictionary<double, Dictionary<double, double>>>();
+        var table = new Dictionary<string, Dictionary<double, Dictionary<double, Dictionary<bool, double>>>>();
         var path = SOURCE_FOLDER + "/" + TARGET_FOLDER;
         var directoryInfo = new DirectoryInfo(path);
         var directories = directoryInfo.GetDirectories();
         var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
         var lines = names.ToList();
-        var first = true;
+        var isHeader = true;
         var header = new List<string>();
         header.Add("Line");
         lines.ForEach((line) =>
         {
-          table.Add(line, new Dictionary<double, Dictionary<double, double>>());
+          Console.WriteLine("\t|-> Scan Parsing: " + line);
+          table.Add(line, new Dictionary<double, Dictionary<double, Dictionary<bool, double>>>());
           var file = path + "/" + line + "/" + TARGET_SCAN;
+          var isFirst = true;
+          var div = 0.0;
           using (var parser = new TextFieldParser(file))
           {
             parser.SetDelimiters(",");
@@ -333,29 +336,40 @@ namespace CopasiApi
               var row = parser.ReadFields();
               if (row[0].Contains("Values"))
               {
-                if (first)
+                if (isHeader)
                 {
+                  isHeader = false;
                   var regexInitial = new Regex(@"\[(.+)\[");
                   var regexSpecies = new Regex(@"\[(.+)\]");
-                  first = false;
                   var x = regexInitial.Match(row[0]).Groups[1].Value;
                   var y = regexInitial.Match(row[1]).Groups[1].Value;
                   var z = regexSpecies.Match(row[2]).Groups[1].Value;
                   header.Add(x);
                   header.Add(y);
                   header.Add(z);
+                  header.Add("NOR_" + z);
                 }
               }
               else
               {
-                var x = double.Parse(row[0]);
-                var y = double.Parse(row[1]);
-                var z = double.Parse(row[2]);
+                var x = Double.Parse(row[0]);
+                var y = Double.Parse(row[1]);
+                var z = Double.Parse(row[2]);
+                if (isFirst) 
+                {
+                  isFirst = false;
+                  div = z;
+                }
                 if (!table[line].ContainsKey(x))
                 {
-                  table[line].Add(x, new Dictionary<double, double>());
+                  table[line].Add(x, new Dictionary<double, Dictionary<bool, double>>());
                 }
-                table[line][x].Add(y, z);
+                if (!table[line][x].ContainsKey(y))
+                {
+                  table[line][x].Add(y, new Dictionary<bool, double>());
+                }
+                table[line][x][y].Add(false, z);
+                table[line][x][y].Add(true, z / div);
               }
             }
           }
@@ -366,8 +380,9 @@ namespace CopasiApi
         {
           table[line].Keys.ToList().ForEach((x) => {
             table[line][x].Keys.ToList().ForEach((y) => {
-              var z = table[line][x][y];
-              csv.AppendLine(line + "," + x + "," + y + "," + z);
+              var z = table[line][x][y][false];
+              var n = table[line][x][y][true];
+              csv.AppendLine(line + "," + x + "," + y + "," + z + "," + n);
             });
           });
         });
