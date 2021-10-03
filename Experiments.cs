@@ -27,19 +27,20 @@ namespace CopasiApi
     private string ESTIMATION_METHOD = "NL2SOL";
     private uint ESTIMATION_LIMIT = 2000;
     private double ESTIMATION_START = 0.5;
-    private string ESTIMATION_LOWER = "0.0001";
-    private string ESTIMATION_UPPER = "100";
+    private string ESTIMATION_LOWER = "1e-6";
+    private string ESTIMATION_UPPER = "1e6";
 
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
-      { "MIR21", 0.15 },
-      { "MIR20A", 0.15},
-      { "MIR17", 0.15 },
-      { "STAT3", 0.2 },
-      { "MIR19A", 0.15 },
-      { "MYC", 0.2 },
+      { "MIR335", 0.1 },
+      { "JUND", 0.075 },
+      { "FOXP2", 0.075 },
+      { "TFAP2C", 0.075 },
+      { "FOSL1", 0.075 },
+      { "MIR16-2", 0.1 },
+      { "PLAUR", 0.5 },
     };
     private Dictionary<string, double> STARTS = new Dictionary<string, double>()
     {
@@ -58,8 +59,8 @@ namespace CopasiApi
 
     public Experiments()
     {
-      ProcessExperiments();
-      // ProcessModel();
+      // ProcessExperiments();
+      ProcessModel();
       // ProcessEstimations();
     }
 
