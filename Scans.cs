@@ -19,8 +19,8 @@ namespace CopasiApi
     private string TARGET_SCANS = "scans.csv";
     private string TARGET_MATRIX = "matrix.csv";
     private string TARGET_FOLDER = "results";
-    private string[] CNVS = { "CNV_MIR16-2", "CNV_MIR155" };
-    private string[] SPECIES = new string[] { "PLAUR", "JUN", "MIR335", "ETV4", "MIR204", "MIR146A", "JUND", "MIR16-1", "TCF7L2", "SP1", "FOS", "E2F2", "FOXP2", "JUNB", "SP3", "TFAP2A", "NFKB1", "MIR155", "TFAP2C", "ATF1", "FOSL1", "FOSL2", "MIR16-2" };
+    private string[] CNVS = { "CNV_MIR335", "CNV_MIR16-2" };
+    private string[] SPECIES = new string[] { "PLAUR", "MIR335", "MIR16-2" , "JUND", "FOXP2", "TFAP2C", "FOSL1" };
     private string MAIN = "PLAUR";
     private uint STEPS = 4;
     private double MIN = 1.0;

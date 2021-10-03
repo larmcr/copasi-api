@@ -60,8 +60,8 @@ namespace CopasiApi
     public Experiments()
     {
       // ProcessExperiments();
-      ProcessModel();
-      // ProcessEstimations();
+      // ProcessModel();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments()
