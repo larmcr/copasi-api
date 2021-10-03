@@ -89,7 +89,14 @@ namespace CopasiApi
             else
             {
               lines.Add(key);
-              experiments.Add(key, new List<string>(row.Skip(1)));
+              var exps = new List<string>(row.Skip(1).Select((item, index) => {
+                if (items[index].Contains("CNV_MIR")) {
+                  var value = Math.Round(Double.Parse(item) * 2);
+                  item = value.ToString();
+                }
+                return item;
+              }));
+              experiments.Add(key, exps);
             }
           }
         }
