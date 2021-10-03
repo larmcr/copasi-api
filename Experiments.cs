@@ -11,7 +11,7 @@ namespace CopasiApi
 {
   class Experiments
   {
-    private string SOURCE_FOLDER = "ms";
+    private string SOURCE_FOLDER = "plaur";
     private string SOURCE_SPECIES = "Species.csv";
     private string SOURCE_LINES = "Lines.tab";
     private string SOURCE_EXPERIMENTS = "Experiments.csv";
@@ -58,9 +58,9 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessExperiments();
+      ProcessExperiments();
       // ProcessModel();
-      ProcessEstimations();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments()
