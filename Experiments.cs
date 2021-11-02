@@ -285,11 +285,11 @@ namespace CopasiApi
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
       task.setScheduled(false);
       task.setUpdateModel(false);
-      task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
-      // task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
+      // task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
+      task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
       var method = task.getMethod();
-      var parameter = method.getParameter("Iteration Limit");
-      parameter.setUIntValue(ESTIMATION_LIMIT);
+      // var parameter = method.getParameter("Iteration Limit");
+      // parameter.setUIntValue(ESTIMATION_LIMIT);
       return task;
     }
 

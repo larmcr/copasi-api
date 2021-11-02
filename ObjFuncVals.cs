@@ -19,7 +19,7 @@ namespace CopasiApi
       var directories = directoryInfo.GetDirectories();
       var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
       var lines = names.ToList();
-      var builder = new StringBuilder("Line,Value\n");
+      var builder = new StringBuilder("Line,ObjFunVal\n");
       lines.ForEach((line) =>
       {
         Console.WriteLine("\t|-> Obj. Func. Value Parsing: " + line);
