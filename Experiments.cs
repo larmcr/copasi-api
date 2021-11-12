@@ -59,9 +59,9 @@ namespace CopasiApi
 
     public Experiments()
     {
-      // ProcessExperiments();
+      ProcessExperiments();
       // ProcessModel();
-      ProcessEstimations();
+      // ProcessEstimations();
     }
 
     private void ProcessExperiments()
@@ -72,6 +72,7 @@ namespace CopasiApi
         var experiments = new Dictionary<string, List<string>>();
         List<string> lines = null;
         List<string> items = null;
+        var tab = new StringBuilder();
         using (var parser = new TextFieldParser(path))
         {
           parser.SetDelimiters("\t");
@@ -86,6 +87,7 @@ namespace CopasiApi
                 lines = new List<string>();
                 items = new List<string>(row.Skip(1));
               }
+              tab.AppendLine(String.Join("\t", row));
             }
             else
             {
@@ -98,6 +100,7 @@ namespace CopasiApi
                 return item;
               }));
               experiments.Add(key, exps);
+              tab.AppendLine(key + "\t" + String.Join("\t", exps.ToArray()));
             }
           }
         }
@@ -108,6 +111,7 @@ namespace CopasiApi
           csv.AppendLine(line + "," + String.Join(",", experiments[line]));
         });
         File.WriteAllText(SOURCE_FOLDER + "/" + SOURCE_EXPERIMENTS, csv.ToString());
+        File.WriteAllText(SOURCE_FOLDER + "/" + TARGET_EXPERIMENT, tab.ToString());
       }
       catch (Exception exception)
       {

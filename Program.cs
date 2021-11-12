@@ -16,11 +16,11 @@ namespace CopasiApi
       try
       {
         // new Models();
-        // new Experiments();
+        new Experiments();
         // new Scans();
         // new Ks();
         // new ObjFuncVals();
-        new Tests();
+        // new Tests();
       }
       catch (Exception exception)
       {
