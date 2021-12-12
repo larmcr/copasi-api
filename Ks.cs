@@ -23,7 +23,7 @@ namespace CopasiApi
       var index = 0;
       names.ForEach((name) =>
       {
-        builder.AppendLine(name + " " + values[index]);
+        builder.AppendLine(name + "\t" + values[index]);
         index++;
       });
       File.WriteAllText(SOURCE_FOLDER + "/" + TARGET_FILE, builder.ToString().Trim());
