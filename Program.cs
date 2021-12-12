@@ -16,9 +16,9 @@ namespace CopasiApi
       try
       {
         // new Models();
-        new Experiments();
+        // new Experiments();
         // new Scans();
-        // new Ks();
+        new Ks();
         // new ObjFuncVals();
         // new Tests();
       }
