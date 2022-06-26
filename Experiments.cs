@@ -29,18 +29,17 @@ namespace CopasiApi
     private double ESTIMATION_START = 0.5;
     private string ESTIMATION_LOWER = "1e-6";
     private string ESTIMATION_UPPER = "1e6";
-
     private string INITIAL = "ini";
     private string FITTED = "fit";
     private Dictionary<string, double> WEIGHTS = new Dictionary<string, double>()
     {
+      { "PLAUR", 0.5 },
       { "MIR335", 0.1 },
+      { "MIR16-2", 0.1 },
       { "JUND", 0.075 },
       { "FOXP2", 0.075 },
       { "TFAP2C", 0.075 },
       { "FOSL1", 0.075 },
-      { "MIR16-2", 0.1 },
-      { "PLAUR", 0.5 },
     };
     private Dictionary<string, double> STARTS = new Dictionary<string, double>()
     {
@@ -60,8 +59,8 @@ namespace CopasiApi
     public Experiments()
     {
       ProcessExperiments();
-      // ProcessModel();
-      // ProcessEstimations();
+      ProcessModel();
+      ProcessEstimations();
     }
 
     private void ProcessExperiments()
@@ -80,7 +79,7 @@ namespace CopasiApi
           {
             var row = parser.ReadFields();
             var key = row[0];
-            if (key.ToLower() == "line" || key.ToLower() == "linea")
+            if (key.ToLower() == "line" || key.ToLower() == "lines"  || key.ToLower() == "linea")
             {
               if (lines == null && items == null)
               {
@@ -289,11 +288,11 @@ namespace CopasiApi
       var task = (CFitTask)dataModel.getTask("Parameter Estimation");
       task.setScheduled(false);
       task.setUpdateModel(false);
-      // task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
-      task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
+      task.setMethodType(CCopasiMethod.TypeNameToEnum(ESTIMATION_METHOD));
+      // task.setMethodType(18); //Particle Swarm (http://copasi.org/static/API_Documentation/df/d49/classCCopasiMethod.html#ae417ba63ceccbb0f31080e666a9a3ea4a6f44e12b951bbdd3183cb70d9482fb49)
       var method = task.getMethod();
-      // var parameter = method.getParameter("Iteration Limit");
-      // parameter.setUIntValue(ESTIMATION_LIMIT);
+      var parameter = method.getParameter("Iteration Limit");
+      parameter.setUIntValue(ESTIMATION_LIMIT);
       return task;
     }
 
