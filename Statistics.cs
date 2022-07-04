@@ -21,7 +21,7 @@ namespace CopasiApi
       var directories = directoryInfo.GetDirectories();
       var names = directories.OrderBy(file => file.Name).Select((dir) => dir.Name);
       var lines = names.ToList();
-      var builder = new StringBuilder("Line,PairedTtest\n");
+      var builder = new StringBuilder("Line,pValue,H0?\n");
       lines.ForEach((line) =>
       {
         Console.WriteLine("\t|-> Parameters Paired T-test: " + line);
@@ -35,7 +35,7 @@ namespace CopasiApi
         var inits = new List<double>(matchesKsIni.ToList().Select((match) => Double.Parse(match.Groups[2].Value)));
         var pairedTest = new PairedTTest(starts.ToArray(), inits.ToArray());
         var pValue = pairedTest.PValue;
-        builder.AppendLine(line + "," + pValue);
+        builder.AppendLine(line + "," + pValue + "," + (pValue > 0.05));
       });
       File.WriteAllText(SOURCE_FOLDER + "/" + TARGET_FILE, builder.ToString().Trim());
     }
