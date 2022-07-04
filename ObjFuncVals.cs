@@ -17,7 +17,7 @@ namespace CopasiApi
       var path = SOURCE_FOLDER + "/results"; 
       var directoryInfo = new DirectoryInfo(path);
       var directories = directoryInfo.GetDirectories();
-      var names = directories.OrderBy(file => file.CreationTime).Select((dir) => dir.Name);
+      var names = directories.OrderBy(file => file.Name).Select((dir) => dir.Name);
       var lines = names.ToList();
       var builder = new StringBuilder("Line,ObjFunVal\n");
       lines.ForEach((line) =>
