@@ -21,7 +21,8 @@ namespace CopasiApi
         // new Ks();
         // new ObjFuncVals();
         // new Tests();
-        new Statistics();
+        // new Statistics();
+        new Params();
       }
       catch (Exception exception)
       {
