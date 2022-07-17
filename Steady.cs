@@ -18,17 +18,15 @@ namespace CopasiApi
     private string TARGET_STEADY = "steady.txt";
     private string TARGET_STEADY_STATES = "steady-states.csv";
     private string TARGET_FOLDER = "results";
-    private string[] CNVS = { "CNV_MIR335", "CNV_MIR16-2" };
-    private string[] SPECIES = new string[] { "PLAUR", "MIR335", "MIR16-2" , "JUND", "FOXP2", "TFAP2C", "FOSL1" };
     private List<string> lines;
     private List<string> list;
     private Dictionary<string, List<double>> dict;
 
     public Steady()
     {
-      ProcessData();
-      ProcessModel();
-      // ProcessStatyStates();
+      // ProcessData();
+      // ProcessModel();
+      ProcessStatyStates();
     }
 
     private void ProcessData()
@@ -144,107 +142,50 @@ namespace CopasiApi
         var directoryInfo = new DirectoryInfo(path);
         var directories = directoryInfo.GetDirectories();
         var names = directories.OrderBy(file => file.Name).Select((dir) => dir.Name);
-        List<string> prefixes = null;
-        List<string> suffixes = null;
         List<string> headers = new List<string>() { "LINE" };
         var first = true;
-        var lines = names.ToList();
-        lines.ForEach((line) =>
+        var experiments = names.ToList();
+        var csv = new StringBuilder();
+        experiments.ForEach((exp) =>
         {
-          table.Add(line, new Dictionary<string, Dictionary<string, string>>());
-          var file = path + "/" + line + "/" + TARGET_STEADY;
-          using (var parser = new TextFieldParser(file))
+          Console.WriteLine("\t|-> Steady State parsing: " + exp);
+          csv.Append(exp);
+          var file = path + "/" + exp + "/" + TARGET_STEADY;
+          var text = File.ReadAllText(file);
+          var lines = text.Split("\n").ToList();
+          var flag = false;
+          lines.ForEach((line) =>
           {
-            parser.SetDelimiters(",");
-            while (!parser.EndOfData)
+            if (line.StartsWith("A steady state"))
             {
-              var row = parser.ReadFields();
-              if (row[0].Contains("Values"))
+              Console.WriteLine("\t|-> found?: " + line.EndsWith("was found."));
+            }
+            else if (line.StartsWith("Species"))
+            {
+              flag = true;
+            }
+            else if (flag)
+            {
+              var parts = line.Split("\t");
+              if (parts.Length > 1)
               {
+                csv.Append("," + parts[1]);
                 if (first)
                 {
-                  prefixes = new List<string>();
-                  suffixes = new List<string>();
-                  var regex = new Regex("Values\\[([^\\[]+)");
-                  var match = regex.Match(row[0]);
-                  var value = match.Groups[1].Value;
-                  prefixes.Add(value);
-                  table[line].Add(value, new Dictionary<string, string>());
-                  regex = new Regex("\\[([^\\[]+)\\]");
-                  row.Skip(1).ToList().ForEach((pre) =>
-                  {
-                    match = regex.Match(pre);
-                    value = match.Groups[1].Value;
-                    prefixes.Add(value);
-                    table[line].Add(value, new Dictionary<string, string>());
-                  });
+                  var exp = parts[0];
+                  headers.Add(parts[0]);
                 }
               }
               else
               {
-                var suffix = row[0];
-                if (first)
-                {
-                  suffixes.Add(suffix);
-                }
-                prefixes.ForEach((pre) =>
-                {
-                  if (!table[line].ContainsKey(pre))
-                  {
-                    table[line][pre] = new Dictionary<string, string>();
-                  }
-                });
-                var rowInd = 0;
-                row.ToList().ForEach((val) =>
-                {
-                  var preInd = 0;
-                  prefixes.ForEach((pre) =>
-                  {
-                    if (rowInd == preInd)
-                    {
-                      table[line][pre].Add(suffix, val);
-                    }
-                    ++preInd;
-                  });
-                  ++rowInd;
-                });
+                csv.Append("\n");
+                first = false;
+                flag = false;
               }
             }
-          }
-          if (first)
-          {
-            prefixes.ForEach((pre) =>
-            {
-              suffixes.ForEach((suf) =>
-              {
-                headers.Add(pre + "_" + suf);
-              });
-            });
-            first = false;
-          }
-        });
-        var csv = new StringBuilder();
-        csv.AppendLine(String.Join(",", headers));
-        lines.ForEach((line) =>
-        {
-          Console.WriteLine("\t|-> Steady State parsing: " + line);
-          var row = new List<string>() { line };
-          prefixes.ForEach((pre) =>
-          {
-            suffixes.ForEach((suf) =>
-            {
-              if (table.ContainsKey(line) && table[line].ContainsKey(pre) && table[line][pre].ContainsKey(suf))
-              {
-                row.Add(table[line][pre][suf]);
-              }
-              else
-              {
-                row.Add("nan");
-              }
-            });
           });
-          csv.AppendLine(String.Join(",", row));
         });
+        csv.Insert(0, String.Join(",", headers) + "\n");
         File.WriteAllText(SOURCE_FOLDER + "/" + TARGET_FOLDER + "/" + TARGET_STEADY_STATES, csv.ToString());
       }
       catch (Exception exception)
