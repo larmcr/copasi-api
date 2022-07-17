@@ -1,0 +1,98 @@
+A steady state with given resolution was found.
+
+Species	Concentration (nmol/µl)	Concentration Rate (nmol/(µl*s))	Particle Number	Particle Number Rate (1/s)	Transition Time (s)
+MIR335	7.84276	0	2.36151e+16	0	4.83527e-06
+JUND	9.25542e-13	0	2786.87	0	3.74841e-05
+FOXP2	5.36123e-05	0	1.6143e+11	0	1.0141e-05
+TFAP2C	1.47918	0	4.45393e+15	0	364.675
+FOSL1	4.07153	0	1.22597e+16	0	0.00525686
+MIR16-2	2.44164	0	7.35195e+15	0	8.66742e-06
+PLAUR	3.19588	0	9.62303e+15	0	1.19864e-06
+
+Reaction	Flux (extensive) (nmol/s)	Flux (intensive) (nmol/(µl*s))	Particle Flux (#/s)
+degradation MIR335	8.10995e+06	1.62199e+06	4.88392e+21
+synthesis MIR335	8.10995e+06	1.62199e+06	4.88392e+21
+degradation JUND	1.23458e-07	2.46916e-08	7.43482e+07
+synthesis JUND	1.23458e-07	2.46916e-08	7.43482e+07
+degradation FOXP2	26.4334	5.28668	1.59186e+16
+synthesis FOXP2	26.4334	5.28668	1.59186e+16
+degradation TFAP2C	0.0202809	0.00405618	1.22134e+13
+synthesis TFAP2C	0.0202809	0.00405618	1.22134e+13
+degradation FOSL1	3872.59	774.518	2.33213e+18
+synthesis FOSL1	3872.59	774.518	2.33213e+18
+degradation MIR16-2	1.40851e+06	281703	8.48227e+20
+synthesis MIR16-2	1.40851e+06	281703	8.48227e+20
+degradation PLAUR	1.33313e+07	2.66626e+06	8.0283e+21
+synthesis PLAUR	1.33313e+07	2.66626e+06	8.0283e+21
+
+Jacobian (complete system)
+
+Rows:    Variables of the system, including dependent species
+Columns: Variables of the system, including dependent species
+	MIR335	JUND	FOXP2	TFAP2C	FOSL1	MIR16-2	PLAUR
+MIR335	-206813	-0	-0	-0	-0	-0	-0
+JUND	-3.14833e-09	-26678	-0	-0	-0	-0	-0
+FOXP2	-0	-0	-98609.4	-0	-0	-0	-0
+TFAP2C	-0	-0	-0	-0.00274217	-0	-0	-0
+FOSL1	-0	22413.6	-0	-0	-190.228	-0	-0
+MIR16-2	-0	-0	-0	-0	-0	-115375	-0
+PLAUR	-162477	-0	907.412	271536	556202	-570106	-834279
+
+Eigenvalues	real	imaginary
+	-0.00274217	0
+	-190.228	0
+	-26678	0
+	-98609.4	0
+	-115375	0
+	-206813	0
+	-834279	0
+
+Jacobian (reduced system)
+
+Rows:    Independent variables of the system
+Columns: Independent variables of the system
+	MIR335	JUND	FOXP2	TFAP2C	FOSL1	MIR16-2	PLAUR
+MIR335	-206813	-0	-0	-0	-0	-0	-0
+JUND	-3.14833e-09	-26678	-0	-0	-0	-0	-0
+FOXP2	-0	-0	-98609.4	-0	-0	-0	-0
+TFAP2C	-0	-0	-0	-0.00274217	-0	-0	-0
+FOSL1	-0	22413.6	-0	-0	-190.228	-0	-0
+MIR16-2	-0	-0	-0	-0	-0	-115375	-0
+PLAUR	-162477	-0	907.412	271536	556202	-570106	-834279
+
+Eigenvalues	real	imaginary
+	-0.00274217	0
+	-190.228	0
+	-26678	0
+	-98609.4	0
+	-115375	0
+	-206813	0
+	-834279	0
+
+Stability Analysis of the Reduced System
+
+KINETIC STABILITY ANALYSIS
+The linear stability analysis based on the eigenvalues
+of the Jacobian matrix is only valid for steady states.
+
+Summary:
+This state is asymptotically stable.
+
+Eigenvalue statistics:
+ Largest real part: -0.00274217
+ Largest absolute imaginary part:  0
+ 7 are purely real
+ 0 are purely imaginary
+ 0 are complex
+ 0 are equal to zero
+ 0 have positive real part
+ 7 have negative real part
+ stiffness = 3.04240e+08
+ time hierarchy = 0.999983
+
+Fold bifurcaton test functions (standard, bifurcation discovery tool): 2.73174e+25, 2.73174e+25
+Hopf bifurcaton test functions (standard, bifurcation discovery tool): 4.59628e+28, -2.73174e+39
+
+Oscillation indicator: -380.455
+
+
