@@ -20,7 +20,6 @@ namespace CopasiApi
     private string TARGET_FOLDER = "results";
     private string[] CNVS = { "CNV_MIR335", "CNV_MIR16-2" };
     private string[] SPECIES = new string[] { "PLAUR", "MIR335", "MIR16-2" , "JUND", "FOXP2", "TFAP2C", "FOSL1" };
-    private string MAIN = "PLAUR";
     private List<string> lines;
     private List<string> list;
     private Dictionary<string, List<double>> dict;
@@ -73,17 +72,9 @@ namespace CopasiApi
       dataModel.addModel(modelPath);
       var model = dataModel.getModel();
 
-      var reports = dataModel.getReportDefinitionList();
-      var report = (CReportDefinition)reports.getByName("Steady_State");
-      report.setTaskType(CTaskEnum.Task_steadyState);
-      report.setPrecision(6);
-      report.setSeparator(new CCopasiReportSeparator(","));
-
       var steadyTask = (CSteadyStateTask)dataModel.getTask("Steady-State");
       steadyTask.setUpdateModel(false);
       steadyTask.setScheduled(false);
-      steadyTask.getReport().setReportDefinition(report);
-      steadyTask.getReport().setAppend(false);
 
       var steadyProblem = (CSteadyStateProblem)steadyTask.getProblem();
       steadyProblem.setModel(dataModel.getModel());
@@ -258,7 +249,7 @@ namespace CopasiApi
       }
       catch (Exception exception)
       {
-        printError(exception, "ProcessScans");
+        printError(exception, "ProcessStatyStates");
       }
     }
 
